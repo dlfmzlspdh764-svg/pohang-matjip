@@ -150,7 +150,7 @@ function evDetail(id){
    <div class="btns">${x.link?`<a class="btn" href="${esc(x.link)}" target="_blank" rel="noopener">공식 홈페이지</a>`:''}<a class="btn ${x.link?'alt':''}" href="${esc(x.srcu)}" target="_blank" rel="noopener">공식 안내 원문</a><a class="btn alt" href="${map}" target="_blank" rel="noopener">장소 지도</a></div></div>
   <div class="blk"><h3>ℹ️ 행사 정보</h3><div class="kv"><span>일시</span><span>${fd(x.start)}${x.end!==x.start?' ~ '+fd(x.end):''}</span><span>장소</span><span>${esc(x.venue||NA)}</span><span>이용료</span><span>${esc(x.fee||NA)}</span>
    <span>주최/주관</span><span>${esc(x.org||NA)}</span><span>관람연령</span><span>${esc(x.age||NA)}</span><span>문의</span><span>${esc(x.tel||NA)}</span></div></div>
-  <div class="blk"><h3>📝 소개</h3><div class="sub" style="color:var(--tx);white-space:pre-line;line-height:1.6">${esc(x.desc||NA)}</div></div>
+  <div class="blk"><h3>📝 소개</h3><div class="sub" style="color:var(--tx);white-space:pre-line;line-height:1.6">${has(x.desc)?esc(x.desc):'정보 없음 (원문에 글 소개가 없어요. 포스터·공식 안내 원문을 확인하세요)'}</div></div>
   <div class="src">출처: <a href="${esc(x.srcu)}" target="_blank" rel="noopener">${esc(x.src)}</a>${(x.also||[]).map(a=>` · <a href="${esc(a.srcu)}" target="_blank" rel="noopener">${esc(a.src)}</a>`).join('')} · ${esc(EV.updated)} 수집</div></div>`;
   const dt=$('dt');dt.style.display='block';dt.scrollTop=0;history.pushState({d:1},'');
 }
