@@ -24,14 +24,15 @@ def get(url, data=None, ref=None, binary=False, t=30):
     return r if binary else r.decode("utf-8", "ignore")
 
 def txt(s):
-    s = re.sub(r"<br\s*/?>|</p>|</div>|</li>", "\n", s or "", flags=re.I)
+    s = re.sub(r"<script.*?</script>|<style.*?</style>|<!--.*?-->", " ", s or "", flags=re.S | re.I)
+    s = re.sub(r"<br\s*/?>|</p>|</div>|</li>", "\n", s, flags=re.I)
     s = html.unescape(re.sub(r"<[^>]+>", " ", s))
     return "\n".join(l for l in (re.sub(r"[ \t\u00a0]+", " ", x).strip() for x in s.split("\n")) if l)
 
 # 지역 분류: 주소/장소 텍스트 기준. 판단 불가 → 'all'(포항 전역)
 OCHEON = r"오천|문덕|청림|제철동|구정리|원동|세계리|냉천"
 NAM = r"남구|송도|효자|대잠|이동|상도|해도|구룡포|호미곶|연일|대송|동해면|장기|운하|시청|포스코|스틸야드|도구|연오랑|귀비고|문화예술회관|지곡|청송대|형산강|부조장터|호미반도|흥환"
-BUK = r"북구|영일대|죽도|양학|장성|두호|환호|여남|흥해|청하|송라|기계|죽장|신광|기북|양덕|장량|중앙상가|중앙아트홀|동빈|꿈틀로|시립미술관|스페이스워크|수목원|실내체육관|덕수동|대흥동|항구동|우현|창포|북부|이가리|월포|칠포|곤륜산|사방|초곡|서포중|보건고"
+BUK = r"북구|우창|마장지|영일대|죽도|양학|장성|두호|환호|여남|흥해|청하|송라|기계|죽장|신광|기북|양덕|장량|중앙상가|중앙아트홀|동빈|꿈틀로|시립미술관|스페이스워크|수목원|실내체육관|덕수동|대흥동|항구동|우현|창포|북부|이가리|월포|칠포|곤륜산|사방|초곡|서포중|보건고"
 def area_of(*t):
     s = " ".join(x or "" for x in t)
     if "포항시 남구" in s or "포항시남구" in s: return "ocheon" if re.search(r"오천읍", s) else "nam"
@@ -47,8 +48,12 @@ def save_img(url):
     if os.path.exists(p): return name
     try:
         from PIL import Image
-        b = get(url, binary=True, ref=PH + "/phtour/index.do")
-        im = Image.open(io.BytesIO(b)).convert("RGB")
+        im = None
+        for _ in range(3):
+            b = get(url, binary=True, ref=PH + "/phtour/index.do", t=90)
+            try: im = Image.open(io.BytesIO(b)); im.load(); im = im.convert("RGB"); break
+            except Exception: im = None
+        if im is None: raise ValueError("이미지 받기 실패")
         if im.width > 640: im = im.resize((640, int(im.height * 640 / im.width)))
         im.save(p, "JPEG", quality=74, optimize=True, progressive=True); return name
     except Exception as e:
@@ -58,7 +63,7 @@ def ph_view(path):
     h = get(PH + path)
     i = h.rfind("MCbox__info"); j = h.find("<footer", i)
     body = txt(h[h.find("</dl>", i):j]) if i > 0 else ""
-    body = re.split(r"\n\s*37683 ", body)[0]
+    body = re.split(r"\n\s*37683 |\n목록으로|\n이전글|\n다음글", "\n" + body)[0]
     links = [u for u in re.findall(r'href="(https?://[^"]+)"', h[i:j] if i > 0 else "")
              if not re.search(r"pohang\.go\.kr/phtour/(?:index|wmap)|facebook\.com/sharer|kakao|naver\.com/share|twitter", u)]
     return body.strip()[:1500], (links[0] if links else None)
@@ -130,7 +135,7 @@ def scrape_kfes():
     return out
 
 def scrape_news():
-    u = "https://news.google.com/rss/search?" + urllib.parse.urlencode({"q": "포항 축제 OR 포항 행사 개최 when:14d", "hl": "ko", "gl": "KR", "ceid": "KR:ko"})
+    u = "https://news.google.com/rss/search?" + urllib.parse.urlencode({"q": "포항 축제 OR 포항 행사 개최 when:7d", "hl": "ko", "gl": "KR", "ceid": "KR:ko"})
     out = []
     for it in re.findall(r"<item>(.*?)</item>", get(u), re.S)[:40]:
         g = lambda t: html.unescape((re.search(fr"<{t}[^>]*>(.*?)</{t}>", it, re.S) or [None, ""])[1]).strip()

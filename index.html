@@ -14,7 +14,7 @@ h1{font-size:21px;margin:0;letter-spacing:-.3px}h1 span{color:var(--c)}
 .upd{font-size:11.5px;color:var(--mu);text-align:right;line-height:1.35}
 .search{margin:10px 0 4px;display:flex;align-items:center;gap:6px;background:var(--bg);border-radius:12px;padding:0 12px}
 .search input{flex:1;border:0;background:none;padding:10px 0;font-size:15px;outline:none}
-.tabs{display:flex}.tab{flex:1;padding:11px 4px;border:0;background:none;font-size:15.5px;font-weight:700;color:var(--mu);border-bottom:3px solid transparent}
+.tabs{display:flex}.tab{flex:1;padding:11px 2px;border:0;background:none;font-size:14.5px;white-space:nowrap;letter-spacing:-.3px;font-weight:700;color:var(--mu);border-bottom:3px solid transparent}
 .tab.on{color:var(--c);border-color:var(--c)}
 .chips{display:flex;gap:6px;overflow-x:auto;padding:10px 0 12px;scrollbar-width:none}.chips::-webkit-scrollbar{display:none}
 .chip{white-space:nowrap;border:1px solid var(--ln);background:var(--card);border-radius:18px;padding:7px 13px;font-size:13.5px;color:var(--tx)}
@@ -60,23 +60,32 @@ main{padding:12px 12px 60px;max-width:720px;margin:0 auto}
 table{width:100%;border-collapse:collapse;font-size:14px}td{padding:8px 2px;border-bottom:1px solid var(--ln);vertical-align:top}td:last-child{text-align:right;white-space:nowrap;font-weight:600}
 .more{width:100%;margin-top:8px;padding:9px;border:1px solid var(--ln);background:var(--card);border-radius:10px;color:var(--mu)}
 .src{font-size:11.5px;color:var(--mu);word-break:break-all;line-height:1.5}.src a{color:var(--mu)}
+.evh{margin:18px 2px 8px;font-size:15px;font-weight:800}.evh small{font-weight:600;color:var(--mu);font-size:12px;margin-left:6px}
+.evc{display:flex;gap:12px;background:var(--card);border-radius:16px;padding:12px;margin-bottom:10px;box-shadow:0 1px 3px rgba(0,0,0,.06);cursor:pointer}
+.evc img{width:92px;height:122px;object-fit:cover;border-radius:10px;flex:none;background:#f1ebe7}
+.evc .b{min-width:0;flex:1}.evc .t{font-weight:800;font-size:15.5px;line-height:1.35;margin:4px 0 6px;word-break:keep-all}
+.evc .l{font-size:12.5px;color:var(--mu);line-height:1.65}.evc .l b{color:var(--tx);font-weight:600}
+.st{display:inline-block;font-size:11.5px;font-weight:800;padding:2px 8px;border-radius:99px;margin-right:4px}.st.on{background:#e6f6ec;color:#18864b}.st.up{background:#fff1ea;color:var(--c)}.st.ty{background:#f2eeeb;color:var(--mu)}
+.evp{width:100%;max-height:70vh;object-fit:contain;background:#111;display:block}
+.nw a{display:block;padding:9px 0;border-bottom:1px solid var(--ln);color:var(--tx);text-decoration:none;font-size:13.5px;line-height:1.45}.nw a small{color:var(--mu)}
 </style></head><body>
 <header><div class="hd"><h1>포항<span>여기저기요기</span></h1><div class="upd" id="upd">불러오는 중…</div></div>
 <label class="search">🔎<input id="q" type="search" placeholder="가게·메뉴 검색 (예: 물회, 갈비)"></label>
-<div class="tabs"><button class="tab on" data-cat="nam">포항 남구</button><button class="tab" data-cat="buk">포항 북구</button><button class="tab" data-cat="ocheon">문덕·오천</button><button class="tab" data-cat="all">전체</button></div>
+<div class="tabs"><button class="tab on" data-cat="nam">포항 남구</button><button class="tab" data-cat="buk">포항 북구</button><button class="tab" data-cat="ocheon">문덕·오천</button><button class="tab" data-cat="all">전체</button><button class="tab" data-cat="ev">행사·축제</button></div>
 <div class="chips" id="chips"></div></header>
 <main><div class="rule" id="rule"></div><div id="list"></div></main>
 <div id="dt"><div class="top"><button class="back" id="back" aria-label="뒤로">‹</button><div class="ttl" id="dtt"></div></div><div id="dtc"></div></div>
 <script>
 const NA='정보 없음',FIL=['전체','술집','횟집','뒷고기','직장인 가성비'],SEC=[['핫플','🔥 실시간 핫플'],['회식','🍻 회식 TOP10'],['치킨','🍗 치킨 TOP10'],['과메기','🐟 과메기 TOP10']];
 const AREA=c=>({ocheon:'문덕·오천',buk:'포항 북구'})[c]||'포항 남구';
-let D=null,HOT=null,cat='nam',view='전체',q='';
+let D=null,HOT=null,EV=null,cat='nam',view='전체',q='',evA='전체';
+const EVA=[['전체','전체'],['nam','포항 남구'],['buk','포항 북구'],['ocheon','문덕·오천']];
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const num=v=>v==null?NA:Number(v).toLocaleString('ko-KR');
 const ph=r=>r.photo||'placeholder.svg';
 const has=v=>v&&v!==NA;
-function chips(){$('chips').innerHTML=FIL.map(t=>`<button class="chip ${t===view?'on':''}" data-v="${t}">${t==='술집'?'술집(술한잔)':t}</button>`).join('')+'<span class="sep"></span>'+SEC.map(([k,l])=>`<button class="chip rk ${k===view?'on':''}" data-v="${k}">${l}</button>`).join('')}
+function chips(){if(cat==='ev'){$('chips').innerHTML=EVA.map(([k,l])=>`<button class="chip ${k===evA?'on':''}" data-a="${k}">${l}</button>`).join('');return}$('chips').innerHTML=FIL.map(t=>`<button class="chip ${t===view?'on':''}" data-v="${t}">${t==='술집'?'술집(술한잔)':t}</button>`).join('')+'<span class="sep"></span>'+SEC.map(([k,l])=>`<button class="chip rk ${k===view?'on':''}" data-v="${k}">${l}</button>`).join('')}
 function repLine(r){const m=(r.rep_menu||[]).filter(x=>x.name);if(!m.length)return `<div class="rep"><b>대표메뉴</b>${r.menu_note?esc(r.menu_note):NA}</div>`;
   return `<div class="rep"><b>대표메뉴</b>${m.slice(0,2).map(x=>`${esc(x.name)} <span class="p">${esc(x.price||NA)}</span>`).join(' · ')}</div>`}
 function hb(b){return b&&b.length?`<div class="hb">${b.map(x=>`<span>${esc(x)}</span>`).join('')}</div>`:''}
@@ -92,6 +101,8 @@ function card(r,i,why,badges){const n=(r.photos||[]).length;
   <div class="mt"><span>방문자리뷰 <b>${num(r.reviews)}</b></span><span>블로그 <b>${num(r.blogs)}</b></span><span>X 7일 <b>${num(r.sns)}</b></span></div></div></div>`}
 function match(r){if(!q)return true;const b=[r.name,r.category,r.address,...(r.menus||[]).map(m=>m.name),...(r.tags||[])].join(' ').toLowerCase();return b.includes(q)}
 function list(){
+  if(cat==='ev')return evList();
+  if(!D)return;
   const R=D.restaurants,byN=Object.fromEntries(R.map(r=>[r.name,r]));let html='',rule='';
   if(view==='핫플'){
     const L=HOT?((HOT.top||{})[cat]||[]).filter(h=>match(byN[h.name]||{name:h.name,category:h.category})):[];
@@ -109,6 +120,39 @@ function list(){
     html=L.length?L.map((r,i)=>card(r,i)).join(''):'<div class="empty">검색 결과가 없어요</div>';
   }
   $('rule').innerHTML=rule;$('list').innerHTML=html;
+}
+const WD='일월화수목금토';
+function fd(s){const d=new Date(s+'T00:00:00+09:00');return `${d.getMonth()+1}.${d.getDate()}(${WD[d.getDay()]})`}
+function dday(s){return Math.round((new Date(s+'T00:00:00+09:00')-new Date(new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Seoul'})+'T00:00:00+09:00'))/864e5)}
+function evStatus(x){const t=new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Seoul'});if(x.end<t)return null;if(x.start<=t)return '진행중';return '예정'}
+function evList(){
+  if(!EV){$('rule').innerHTML='';$('list').innerHTML='<div class="empty">행사 정보를 불러오는 중…</div>';return}
+  const L=EV.events.map(x=>({...x,status:evStatus(x)})).filter(x=>x.status&&(evA==='전체'||x.area===evA||x.area==='all')&&(!q||(x.title+' '+x.venue+' '+x.type).toLowerCase().includes(q)))
+    .sort((a,b)=>(a.status!=='진행중')-(b.status!=='진행중')||a.start.localeCompare(b.start)||a.end.localeCompare(b.end));
+  const st=EV.status||{};
+  $('rule').innerHTML=`<b>🎉 포항 행사·축제 ${L.length}건</b> · 진행중 → 예정(날짜순) · ${esc(EV.updated)} 수집<br><span style="font-size:11px">출처: 포항시 문화관광 퐝퐝여행(축제·공연·전시·행사·체험·시립예술단) ${st.phtour&&st.phtour.ok?st.phtour.count+'건':'수집 실패'} · 한국관광공사 대한민국 구석구석 축제 ${st.kfes&&st.kfes.ok?st.kfes.count+'건':'수집 실패'} · 지난 행사는 자동 제외</span>`;
+  let h='',g='';
+  L.forEach((x,i)=>{const k=x.status==='진행중'?'지금 진행중':(+x.start.slice(5,7))+'월';
+    if(k!==g){g=k;h+=`<div class="evh">${x.status==='진행중'?'🟢 ':'📅 '}${k}<small>${L.filter(y=>(y.status==='진행중'?'지금 진행중':(+y.start.slice(5,7))+'월')===k).length}건</small></div>`}
+    const dd=dday(x.start);
+    h+=`<div class="evc" data-e="${esc(x.id)}"><img src="${esc(x.img||'placeholder.svg')}" alt="" loading="lazy" onerror="this.src='placeholder.svg'"><div class="b">
+     <span class="st ${x.status==='진행중'?'on':'up'}">${x.status==='진행중'?'진행중':(dd===0?'오늘':'D-'+dd)}</span><span class="st ty">${esc(x.type)}</span>
+     <div class="t">${esc(x.title)}</div><div class="l">📅 <b>${fd(x.start)}${x.end!==x.start?' ~ '+fd(x.end):''}</b><br>📍 ${esc(x.venue)}<br>💰 ${esc(x.fee)} · ${x.area==='all'?'포항 전역':AREA(x.area)}</div></div></div>`});
+  if(!L.length)h='<div class="empty">조건에 맞는 진행중·예정 행사가 없어요</div>';
+  if((EV.news||[]).length&&!q)h+=`<div class="evh">📰 최근 포항 축제·행사 기사<small>Google 뉴스 · 참고용</small></div><div class="blk nw">${EV.news.map(n=>`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}<br><small>${esc(n.source||'')} · ${esc((n.date||'').slice(5,16))}</small></a>`).join('')}</div>`;
+  $('list').innerHTML=h;
+}
+function evDetail(id){
+  const x=EV.events.find(e=>e.id===id);if(!x)return;$('dtt').textContent=x.title;
+  const map='https://map.naver.com/p/search/'+encodeURIComponent((x.venue||'')+' 포항');
+  $('dtc').innerHTML=`${x.img?`<img class="evp" src="${esc(x.img)}" alt="">`:''}<div class="dc"><div class="blk"><p class="h1d">${esc(x.title)}</p>
+   <div class="sub"><span class="st ${evStatus(x)==='진행중'?'on':'up'}">${esc(evStatus(x)||'종료')}</span><span class="st ty">${esc(x.type)}</span> ${x.area==='all'?'포항 전역':AREA(x.area)}</div>
+   <div class="btns">${x.link?`<a class="btn" href="${esc(x.link)}" target="_blank" rel="noopener">공식 홈페이지</a>`:''}<a class="btn ${x.link?'alt':''}" href="${esc(x.srcu)}" target="_blank" rel="noopener">공식 안내 원문</a><a class="btn alt" href="${map}" target="_blank" rel="noopener">장소 지도</a></div></div>
+  <div class="blk"><h3>ℹ️ 행사 정보</h3><div class="kv"><span>일시</span><span>${fd(x.start)}${x.end!==x.start?' ~ '+fd(x.end):''}</span><span>장소</span><span>${esc(x.venue||NA)}</span><span>이용료</span><span>${esc(x.fee||NA)}</span>
+   <span>주최/주관</span><span>${esc(x.org||NA)}</span><span>관람연령</span><span>${esc(x.age||NA)}</span><span>문의</span><span>${esc(x.tel||NA)}</span></div></div>
+  <div class="blk"><h3>📝 소개</h3><div class="sub" style="color:var(--tx);white-space:pre-line;line-height:1.6">${esc(x.desc||NA)}</div></div>
+  <div class="src">출처: <a href="${esc(x.srcu)}" target="_blank" rel="noopener">${esc(x.src)}</a>${(x.also||[]).map(a=>` · <a href="${esc(a.srcu)}" target="_blank" rel="noopener">${esc(a.src)}</a>`).join('')} · ${esc(EV.updated)} 수집</div></div>`;
+  const dt=$('dt');dt.style.display='block';dt.scrollTop=0;history.pushState({d:1},'');
 }
 function detail(n){
   const r=D.restaurants.find(x=>x.name===n);if(!r)return;$('dtt').textContent=r.name;
@@ -140,12 +184,15 @@ function detail(n){
   const dt=$('dt');dt.style.display='block';dt.scrollTop=0;history.pushState({d:1},'');
 }
 document.addEventListener('click',e=>{
-  const t=e.target.closest('.tab');if(t){cat=t.dataset.cat;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x===t));list();return}
+  const t=e.target.closest('.tab');if(t){cat=t.dataset.cat;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x===t));$('q').placeholder=cat==='ev'?'행사·장소 검색 (예: 불빛, 영일대)':'가게·메뉴 검색 (예: 물회, 갈비)';chips();list();return}
+  const ea=e.target.closest('.chip[data-a]');if(ea){evA=ea.dataset.a;chips();list();return}
+  const ec=e.target.closest('.evc');if(ec){evDetail(ec.dataset.e);return}
   const c=e.target.closest('.chip');if(c){view=c.dataset.v;chips();list();return}
   const k=e.target.closest('.card');if(k)detail(k.dataset.n);
 });
 $('q').oninput=e=>{q=e.target.value.trim().toLowerCase();list()};
 $('back').onclick=()=>history.back();addEventListener('popstate',()=>{$('dt').style.display='none'});
+fetch('events.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{EV=d;if(cat==='ev')list()}).catch(()=>{EV={events:[],status:{},updated:'-'}});
 fetch('hot.json',{cache:'no-cache'}).then(r=>r.json()).then(h=>{HOT=h;if(D)list()}).catch(()=>{});
 fetch('data.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{D=d;
   $('upd').innerHTML='마지막 업데이트<br><b>'+esc(d.last_updated)+'</b>';chips();list();})
