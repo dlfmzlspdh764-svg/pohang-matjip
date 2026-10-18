@@ -1,0 +1,5783 @@
+{
+ "last_updated": "2026-10-18",
+ "ranking_rule": "방문자 리뷰 수 → 블로그·카페 리뷰 수 → X 최근 7일 언급 수 순서로 비교 (네이버 플레이스·X 기준)",
+ "restaurants": [
+  {
+   "name": "효자동곱닭 곱창전골 매운갈비찜",
+   "cat": "nam",
+   "naver_id": "1901713283",
+   "tags": [
+    "직장인 가성비"
+   ],
+   "found_by": "네이버 플레이스 검색 '직장인 가성비'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1901713283/home"
+   ],
+   "naver_name": "효자동곱닭 곱창전골 매운갈비찜",
+   "category": "백반,가정식",
+   "address": "경북 포항시 남구 형산강북로 87-1 1층",
+   "phone": "0507-1342-4778",
+   "reviews": 4590,
+   "rating": 4.83,
+   "blogs": 1132,
+   "menus": [
+    {
+     "name": "🎁[N예약+리뷰]소고기80g증정🎁",
+     "price": "무료"
+    },
+    {
+     "name": "🎁[무료제공] 공기밥+라면사리🎁",
+     "price": "무료"
+    },
+    {
+     "name": "💰[도도포인트] 결제금액의 5%💰",
+     "price": "무료"
+    },
+    {
+     "name": "💯[9천원 할인]곱닭 스페셜세트💯",
+     "price": "48,000원"
+    },
+    {
+     "name": "🍲[5천원할인]곱창전골+육전세트🍲",
+     "price": "40,000원"
+    },
+    {
+     "name": "🔥[입맛 확 도는] 매운갈비찜🔥",
+     "price": "13,000원"
+    },
+    {
+     "name": "🥩[전골과 찰떡궁합] 소고기육전🥩",
+     "price": "15,000원"
+    },
+    {
+     "name": "🥘[산더미] 소곱창전골 2인🥘",
+     "price": "15,000원"
+    },
+    {
+     "name": "🍲[효자동별미] 곱도리탕 1인🍲",
+     "price": "15,000원"
+    },
+    {
+     "name": "🍲[효자동별미] 곱도리탕(점심)🍲",
+     "price": "14,000원"
+    },
+    {
+     "name": "🥘[산더미]소곱창전골2인(점심)🥘",
+     "price": "14,000원"
+    },
+    {
+     "name": "🍚 공기밥 🍚",
+     "price": "1,000원"
+    },
+    {
+     "name": "🍜 라면/우동 사리🍜",
+     "price": "2,000원"
+    }
+   ],
+   "price_range": "13,000~48,000원",
+   "hours": "매일 11:00~22:00 (브레이크 15:00~17:00)",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20260714_109/1784015249041CeLtX_JPEG/ChatGPT_Image_2026%B3%E2_7%BF%F9_14%C0%CF_%BF%C0%C8%C4_04_38_53.jpg",
+   "lat": "36.0049448",
+   "lng": "129.3365927",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1901713283/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1901713283",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"효자동곱닭\" 포항",
+   "photo": "img/r54.jpg",
+   "updated": "2026-10-18",
+   "rank": 1
+  },
+  {
+   "name": "와비사비 포항 효자점",
+   "cat": "nam",
+   "naver_id": "2075068498",
+   "tags": [
+    "술집"
+   ],
+   "found_by": "네이버 플레이스 검색 '술집'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/2075068498/home"
+   ],
+   "naver_name": "와비사비 포항 효자점",
+   "category": "이자카야",
+   "address": "경북 포항시 남구 효성로 60 1층",
+   "phone": "0507-1451-1321",
+   "reviews": 2760,
+   "rating": 4.88,
+   "blogs": 63,
+   "menus": [
+    {
+     "name": "[신메뉴] 전복 삼계 전골",
+     "price": "27,900원"
+    },
+    {
+     "name": "[신메뉴] 바지락 마라샹궈",
+     "price": "17,900원"
+    },
+    {
+     "name": "[신메뉴] 문어 가라아게",
+     "price": "21,900원"
+    },
+    {
+     "name": "스키야키",
+     "price": "29,900원"
+    },
+    {
+     "name": "모츠나베(미소식,고추장식,마라식)",
+     "price": "29,900원"
+    },
+    {
+     "name": "[1등급한우]육회케이크",
+     "price": "22,900원"
+    },
+    {
+     "name": "이나니와 명란크림우동",
+     "price": "16,900원"
+    },
+    {
+     "name": "프리미엄 연평도 꽃게탕",
+     "price": "28,900원"
+    },
+    {
+     "name": "크림치즈새우퐁듀",
+     "price": "23,900원"
+    },
+    {
+     "name": "간사이오뎅나베",
+     "price": "23,900원"
+    },
+    {
+     "name": "명란 한우 모츠나베",
+     "price": "29,900원"
+    },
+    {
+     "name": "미소 매콤 바지락 술찜",
+     "price": "22,900원"
+    },
+    {
+     "name": "얼큰 해물 짬뽕탕",
+     "price": "24,900원"
+    },
+    {
+     "name": "춘천 닭갈비 떡볶이",
+     "price": "18,900원"
+    },
+    {
+     "name": "기린 생맥주",
+     "price": "6,900원"
+    },
+    {
+     "name": "우베 기린 생맥주",
+     "price": "8,500원"
+    },
+    {
+     "name": "말차 기린 생맥주",
+     "price": "8,500원"
+    },
+    {
+     "name": "수제치킨가라아게",
+     "price": "17,900원"
+    },
+    {
+     "name": "칠리스 치즈스틱",
+     "price": "9,900원"
+    },
+    {
+     "name": "통오징어 유린기",
+     "price": "13,900원"
+    },
+    {
+     "name": "토마토 샤브 샐러드",
+     "price": "16,900원"
+    },
+    {
+     "name": "멘타이코 명란구이",
+     "price": "15,900원"
+    },
+    {
+     "name": "비법 양념 골뱅이 무침",
+     "price": "21,900원"
+    },
+    {
+     "name": "김치우삼겹 숙주볶음",
+     "price": "16,900원"
+    },
+    {
+     "name": "김계치볶음밥",
+     "price": "11,900원"
+    },
+    {
+     "name": "모듬 건어물",
+     "price": "18,900원"
+    },
+    {
+     "name": "매콤 연탄 무뼈 닭발",
+     "price": "18,900원"
+    },
+    {
+     "name": "매콤 연탄 닭목살 구이",
+     "price": "17,900원"
+    },
+    {
+     "name": "참치 묵은지롤",
+     "price": "8,900원"
+    },
+    {
+     "name": "통마늘 불막창볶음",
+     "price": "21,900원"
+    },
+    {
+     "name": "수제 크림치즈 곶감말이(+아이스크림)",
+     "price": "13,900원"
+    },
+    {
+     "name": "명란치즈감자",
+     "price": "8,900원"
+    },
+    {
+     "name": "허니 모찌리도후",
+     "price": "7,900원"
+    },
+    {
+     "name": "허니 슈가 토마토",
+     "price": "8,900원"
+    }
+   ],
+   "price_range": "17,900~27,900원",
+   "hours": "월·화·수·목·일 17:30~02:00 / 금·토 17:30~03:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20250712_283/1752312743790YBk8T_JPEG/IMG_8257.jpeg",
+   "lat": "36.0059368",
+   "lng": "129.3401546",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/2075068498/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/2075068498",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"와비사비\" 포항",
+   "photo": "img/r39.jpg",
+   "updated": "2026-10-18",
+   "rank": 2
+  },
+  {
+   "name": "훠궈먹고 포항이동점",
+   "cat": "nam",
+   "naver_id": "2061548953",
+   "tags": [
+    "직장인 가성비"
+   ],
+   "found_by": "네이버 플레이스 검색 '직장인 가성비'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/2061548953/home"
+   ],
+   "naver_name": "훠궈먹고 포항이동점",
+   "category": "중식당",
+   "address": "경북 포항시 남구 대이로127번길 18-2 1층",
+   "phone": "0507-1326-9988",
+   "reviews": 2604,
+   "rating": null,
+   "blogs": 365,
+   "menus": [
+    {
+     "name": "반반탕(🔥인기메뉴1위)",
+     "price": "20,900원"
+    },
+    {
+     "name": "마라홍탕",
+     "price": "19,900원"
+    },
+    {
+     "name": "토마토탕",
+     "price": "19,900원"
+    },
+    {
+     "name": "버섯탕",
+     "price": "19,900원"
+    },
+    {
+     "name": "사골탕",
+     "price": "19,900원"
+    },
+    {
+     "name": "100cm~130cm 아동 반값 할인",
+     "price": "11,950원"
+    },
+    {
+     "name": "100cm 이하 아동 무료 입장",
+     "price": "무료"
+    }
+   ],
+   "price_range": "11,950~20,900원",
+   "hours": "매일 11:00~22:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20260305_35/1772694701120rGUtT_PNG/%C8%CC%B1%C5%B8%D4GO_%B7%CE%B0%ED.png",
+   "lat": "36.0265504",
+   "lng": "129.3389513",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/2061548953/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/2061548953",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"훠궈먹고\" 포항",
+   "photo": "img/r55.jpg",
+   "updated": "2026-10-18",
+   "rank": 3
+  },
+  {
+   "name": "구룡포 영일만회대게",
+   "cat": "nam",
+   "naver_id": "15086314",
+   "tags": [
+    "횟집"
+   ],
+   "found_by": "네이버 플레이스 검색 '횟집'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/15086314/home"
+   ],
+   "naver_name": "구룡포 영일만회대게",
+   "category": "대게요리",
+   "address": "경북 포항시 남구 구룡포읍 호미로 263-2",
+   "phone": "0507-1328-6933",
+   "reviews": 2038,
+   "rating": null,
+   "blogs": 10733,
+   "menus": [
+    {
+     "name": "대게",
+     "price": "가격 변동"
+    },
+    {
+     "name": "영일만스페셜(대) 4인",
+     "price": "300,000원"
+    },
+    {
+     "name": "영일만스페셜(중) 3인",
+     "price": "250,000원"
+    },
+    {
+     "name": "영일만스페셜(소) 2인",
+     "price": "200,000원"
+    },
+    {
+     "name": "대게.킹크랩.홍게",
+     "price": "가격 변동"
+    },
+    {
+     "name": "이시가리.돌돔",
+     "price": "가격 변동"
+    },
+    {
+     "name": "스페셜물회",
+     "price": "30,000원"
+    },
+    {
+     "name": "전복물회",
+     "price": "30,000원"
+    },
+    {
+     "name": "도다리,가자미물회",
+     "price": "23,000원"
+    },
+    {
+     "name": "잡어물회",
+     "price": "18,000원"
+    }
+   ],
+   "price_range": "250,000~300,000원",
+   "hours": "매일 09:00~24:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20211029_205/1635477265022h9b4b_JPEG/YiZudRctpTV8p_6lF974Bk1b.jpeg.jpg",
+   "lat": "35.9910664",
+   "lng": "129.559229",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/15086314/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/15086314",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"구룡포\" 포항",
+   "photo": "img/r44.jpg",
+   "updated": "2026-10-18",
+   "rank": 4
+  },
+  {
+   "name": "효자동오륙도",
+   "cat": "nam",
+   "naver_id": "36198312",
+   "tags": [
+    "횟집"
+   ],
+   "found_by": "네이버 플레이스 검색 '횟집'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/36198312/home"
+   ],
+   "naver_name": "효자동오륙도",
+   "category": "생선회",
+   "address": "경북 포항시 남구 효성로 52-1",
+   "phone": "0507-1343-7117",
+   "reviews": 1421,
+   "rating": 4.37,
+   "blogs": 443,
+   "menus": [
+    {
+     "name": "모듬회 소/중/대/특대",
+     "price": "60,000~100,000원"
+    },
+    {
+     "name": "물회",
+     "price": "18,000원"
+    },
+    {
+     "name": "오륙도물회",
+     "price": "27,000원"
+    },
+    {
+     "name": "해물모듬 소/대",
+     "price": "50,000~70,000원"
+    },
+    {
+     "name": "자연산모듬 소/중/대",
+     "price": "70,000~110,000원"
+    },
+    {
+     "name": "자연산물회",
+     "price": "22,000원"
+    },
+    {
+     "name": "회덮밥",
+     "price": "18,000원"
+    }
+   ],
+   "price_range": "18,000~60,000원",
+   "hours": "화·수·목·금·토·일 11:30~23:00 (브레이크 14:30~16:00)",
+   "holiday": "월 휴무",
+   "photo_src": "https://ldb-phinf.pstatic.net/20250326_125/1742968176027XBpmj_PNG/%C8%BF%C0%DA%B5%BF%BF%C0%B7%FA%B5%B51.png",
+   "lat": "36.0059795",
+   "lng": "129.3392873",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/36198312/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/36198312",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"효자동오륙도\" 포항",
+   "photo": "img/r45.jpg",
+   "updated": "2026-10-18",
+   "rank": 5
+  },
+  {
+   "name": "구룡포 바다풍경물회대게",
+   "cat": "nam",
+   "naver_id": "746214939",
+   "tags": [
+    "횟집"
+   ],
+   "found_by": "네이버 플레이스 검색 '횟집'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/746214939/home"
+   ],
+   "naver_name": "구룡포 바다풍경물회대게",
+   "category": "대게요리",
+   "address": "경북 포항시 남구 구룡포읍 호미로 187-2",
+   "phone": "0507-1356-8970",
+   "reviews": 1409,
+   "rating": null,
+   "blogs": 374,
+   "menus": [
+    {
+     "name": "대게1인분",
+     "price": "가격 변동"
+    },
+    {
+     "name": "바다풍경물회",
+     "price": "17,000원"
+    }
+   ],
+   "price_range": "17,000원",
+   "hours": "매일 09:00~21:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20230811_26/1691736051530s7Wtb_JPEG/%B4%EB%B0%D4.jpg",
+   "lat": "35.988508",
+   "lng": "129.5523141",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/746214939/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/746214939",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"구룡포\" 포항",
+   "photo": "img/r46.jpg",
+   "updated": "2026-10-18",
+   "rank": 6
+  },
+  {
+   "name": "1992덮밥&짜글이 포항점",
+   "cat": "nam",
+   "naver_id": "1759543292",
+   "tags": [
+    "직장인 가성비"
+   ],
+   "found_by": "네이버 플레이스 검색 '직장인 가성비'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1759543292/home"
+   ],
+   "naver_name": "1992덮밥&짜글이 포항점",
+   "category": "한식",
+   "address": "경북 포항시 남구 상공로 102 1층",
+   "phone": "0507-1491-7278",
+   "reviews": 1399,
+   "rating": 4.88,
+   "blogs": 483,
+   "menus": [
+    {
+     "name": "얼갈이 겉절이",
+     "price": "3,900원"
+    },
+    {
+     "name": "얼갈이 겉절이비빔밥",
+     "price": "12,000원"
+    },
+    {
+     "name": "듬뿍짜글이",
+     "price": "12,000원"
+    },
+    {
+     "name": "된장짜글이",
+     "price": "13,000원"
+    },
+    {
+     "name": "전라도식 양념돼지 덮밥",
+     "price": "12,500원"
+    },
+    {
+     "name": "전라도식 육회덮밥",
+     "price": "12,000원"
+    },
+    {
+     "name": "고추장 애호박 돼지 국밥",
+     "price": "12,000원"
+    },
+    {
+     "name": "전라도식 쭈꾸미 덮밥",
+     "price": "12,500원"
+    },
+    {
+     "name": "1인 고기정식",
+     "price": "15,900원"
+    },
+    {
+     "name": "전주비빔밥",
+     "price": "12,500원"
+    },
+    {
+     "name": "매콤 양념낙지볶음 덮밥",
+     "price": "12,500원"
+    },
+    {
+     "name": "저당 고추장돼지덮밥",
+     "price": "13,500원"
+    },
+    {
+     "name": "전라도식 양념소대창 덮밥",
+     "price": "15,000원"
+    },
+    {
+     "name": "닭갈비 덮밥",
+     "price": "12,000원"
+    },
+    {
+     "name": "전라도식 제육 덮밥",
+     "price": "12,000원"
+    },
+    {
+     "name": "바지락 김치칼국수",
+     "price": "12,000원"
+    },
+    {
+     "name": "마늘데리야끼 우삼겹 덮밥",
+     "price": "12,500원"
+    },
+    {
+     "name": "해물쌈장 덮밥 백반",
+     "price": "12,500원"
+    },
+    {
+     "name": "김치고기 덮밥",
+     "price": "12,500원"
+    },
+    {
+     "name": "돈까스 덮밥",
+     "price": "12,000원"
+    },
+    {
+     "name": "전라도식 된장박이 덮밥",
+     "price": "12,000원"
+    },
+    {
+     "name": "한치 비빔칼국수",
+     "price": "12,000원"
+    }
+   ],
+   "price_range": "12,000~13,000원",
+   "hours": "월·화·수·목·금·토 11:00~21:00",
+   "holiday": "일 휴무",
+   "photo_src": "https://ldb-phinf.pstatic.net/20230523_211/1684809515232OufE0_JPEG/%B8%F0%C0%BD02.jpg",
+   "lat": "36.0167254",
+   "lng": "129.3602004",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1759543292/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1759543292",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"1992덮밥&짜글이\" 포항",
+   "photo": "img/r56.jpg",
+   "updated": "2026-10-18",
+   "rank": 7
+  },
+  {
+   "name": "횟집진",
+   "cat": "nam",
+   "naver_id": "1229791650",
+   "tags": [
+    "횟집"
+   ],
+   "found_by": "네이버 플레이스 검색 '횟집'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1229791650/home"
+   ],
+   "naver_name": "횟집진",
+   "category": "생선회",
+   "address": "경북 포항시 남구 구룡포읍 호미로 213-1 횟집진",
+   "phone": "0507-1377-2875",
+   "reviews": 1373,
+   "rating": 4.81,
+   "blogs": 433,
+   "menus": [
+    {
+     "name": "포항물회",
+     "price": "17,000원"
+    },
+    {
+     "name": "모듬회",
+     "price": "가격 변동"
+    },
+    {
+     "name": "홍게/대게/박달대게/킹크랩 세트메뉴",
+     "price": "140,000~400,000원"
+    },
+    {
+     "name": "대게 홍게 킹크랩 찜 단품",
+     "price": "가격 변동"
+    },
+    {
+     "name": "대방어회",
+     "price": "가격 변동"
+    },
+    {
+     "name": "겨울특미 과메기",
+     "price": "가격 변동"
+    },
+    {
+     "name": "어린이돈까스 생선구이",
+     "price": "8,000원"
+    }
+   ],
+   "price_range": "17,000~140,000원",
+   "hours": "토·일 10:00~21:30 / 월·화·목·금 10:30~21:00",
+   "holiday": "수 휴무",
+   "photo_src": "https://ldb-phinf.pstatic.net/20241016_128/1729060714714zbhNt_JPEG/IMG_1518.jpeg",
+   "lat": "35.9896681",
+   "lng": "129.5545762",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1229791650/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1229791650",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"횟집진\" 포항",
+   "photo": "img/r47.jpg",
+   "updated": "2026-10-18",
+   "rank": 8
+  },
+  {
+   "name": "한씨 막국수 포항이동점",
+   "cat": "nam",
+   "naver_id": "1480547780",
+   "tags": [
+    "직장인 가성비"
+   ],
+   "found_by": "네이버 플레이스 검색 '직장인 가성비'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1480547780/home"
+   ],
+   "naver_name": "한씨 막국수 포항이동점",
+   "category": "막국수",
+   "address": "경북 포항시 남구 대이로127번길 4 1층 한씨막국수 포항이동점",
+   "phone": "0507-1425-7787",
+   "reviews": 1309,
+   "rating": null,
+   "blogs": 997,
+   "menus": [
+    {
+     "name": "곰국시",
+     "price": "10,000원"
+    },
+    {
+     "name": "온 막국수",
+     "price": "9,000원"
+    },
+    {
+     "name": "물막국수",
+     "price": "9,000원"
+    },
+    {
+     "name": "비빔막국수",
+     "price": "9,000원"
+    },
+    {
+     "name": "커플세트",
+     "price": "36,000원"
+    },
+    {
+     "name": "수육대",
+     "price": "36,000원"
+    },
+    {
+     "name": "수육 중",
+     "price": "27,000원"
+    },
+    {
+     "name": "수육 소",
+     "price": "18,000원"
+    }
+   ],
+   "price_range": "9,000~10,000원",
+   "hours": "토·일 11:00~20:00 / 월·화·수·목·금 11:00~20:00 (브레이크 15:30~16:30)",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20230616_296/1686886384645RzXcB_JPEG/KakaoTalk_20230616_123236390.jpg",
+   "lat": "36.0265666",
+   "lng": "129.340184",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1480547780/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1480547780",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"한씨\" 포항",
+   "photo": "img/r57.jpg",
+   "updated": "2026-10-18",
+   "rank": 9
+  },
+  {
+   "name": "대게닷컴",
+   "cat": "nam",
+   "naver_id": "11527048",
+   "tags": [
+    "횟집"
+   ],
+   "found_by": "네이버 플레이스 검색 '횟집'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/11527048/home"
+   ],
+   "naver_name": "대게닷컴",
+   "category": "대게요리",
+   "address": "경북 포항시 남구 구룡포읍 호미로 148 대게닷컴",
+   "phone": "0507-1346-1774",
+   "reviews": 1257,
+   "rating": null,
+   "blogs": 2533,
+   "menus": [
+    {
+     "name": "구룡포대게",
+     "price": "가격 변동"
+    },
+    {
+     "name": "러시아대게",
+     "price": "가격 변동"
+    },
+    {
+     "name": "킹크랩",
+     "price": "가격 변동"
+    },
+    {
+     "name": "홍게",
+     "price": "가격 변동"
+    },
+    {
+     "name": "참가자미물회",
+     "price": "23,000원"
+    }
+   ],
+   "price_range": "정보 없음",
+   "hours": "매일 08:00~21:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20250814_22/1755150715681twnLN_JPEG/002.jpg",
+   "lat": "35.9858059",
+   "lng": "129.5488263",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/11527048/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/11527048",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"대게닷컴\" 포항",
+   "photo": "img/r48.jpg",
+   "updated": "2026-10-18",
+   "rank": 10
+  },
+  {
+   "name": "효자동쌀국수미",
+   "cat": "nam",
+   "naver_id": "1233853113",
+   "tags": [
+    "직장인 가성비"
+   ],
+   "found_by": "네이버 플레이스 검색 '직장인 가성비'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1233853113/home"
+   ],
+   "naver_name": "효자동쌀국수미",
+   "category": "한식",
+   "address": "경북 포항시 남구 효자동길10번길 27 1층 효자동쌀국수미",
+   "phone": "0507-1430-9056",
+   "reviews": 1230,
+   "rating": 4.63,
+   "blogs": 356,
+   "menus": [],
+   "price_range": "정보 없음",
+   "hours": "매일 11:00~21:00 (브레이크 15:00~17:30)",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20241011_272/1728639301076XFEC3_JPEG/1000000427.jpg",
+   "lat": "36.0090441",
+   "lng": "129.3326042",
+   "menu_note": "메뉴판 사진만 등록되어 있어요 (네이버 플레이스 메뉴 탭에서 확인)",
+   "menu_url": "https://m.place.naver.com/restaurant/1233853113/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1233853113",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"효자동쌀국수미\" 포항",
+   "photo": "img/r58.jpg",
+   "updated": "2026-10-18",
+   "rank": 11
+  },
+  {
+   "name": "청마루",
+   "cat": "nam",
+   "naver_id": "15084551",
+   "tags": [],
+   "found_by": "웹 리서치 1차 목록",
+   "sources": [
+    "https://m.place.naver.com/restaurant/15084551/home"
+   ],
+   "naver_name": "청마루",
+   "category": "칼국수,만두",
+   "address": "경북 포항시 남구 대이로189번길 11-12",
+   "phone": "054-273-8831",
+   "reviews": 1167,
+   "rating": null,
+   "blogs": 206,
+   "menus": [
+    {
+     "name": "바지락칼국수",
+     "price": "9,500원"
+    },
+    {
+     "name": "들깨칼국수",
+     "price": "9,500원"
+    },
+    {
+     "name": "매생이칼국수",
+     "price": "10,000원"
+    },
+    {
+     "name": "매생이굴국밥",
+     "price": "10,000원"
+    },
+    {
+     "name": "흑산도 홍어",
+     "price": "60,000원"
+    }
+   ],
+   "price_range": "9,500~10,000원",
+   "hours": "매일 11:00~22:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": null,
+   "lat": "36.030814",
+   "lng": "129.337284",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/15084551/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/15084551",
+   "sns": 0,
+   "sns_measured": "2026-10-18",
+   "x_query": "\"청마루\" 포항",
+   "photo": null,
+   "updated": "2026-10-18",
+   "rank": 12
+  },
+  {
+   "name": "커터 쌍사",
+   "cat": "nam",
+   "naver_id": "1748140932",
+   "tags": [
+    "술집"
+   ],
+   "found_by": "네이버 플레이스 검색 '술집'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1748140932/home"
+   ],
+   "naver_name": "커터 쌍사",
+   "category": "요리주점",
+   "address": "경북 포항시 남구 상도로 66 1층",
+   "phone": "0507-1306-7828",
+   "reviews": 1164,
+   "rating": null,
+   "blogs": 76,
+   "menus": [
+    {
+     "name": "연어 사시미",
+     "price": "35,000원"
+    },
+    {
+     "name": "뿌님팟퐁커리",
+     "price": "30,000원"
+    },
+    {
+     "name": "중화풍 수육",
+     "price": "30,000원"
+    },
+    {
+     "name": "눈꽃육회",
+     "price": "24,000원"
+    },
+    {
+     "name": "유린기",
+     "price": "26,000원"
+    },
+    {
+     "name": "카르파치오",
+     "price": "27,000원"
+    },
+    {
+     "name": "크림새우",
+     "price": "27,000원"
+    },
+    {
+     "name": "조개 술찜",
+     "price": "22,000원"
+    },
+    {
+     "name": "크림짬뽕",
+     "price": "20,000원"
+    },
+    {
+     "name": "베이컨 볶음 우동",
+     "price": "17,000원"
+    },
+    {
+     "name": "오꼬노미야끼",
+     "price": "17,000원"
+    },
+    {
+     "name": "레몬 치킨 가라아게",
+     "price": "16,000원"
+    },
+    {
+     "name": "모닝글로리",
+     "price": "11,000원"
+    },
+    {
+     "name": "볶음밥",
+     "price": "10,000원"
+    },
+    {
+     "name": "아이스크림",
+     "price": "5,000원"
+    }
+   ],
+   "price_range": "10,000~35,000원",
+   "hours": "월·수·목·일 18:00~02:00 / 금·토 18:00~03:00",
+   "holiday": "화 휴무",
+   "photo_src": "https://ldb-phinf.pstatic.net/20250117_67/17370759693034jlLs_JPEG/IMG_9471.jpeg",
+   "lat": "36.0145721",
+   "lng": "129.3552235",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1748140932/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1748140932",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"커터\" 포항",
+   "photo": "img/r40.jpg",
+   "updated": "2026-10-18",
+   "rank": 13
+  },
+  {
+   "name": "오두막창 포항효자점",
+   "cat": "nam",
+   "naver_id": "2050502640",
+   "tags": [
+    "술집"
+   ],
+   "found_by": "네이버 플레이스 검색 '술집'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/2050502640/home"
+   ],
+   "naver_name": "오두막창 포항효자점",
+   "category": "곱창,막창,양",
+   "address": "경북 포항시 남구 효성로60번길 4 1층",
+   "phone": "0507-1370-4287",
+   "reviews": 1041,
+   "rating": 4.89,
+   "blogs": 94,
+   "menus": [
+    {
+     "name": "동죽칼국수 (기본서비스)",
+     "price": "무료"
+    },
+    {
+     "name": "뇨끼떡볶이 (증정 이벤트)",
+     "price": "무료"
+    },
+    {
+     "name": "살얼음 열무냉칼국수",
+     "price": "2,000원"
+    },
+    {
+     "name": "닭곰탕 칼국수",
+     "price": "2,000원"
+    },
+    {
+     "name": "오두막창(2~3인) 한판",
+     "price": "43,000원"
+    },
+    {
+     "name": "오두막창(3~4인) 한판",
+     "price": "58,000원"
+    },
+    {
+     "name": "갈막세트(2~3인) 한판",
+     "price": "48,000원"
+    },
+    {
+     "name": "꽃목살&막창세트(2~3인) 한판",
+     "price": "48,000원"
+    },
+    {
+     "name": "매콤무뼈닭발",
+     "price": "16,000원"
+    },
+    {
+     "name": "한뚝배기 막창전골",
+     "price": "9,900원"
+    },
+    {
+     "name": "오두막 '파김치' 볶음밥",
+     "price": "7,000원"
+    },
+    {
+     "name": "차돌청국장찌개",
+     "price": "6,000원"
+    },
+    {
+     "name": "폭탄치즈계란찜",
+     "price": "5,000원"
+    },
+    {
+     "name": "초당 옥수수 막걸리 한잔",
+     "price": "1,500원"
+    },
+    {
+     "name": "우베막걸리",
+     "price": "1,500원"
+    },
+    {
+     "name": "황금비율 소맥 (생맥주) 300cc",
+     "price": "2,900원"
+    },
+    {
+     "name": "감귤하이볼",
+     "price": "7,000원"
+    },
+    {
+     "name": "매실하이볼",
+     "price": "7,000원"
+    }
+   ],
+   "price_range": "2,000~43,000원",
+   "hours": "매일 16:30~24:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20260706_16/1783338697580ilo7R_JPEG/%C0%FC%B8%E9%BA%CE_%BB%E7%C1%F8.jpg",
+   "lat": "36.0057367",
+   "lng": "129.3400449",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/2050502640/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/2050502640",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"오두막창\" 포항",
+   "photo": "img/r41.jpg",
+   "updated": "2026-10-18",
+   "rank": 14
+  },
+  {
+   "name": "숯토리 포항효자점",
+   "cat": "nam",
+   "naver_id": "2077323115",
+   "tags": [
+    "술집"
+   ],
+   "found_by": "네이버 플레이스 검색 '술집'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/2077323115/home"
+   ],
+   "naver_name": "숯토리 포항효자점",
+   "category": "이자카야",
+   "address": "경북 포항시 남구 효성로64번길 1 1층",
+   "phone": "정보 없음",
+   "reviews": 961,
+   "rating": null,
+   "blogs": 24,
+   "menus": [
+    {
+     "name": "숯마카세 재팬파스타 SET",
+     "price": "38,900원"
+    },
+    {
+     "name": "숯마카세 한우육류 SET",
+     "price": "39,900원"
+    },
+    {
+     "name": "숯마카세 뜨끈탕류 SET",
+     "price": "42,900원"
+    },
+    {
+     "name": "숯마카세 싱싱해물 SET",
+     "price": "47,900원"
+    },
+    {
+     "name": "시그니처 HOT 엉덩이 SET",
+     "price": "19,900원"
+    },
+    {
+     "name": "시그니쳐 엉덩이2P(ぼんじり)",
+     "price": "5,500원"
+    },
+    {
+     "name": "야키토리 7종(랜덤) + 우동 SET",
+     "price": "30,900원"
+    },
+    {
+     "name": "야키토리모듬7P+디저트SET",
+     "price": "26,900원"
+    },
+    {
+     "name": "오사카장인 테바사키 Set",
+     "price": "24,900원"
+    },
+    {
+     "name": "오사카장인 가라아게 Set",
+     "price": "24,900원"
+    },
+    {
+     "name": "토종닭 야키토리(랜덤) 7p set",
+     "price": "19,900원"
+    },
+    {
+     "name": "오사카식 수제 쿠시카츠(선택) 5p",
+     "price": "6,000원"
+    },
+    {
+     "name": "난코츠가라아게(なんこつのからあげ)",
+     "price": "13,900원"
+    },
+    {
+     "name": "레드 핫 테바사키(クフツハッテバサキ)",
+     "price": "14,900원"
+    },
+    {
+     "name": "레드 핫 가라아게(クフツハッガラアゲ)",
+     "price": "14,900원"
+    },
+    {
+     "name": "흑후추 테바사키(こしょうてばさき)",
+     "price": "13,900원"
+    },
+    {
+     "name": "흑후추 가라아게(こしょうからあげ)",
+     "price": "13,900원"
+    },
+    {
+     "name": "토리 얼음 생맥주",
+     "price": "3,500원"
+    },
+    {
+     "name": "말차 얼음 생맥주",
+     "price": "4,000원"
+    },
+    {
+     "name": "삿포로 생맥주",
+     "price": "5,500원"
+    },
+    {
+     "name": "토리 상어🦈 사와",
+     "price": "7,900원"
+    },
+    {
+     "name": "토리 생자몽🍧 사와",
+     "price": "7,900원"
+    },
+    {
+     "name": "토리 복숭아🍑 사와",
+     "price": "6,900원"
+    },
+    {
+     "name": "토리 레몬사와(レモンサワー )",
+     "price": "6,900원"
+    },
+    {
+     "name": "토리 망고사와(マンゴーサワ )",
+     "price": "6,900원"
+    },
+    {
+     "name": "숯토리x사카에준마이",
+     "price": "45,000원"
+    },
+    {
+     "name": "제주산 딱새우회(ミナミアカザエビさし)",
+     "price": "29,900원"
+    },
+    {
+     "name": "탱글탱글 단새우회(あまえび さしみ)",
+     "price": "27,900원"
+    },
+    {
+     "name": "한우 육사시미(ぎゅうさしみ)",
+     "price": "29,900원"
+    },
+    {
+     "name": "한우 미니 육사시미(ぎゅうさしみ)",
+     "price": "15,900원"
+    },
+    {
+     "name": "숯불 한우 타다끼(すみびタダキ)",
+     "price": "27,900원"
+    },
+    {
+     "name": "토로토로함박(とろとろハンバーグ)",
+     "price": "25,900원"
+    },
+    {
+     "name": "한우 육회(ハンウユッケ)",
+     "price": "22,900원"
+    },
+    {
+     "name": "닭경단(つくね) 2p",
+     "price": "5,500원"
+    },
+    {
+     "name": "다리(もも) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "날개(てばさき) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "네기마(ねぎま) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "목살(せせり) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "안창살(ハラミ)1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "안심(ささみ) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "무릎연골(ひざなんこつ) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "어깨살(ふりそで) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "가슴연골(やげんなんこつ) 1p",
+     "price": "2,800원"
+    },
+    {
+     "name": "엉덩이(ぼんじり) 1p",
+     "price": "2,800원"
+    },
+    {
+     "name": "껍질(かわ) 1p",
+     "price": "2,800원"
+    },
+    {
+     "name": "염통(はつ) 1p",
+     "price": "2,500원"
+    },
+    {
+     "name": "삼겹말이(ぶたばらまき)1p",
+     "price": "3,300원"
+    },
+    {
+     "name": "대파삼겹(デパウサムギョブ) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "팽이삼겹(ペンイウサムギョブ) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "새송이삼겹(セソンイウサムギョブ) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "떡삼겹(トクウサムギョブ) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "당고(ダンゴ) 2p",
+     "price": "3,900원"
+    },
+    {
+     "name": "토마토베이컨(トマトベーコン) 1p",
+     "price": "2,300원"
+    },
+    {
+     "name": "얼큰모츠나베(ぎゅうすじもつなべ)",
+     "price": "27,900원"
+    },
+    {
+     "name": "얼큰꽃게나베(からいがざみなべ)",
+     "price": "27,900원"
+    },
+    {
+     "name": "우삼겹나베(牛バラなべ)",
+     "price": "24,900원"
+    },
+    {
+     "name": "토리닭사골오뎅탕(とりこつおでん)",
+     "price": "21,900원"
+    },
+    {
+     "name": "김치유부우동(キムチきつねうどん)",
+     "price": "13,900원"
+    },
+    {
+     "name": "우삼겹해물우동(牛バラかいせんうどん)",
+     "price": "13,900원"
+    },
+    {
+     "name": "칼칼어묵우동 (からいつおでんうどん)",
+     "price": "11,900원"
+    },
+    {
+     "name": "우삼겹매콤소바(ぎゅうばらぴりからそば)",
+     "price": "15,900원"
+    },
+    {
+     "name": "타코야끼소바 (たこやきそば)",
+     "price": "15,900원"
+    },
+    {
+     "name": "함박 나폴리탄(ハンバーグナポリタン)",
+     "price": "15,900원"
+    },
+    {
+     "name": "우삼겹 숙주볶음(牛バラやき)",
+     "price": "12,900원"
+    },
+    {
+     "name": "명란버터구이(めんたいやき)",
+     "price": "11,900원"
+    },
+    {
+     "name": "타코와사비(たこわさび)",
+     "price": "10,900원"
+    },
+    {
+     "name": "오코노미야끼(おこのみやき)",
+     "price": "10,900원"
+    },
+    {
+     "name": "꽃새우튀김(はなえびあげ)",
+     "price": "10,900원"
+    },
+    {
+     "name": "망고🥭 폭탄💣 샤베트",
+     "price": "8,900원"
+    },
+    {
+     "name": "메론🍈 폭탄 샤베트 💣",
+     "price": "8,900원"
+    },
+    {
+     "name": "인절미🍡 폭탄💣샤베트",
+     "price": "8,900원"
+    },
+    {
+     "name": "복숭아🍑 폭탄💣 샤베트",
+     "price": "8,900원"
+    },
+    {
+     "name": "딸기 🍓폭탄💣 샤베트",
+     "price": "8,900원"
+    },
+    {
+     "name": "콘튀김(コーンあげ)",
+     "price": "8,900원"
+    },
+    {
+     "name": "いかあげ(오징어후라이)",
+     "price": "7,900원"
+    },
+    {
+     "name": "チーズこうじ(치즈인포테이토)",
+     "price": "7,900원"
+    },
+    {
+     "name": "말차모찌리도후(まっちゃもちりどうふ)",
+     "price": "10,900원"
+    },
+    {
+     "name": "모찌리도후(もちリ豆腐)",
+     "price": "7,900원"
+    },
+    {
+     "name": "그릭 꿀 토마토샐러드(グリクトマトル)",
+     "price": "7,900원"
+    },
+    {
+     "name": "토리야끼교자(やきぎょうざ)",
+     "price": "5,900원"
+    },
+    {
+     "name": "포테토사라다(ポテトサラダ)",
+     "price": "5,900원"
+    },
+    {
+     "name": "그릭 게살카나페(ゲサルグリクカナペ)",
+     "price": "4,900원"
+    },
+    {
+     "name": "말랑말랑푸딩(プディング)",
+     "price": "3,900원"
+    },
+    {
+     "name": "타코야끼(たこやき) 5p",
+     "price": "3,900원"
+    }
+   ],
+   "price_range": "5,500~47,900원",
+   "hours": "매일 17:00~02:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20260928_123/1790583552471CsgkB_JPEG/%B0%A1%C0%BB%B4%EB%B9%AE.jpg",
+   "lat": "36.0057237",
+   "lng": "129.3409274",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/2077323115/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/2077323115",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"숯토리\" 포항",
+   "photo": "img/r42.jpg",
+   "updated": "2026-10-18",
+   "rank": 15
+  },
+  {
+   "name": "구룡포 할매국수",
+   "cat": "nam",
+   "naver_id": "34203303",
+   "tags": [],
+   "found_by": "웹 리서치 1차 목록",
+   "sources": [
+    "https://m.place.naver.com/restaurant/34203303/home"
+   ],
+   "naver_name": "구룡포할매국수집",
+   "category": "국수",
+   "address": "경북 포항시 남구 구룡포읍 구룡포길 60-4",
+   "phone": "054-284-2213",
+   "reviews": 762,
+   "rating": 4.28,
+   "blogs": 465,
+   "menus": [
+    {
+     "name": "치즈",
+     "price": "5,000원"
+    },
+    {
+     "name": "잔치국수",
+     "price": "6,000원"
+    },
+    {
+     "name": "어묵잔치국수 소",
+     "price": "6,000원"
+    },
+    {
+     "name": "콩국수",
+     "price": "가격 변동"
+    },
+    {
+     "name": "과메기 야채무침",
+     "price": "13,000원"
+    },
+    {
+     "name": "야채김밥",
+     "price": "4,000원"
+    },
+    {
+     "name": "땡초 참치김밥",
+     "price": "5,000원"
+    },
+    {
+     "name": "어묵잔치국수 대",
+     "price": "7,000원"
+    },
+    {
+     "name": "비빔국수",
+     "price": "8,000원"
+    }
+   ],
+   "price_range": "5,000~6,000원",
+   "hours": "매일 09:00~17:00",
+   "holiday": "매달 4일 휴무",
+   "photo_src": "https://ldb-phinf.pstatic.net/20170918_131/15057172795304TA5f_JPEG/mMnf_mzMDnITD3S61no92WNe.jpg",
+   "lat": "35.9895886",
+   "lng": "129.5528782",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/34203303/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/34203303",
+   "sns": 0,
+   "sns_measured": "2026-10-18",
+   "x_query": "\"할매국수\" 구룡포",
+   "photo": "img/r02.jpg",
+   "updated": "2026-10-18",
+   "rank": 16
+  },
+  {
+   "name": "연막창 쌍용사거리점",
+   "cat": "nam",
+   "naver_id": "2046455991",
+   "tags": [
+    "술집"
+   ],
+   "found_by": "네이버 플레이스 검색 '술집'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/2046455991/home"
+   ],
+   "naver_name": "연막창 쌍용사거리점",
+   "category": "곱창,막창,양",
+   "address": "경북 포항시 남구 상대로 84 1층",
+   "phone": "0507-1376-0832",
+   "reviews": 691,
+   "rating": null,
+   "blogs": 105,
+   "menus": [
+    {
+     "name": "초벌연막창 200g ★★",
+     "price": "12,000원"
+    },
+    {
+     "name": "초벌특막창 200g ★",
+     "price": "12,000원"
+    },
+    {
+     "name": "초벌소막창 180g ★",
+     "price": "16,000원"
+    },
+    {
+     "name": "오디 막창장 ★",
+     "price": "무료"
+    },
+    {
+     "name": "1등급한돈냉삼 150g",
+     "price": "12,000원"
+    },
+    {
+     "name": "직화불닭발 130g",
+     "price": "12,000원"
+    },
+    {
+     "name": "차돌박이관자삼합 150g ★",
+     "price": "15,000원"
+    },
+    {
+     "name": "땡초백합술찜 ★",
+     "price": "18,000원"
+    },
+    {
+     "name": "열무비빔국수",
+     "price": "6,000원"
+    },
+    {
+     "name": "살얼음 열무 막국수",
+     "price": "6,000원"
+    },
+    {
+     "name": "옛날짜장면",
+     "price": "6,000원"
+    },
+    {
+     "name": "촌된장찌개 ★",
+     "price": "3,000원"
+    },
+    {
+     "name": "에반하이볼",
+     "price": "7,500원"
+    },
+    {
+     "name": "오레하이볼",
+     "price": "8,000원"
+    },
+    {
+     "name": "삿포로 生맥주",
+     "price": "5,500원"
+    },
+    {
+     "name": "신동생막걸리",
+     "price": "4,500원"
+    },
+    {
+     "name": "구워먹는 파인애플",
+     "price": "2,000원"
+    },
+    {
+     "name": "아이스붕어사시미",
+     "price": "2,000원"
+    },
+    {
+     "name": "관자 추가",
+     "price": "8,000원"
+    },
+    {
+     "name": "生임실치즈",
+     "price": "5,000원"
+    },
+    {
+     "name": "푸짐한 셀프바 무료",
+     "price": "무료"
+    },
+    {
+     "name": "살얼음 슬러시 2종 무료",
+     "price": "무료"
+    }
+   ],
+   "price_range": "12,000~16,000원",
+   "hours": "매일 17:00~24:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20261014_273/1791944308706QsDBg_JPEG/23_%B8%DE%C0%CE_1.jpg",
+   "lat": "36.0148029",
+   "lng": "129.355884",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/2046455991/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/2046455991",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"연막창\" 포항",
+   "photo": "img/r43.jpg",
+   "updated": "2026-10-18",
+   "rank": 17
+  },
+  {
+   "name": "구룡포대게마을회",
+   "cat": "nam",
+   "naver_id": "36222840",
+   "tags": [],
+   "found_by": "웹 리서치 1차 목록",
+   "sources": [
+    "https://m.place.naver.com/restaurant/36222840/home"
+   ],
+   "naver_name": "구룡포 구룡포대게마을회",
+   "category": "생선회",
+   "address": "경북 포항시 남구 구룡포읍 호미로 243 지도",
+   "phone": "0507-1309-5682",
+   "reviews": 548,
+   "rating": null,
+   "blogs": 2942,
+   "menus": [
+    {
+     "name": "대게",
+     "price": "가격 변동"
+    },
+    {
+     "name": "회",
+     "price": "가격 변동"
+    },
+    {
+     "name": "물회",
+     "price": "가격 변동"
+    },
+    {
+     "name": "회덮밥",
+     "price": "15,000원"
+    },
+    {
+     "name": "삼식이 매운탕 (대)",
+     "price": "60,000원"
+    },
+    {
+     "name": "우럭 매운탕 (소)",
+     "price": "40,000원"
+    },
+    {
+     "name": "대게탕  대",
+     "price": "60,000원"
+    },
+    {
+     "name": "대게탕  소",
+     "price": "40,000원"
+    }
+   ],
+   "price_range": "정보 없음",
+   "hours": "정보 없음",
+   "holiday": "정보 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20220322_142/1647934229632edUiv_JPEG/%C5%A9%B1%E2%BA%AF%C8%AFDSZ_3931.JPG",
+   "lat": "35.9912696",
+   "lng": "129.5569774",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/36222840/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/36222840",
+   "sns": 0,
+   "sns_measured": "2026-10-18",
+   "x_query": "\"대게마을회\"",
+   "photo": "img/r03.jpg",
+   "updated": "2026-10-18",
+   "rank": 18
+  },
+  {
+   "name": "돈명가",
+   "cat": "nam",
+   "naver_id": "1764033672",
+   "tags": [
+    "뒷고기"
+   ],
+   "found_by": "네이버 플레이스 검색 '뒷고기'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1764033672/home"
+   ],
+   "naver_name": "돈명가",
+   "category": "육류,고기요리",
+   "address": "경북 포항시 남구 대이로143번길 18 1층",
+   "phone": "0507-1308-8441",
+   "reviews": 509,
+   "rating": 4.88,
+   "blogs": 206,
+   "menus": [
+    {
+     "name": "꼬들살(국내산)100g",
+     "price": "8,000원"
+    },
+    {
+     "name": "생삼겹살(국내산)120g",
+     "price": "10,000원"
+    },
+    {
+     "name": "돈뒷고기(국내산)100g",
+     "price": "7,000원"
+    },
+    {
+     "name": "추억의 돼지갈비(국내산)200g",
+     "price": "12,000원"
+    },
+    {
+     "name": "꼬들목살&돈뒷고기[550g]",
+     "price": "40,000원"
+    },
+    {
+     "name": "생삼겹살&꼬들목살(490g)",
+     "price": "39,000원"
+    },
+    {
+     "name": "생삼겹살&돈뒷고기(540g)",
+     "price": "40,000원"
+    },
+    {
+     "name": "삼겹살&꼬들목살&돈뒷고기&항정살",
+     "price": "55,000원"
+    },
+    {
+     "name": "소갈비살(국내산)110g",
+     "price": "14,000원"
+    },
+    {
+     "name": "항정살(국내산)110g",
+     "price": "12,000원"
+    },
+    {
+     "name": "벌집껍데기(국내산)200g",
+     "price": "7,000원"
+    }
+   ],
+   "price_range": "7,000~55,000원",
+   "hours": "화·수·목·금·토·일 16:00~00:30",
+   "holiday": "월(10/19) 정기휴무 (격주 월요일) · 격주 월요일 정기 휴무 휴무",
+   "photo_src": "https://ldb-phinf.pstatic.net/20260628_58/1782591311110By2Gy_JPEG/C079C57F-8380-4D62-A3EF-BA0BA4C19986.jpg",
+   "lat": "36.0274946",
+   "lng": "129.3382118",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1764033672/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1764033672",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"돈명가\" 포항",
+   "photo": "img/r49.jpg",
+   "updated": "2026-10-18",
+   "rank": 19
+  },
+  {
+   "name": "까꾸네모리국수",
+   "cat": "nam",
+   "naver_id": "20601595",
+   "tags": [],
+   "found_by": "웹 리서치 1차 목록",
+   "sources": [
+    "https://m.place.naver.com/restaurant/20601595/home"
+   ],
+   "naver_name": "까꾸네모리국수",
+   "category": "국수",
+   "address": "경북 포항시 남구 구룡포읍 호미로 239-13",
+   "phone": "054-276-2298",
+   "reviews": 472,
+   "rating": null,
+   "blogs": 980,
+   "menus": [
+    {
+     "name": "모리국수 2인",
+     "price": "16,000원"
+    },
+    {
+     "name": "모리국수 3인",
+     "price": "22,000원"
+    },
+    {
+     "name": "모리국수 4인",
+     "price": "28,000원"
+    },
+    {
+     "name": "모리국수 5인",
+     "price": "35,000원"
+    },
+    {
+     "name": "모리국수 6인",
+     "price": "42,000원"
+    },
+    {
+     "name": "음료수",
+     "price": "2,000원"
+    }
+   ],
+   "price_range": "16,000~28,000원",
+   "hours": "매일 10:30~17:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20180717_292/1531792071432YQbvX_JPEG/AvaIWEl_ppue8Cly1mPtEX3g.jpg",
+   "lat": "35.9914308",
+   "lng": "129.5562013",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/20601595/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/20601595",
+   "sns": 0,
+   "sns_measured": "2026-10-18",
+   "x_query": "\"까꾸네\"",
+   "photo": "img/r00.jpg",
+   "updated": "2026-10-18",
+   "rank": 20
+  },
+  {
+   "name": "기막힌뒷고기 대잠점",
+   "cat": "nam",
+   "naver_id": "1877973545",
+   "tags": [
+    "뒷고기"
+   ],
+   "found_by": "네이버 플레이스 검색 '뒷고기'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1877973545/home"
+   ],
+   "naver_name": "기막힌뒷고기 대잠점",
+   "category": "돼지고기구이",
+   "address": "경북 포항시 남구 새천년대로422번길 20 1층 기막힌뒷고기대잠점",
+   "phone": "054-284-6366",
+   "reviews": 408,
+   "rating": null,
+   "blogs": 177,
+   "menus": [
+    {
+     "name": "기막힌 모듬 4종 600g 2~3인",
+     "price": "40,000원"
+    },
+    {
+     "name": "국내산 대구막창 100g",
+     "price": "8,000원"
+    },
+    {
+     "name": "한돈인증 특수부위 뒷고기 2종세트",
+     "price": "28,000원"
+    },
+    {
+     "name": "100% 한돈수제통갈비 (500g)",
+     "price": "30,000원"
+    },
+    {
+     "name": "불막창(국내산M)",
+     "price": "28,000원"
+    },
+    {
+     "name": "불닭발(국내산M)",
+     "price": "26,000원"
+    },
+    {
+     "name": "돈차돌(국내산/100g)",
+     "price": "7,000원"
+    },
+    {
+     "name": "꼬들살(국내산/100g)",
+     "price": "7,000원"
+    },
+    {
+     "name": "한돈대패삼겹 (100g)",
+     "price": "7,000원"
+    },
+    {
+     "name": "껍데기(국내산/양념)100g",
+     "price": "5,000원"
+    },
+    {
+     "name": "국물두루치기(500g)",
+     "price": "25,000원"
+    },
+    {
+     "name": "고추장불고기(국내산M)",
+     "price": "25,000원"
+    },
+    {
+     "name": "치즈품은계란찜",
+     "price": "3,000원"
+    },
+    {
+     "name": "된장찌게",
+     "price": "3,000원"
+    },
+    {
+     "name": "얼큰라면",
+     "price": "5,000원"
+    },
+    {
+     "name": "소면",
+     "price": "6,000원"
+    },
+    {
+     "name": "물냉면",
+     "price": "6,000원"
+    },
+    {
+     "name": "비빔냉면",
+     "price": "6,500원"
+    },
+    {
+     "name": "소주/맥주",
+     "price": "5,000원"
+    },
+    {
+     "name": "청하",
+     "price": "6,000원"
+    },
+    {
+     "name": "막걸리",
+     "price": "4,000원"
+    },
+    {
+     "name": "음료수",
+     "price": "2,500원"
+    }
+   ],
+   "price_range": "8,000~40,000원",
+   "hours": "월·화·수·목·금·토 17:00~23:00",
+   "holiday": "일 휴무 · 추석 및   구정은 각각  3일간  휴무입니다.",
+   "photo_src": "https://ldb-phinf.pstatic.net/20260615_55/178151305766933asY_JPEG/KakaoTalk_20260614_112229750_18.jpg",
+   "lat": "36.0125367",
+   "lng": "129.3458958",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1877973545/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1877973545",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"기막힌뒷고기\" 포항",
+   "photo": "img/r50.jpg",
+   "updated": "2026-10-18",
+   "rank": 21
+  },
+  {
+   "name": "호돈뒷고기 효자점",
+   "cat": "nam",
+   "naver_id": "1164492931",
+   "tags": [
+    "뒷고기"
+   ],
+   "found_by": "네이버 플레이스 검색 '뒷고기'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1164492931/home"
+   ],
+   "naver_name": "호돈뒷고기 효자점",
+   "category": "육류,고기요리",
+   "address": "경북 포항시 남구 형산강북로 137 1층",
+   "phone": "0507-1394-6877",
+   "reviews": 332,
+   "rating": null,
+   "blogs": 143,
+   "menus": [
+    {
+     "name": "양념호도리살",
+     "price": "7,000원"
+    },
+    {
+     "name": "맛있는 부위를 빼돌린 호도리살",
+     "price": "5,500원"
+    },
+    {
+     "name": "꼬들살(목덜미살)",
+     "price": "8,000원"
+    },
+    {
+     "name": "가오리살(가브리살)",
+     "price": "9,000원"
+    },
+    {
+     "name": "생삼겹살",
+     "price": "9,000원"
+    },
+    {
+     "name": "모서리살(항정살)",
+     "price": "9,000원"
+    },
+    {
+     "name": "벌집껍데기",
+     "price": "7,000원"
+    },
+    {
+     "name": "특수부위모듬",
+     "price": "38,000원"
+    }
+   ],
+   "price_range": "5,500~38,000원",
+   "hours": "매일 15:00~01:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20240807_258/17229965476193LOcI_PNG/IMG_4444.png",
+   "lat": "36.0044133",
+   "lng": "129.3419193",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1164492931/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1164492931",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"호돈뒷고기\" 포항",
+   "photo": "img/r51.jpg",
+   "updated": "2026-10-18",
+   "rank": 22
+  },
+  {
+   "name": "탐솥 효자점",
+   "cat": "nam",
+   "naver_id": "1802039365",
+   "tags": [],
+   "found_by": "웹 리서치 1차 목록",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1802039365/home"
+   ],
+   "naver_name": "탐솥 효자점",
+   "category": "한식",
+   "address": "경북 포항시 남구 효자동길5번길 17 탐솥 효자점",
+   "phone": "0507-1489-3476",
+   "reviews": 310,
+   "rating": null,
+   "blogs": 229,
+   "menus": [
+    {
+     "name": "전복솥밥",
+     "price": "15,000원"
+    },
+    {
+     "name": "스테이크솥밥",
+     "price": "16,000원"
+    },
+    {
+     "name": "꼬막솥밥",
+     "price": "12,000원"
+    },
+    {
+     "name": "명란버섯솥밥",
+     "price": "13,000원"
+    },
+    {
+     "name": "마늘쫑솥밥",
+     "price": "13,000원"
+    },
+    {
+     "name": "뽈락솥밥",
+     "price": "14,000원"
+    },
+    {
+     "name": "매콤돼지솥밥",
+     "price": "14,000원"
+    },
+    {
+     "name": "우렁이돼지솥밥",
+     "price": "14,000원"
+    },
+    {
+     "name": "소고기가지솥밥",
+     "price": "14,000원"
+    },
+    {
+     "name": "장어솥밥",
+     "price": "22,000원"
+    },
+    {
+     "name": "어린이 돈까스",
+     "price": "8,000원"
+    },
+    {
+     "name": "몽골리안치킨",
+     "price": "8,500원"
+    },
+    {
+     "name": "깐풍기",
+     "price": "8,500원"
+    },
+    {
+     "name": "유린기",
+     "price": "8,500원"
+    },
+    {
+     "name": "새우튀김",
+     "price": "7,500원"
+    },
+    {
+     "name": "스프링롤",
+     "price": "7,500원"
+    },
+    {
+     "name": "솥밥 추가",
+     "price": "2,000원"
+    },
+    {
+     "name": "매실/레몬 에이드",
+     "price": "4,000원"
+    },
+    {
+     "name": "얼그레이/진저레몬 하이볼",
+     "price": "6,000원"
+    },
+    {
+     "name": "탐솥/자몽 꼬량볼",
+     "price": "7,000원"
+    },
+    {
+     "name": "소주",
+     "price": "5,000원"
+    },
+    {
+     "name": "맥주",
+     "price": "5,000원"
+    },
+    {
+     "name": "음료 ( 콜라.사이다)",
+     "price": "2,000원"
+    }
+   ],
+   "price_range": "15,000원",
+   "hours": "매일 11:00~21:00 (브레이크 15:30~16:30)",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20240412_202/1712931974340tC6ai_JPEG/IMG_2482.jpeg",
+   "lat": "36.0074262",
+   "lng": "129.3284314",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1802039365/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1802039365",
+   "sns": 0,
+   "sns_measured": "2026-10-18",
+   "x_query": "\"탐솥\" 포항",
+   "photo": "img/r05.jpg",
+   "updated": "2026-10-18",
+   "rank": 23
+  },
+  {
+   "name": "장풍 고기의 정석",
+   "cat": "nam",
+   "naver_id": "31077702",
+   "tags": [
+    "뒷고기"
+   ],
+   "found_by": "네이버 플레이스 검색 '뒷고기'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/31077702/home"
+   ],
+   "naver_name": "장풍 고기의 정석",
+   "category": "돼지고기구이",
+   "address": "경북 포항시 남구 대이로143번길 12-12 장풍 고기의 정석",
+   "phone": "0507-1363-5294",
+   "reviews": 237,
+   "rating": 4.55,
+   "blogs": 139,
+   "menus": [
+    {
+     "name": "BEST 장풍 모듬 스페셜",
+     "price": "84,000원"
+    },
+    {
+     "name": "BEST 장풍 삼겹목살 세트",
+     "price": "54,000원"
+    },
+    {
+     "name": "BEST 장풍 커플 세트",
+     "price": "42,000원"
+    },
+    {
+     "name": "숙성 한돈 삼겹살 (130g)",
+     "price": "12,500원"
+    },
+    {
+     "name": "숙성 한돈 특목살(130g)",
+     "price": "12,500원"
+    },
+    {
+     "name": "한돈 숙성 갈매기살(130g)",
+     "price": "16,000원"
+    },
+    {
+     "name": "한돈 숙성 항정살(130g)",
+     "price": "16,000원"
+    },
+    {
+     "name": "생대패삼겹살(130g)",
+     "price": "13,500원"
+    },
+    {
+     "name": "[한정판매] 깍뚝삼겹뒷고기(150g)",
+     "price": "9,000원"
+    },
+    {
+     "name": "[한정] 한우 갈비살 (100g)",
+     "price": "16,000원"
+    },
+    {
+     "name": "[한정] 한우 육회 (130g)",
+     "price": "15,000원"
+    },
+    {
+     "name": "장풍 쪽갈비 中 (600g)",
+     "price": "28,000원"
+    },
+    {
+     "name": "장풍 쪽갈비 大 (1,200g)",
+     "price": "54,000원"
+    },
+    {
+     "name": "생돼지껍데기 (180g)",
+     "price": "8,000원"
+    },
+    {
+     "name": "구워먹는 치즈",
+     "price": "10,000원"
+    },
+    {
+     "name": "소세지1개 + 새우2미",
+     "price": "6,000원"
+    },
+    {
+     "name": "새우(5~6미)",
+     "price": "6,000원"
+    },
+    {
+     "name": "소세지 2개",
+     "price": "5,000원"
+    },
+    {
+     "name": "장풍 수제 피자",
+     "price": "5,000원"
+    },
+    {
+     "name": "주먹밥",
+     "price": "5,000원"
+    },
+    {
+     "name": "계란찜",
+     "price": "3,000원"
+    },
+    {
+     "name": "구워 먹는 야채",
+     "price": "3,000원"
+    },
+    {
+     "name": "추가 버섯",
+     "price": "3,000원"
+    }
+   ],
+   "price_range": "28,000~84,000원",
+   "hours": "매일 16:00~02:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20261015_290/1792047026307rLM8Q_JPEG/%C2%CA%B0%A5%BA%F13%B0%A1%C1%F6%B8%C0.jpg",
+   "lat": "36.0282149",
+   "lng": "129.3388934",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/31077702/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/31077702",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"장풍\" 포항",
+   "photo": "img/r52.jpg",
+   "updated": "2026-10-18",
+   "rank": 24
+  },
+  {
+   "name": "기운내",
+   "cat": "nam",
+   "naver_id": "1325935204",
+   "tags": [
+    "뒷고기"
+   ],
+   "found_by": "네이버 플레이스 검색 '뒷고기'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1325935204/home"
+   ],
+   "naver_name": "기운내",
+   "category": "육류,고기요리",
+   "address": "경북 포항시 남구 대이로159번길 6-11 1층",
+   "phone": "054-615-5077",
+   "reviews": 209,
+   "rating": 4.96,
+   "blogs": 2,
+   "menus": [
+    {
+     "name": "기운살(뒷고기) 120g",
+     "price": "8,000원"
+    },
+    {
+     "name": "생모소리살 120g",
+     "price": "12,500원"
+    },
+    {
+     "name": "생가브리살 120g",
+     "price": "12,500원"
+    },
+    {
+     "name": "꼬들살 120g",
+     "price": "10,500원"
+    },
+    {
+     "name": "뽈살 120g",
+     "price": "10,500원"
+    },
+    {
+     "name": "생껍데기 150g",
+     "price": "7,000원"
+    },
+    {
+     "name": "껍데기 두루치기",
+     "price": "9,000원"
+    },
+    {
+     "name": "생삼겹살 120g",
+     "price": "12,500원"
+    },
+    {
+     "name": "똥집볶음",
+     "price": "13,000원"
+    }
+   ],
+   "price_range": "8,000원",
+   "hours": "화·수·목·금·토·일 17:00~24:00",
+   "holiday": "월 휴무",
+   "photo_src": "https://ldb-phinf.pstatic.net/20250125_112/1737774957945xm6iB_JPEG/%B1%E2%BF%EE%B3%BB.jpg",
+   "lat": "36.02958",
+   "lng": "129.3385163",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1325935204/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1325935204",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"기운내\" 포항",
+   "photo": "img/r53.jpg",
+   "updated": "2026-10-18",
+   "rank": 25
+  },
+  {
+   "name": "포항아구탕",
+   "cat": "nam",
+   "naver_id": "1132064311",
+   "tags": [],
+   "found_by": "웹 리서치 1차 목록",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1132064311/home"
+   ],
+   "naver_name": "포항아구탕",
+   "category": "해물,생선요리",
+   "address": "경북 포항시 남구 상도로 19 포항아구탕",
+   "phone": "0507-1439-1902",
+   "reviews": 181,
+   "rating": null,
+   "blogs": 48,
+   "menus": [
+    {
+     "name": "생아구탕",
+     "price": "17,000원"
+    },
+    {
+     "name": "생아구찜 (대)",
+     "price": "64,000원"
+    },
+    {
+     "name": "생아구찜 (중)",
+     "price": "53,000원"
+    },
+    {
+     "name": "생아구찜 (소)",
+     "price": "37,000원"
+    },
+    {
+     "name": "생아구수육 (대)",
+     "price": "69,000원"
+    },
+    {
+     "name": "생아구수육 (중)",
+     "price": "57,000원"
+    },
+    {
+     "name": "생아구수육 (소)",
+     "price": "42,000원"
+    },
+    {
+     "name": "왕대구뽈찜+해물(대)",
+     "price": "64,000원"
+    },
+    {
+     "name": "왕대구뽈찜+해물(중)",
+     "price": "53,000원"
+    },
+    {
+     "name": "왕대구뽈찜+해물(소)",
+     "price": "37,000원"
+    },
+    {
+     "name": "왕대구뽈탕",
+     "price": "13,000원"
+    }
+   ],
+   "price_range": "17,000~64,000원",
+   "hours": "매일 10:30~21:30",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20170920_286/1505896215311XMNtR_JPEG/dbOX_C9dzU0LCWZfxo6OGE11.jpg",
+   "lat": "36.0112524",
+   "lng": "129.3522487",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1132064311/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1132064311",
+   "sns": 0,
+   "sns_measured": "2026-10-18",
+   "x_query": "\"포항아구탕\"",
+   "photo": "img/r09.jpg",
+   "updated": "2026-10-18",
+   "rank": 26
+  },
+  {
+   "name": "언양닭칼국수 포항남구점",
+   "cat": "nam",
+   "naver_id": "1617177974",
+   "tags": [],
+   "found_by": "웹 리서치 1차 목록",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1617177974/home"
+   ],
+   "naver_name": "언양닭칼국수 포항남구점",
+   "category": "칼국수,만두",
+   "address": "경북 포항시 남구 중흥로 110 1층",
+   "phone": "0507-1344-8066",
+   "reviews": 157,
+   "rating": null,
+   "blogs": 262,
+   "menus": [
+    {
+     "name": "달칼국수",
+     "price": "10,500원"
+    },
+    {
+     "name": "닭곰탕",
+     "price": "10,500원"
+    },
+    {
+     "name": "초계밀면(물,비빔)(시즌메뉴)",
+     "price": "10,500원"
+    },
+    {
+     "name": "언양무뼈닭발",
+     "price": "13,500원"
+    },
+    {
+     "name": "언양식칼국수",
+     "price": "8,500원"
+    },
+    {
+     "name": "쫄깃만두",
+     "price": "6,000원"
+    }
+   ],
+   "price_range": "6,000~13,500원",
+   "hours": "매일 10:50~20:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20250313_255/1741859472036iXe1N_PNG/%C4%B8%C3%B3.PNG",
+   "lat": "36.0144512",
+   "lng": "129.3519291",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1617177974/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1617177974",
+   "sns": 0,
+   "sns_measured": "2026-10-18",
+   "x_query": "\"언양닭칼국수\" 포항",
+   "photo": "img/r04.jpg",
+   "updated": "2026-10-18",
+   "rank": 27
+  },
+  {
+   "name": "코다리각시 포항이동점",
+   "cat": "nam",
+   "naver_id": "1433256463",
+   "tags": [],
+   "found_by": "웹 리서치 1차 목록",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1433256463/home"
+   ],
+   "naver_name": "코다리각시 포항이동점",
+   "category": "한식뷔페",
+   "address": "경북 포항시 남구 이동로7번길 1 2층",
+   "phone": "0507-458-5842",
+   "reviews": 148,
+   "rating": null,
+   "blogs": 95,
+   "menus": [],
+   "price_range": "정보 없음",
+   "hours": "매일 11:00~21:00 (브레이크 15:00~17:00)",
+   "holiday": "명절 전날, 명절 당일 휴무. 그 외 연중무휴",
+   "photo_src": "https://ldb-phinf.pstatic.net/20260917_157/1789620716751LEafL_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5.jpg",
+   "lat": "36.0320807",
+   "lng": "129.3360707",
+   "menu_note": "메뉴판 사진만 등록되어 있어요 (네이버 플레이스 메뉴 탭에서 확인)",
+   "menu_url": "https://m.place.naver.com/restaurant/1433256463/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1433256463",
+   "sns": 0,
+   "sns_measured": "2026-10-18",
+   "x_query": "\"코다리각시\" 포항",
+   "photo": "img/r06.jpg",
+   "updated": "2026-10-18",
+   "rank": 28
+  },
+  {
+   "name": "효자동수우동",
+   "cat": "nam",
+   "naver_id": "1364912279",
+   "tags": [],
+   "found_by": "웹 리서치 1차 목록",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1364912279/home"
+   ],
+   "naver_name": "효자동수우동",
+   "category": "우동,소바",
+   "address": "경북 포항시 남구 효자동길6번길 19 1층",
+   "phone": "054-614-0708",
+   "reviews": 147,
+   "rating": null,
+   "blogs": 74,
+   "menus": [
+    {
+     "name": "멘타이 에비 붓카케",
+     "price": "10,000원"
+    },
+    {
+     "name": "한 마리 장어 덮밥",
+     "price": "18,000원"
+    },
+    {
+     "name": "통명란 소고기 말이 튀김",
+     "price": "9,000원"
+    },
+    {
+     "name": "연어 사시미 小",
+     "price": "25,000원"
+    },
+    {
+     "name": "나가사끼 짬뽕 우동",
+     "price": "11,000원"
+    },
+    {
+     "name": "전복나베 우동(겨울메뉴)",
+     "price": "13,000원"
+    },
+    {
+     "name": "낫또 통명란 구이 덮밥",
+     "price": "13,000원"
+    }
+   ],
+   "price_range": "10,000~25,000원",
+   "hours": "월·화·수·금·토 11:30~20:00 (브레이크 14:30~17:00) / 목 11:30~14:30",
+   "holiday": "일 휴무 · 휴무일 등 변동사항은 인스타그램에 있어요 :)",
+   "photo_src": "https://ldb-phinf.pstatic.net/20180927_244/1538028565830WaEA6_JPEG/tpwiN-3uyfcGcXjhW3bBRNOl.jpg",
+   "lat": "36.0086229",
+   "lng": "129.3321112",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1364912279/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1364912279",
+   "sns": 0,
+   "sns_measured": "2026-10-18",
+   "x_query": "\"효자동수우동\"",
+   "photo": "img/r07.jpg",
+   "updated": "2026-10-18",
+   "rank": 29
+  },
+  {
+   "name": "철규분식",
+   "cat": "nam",
+   "naver_id": "1973935591",
+   "tags": [],
+   "found_by": "웹 리서치 1차 목록",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1973935591/home"
+   ],
+   "naver_name": "철규분식",
+   "category": "종합분식",
+   "address": "경북 포항시 남구 구룡포읍 구룡포길 62-2",
+   "phone": "054-276-3215",
+   "reviews": 135,
+   "rating": 0,
+   "blogs": 508,
+   "menus": [
+    {
+     "name": "국수",
+     "price": "4,000원"
+    },
+    {
+     "name": "단팥죽",
+     "price": "3,000원"
+    },
+    {
+     "name": "찐빵 2개",
+     "price": "1,000원"
+    },
+    {
+     "name": "찐방5개+단팥죽",
+     "price": "6,000원"
+    }
+   ],
+   "price_range": "1,000~4,000원",
+   "hours": "정보 없음",
+   "holiday": "정보 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20190121_128/1548008743299mGmnI_JPEG/HxBQS4NtmC5anWgKew-yi1Vl.jpg",
+   "lat": "35.9897815",
+   "lng": "129.5530294",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1973935591/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1973935591",
+   "sns": 0,
+   "sns_measured": "2026-10-18",
+   "x_query": "\"철규분식\"",
+   "photo": "img/r01.jpg",
+   "updated": "2026-10-18",
+   "rank": 30
+  },
+  {
+   "name": "미남장어 문덕점",
+   "cat": "ocheon",
+   "naver_id": "1514731752",
+   "tags": [],
+   "found_by": "웹 리서치 1차 목록",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1514731752/home"
+   ],
+   "naver_name": "미남장어 문덕점",
+   "category": "장어,먹장어요리",
+   "address": "경북 포항시 남구 오천읍 냉천로 286 미남장어",
+   "phone": "0507-1416-8926",
+   "reviews": 12823,
+   "rating": null,
+   "blogs": 326,
+   "menus": [],
+   "price_range": "정보 없음",
+   "hours": "토·일 11:00~22:00 / 월·화·수·목·금 11:00~22:00 (브레이크 15:00~16:30)",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20220406_88/1649215058064I1R25_JPEG/1649214693319-19.jpg",
+   "lat": "35.9691957",
+   "lng": "129.4099194",
+   "menu_note": "메뉴판 사진만 등록되어 있어요 (네이버 플레이스 메뉴 탭에서 확인)",
+   "menu_url": "https://m.place.naver.com/restaurant/1514731752/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1514731752",
+   "sns": 0,
+   "sns_measured": "2026-10-18",
+   "x_query": "\"미남장어\"",
+   "photo": "img/r11.jpg",
+   "updated": "2026-10-18",
+   "rank": 1
+  },
+  {
+   "name": "와비사비 포항문덕점",
+   "cat": "ocheon",
+   "naver_id": "2057471404",
+   "tags": [
+    "술집"
+   ],
+   "found_by": "네이버 플레이스 검색 '술집'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/2057471404/home"
+   ],
+   "naver_name": "와비사비 포항문덕점",
+   "category": "이자카야",
+   "address": "경북 포항시 남구 오천읍 원동로 102-1 1층",
+   "phone": "0507-1396-7994",
+   "reviews": 2597,
+   "rating": 4.91,
+   "blogs": 32,
+   "menus": [
+    {
+     "name": "[신메뉴] 전복 삼계 전골",
+     "price": "27,900원"
+    },
+    {
+     "name": "[신메뉴] 바지락 마라샹궈",
+     "price": "17,900원"
+    },
+    {
+     "name": "[신메뉴] 문어 가라아게",
+     "price": "21,900원"
+    },
+    {
+     "name": "스키야키",
+     "price": "29,900원"
+    },
+    {
+     "name": "모츠나베(미소식,고추장식,마라식)",
+     "price": "29,900원"
+    },
+    {
+     "name": "[1등급한우]육회케이크",
+     "price": "22,900원"
+    },
+    {
+     "name": "이나니와 명란크림우동",
+     "price": "16,900원"
+    },
+    {
+     "name": "프리미엄 연평도 꽃게탕",
+     "price": "28,900원"
+    },
+    {
+     "name": "크림치즈새우퐁듀",
+     "price": "23,900원"
+    },
+    {
+     "name": "간사이오뎅나베",
+     "price": "23,900원"
+    },
+    {
+     "name": "명란 한우 모츠나베",
+     "price": "29,900원"
+    },
+    {
+     "name": "미소 매콤 바지락 술찜",
+     "price": "22,900원"
+    },
+    {
+     "name": "얼큰 해물 짬뽕탕",
+     "price": "24,900원"
+    },
+    {
+     "name": "춘천 닭갈비 떡볶이",
+     "price": "18,900원"
+    },
+    {
+     "name": "기린 생맥주",
+     "price": "6,900원"
+    },
+    {
+     "name": "우베 기린 생맥주",
+     "price": "8,500원"
+    },
+    {
+     "name": "말차 기린 생맥주",
+     "price": "8,500원"
+    },
+    {
+     "name": "수제치킨가라아게",
+     "price": "17,900원"
+    },
+    {
+     "name": "칠리스 치즈스틱",
+     "price": "9,900원"
+    },
+    {
+     "name": "통오징어 유린기",
+     "price": "13,900원"
+    },
+    {
+     "name": "토마토 샤브 샐러드",
+     "price": "16,900원"
+    },
+    {
+     "name": "멘타이코 명란구이",
+     "price": "15,900원"
+    },
+    {
+     "name": "비법 양념 골뱅이 무침",
+     "price": "21,900원"
+    },
+    {
+     "name": "김치우삼겹 숙주볶음",
+     "price": "16,900원"
+    },
+    {
+     "name": "김계치볶음밥",
+     "price": "11,900원"
+    },
+    {
+     "name": "모듬 건어물",
+     "price": "18,900원"
+    },
+    {
+     "name": "매콤 연탄 무뼈 닭발",
+     "price": "18,900원"
+    },
+    {
+     "name": "매콤 연탄 닭목살 구이",
+     "price": "17,900원"
+    },
+    {
+     "name": "참치 묵은지롤",
+     "price": "8,900원"
+    },
+    {
+     "name": "통마늘 불막창볶음",
+     "price": "21,900원"
+    },
+    {
+     "name": "수제 크림치즈 곶감말이(+아이스크림)",
+     "price": "13,900원"
+    },
+    {
+     "name": "명란치즈감자",
+     "price": "8,900원"
+    },
+    {
+     "name": "허니 모찌리도후",
+     "price": "7,900원"
+    },
+    {
+     "name": "허니 슈가 토마토",
+     "price": "8,900원"
+    }
+   ],
+   "price_range": "17,900~27,900원",
+   "hours": "매일 17:30~02:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20250909_275/1757382890862iHDE3_JPEG/%B8%DE%B4%BA%2C%C1%D6%B7%F9-%B4%DC%C3%BC%BC%A6.jpg",
+   "lat": "35.9722736",
+   "lng": "129.4026718",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/2057471404/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/2057471404",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"와비사비\" 포항",
+   "photo": "img/r21.jpg",
+   "updated": "2026-10-18",
+   "rank": 2
+  },
+  {
+   "name": "아쿠아춘천닭갈비 문덕본점",
+   "cat": "ocheon",
+   "naver_id": "11658179",
+   "tags": [],
+   "found_by": "웹 리서치 1차 목록",
+   "sources": [
+    "https://m.place.naver.com/restaurant/11658179/home"
+   ],
+   "naver_name": "아쿠아춘천닭갈비 포항문덕본점",
+   "category": "닭갈비",
+   "address": "경북 포항시 남구 오천읍 문덕로63번길 27 아쿠아춘천닭갈비",
+   "phone": "0507-1405-2803",
+   "reviews": 1643,
+   "rating": 4.64,
+   "blogs": 805,
+   "menus": [
+    {
+     "name": "평일 점심 3인세트",
+     "price": "42,000원"
+    },
+    {
+     "name": "평일점심 2인세트",
+     "price": "28,000원"
+    },
+    {
+     "name": "키위 퐁닭",
+     "price": "15,000원"
+    },
+    {
+     "name": "메밀 물막국수",
+     "price": "7,000원"
+    },
+    {
+     "name": "버섯 볶음밥",
+     "price": "3,000원"
+    },
+    {
+     "name": "치즈 퐁닭",
+     "price": "17,000원"
+    },
+    {
+     "name": "에멘탈 퐁듀",
+     "price": "4,000원"
+    },
+    {
+     "name": "안심 돈까스(140g)",
+     "price": "9,000원"
+    },
+    {
+     "name": "치즈 돈까스(200g)",
+     "price": "11,000원"
+    },
+    {
+     "name": "등심 돈까스(200g)",
+     "price": "10,000원"
+    },
+    {
+     "name": "우동사리",
+     "price": "2,000원"
+    },
+    {
+     "name": "사리류",
+     "price": "2,000원"
+    },
+    {
+     "name": "알뜰사리",
+     "price": "5,000원"
+    },
+    {
+     "name": "치즈 버섯 볶음밥",
+     "price": "4,000원"
+    }
+   ],
+   "price_range": "3,000~42,000원",
+   "hours": "토·일 11:00~21:30 / 월·수·목·금 11:00~21:30 (브레이크 14:00~17:00)",
+   "holiday": "화 휴무 · 화요일이 공휴일이면 영업하고 수요일이 임시휴무입니다.",
+   "photo_src": "https://ldb-phinf.pstatic.net/20231010_186/1696912064870urMJc_JPEG/temp_file.jpg",
+   "lat": "35.9570511",
+   "lng": "129.4058732",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/11658179/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/11658179",
+   "sns": 0,
+   "sns_measured": "2026-10-18",
+   "x_query": "\"아쿠아춘천닭갈비\"",
+   "photo": "img/r14.jpg",
+   "updated": "2026-10-18",
+   "rank": 3
+  },
+  {
+   "name": "솔가숯불갈비 포항문덕점",
+   "cat": "ocheon",
+   "naver_id": "1054091163",
+   "tags": [],
+   "found_by": "웹 리서치 1차 목록",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1054091163/home"
+   ],
+   "naver_name": "솔가숯불갈비 포항문덕점",
+   "category": "육류,고기요리",
+   "address": "경북 포항시 남구 오천읍 원동로 118 1층 솔가숯불갈비 포항점",
+   "phone": "0507-1464-2319",
+   "reviews": 1510,
+   "rating": 4.82,
+   "blogs": 286,
+   "menus": [
+    {
+     "name": "무항생제 돼지갈비250g(갈비,목살)",
+     "price": "18,000원"
+    },
+    {
+     "name": "수제 소 양념갈비 250g",
+     "price": "38,000원"
+    },
+    {
+     "name": "한우 육회 100g",
+     "price": "17,000원"
+    },
+    {
+     "name": "자가제면 함흥물냉면",
+     "price": "9,000원"
+    },
+    {
+     "name": "자가제면 함흥비빔냉면",
+     "price": "9,000원"
+    },
+    {
+     "name": "전통 갈비탕",
+     "price": "12,000원"
+    },
+    {
+     "name": "상황버섯 보양갈비탕",
+     "price": "15,000원"
+    },
+    {
+     "name": "한우육회비빔밥(점심메뉴)",
+     "price": "13,000원"
+    },
+    {
+     "name": "고소한 누룽지(15분소요)",
+     "price": "4,000원"
+    },
+    {
+     "name": "구수한 된장찌개",
+     "price": "2,000원"
+    },
+    {
+     "name": "공기밥",
+     "price": "1,000원"
+    },
+    {
+     "name": "계란찜 추가",
+     "price": "2,000원"
+    },
+    {
+     "name": "사리 추가",
+     "price": "2,000원"
+    }
+   ],
+   "price_range": "9,000~38,000원",
+   "hours": "매일 11:00~22:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20250828_71/1756345416600eQGRJ_JPEG/%BC%B3%B3%AF_%B9%E8%B3%CA%B1%A4%B0%ED_%281%29.jpg",
+   "lat": "35.973705",
+   "lng": "129.4026007",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1054091163/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1054091163",
+   "sns": 0,
+   "sns_measured": "2026-10-18",
+   "x_query": "\"솔가숯불갈비\"",
+   "photo": "img/r12.jpg",
+   "updated": "2026-10-18",
+   "rank": 4
+  },
+  {
+   "name": "통큰회수산",
+   "cat": "ocheon",
+   "naver_id": "31107932",
+   "tags": [
+    "횟집"
+   ],
+   "found_by": "네이버 플레이스 검색 '횟집'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/31107932/home"
+   ],
+   "naver_name": "통큰회수산",
+   "category": "생선회",
+   "address": "경북 포항시 남구 오천읍 하원로54번길 24 통큰회수산",
+   "phone": "054-292-2734",
+   "reviews": 1178,
+   "rating": null,
+   "blogs": 946,
+   "menus": [
+    {
+     "name": "전어 소",
+     "price": "50,000원"
+    },
+    {
+     "name": "전어 중",
+     "price": "65,000원"
+    },
+    {
+     "name": "전어 대",
+     "price": "80,000원"
+    },
+    {
+     "name": "모듬회 소",
+     "price": "50,000원"
+    },
+    {
+     "name": "모듬회 중",
+     "price": "60,000원"
+    },
+    {
+     "name": "모듬회 대",
+     "price": "70,000원"
+    },
+    {
+     "name": "물회+매운탕",
+     "price": "15,000원"
+    },
+    {
+     "name": "회덮밥+매운탕",
+     "price": "15,000원"
+    },
+    {
+     "name": "스끼다시 추가",
+     "price": "15,000원"
+    },
+    {
+     "name": "모듬회 포장 소",
+     "price": "28,000원"
+    },
+    {
+     "name": "모듬회 포장 중",
+     "price": "38,000원"
+    },
+    {
+     "name": "모듬회 포장 대",
+     "price": "48,000원"
+    },
+    {
+     "name": "물회 포장",
+     "price": "13,000원"
+    },
+    {
+     "name": "회덮밥 포장",
+     "price": "13,000원"
+    },
+    {
+     "name": "매운탕 포장",
+     "price": "3,000원"
+    }
+   ],
+   "price_range": "15,000~70,000원",
+   "hours": "금·토·일 11:00~22:00 / 월·화·수·목 11:00~22:00 (브레이크 15:00~16:30)",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20250326_229/1742958745860Q5Run_JPEG/1000020804.jpg",
+   "lat": "35.9754434",
+   "lng": "129.4071243",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/31107932/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/31107932",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"통큰회수산\" 포항",
+   "photo": "img/r26.jpg",
+   "updated": "2026-10-18",
+   "rank": 5
+  },
+  {
+   "name": "부영뒷고기",
+   "cat": "ocheon",
+   "naver_id": "764038846",
+   "tags": [
+    "뒷고기"
+   ],
+   "found_by": "네이버 플레이스 검색 '뒷고기'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/764038846/home"
+   ],
+   "naver_name": "부영뒷고기",
+   "category": "돼지고기구이",
+   "address": "경북 포항시 남구 오천읍 냉천로302번길 73-1",
+   "phone": "0507-1431-2344",
+   "reviews": 795,
+   "rating": 4.87,
+   "blogs": 117,
+   "menus": [
+    {
+     "name": "특수부위모듬 중(4종)",
+     "price": "31,900원"
+    },
+    {
+     "name": "특수부위 모듬 대(5종)",
+     "price": "58,500원"
+    },
+    {
+     "name": "삼겹모듬 중(4종)",
+     "price": "32,900원"
+    },
+    {
+     "name": "삼겹모듬 대(5종)",
+     "price": "59,500원"
+    },
+    {
+     "name": "한우갈비살 한판",
+     "price": "78,900원"
+    },
+    {
+     "name": "뒷덜미살",
+     "price": "14,900원"
+    },
+    {
+     "name": "모소리살",
+     "price": "14,900원"
+    },
+    {
+     "name": "뽈살",
+     "price": "14,900원"
+    },
+    {
+     "name": "부채꾸리살",
+     "price": "14,900원"
+    },
+    {
+     "name": "생삼겹살",
+     "price": "15,900원"
+    },
+    {
+     "name": "한우갈비살",
+     "price": "15,900원"
+    },
+    {
+     "name": "무뼈닭발",
+     "price": "14,000원"
+    },
+    {
+     "name": "양념돼지꼬리",
+     "price": "8,000원"
+    },
+    {
+     "name": "냉수육",
+     "price": "8,000원"
+    },
+    {
+     "name": "냉채냉수육",
+     "price": "10,000원"
+    },
+    {
+     "name": "돼지껍데기",
+     "price": "6,000원"
+    },
+    {
+     "name": "폭탄계란찜",
+     "price": "3,000원"
+    },
+    {
+     "name": "콘치즈폭탄계란찜",
+     "price": "5,000원"
+    },
+    {
+     "name": "부영해장국",
+     "price": "8,000원"
+    },
+    {
+     "name": "게장찌개",
+     "price": "8,000원"
+    },
+    {
+     "name": "냉면",
+     "price": "6,000원"
+    },
+    {
+     "name": "얼큰해물라면",
+     "price": "5,000원"
+    },
+    {
+     "name": "김치볶음밥",
+     "price": "5,000원"
+    },
+    {
+     "name": "청국된장찌개",
+     "price": "5,000원"
+    },
+    {
+     "name": "된장찌개",
+     "price": "3,000원"
+    },
+    {
+     "name": "부영하이볼",
+     "price": "7,900원"
+    },
+    {
+     "name": "소주",
+     "price": "4,900원"
+    },
+    {
+     "name": "맥주",
+     "price": "4,900원"
+    },
+    {
+     "name": "막걸리",
+     "price": "4,500원"
+    },
+    {
+     "name": "화요",
+     "price": "26,000원"
+    },
+    {
+     "name": "일품진로",
+     "price": "26,000원"
+    },
+    {
+     "name": "프리미엄 세트",
+     "price": "30,000원"
+    }
+   ],
+   "price_range": "31,900~78,900원",
+   "hours": "화·수·목·금·토·일 16:00~24:00",
+   "holiday": "월 휴무",
+   "photo_src": "https://ldb-phinf.pstatic.net/20260915_281/1789441675466CsviQ_JPEG/%C6%AF%BC%F6%BA%CE%C0%A7%B8%F0%B5%EB.jpg",
+   "lat": "35.9671815",
+   "lng": "129.4015461",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/764038846/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/764038846",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"부영뒷고기\" 포항",
+   "photo": "img/r31.jpg",
+   "updated": "2026-10-18",
+   "rank": 6
+  },
+  {
+   "name": "넘버원횟집",
+   "cat": "ocheon",
+   "naver_id": "1687001721",
+   "tags": [
+    "횟집"
+   ],
+   "found_by": "네이버 플레이스 검색 '횟집'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1687001721/home"
+   ],
+   "naver_name": "넘버원횟집",
+   "category": "생선회",
+   "address": "경북 포항시 남구 오천읍 중원로 47 1층",
+   "phone": "0507-1468-6335",
+   "reviews": 664,
+   "rating": null,
+   "blogs": 21,
+   "menus": [
+    {
+     "name": "바다한판(조개전골)소",
+     "price": "60,000원"
+    },
+    {
+     "name": "바다한판(조개전골)대",
+     "price": "90,000원"
+    },
+    {
+     "name": "자연산회(2인)",
+     "price": "70,000원"
+    },
+    {
+     "name": "자연산회(3인)",
+     "price": "90,000원"
+    },
+    {
+     "name": "자연산회(4인)",
+     "price": "120,000원"
+    },
+    {
+     "name": "참가자미(2인)",
+     "price": "70,000원"
+    },
+    {
+     "name": "참가자미(3인)",
+     "price": "90,000원"
+    },
+    {
+     "name": "참가자미(4인)",
+     "price": "120,000원"
+    },
+    {
+     "name": "포항고추장물회",
+     "price": "15,000원"
+    },
+    {
+     "name": "회덮밥",
+     "price": "15,000원"
+    },
+    {
+     "name": "참가자미물회",
+     "price": "17,000원"
+    },
+    {
+     "name": "참가자미회덮밥",
+     "price": "17,000원"
+    },
+    {
+     "name": "모듬회(2인)",
+     "price": "70,000원"
+    },
+    {
+     "name": "모듬회(3인)",
+     "price": "90,000원"
+    },
+    {
+     "name": "모듬회(4인)",
+     "price": "120,000원"
+    },
+    {
+     "name": "참돔",
+     "price": "가격 변동"
+    },
+    {
+     "name": "대방어",
+     "price": "가격 변동"
+    },
+    {
+     "name": "오징어회",
+     "price": "가격 변동"
+    },
+    {
+     "name": "오징어물회",
+     "price": "가격 변동"
+    },
+    {
+     "name": "안주물회",
+     "price": "50,000원"
+    },
+    {
+     "name": "전복물회",
+     "price": "20,000원"
+    },
+    {
+     "name": "넘버원스페셜물회",
+     "price": "25,000원"
+    },
+    {
+     "name": "해산물모듬(중)",
+     "price": "60,000원"
+    },
+    {
+     "name": "해물모듬(대)",
+     "price": "90,000원"
+    },
+    {
+     "name": "어린이돈까스",
+     "price": "10,000원"
+    },
+    {
+     "name": "자연산멍게",
+     "price": "20,000원"
+    },
+    {
+     "name": "산낙지(1미)",
+     "price": "20,000원"
+    },
+    {
+     "name": "개불",
+     "price": "가격 변동"
+    },
+    {
+     "name": "해삼",
+     "price": "가격 변동"
+    },
+    {
+     "name": "전복(2미)",
+     "price": "10,000원"
+    },
+    {
+     "name": "우럭매운탕",
+     "price": "35,000원"
+    }
+   ],
+   "price_range": "60,000~90,000원",
+   "hours": "매일 11:00~22:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20241117_288/1731821332775kOpKO_JPEG/image.jpg",
+   "lat": "35.9756539",
+   "lng": "129.4027287",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1687001721/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1687001721",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"넘버원횟집\" 포항",
+   "photo": "img/r27.jpg",
+   "updated": "2026-10-18",
+   "rank": 7
+  },
+  {
+   "name": "해부심",
+   "cat": "ocheon",
+   "naver_id": "2017547581",
+   "tags": [
+    "횟집"
+   ],
+   "found_by": "네이버 플레이스 검색 '횟집'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/2017547581/home"
+   ],
+   "naver_name": "해부심",
+   "category": "생선회",
+   "address": "경북 포항시 남구 오천읍 원동로 42 1층 103호",
+   "phone": "0507-1404-2742",
+   "reviews": 654,
+   "rating": 4.93,
+   "blogs": 10,
+   "menus": [
+    {
+     "name": "활새우소금구이15미+활새우회 15미",
+     "price": "65,000원"
+    },
+    {
+     "name": "활새우회(살아있는 흰다리새우)",
+     "price": "35,000원"
+    },
+    {
+     "name": "시마아지(흑점줄전갱이)",
+     "price": "60,000원"
+    },
+    {
+     "name": "활고등어회(살아있는 고등어)",
+     "price": "60,000원"
+    },
+    {
+     "name": "활어회 한상",
+     "price": "45,000원"
+    },
+    {
+     "name": "활어회+수제고추장회무침+매운탕",
+     "price": "65,000원"
+    },
+    {
+     "name": "해부심 스페셜",
+     "price": "70,000원"
+    },
+    {
+     "name": "해부심 스페셜 중",
+     "price": "100,000원"
+    },
+    {
+     "name": "해부심 스페셜 대",
+     "price": "130,000원"
+    },
+    {
+     "name": "해산물 모듬",
+     "price": "50,000원"
+    },
+    {
+     "name": "수제고추장 +살얼음 사과육수물회",
+     "price": "15,000원"
+    },
+    {
+     "name": "활어 회무침",
+     "price": "35,000원"
+    },
+    {
+     "name": "산낙지",
+     "price": "20,000원"
+    },
+    {
+     "name": "전복 회",
+     "price": "20,000원"
+    },
+    {
+     "name": "해삼",
+     "price": "20,000원"
+    },
+    {
+     "name": "뿔소라회",
+     "price": "20,000원"
+    },
+    {
+     "name": "멍게",
+     "price": "15,000원"
+    },
+    {
+     "name": "소주,맥주",
+     "price": "4,000원"
+    },
+    {
+     "name": "활우럭탕",
+     "price": "30,000원"
+    }
+   ],
+   "price_range": "15,000~70,000원",
+   "hours": "화·수·목·금·토·일 17:00~02:00",
+   "holiday": "월 휴무",
+   "photo_src": "https://ldb-phinf.pstatic.net/20260513_197/1778653553989YXC9m_JPEG/1000024124.jpg",
+   "lat": "35.9666516",
+   "lng": "129.4030821",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/2017547581/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/2017547581",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"해부심\" 포항",
+   "photo": "img/r28.jpg",
+   "updated": "2026-10-18",
+   "rank": 8
+  },
+  {
+   "name": "천복집 흑염소 포항문덕점",
+   "cat": "ocheon",
+   "naver_id": "1123421959",
+   "tags": [],
+   "found_by": "웹 리서치 1차 목록",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1123421959/home"
+   ],
+   "naver_name": "천복집흑염소 포항문덕점",
+   "category": "육류,고기요리",
+   "address": "경북 포항시 남구 오천읍 문덕로 50",
+   "phone": "054-293-5689",
+   "reviews": 653,
+   "rating": 4.88,
+   "blogs": 81,
+   "menus": [
+    {
+     "name": "흑염소불고기전골",
+     "price": "32,000원"
+    },
+    {
+     "name": "흑염소 소금구이",
+     "price": "32,000원"
+    },
+    {
+     "name": "흑염소 양념구이",
+     "price": "32,000원"
+    },
+    {
+     "name": "[솥밥 제공] 염소탕",
+     "price": "18,000원"
+    },
+    {
+     "name": "[솥밥 제공] 염소탕(특)",
+     "price": "22,000원"
+    },
+    {
+     "name": "[솥밥 제공] 염소 사골 곰탕",
+     "price": "17,000원"
+    },
+    {
+     "name": "[솥밥 제공] 염소 사골 갈비탕",
+     "price": "20,000원"
+    },
+    {
+     "name": "보양 삼계탕",
+     "price": "18,000원"
+    },
+    {
+     "name": "두툼한 왕돈가스",
+     "price": "12,000원"
+    },
+    {
+     "name": "한방 능이 삼계탕",
+     "price": "22,000원"
+    },
+    {
+     "name": "[든든한] 염소 전골",
+     "price": "28,000원"
+    },
+    {
+     "name": "[한정 판매] 염소 갈비 전골",
+     "price": "32,000원"
+    },
+    {
+     "name": "[개운한] 염소 칼만두 전골",
+     "price": "18,000원"
+    },
+    {
+     "name": "[부드러운] 염소 모듬 수육",
+     "price": "28,000원"
+    },
+    {
+     "name": "[한정 판매] 염소 갈비 수육",
+     "price": "32,000원"
+    },
+    {
+     "name": "[새콤달콤] 염소 무침",
+     "price": "26,000원"
+    },
+    {
+     "name": "염소 육전",
+     "price": "22,000원"
+    },
+    {
+     "name": "[소(小)] 염소 탕수육",
+     "price": "22,000원"
+    },
+    {
+     "name": "[두툼한] 염소 떡갈비",
+     "price": "14,000원"
+    },
+    {
+     "name": "[직접 빚은] 염소 만두",
+     "price": "6,000원"
+    },
+    {
+     "name": "[60포] 흑염소 진액 1BOX",
+     "price": "188,000원"
+    },
+    {
+     "name": "[120포] 흑염소 진액 2BOX",
+     "price": "356,000원"
+    },
+    {
+     "name": "[180포] 흑염소 진액 3BOX",
+     "price": "525,000원"
+    },
+    {
+     "name": "[포장 할인] 염소탕 2인",
+     "price": "32,000원"
+    }
+   ],
+   "price_range": "18,000~188,000원",
+   "hours": "월·화·수·목·금 11:00~21:00 (브레이크 15:00~17:00) / 토 11:00~21:00",
+   "holiday": "일 휴무",
+   "photo_src": "https://ldb-phinf.pstatic.net/20250114_265/1736830858346HTGN4_JPEG/%B4%EB%C7%A5_%BB%E7%C1%F8.jpg",
+   "lat": "35.9581871",
+   "lng": "129.4026386",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1123421959/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1123421959",
+   "sns": 0,
+   "sns_measured": "2026-10-18",
+   "x_query": "\"천복집\"",
+   "photo": "img/r19.jpg",
+   "updated": "2026-10-18",
+   "rank": 9
+  },
+  {
+   "name": "엉터리 무한대패 포항문덕점",
+   "cat": "ocheon",
+   "naver_id": "2087602229",
+   "tags": [],
+   "found_by": "웹 리서치 1차 목록",
+   "sources": [
+    "https://m.place.naver.com/restaurant/2087602229/home"
+   ],
+   "naver_name": "엉터리 무한대패 포항문덕점",
+   "category": "육류,고기요리",
+   "address": "경북 포항시 남구 오천읍 원동로 88",
+   "phone": "0507-1307-9411",
+   "reviews": 642,
+   "rating": null,
+   "blogs": 80,
+   "menus": [
+    {
+     "name": "시그니처스페셜(15종의고기무한)",
+     "price": "18,900원"
+    },
+    {
+     "name": "무한소주 (19세 이상)",
+     "price": "5,900원"
+    },
+    {
+     "name": "무한대패 (7세~9세.초1~초3)",
+     "price": "10,000원"
+    },
+    {
+     "name": "무한대패 (4세~6세.미취학)",
+     "price": "7,000원"
+    },
+    {
+     "name": "냉면 (물/냉면)",
+     "price": "5,000원"
+    },
+    {
+     "name": "된장술밥",
+     "price": "5,000원"
+    },
+    {
+     "name": "폭탄계란찜",
+     "price": "4,000원"
+    },
+    {
+     "name": "된장찌개",
+     "price": "3,000원"
+    },
+    {
+     "name": "구워먹는치즈",
+     "price": "3,000원"
+    }
+   ],
+   "price_range": "5,900~18,900원",
+   "hours": "화·수·목·금·토·일 16:00~02:00",
+   "holiday": "월 휴무",
+   "photo_src": "https://ldb-phinf.pstatic.net/20250923_47/1758619659530vbcQW_GIF/%C1%A6%B8%F1%C0%BB_%C0%D4%B7%C2%C7%D8%C1%D6%BC%BC%BF%E4._%2826%29.gif",
+   "lat": "35.970871",
+   "lng": "129.4027894",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/2087602229/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/2087602229",
+   "sns": 0,
+   "sns_measured": "2026-10-18",
+   "x_query": "\"엉터리 무한대패\"",
+   "photo": "img/r18.jpg",
+   "updated": "2026-10-18",
+   "rank": 10
+  },
+  {
+   "name": "등대횟집",
+   "cat": "ocheon",
+   "naver_id": "31303061",
+   "tags": [
+    "횟집"
+   ],
+   "found_by": "네이버 플레이스 검색 '횟집'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/31303061/home"
+   ],
+   "naver_name": "등대횟집",
+   "category": "생선회",
+   "address": "경북 포항시 남구 오천읍 원동로 115",
+   "phone": "054-293-7272",
+   "reviews": 510,
+   "rating": null,
+   "blogs": 86,
+   "menus": [
+    {
+     "name": "모듬회(소)",
+     "price": "80,000원"
+    },
+    {
+     "name": "모듬회(중)",
+     "price": "120,000원"
+    },
+    {
+     "name": "모듬회(대)",
+     "price": "150,000원"
+    },
+    {
+     "name": "모듬회(특)",
+     "price": "180,000원"
+    },
+    {
+     "name": "자연산 참가자미 회(소)",
+     "price": "80,000원"
+    },
+    {
+     "name": "자연산 참가자미 회(중)",
+     "price": "120,000원"
+    },
+    {
+     "name": "자연산 참가자미 회(대)",
+     "price": "150,000원"
+    },
+    {
+     "name": "자연산 참가자미 회(특)",
+     "price": "180,000원"
+    },
+    {
+     "name": "이시가리(국내산)",
+     "price": "가격 변동"
+    },
+    {
+     "name": "돌돔(국내산)",
+     "price": "가격 변동"
+    },
+    {
+     "name": "뱅어돔(국내산)",
+     "price": "가격 변동"
+    },
+    {
+     "name": "감성돔(국내산)",
+     "price": "가격 변동"
+    },
+    {
+     "name": "참돔(국내산)",
+     "price": "가격 변동"
+    },
+    {
+     "name": "농어(국내산)",
+     "price": "가격 변동"
+    },
+    {
+     "name": "우럭(국내산)",
+     "price": "가격 변동"
+    },
+    {
+     "name": "광어(국내산)",
+     "price": "가격 변동"
+    },
+    {
+     "name": "대방어",
+     "price": "가격 변동"
+    },
+    {
+     "name": "자연산 물회",
+     "price": "18,000원"
+    },
+    {
+     "name": "자연산 회밥",
+     "price": "18,000원"
+    },
+    {
+     "name": "자연산 특물회(전복/멍게)",
+     "price": "27,000원"
+    },
+    {
+     "name": "참가자미물회",
+     "price": "20,000원"
+    },
+    {
+     "name": "도다리물회",
+     "price": "가격 변동"
+    },
+    {
+     "name": "산오징어물회",
+     "price": "가격 변동"
+    },
+    {
+     "name": "멍게물회",
+     "price": "18,000원"
+    },
+    {
+     "name": "전복죽",
+     "price": "20,000원"
+    },
+    {
+     "name": "초밥(10P)",
+     "price": "20,000원"
+    },
+    {
+     "name": "초밥특(15P)",
+     "price": "25,000원"
+    },
+    {
+     "name": "해물모듬",
+     "price": "100,000원"
+    },
+    {
+     "name": "어린이돈가스",
+     "price": "9,000원"
+    }
+   ],
+   "price_range": "80,000~150,000원",
+   "hours": "토·일 10:00~22:00 / 화·수·목·금 10:00~22:00 (브레이크 15:00~16:30)",
+   "holiday": "월 휴무",
+   "photo_src": "https://ldb-phinf.pstatic.net/20220719_131/1658195988276DmSSE_JPEG/CF1AA5CB-C07E-4A25-A534-A00AFD9F67FC.jpeg",
+   "lat": "35.9735521",
+   "lng": "129.4021418",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/31303061/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/31303061",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"등대횟집\" 포항",
+   "photo": "img/r29.jpg",
+   "updated": "2026-10-18",
+   "rank": 11
+  },
+  {
+   "name": "우리막창 오천본점",
+   "cat": "ocheon",
+   "naver_id": "37923747",
+   "tags": [],
+   "found_by": "웹 리서치 1차 목록",
+   "sources": [
+    "https://m.place.naver.com/restaurant/37923747/home"
+   ],
+   "naver_name": "우리막창 오천본점",
+   "category": "곱창,막창,양",
+   "address": "경북 포항시 남구 오천읍 남원로 50 우리막창",
+   "phone": "0507-1430-9302",
+   "reviews": 507,
+   "rating": 4.56,
+   "blogs": 73,
+   "menus": [
+    {
+     "name": "막창 200g",
+     "price": "12,000원"
+    },
+    {
+     "name": "오돌갈비 160g",
+     "price": "12,000원"
+    },
+    {
+     "name": "목살140g",
+     "price": "11,000원"
+    },
+    {
+     "name": "삼겹살 140g",
+     "price": "11,000원"
+    },
+    {
+     "name": "김치말이 국수",
+     "price": "6,000원"
+    }
+   ],
+   "price_range": "11,000~12,000원",
+   "hours": "매일 17:00~23:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20260413_105/1776074527422cqEjs_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5.jfif.jpg",
+   "lat": "35.9707699",
+   "lng": "129.4043155",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/37923747/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/37923747",
+   "sns": 0,
+   "sns_measured": "2026-10-18",
+   "x_query": "\"우리막창\" 오천",
+   "photo": "img/r17.jpg",
+   "updated": "2026-10-18",
+   "rank": 12
+  },
+  {
+   "name": "숯토리 포항문덕점",
+   "cat": "ocheon",
+   "naver_id": "2026646833",
+   "tags": [
+    "술집"
+   ],
+   "found_by": "네이버 플레이스 검색 '술집'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/2026646833/home"
+   ],
+   "naver_name": "숯토리 포항문덕점",
+   "category": "이자카야",
+   "address": "경북 포항시 남구 오천읍 남원로 51 1층",
+   "phone": "정보 없음",
+   "reviews": 484,
+   "rating": null,
+   "blogs": 13,
+   "menus": [
+    {
+     "name": "숯마카세 재팬파스타 SET",
+     "price": "38,900원"
+    },
+    {
+     "name": "숯마카세 한우육류 SET",
+     "price": "39,900원"
+    },
+    {
+     "name": "숯마카세 뜨끈탕류 SET",
+     "price": "42,900원"
+    },
+    {
+     "name": "숯마카세 싱싱해물 SET",
+     "price": "47,900원"
+    },
+    {
+     "name": "시그니처 HOT 엉덩이 SET",
+     "price": "19,900원"
+    },
+    {
+     "name": "시그니쳐 엉덩이2P(ぼんじり)",
+     "price": "5,500원"
+    },
+    {
+     "name": "토종닭 야키토리(랜덤) 7p set",
+     "price": "19,900원"
+    },
+    {
+     "name": "야키토리 7종(랜덤) + 우동 SET",
+     "price": "30,900원"
+    },
+    {
+     "name": "야키토리모듬7P+디저트SET",
+     "price": "26,900원"
+    },
+    {
+     "name": "오사카장인 테바사키 Set",
+     "price": "24,900원"
+    },
+    {
+     "name": "오사카장인 가라아게 Set",
+     "price": "24,900원"
+    },
+    {
+     "name": "오사카식 수제 쿠시카츠 5p",
+     "price": "6,000원"
+    },
+    {
+     "name": "난코츠가라아게(なんこつのからあげ)",
+     "price": "13,900원"
+    },
+    {
+     "name": "레드 핫 테바사키(クフツハッテバサキ)",
+     "price": "14,900원"
+    },
+    {
+     "name": "레드 핫 가라아게(クフツハッガラアゲ)",
+     "price": "14,900원"
+    },
+    {
+     "name": "흑후추 테바사키(こしょうてばさき)",
+     "price": "13,900원"
+    },
+    {
+     "name": "흑후추 가라아게(こしょうからあげ)",
+     "price": "13,900원"
+    },
+    {
+     "name": "숯토리x사카에준마이",
+     "price": "45,000원"
+    },
+    {
+     "name": "토리 얼음 생맥주",
+     "price": "3,500원"
+    },
+    {
+     "name": "말차 얼음 생맥주",
+     "price": "4,000원"
+    },
+    {
+     "name": "샷포로 생맥주",
+     "price": "5,500원"
+    },
+    {
+     "name": "토리 상어🦈 사와",
+     "price": "6,900원"
+    },
+    {
+     "name": "토리 회오리🍥🍧사와",
+     "price": "6,900원"
+    },
+    {
+     "name": "토리토리 레몬사와(レモンサワー )",
+     "price": "6,900원"
+    },
+    {
+     "name": "토리토리 망고사와(マンゴーサワ )",
+     "price": "6,900원"
+    },
+    {
+     "name": "제주산 딱새우회(ミナミアカザエビさし)",
+     "price": "29,900원"
+    },
+    {
+     "name": "탱글탱글 단새우회(あまえび さしみ)",
+     "price": "27,900원"
+    },
+    {
+     "name": "한우 뭉티기(ぎゅうさしみ)",
+     "price": "29,900원"
+    },
+    {
+     "name": "미니한우 뭉티기(ぎゅうさしみ)",
+     "price": "15,900원"
+    },
+    {
+     "name": "숯불 한우 타다끼(すみびタダキ)",
+     "price": "27,900원"
+    },
+    {
+     "name": "토로토로함박(とろとろハンバーグ)",
+     "price": "27,900원"
+    },
+    {
+     "name": "한우 육회(ハンウユッケ)",
+     "price": "22,900원"
+    },
+    {
+     "name": "염통(はつ) 1p",
+     "price": "2,500원"
+    },
+    {
+     "name": "엉덩이(ぼんじり) 1p",
+     "price": "2,800원"
+    },
+    {
+     "name": "껍질(かわ) 1p",
+     "price": "2,800원"
+    },
+    {
+     "name": "가슴연골(やげんなんこつ) 1p",
+     "price": "2,800원"
+    },
+    {
+     "name": "어깨살(ふりそで) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "안심(ささみ) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "안창살(はらみ)1P",
+     "price": "3,000원"
+    },
+    {
+     "name": "무릎연골(ひざなんこつ) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "목살(せせり) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "다리(もも) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "네기마(ねぎま) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "날개(てばさき) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "닭경단(つくね) 2p",
+     "price": "5,500원"
+    },
+    {
+     "name": "토마토베이컨(トマトベーコン) 1p",
+     "price": "2,300원"
+    },
+    {
+     "name": "파인애플베이컨(パイナップルベー) 1p",
+     "price": "2,900원"
+    },
+    {
+     "name": "가래떡베이컨(もちベーコン) 1p",
+     "price": "2,900원"
+    },
+    {
+     "name": "삼겹말이(ぶたばらまき)1P",
+     "price": "3,300원"
+    },
+    {
+     "name": "대파삼겹(デパウサムギョブ) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "팽이삼겹(ペンイウサムギョブ) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "새송이삼겹(セソンイウサムギョブ) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "떡삼겹(トクウサムギョブ) 1p",
+     "price": "3,000원"
+    },
+    {
+     "name": "당고(ダンゴ) 2p",
+     "price": "3,900원"
+    },
+    {
+     "name": "토리닭사골오뎅탕(とりこつおでん)",
+     "price": "21,900원"
+    },
+    {
+     "name": "우삼겹나베(牛バラなべ)",
+     "price": "24,900원"
+    },
+    {
+     "name": "한우모츠나베(ぎゅうすじもつなべ)",
+     "price": "27,900원"
+    },
+    {
+     "name": "얼큰꽃게나베(からいがざみなべ)",
+     "price": "27,900원"
+    },
+    {
+     "name": "김치유부우동(キムチきつねうどん)",
+     "price": "13,900원"
+    },
+    {
+     "name": "우삼겹해물우동(牛バラかいせんうどん)",
+     "price": "13,900원"
+    },
+    {
+     "name": "칼칼어묵우동 (からいつおでんうどん)",
+     "price": "11,900원"
+    },
+    {
+     "name": "우삼겹매콤소바(ぎゅうばらぴりからそば)",
+     "price": "15,900원"
+    },
+    {
+     "name": "타코야끼소바 (たこやきそば)",
+     "price": "15,900원"
+    },
+    {
+     "name": "함박 나폴리탄(ハンバーグナポリタン)",
+     "price": "15,900원"
+    },
+    {
+     "name": "우삼겹 숙주볶음(牛バラやき)",
+     "price": "12,900원"
+    },
+    {
+     "name": "명란버터구이(めんたいやき)",
+     "price": "11,900원"
+    },
+    {
+     "name": "타코와사비(たこわさび)",
+     "price": "10,900원"
+    },
+    {
+     "name": "오코노미야끼(おこのみやき)",
+     "price": "10,900원"
+    },
+    {
+     "name": "꽃새우튀김(はなえびあげ)",
+     "price": "10,900원"
+    },
+    {
+     "name": "말차샤베트(まっちゃシャーベット)",
+     "price": "9,900원"
+    },
+    {
+     "name": "망고 요거트샤베트(マンゴーヨーグルト)",
+     "price": "8,900원"
+    },
+    {
+     "name": "콘튀김(コーンあげ)",
+     "price": "8,900원"
+    },
+    {
+     "name": "오징어후라이 (いかあげ)",
+     "price": "7,900원"
+    },
+    {
+     "name": "치즈인포테이토(チーズこうじ)",
+     "price": "7,900원"
+    },
+    {
+     "name": "말차모찌리도후(まっちゃもちりどうふ)",
+     "price": "10,900원"
+    },
+    {
+     "name": "모찌리도후(もちリ豆腐)",
+     "price": "7,900원"
+    },
+    {
+     "name": "그릭 꿀 토마토샐러드(グリクトマトル)",
+     "price": "7,900원"
+    },
+    {
+     "name": "토리야끼교자(やきぎょうざ)",
+     "price": "5,900원"
+    },
+    {
+     "name": "포테토사라다(ポテトサラダ)",
+     "price": "5,900원"
+    },
+    {
+     "name": "그릭 게살카나페(ゲサルグリクカナペ)",
+     "price": "4,900원"
+    },
+    {
+     "name": "아이스홍시(アイスうみがき)",
+     "price": "3,900원"
+    },
+    {
+     "name": "말랑말랑푸딩(プディング)",
+     "price": "3,900원"
+    },
+    {
+     "name": "타코야끼(たこやき) 5p",
+     "price": "3,900원"
+    }
+   ],
+   "price_range": "5,500~47,900원",
+   "hours": "월·수·일 17:00~02:00 / 목·금·토 17:00~03:00",
+   "holiday": "화(10/20) 정기휴무 (격주 화요일) · 격주 화요일 정기 휴무 휴무",
+   "photo_src": "https://ldb-phinf.pstatic.net/20260928_195/1790583420673xrSXC_JPEG/%B0%A1%C0%BB%B4%EB%B9%AE.jpg",
+   "lat": "35.9704453",
+   "lng": "129.4041462",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/2026646833/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/2026646833",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"숯토리\" 포항",
+   "photo": "img/r22.jpg",
+   "updated": "2026-10-18",
+   "rank": 13
+  },
+  {
+   "name": "꽃뚜껑 포항문덕점",
+   "cat": "ocheon",
+   "naver_id": "1932285369",
+   "tags": [
+    "뒷고기"
+   ],
+   "found_by": "웹 리서치 1차 목록",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1932285369/home"
+   ],
+   "naver_name": "꽃뚜껑 포항문덕점",
+   "category": "돼지고기구이",
+   "address": "경북 포항시 남구 오천읍 냉천로298번길 45 1층 꽃뚜껑 포항문덕점",
+   "phone": "0507-1381-7149",
+   "reviews": 457,
+   "rating": 4.9,
+   "blogs": 472,
+   "menus": [
+    {
+     "name": "꽃삼겹살(흑돼지)",
+     "price": "3,900원"
+    },
+    {
+     "name": "뒷고기(한돈)",
+     "price": "3,900원"
+    },
+    {
+     "name": "특수부위(이베리코)",
+     "price": "5,900원"
+    },
+    {
+     "name": "벌집껍데기(한돈)",
+     "price": "3,900원"
+    },
+    {
+     "name": "항정살(흑돼지)",
+     "price": "4,900원"
+    },
+    {
+     "name": "양념갈비(흑돼지)",
+     "price": "4,900원"
+    },
+    {
+     "name": "육회",
+     "price": "9,900원"
+    },
+    {
+     "name": "된장찌개",
+     "price": "2,000원"
+    },
+    {
+     "name": "물쫄면",
+     "price": "6,000원"
+    },
+    {
+     "name": "하이볼",
+     "price": "3,900원"
+    }
+   ],
+   "price_range": "3,900원",
+   "hours": "토·일 12:00~23:00 / 월·화·수·목·금 14:00~23:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20240405_162/1712274513962DSRTC_JPEG/IMG_5978.jpeg",
+   "lat": "35.9676459",
+   "lng": "129.4047357",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1932285369/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1932285369",
+   "sns": 0,
+   "sns_measured": "2026-10-18",
+   "x_query": "\"꽃뚜껑\" 포항",
+   "photo": "img/r10.jpg",
+   "updated": "2026-10-18",
+   "rank": 14
+  },
+  {
+   "name": "부산본가돼지국밥",
+   "cat": "ocheon",
+   "naver_id": "37064195",
+   "tags": [
+    "직장인 가성비"
+   ],
+   "found_by": "네이버 플레이스 검색 '직장인 가성비'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/37064195/home"
+   ],
+   "naver_name": "부산본가돼지국밥",
+   "category": "국밥",
+   "address": "경북 포항시 남구 오천읍 남원로 3 부산본가돼지국밥",
+   "phone": "0507-1337-9899",
+   "reviews": 431,
+   "rating": null,
+   "blogs": 126,
+   "menus": [],
+   "price_range": "정보 없음",
+   "hours": "일 07:00~18:30 / 화·수·목·금·토 07:00~20:00",
+   "holiday": "월 휴무",
+   "photo_src": "https://ldb-phinf.pstatic.net/20231031_241/1698704505479AzT8Y_JPEG/25.jpeg",
+   "lat": "35.9706405",
+   "lng": "129.409233",
+   "menu_note": "메뉴판 사진만 등록되어 있어요 (네이버 플레이스 메뉴 탭에서 확인)",
+   "menu_url": "https://m.place.naver.com/restaurant/37064195/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/37064195",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"부산본가돼지국밥\" 포항",
+   "photo": "img/r35.jpg",
+   "updated": "2026-10-18",
+   "rank": 15
+  },
+  {
+   "name": "대박회센타",
+   "cat": "ocheon",
+   "naver_id": "37815414",
+   "tags": [
+    "횟집"
+   ],
+   "found_by": "네이버 플레이스 검색 '횟집'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/37815414/home"
+   ],
+   "naver_name": "대박회센타",
+   "category": "생선회",
+   "address": "경북 포항시 남구 오천읍 원동로 41-11 2,3",
+   "phone": "0507-1319-0882",
+   "reviews": 324,
+   "rating": 4.57,
+   "blogs": 280,
+   "menus": [
+    {
+     "name": "모듬회 대(포장)",
+     "price": "59,000원"
+    },
+    {
+     "name": "모듬회 중(포장)",
+     "price": "39,000원"
+    },
+    {
+     "name": "일반물회/횟밥",
+     "price": "16,000원"
+    },
+    {
+     "name": "일반물회/횟밥 (특)",
+     "price": "20,000원"
+    },
+    {
+     "name": "자연산물회/횟밥",
+     "price": "19,000원"
+    },
+    {
+     "name": "자연산물회/횟밥 (특)",
+     "price": "23,000원"
+    },
+    {
+     "name": "참가자미물회/횟밥",
+     "price": "19,000원"
+    },
+    {
+     "name": "참가자미물회/횟밥 (특)",
+     "price": "23,000원"
+    },
+    {
+     "name": "이시가리물회/횟밥",
+     "price": "25,000원"
+    },
+    {
+     "name": "이시가리물회/횟밥 (특)",
+     "price": "30,000원"
+    },
+    {
+     "name": "오징어물회",
+     "price": "가격 변동"
+    },
+    {
+     "name": "모듬회 (소) 2인",
+     "price": "60,000원"
+    },
+    {
+     "name": "모듬회 (중) 3인",
+     "price": "75,000원"
+    },
+    {
+     "name": "모듬회 (대) 4인",
+     "price": "90,000원"
+    },
+    {
+     "name": "모듬회 (특대) 5인",
+     "price": "110,000원"
+    },
+    {
+     "name": "모듬회스페샬 (소) 2인",
+     "price": "100,000원"
+    },
+    {
+     "name": "모듬회스페샬 (중) 3인",
+     "price": "115,000원"
+    },
+    {
+     "name": "모듬회스페샬 (대) 4인",
+     "price": "130,000원"
+    },
+    {
+     "name": "모듬회스폐샬 (특대) 5인",
+     "price": "150,000원"
+    },
+    {
+     "name": "참가자미회 (소) 2인",
+     "price": "70,000원"
+    },
+    {
+     "name": "참가자미회 (중) 3인",
+     "price": "90,000원"
+    },
+    {
+     "name": "참가자미회 (대) 4인",
+     "price": "110,000원"
+    },
+    {
+     "name": "참가자미회 (특대) 5인",
+     "price": "130,000원"
+    },
+    {
+     "name": "참가자미스페샬 (소) 2인",
+     "price": "110,000원"
+    },
+    {
+     "name": "참가자미스페샬 (중) 3인",
+     "price": "130,000원"
+    },
+    {
+     "name": "참가자미스페샬 (대) 4인",
+     "price": "150,000원"
+    },
+    {
+     "name": "참가자미스폐샬 (특대) 5인",
+     "price": "170,000원"
+    },
+    {
+     "name": "안주물회 중",
+     "price": "45,000원"
+    },
+    {
+     "name": "안주물회 대",
+     "price": "65,000원"
+    },
+    {
+     "name": "해물모듬 중",
+     "price": "60,000원"
+    },
+    {
+     "name": "해물모듬 대",
+     "price": "80,000원"
+    },
+    {
+     "name": "산낙지",
+     "price": "35,000원"
+    },
+    {
+     "name": "개불",
+     "price": "40,000원"
+    },
+    {
+     "name": "자연산멍게",
+     "price": "40,000원"
+    },
+    {
+     "name": "활우럭매운탕",
+     "price": "50,000원"
+    },
+    {
+     "name": "오징어회 중",
+     "price": "가격 변동"
+    },
+    {
+     "name": "오징어통찜 중",
+     "price": "가격 변동"
+    },
+    {
+     "name": "오징어스페샬",
+     "price": "가격 변동"
+    },
+    {
+     "name": "알밥",
+     "price": "4,000원"
+    },
+    {
+     "name": "비빔야채",
+     "price": "5,000원"
+    },
+    {
+     "name": "콘치즈",
+     "price": "2,000원"
+    }
+   ],
+   "price_range": "16,000~59,000원",
+   "hours": "월·화·수·목·금·토 17:00~23:00",
+   "holiday": "일(10/18) 정기휴무 (매달 1, 3, 5번째 일요일) · 매달 1, 3, 5번째 일요일 정기 휴무 휴무",
+   "photo_src": "https://ldb-phinf.pstatic.net/20220217_45/1645077991059QN7iC_JPEG/%B3%D7%C0%CC%B9%F6_%BF%B9%BE%E0_.jpg",
+   "lat": "35.9666799",
+   "lng": "129.401548",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/37815414/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/37815414",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"대박회센타\" 포항",
+   "photo": "img/r30.jpg",
+   "updated": "2026-10-18",
+   "rank": 16
+  },
+  {
+   "name": "문덕반점",
+   "cat": "ocheon",
+   "naver_id": "32155631",
+   "tags": [],
+   "found_by": "웹 리서치 1차 목록",
+   "sources": [
+    "https://m.place.naver.com/restaurant/32155631/home"
+   ],
+   "naver_name": "문덕반점",
+   "category": "중식당",
+   "address": "경북 포항시 남구 오천읍 문덕로24번길 33-6",
+   "phone": "054-293-3361",
+   "reviews": 280,
+   "rating": null,
+   "blogs": 28,
+   "menus": [],
+   "price_range": "정보 없음",
+   "hours": "화·수·목·금·토·일 11:00~20:30",
+   "holiday": "월 휴무",
+   "photo_src": null,
+   "lat": "35.9600413",
+   "lng": "129.3990199",
+   "menu_note": "메뉴판 사진만 등록되어 있어요 (네이버 플레이스 메뉴 탭에서 확인)",
+   "menu_url": "https://m.place.naver.com/restaurant/32155631/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/32155631",
+   "sns": 0,
+   "sns_measured": "2026-10-18",
+   "x_query": "\"문덕반점\"",
+   "photo": null,
+   "updated": "2026-10-18",
+   "rank": 17
+  },
+  {
+   "name": "긴타로 오천점",
+   "cat": "ocheon",
+   "naver_id": "1529790633",
+   "tags": [
+    "술집"
+   ],
+   "found_by": "네이버 플레이스 검색 '술집'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1529790633/home"
+   ],
+   "naver_name": "긴타로 오천점",
+   "category": "이자카야",
+   "address": "경북 포항시 남구 오천읍 원동로 41-1 긴타로",
+   "phone": "정보 없음",
+   "reviews": 273,
+   "rating": null,
+   "blogs": 28,
+   "menus": [
+    {
+     "name": "선넘은 굴무침",
+     "price": "24,000원"
+    },
+    {
+     "name": "한우스지오뎅탕",
+     "price": "30,000원"
+    },
+    {
+     "name": "한우타다끼",
+     "price": "28,000원"
+    },
+    {
+     "name": "제주감성 딱새우회",
+     "price": "28,000원"
+    },
+    {
+     "name": "차돌백짬뽕",
+     "price": "26,000원"
+    },
+    {
+     "name": "차돌홍짬뽕",
+     "price": "26,000원"
+    },
+    {
+     "name": "게살스프",
+     "price": "19,000원"
+    },
+    {
+     "name": "조개탕",
+     "price": "19,000원"
+    },
+    {
+     "name": "돈코츠라멘",
+     "price": "11,000원"
+    },
+    {
+     "name": "마약옥수수",
+     "price": "9,000원"
+    },
+    {
+     "name": "얼큰긴타로우동",
+     "price": "9,500원"
+    },
+    {
+     "name": "고로케카레덮밥",
+     "price": "9,500원"
+    },
+    {
+     "name": "단밤숯불구이",
+     "price": "11,000원"
+    },
+    {
+     "name": "단짠단짠통통포",
+     "price": "17,000원"
+    },
+    {
+     "name": "먹태구이",
+     "price": "17,000원"
+    },
+    {
+     "name": "차돌숙주볶음",
+     "price": "19,000원"
+    },
+    {
+     "name": "야끼차슈",
+     "price": "24,000원"
+    },
+    {
+     "name": "오뎅탕",
+     "price": "21,000원"
+    },
+    {
+     "name": "에비깡",
+     "price": "15,000원"
+    },
+    {
+     "name": "닭껍질가라아게",
+     "price": "19,000원"
+    },
+    {
+     "name": "닭 가라아게",
+     "price": "19,000원"
+    },
+    {
+     "name": "닭날개 꼬치",
+     "price": "3,500원"
+    },
+    {
+     "name": "다리살",
+     "price": "3,500원"
+    },
+    {
+     "name": "아스파라거스 베이컨",
+     "price": "3,800원"
+    },
+    {
+     "name": "마늘베이컨말이",
+     "price": "3,800원"
+    },
+    {
+     "name": "토마토베이컨말이",
+     "price": "3,800원"
+    },
+    {
+     "name": "파인애플베이컨말이",
+     "price": "3,800원"
+    },
+    {
+     "name": "치즈떡삼겹말이",
+     "price": "3,800원"
+    },
+    {
+     "name": "새우삼겹말이",
+     "price": "3,800원"
+    },
+    {
+     "name": "팽이삼겹말이",
+     "price": "3,800원"
+    },
+    {
+     "name": "왕새우구이",
+     "price": "4,500원"
+    },
+    {
+     "name": "항정살",
+     "price": "4,000원"
+    },
+    {
+     "name": "닭껍질",
+     "price": "3,500원"
+    },
+    {
+     "name": "베이컨토마토말이",
+     "price": "3,800원"
+    },
+    {
+     "name": "명란구이",
+     "price": "5,000원"
+    },
+    {
+     "name": "소갈비살",
+     "price": "4,500원"
+    },
+    {
+     "name": "닭껍질말이",
+     "price": "4,000원"
+    }
+   ],
+   "price_range": "28,000~30,000원",
+   "hours": "화·수·목·일 18:00~01:00 / 금·토 18:00~03:00",
+   "holiday": "월 휴무",
+   "photo_src": "https://ldb-phinf.pstatic.net/20250206_42/1738813680149SoE7D_JPEG/1734602953333-4.jpg",
+   "lat": "35.9667092",
+   "lng": "129.4022067",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1529790633/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1529790633",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"긴타로\" 포항",
+   "photo": "img/r23.jpg",
+   "updated": "2026-10-18",
+   "rank": 18
+  },
+  {
+   "name": "포차25 문덕점",
+   "cat": "ocheon",
+   "naver_id": "2084989980",
+   "tags": [
+    "술집"
+   ],
+   "found_by": "네이버 플레이스 검색 '술집'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/2084989980/home"
+   ],
+   "naver_name": "포차25 문덕점",
+   "category": "요리주점",
+   "address": "경북 포항시 남구 오천읍 원동로 98 1층",
+   "phone": "0507-1438-2351",
+   "reviews": 254,
+   "rating": 4.84,
+   "blogs": 53,
+   "menus": [
+    {
+     "name": "바지락술찜",
+     "price": "20,000원"
+    },
+    {
+     "name": "문어튀김",
+     "price": "19,000원"
+    },
+    {
+     "name": "차돌국물떡볶이",
+     "price": "18,000원"
+    },
+    {
+     "name": "마약닭도리탕",
+     "price": "25,000원"
+    },
+    {
+     "name": "통삼겹살",
+     "price": "25,000원"
+    },
+    {
+     "name": "오뎅탕",
+     "price": "18,000원"
+    },
+    {
+     "name": "라임케이준샐러드",
+     "price": "18,000원"
+    },
+    {
+     "name": "차돌샐러드",
+     "price": "18,000원"
+    },
+    {
+     "name": "순살양념치킨",
+     "price": "18,000원"
+    },
+    {
+     "name": "치킨가라아게",
+     "price": "18,000원"
+    },
+    {
+     "name": "돼지김치짜글이",
+     "price": "25,000원"
+    },
+    {
+     "name": "사천칠리새우",
+     "price": "20,000원"
+    },
+    {
+     "name": "차돌만두전골",
+     "price": "20,000원"
+    },
+    {
+     "name": "골뱅이무침",
+     "price": "23,000원"
+    },
+    {
+     "name": "맑은조개탕",
+     "price": "20,000원"
+    },
+    {
+     "name": "먹태구이",
+     "price": "17,000원"
+    },
+    {
+     "name": "똥집볶음",
+     "price": "17,000원"
+    },
+    {
+     "name": "윙봉",
+     "price": "19,000원"
+    },
+    {
+     "name": "튀김(골라5종)",
+     "price": "18,000원"
+    },
+    {
+     "name": "나가사키짬뽕",
+     "price": "20,000원"
+    },
+    {
+     "name": "얼큰꽃게탕",
+     "price": "20,000원"
+    },
+    {
+     "name": "망고하이볼",
+     "price": "7,000원"
+    },
+    {
+     "name": "자몽하이볼",
+     "price": "7,000원"
+    }
+   ],
+   "price_range": "18,000~25,000원",
+   "hours": "매일 17:00~02:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20260207_180/1770438360700CKEsz_PNG/25438.png",
+   "lat": "35.9718086",
+   "lng": "129.4027085",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/2084989980/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/2084989980",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"포차25\" 포항",
+   "photo": "img/r24.jpg",
+   "updated": "2026-10-18",
+   "rank": 19
+  },
+  {
+   "name": "토리아에즈 포항문덕점",
+   "cat": "ocheon",
+   "naver_id": "1038989355",
+   "tags": [
+    "술집"
+   ],
+   "found_by": "네이버 플레이스 검색 '술집'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1038989355/home"
+   ],
+   "naver_name": "토리아에즈 포항문덕점",
+   "category": "이자카야",
+   "address": "경북 포항시 남구 오천읍 원동로 135 1층",
+   "phone": "0507-1364-6443",
+   "reviews": 218,
+   "rating": null,
+   "blogs": 50,
+   "menus": [
+    {
+     "name": "팽이",
+     "price": "3,200원"
+    },
+    {
+     "name": "계란구이",
+     "price": "2,800원"
+    },
+    {
+     "name": "무릎연골",
+     "price": "2,600원"
+    },
+    {
+     "name": "네기마",
+     "price": "2,500원"
+    },
+    {
+     "name": "허벅지",
+     "price": "2,500원"
+    },
+    {
+     "name": "모찌",
+     "price": "3,400원"
+    },
+    {
+     "name": "아스파",
+     "price": "3,800원"
+    },
+    {
+     "name": "토마토",
+     "price": "3,600원"
+    },
+    {
+     "name": "목살",
+     "price": "2,800원"
+    },
+    {
+     "name": "돼지껍데기",
+     "price": "2,600원"
+    },
+    {
+     "name": "소시지",
+     "price": "2,400원"
+    },
+    {
+     "name": "천겹살",
+     "price": "2,900원"
+    },
+    {
+     "name": "쯔쿠네",
+     "price": "4,900원"
+    },
+    {
+     "name": "염통",
+     "price": "1,900원"
+    },
+    {
+     "name": "모래집",
+     "price": "1,900원"
+    },
+    {
+     "name": "척추살",
+     "price": "2,300원"
+    },
+    {
+     "name": "가슴살",
+     "price": "2,100원"
+    },
+    {
+     "name": "엉덩이",
+     "price": "2,000원"
+    },
+    {
+     "name": "껍질",
+     "price": "2,300원"
+    },
+    {
+     "name": "가슴연골",
+     "price": "2,600원"
+    },
+    {
+     "name": "안창살",
+     "price": "2,700원"
+    }
+   ],
+   "price_range": "2,500~3,200원",
+   "hours": "월·화·목·금·토·일 18:00~02:00",
+   "holiday": "수 휴무",
+   "photo_src": "https://ldb-phinf.pstatic.net/20250412_194/1744461284935Q3GkD_JPEG/Screenshot_20250327-125539_NAVER.jpg",
+   "lat": "35.9751994",
+   "lng": "129.4017655",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1038989355/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1038989355",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"토리아에즈\" 포항",
+   "photo": "img/r25.jpg",
+   "updated": "2026-10-18",
+   "rank": 20
+  },
+  {
+   "name": "백정 식육식당 문덕오천본점",
+   "cat": "ocheon",
+   "naver_id": "464686795",
+   "tags": [],
+   "found_by": "웹 리서치 1차 목록",
+   "sources": [
+    "https://m.place.naver.com/restaurant/464686795/home"
+   ],
+   "naver_name": "백정 문덕오천본점",
+   "category": "정육식당",
+   "address": "경북 포항시 남구 오천읍 철강로705번길 19 펠리스 1층",
+   "phone": "0507-1449-9223",
+   "reviews": 170,
+   "rating": null,
+   "blogs": 252,
+   "menus": [
+    {
+     "name": "한우 특수부위 모듬(100g)",
+     "price": "22,000원"
+    },
+    {
+     "name": "한돈 삼겹살(100g)",
+     "price": "8,000원"
+    },
+    {
+     "name": "육회(250g)",
+     "price": "25,000원"
+    },
+    {
+     "name": "된장라면",
+     "price": "6,000원"
+    },
+    {
+     "name": "물냉면(고기드신후)",
+     "price": "7,000원"
+    },
+    {
+     "name": "비빔냉면(고기드신후)",
+     "price": "7,000원"
+    }
+   ],
+   "price_range": "8,000~22,000원",
+   "hours": "월·화·수·목·금·토 16:30~22:00",
+   "holiday": "일 휴무",
+   "photo_src": "https://ldb-phinf.pstatic.net/20230831_18/1693467813214uXTq7_JPEG/1000003698.jpg",
+   "lat": "35.9644679",
+   "lng": "129.4036625",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/464686795/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/464686795",
+   "sns": 0,
+   "sns_measured": "2026-10-18",
+   "x_query": "\"백정\" 문덕",
+   "photo": "img/r15.jpg",
+   "updated": "2026-10-18",
+   "rank": 21
+  },
+  {
+   "name": "오늘도꿉자",
+   "cat": "ocheon",
+   "naver_id": "1392861840",
+   "tags": [
+    "뒷고기"
+   ],
+   "found_by": "네이버 플레이스 검색 '뒷고기'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1392861840/home"
+   ],
+   "naver_name": "오늘도꿉자",
+   "category": "돼지고기구이",
+   "address": "경북 포항시 남구 오천읍 냉천로236번길 51",
+   "phone": "0507-1365-1473",
+   "reviews": 159,
+   "rating": 4.86,
+   "blogs": 233,
+   "menus": [
+    {
+     "name": "한돈 생삼겹살",
+     "price": "36,000원"
+    },
+    {
+     "name": "갈매기살",
+     "price": "36,000원"
+    },
+    {
+     "name": "특수부위",
+     "price": "35,000원"
+    },
+    {
+     "name": "꼬들목살",
+     "price": "34,000원"
+    },
+    {
+     "name": "양념돼지갈비",
+     "price": "36,000원"
+    }
+   ],
+   "price_range": "34,000~36,000원",
+   "hours": "매일 15:30~23:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20251124_78/1763967996855Jxc1n_JPEG/1000014325.jpg",
+   "lat": "35.9731352",
+   "lng": "129.4031899",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1392861840/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1392861840",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"오늘도꿉자\" 포항",
+   "photo": "img/r32.jpg",
+   "updated": "2026-10-18",
+   "rank": 22
+  },
+  {
+   "name": "전복품은돼지",
+   "cat": "ocheon",
+   "naver_id": "1712765375",
+   "tags": [
+    "뒷고기"
+   ],
+   "found_by": "네이버 플레이스 검색 '뒷고기'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1712765375/home"
+   ],
+   "naver_name": "전복품은돼지",
+   "category": "돼지고기구이",
+   "address": "경북 포항시 남구 오천읍 원동로 14-1 전복품은돼지",
+   "phone": "0507-1486-9053",
+   "reviews": 152,
+   "rating": 4.71,
+   "blogs": 14,
+   "menus": [
+    {
+     "name": "황제안주물회",
+     "price": "30,000원"
+    },
+    {
+     "name": "대게 1키로당 시세",
+     "price": "가격 변동"
+    },
+    {
+     "name": "초밥세트 8ps",
+     "price": "3,000원"
+    },
+    {
+     "name": "전복회 7미",
+     "price": "15,000원"
+    },
+    {
+     "name": "2~3인세트",
+     "price": "23,400원"
+    },
+    {
+     "name": "3~4인세트",
+     "price": "34,400원"
+    },
+    {
+     "name": "꽃대패",
+     "price": "3,900원"
+    },
+    {
+     "name": "꽃삼겹",
+     "price": "3,900원"
+    },
+    {
+     "name": "오겹살",
+     "price": "3,900원"
+    },
+    {
+     "name": "냉삼",
+     "price": "3,900원"
+    },
+    {
+     "name": "오리로스",
+     "price": "3,900원"
+    },
+    {
+     "name": "차돌박이",
+     "price": "5,500원"
+    },
+    {
+     "name": "물,비빔냉면",
+     "price": "6,000원"
+    },
+    {
+     "name": "활전복5미",
+     "price": "9,900원"
+    },
+    {
+     "name": "새우5미",
+     "price": "3,000원"
+    },
+    {
+     "name": "김치말이국수",
+     "price": "6,000원"
+    },
+    {
+     "name": "해물라면",
+     "price": "6,000원"
+    },
+    {
+     "name": "계란볶음밥",
+     "price": "3,000원"
+    }
+   ],
+   "price_range": "3,900~34,400원",
+   "hours": "월 16:30~23:00 / 화·수·목·금·토 15:30~23:00",
+   "holiday": "일 휴무",
+   "photo_src": "https://ldb-phinf.pstatic.net/20250302_134/1740905059579q2zgd_JPEG/1000007957.jpg",
+   "lat": "35.9642697",
+   "lng": "129.4032536",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1712765375/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1712765375",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"전복품은돼지\" 포항",
+   "photo": "img/r33.jpg",
+   "updated": "2026-10-18",
+   "rank": 23
+  },
+  {
+   "name": "장터김해숯불뒷고기",
+   "cat": "ocheon",
+   "naver_id": "15102917",
+   "tags": [
+    "뒷고기"
+   ],
+   "found_by": "네이버 플레이스 검색 '뒷고기'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/15102917/home"
+   ],
+   "naver_name": "장터김해숯불뒷고기",
+   "category": "육류,고기요리",
+   "address": "경북 포항시 남구 오천읍 철강로 708-4",
+   "phone": "054-291-0037",
+   "reviews": 148,
+   "rating": null,
+   "blogs": 33,
+   "menus": [
+    {
+     "name": "뒷고기",
+     "price": "5,000원"
+    },
+    {
+     "name": "생삼겹살",
+     "price": "9,000원"
+    },
+    {
+     "name": "짬뽕수제비",
+     "price": "6,000원"
+    }
+   ],
+   "price_range": "5,000~9,000원",
+   "hours": "정보 없음",
+   "holiday": "정보 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20170822_171/1503364732329sfOqG_JPEG/rlQVQgRdmNlc5mXWNhXwRIze.jpg",
+   "lat": "35.9620519",
+   "lng": "129.4036319",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/15102917/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/15102917",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"장터김해숯불뒷고기\" 포항",
+   "photo": "img/r34.jpg",
+   "updated": "2026-10-18",
+   "rank": 24
+  },
+  {
+   "name": "산초록식당",
+   "cat": "ocheon",
+   "naver_id": "38424008",
+   "tags": [
+    "직장인 가성비"
+   ],
+   "found_by": "네이버 플레이스 검색 '직장인 가성비'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/38424008/home"
+   ],
+   "naver_name": "산초록식당",
+   "category": "한식",
+   "address": "경북 포항시 남구 오천읍 충무로 23 1층 산초록식당",
+   "phone": "0507-1357-6294",
+   "reviews": 147,
+   "rating": 4.8,
+   "blogs": 126,
+   "menus": [
+    {
+     "name": "제육볶음+청국장",
+     "price": "14,000원"
+    },
+    {
+     "name": "제육볶음+된장찌개",
+     "price": "12,000원"
+    },
+    {
+     "name": "청국장",
+     "price": "10,000원"
+    },
+    {
+     "name": "김치찌개",
+     "price": "10,000원"
+    },
+    {
+     "name": "된장찌개",
+     "price": "9,000원"
+    },
+    {
+     "name": "코다리물막국수(4월~10월)",
+     "price": "8,000원"
+    },
+    {
+     "name": "코다리비빔막국수(4월~10월)",
+     "price": "9,000원"
+    },
+    {
+     "name": "코다리등갈비찜",
+     "price": "53,000원"
+    },
+    {
+     "name": "코다리찜 대",
+     "price": "45,000원"
+    },
+    {
+     "name": "코다리찜 중",
+     "price": "35,000원"
+    },
+    {
+     "name": "제육볶음 대",
+     "price": "30,000원"
+    },
+    {
+     "name": "제육볶음 중",
+     "price": "20,000원"
+    },
+    {
+     "name": "닭볶음탕(6시이전주문)",
+     "price": "45,000원"
+    }
+   ],
+   "price_range": "14,000원",
+   "hours": "월·화·수·목·금·토 10:00~22:00 (브레이크 15:00~17:00)",
+   "holiday": "일 휴무",
+   "photo_src": "https://ldb-phinf.pstatic.net/20250906_158/1757145316393r7wnY_JPEG/1000005070.jpg",
+   "lat": "35.9763969",
+   "lng": "129.4122709",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/38424008/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/38424008",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"산초록식당\" 포항",
+   "photo": "img/r36.jpg",
+   "updated": "2026-10-18",
+   "rank": 25
+  },
+  {
+   "name": "동동국밥 포항문덕점",
+   "cat": "ocheon",
+   "naver_id": "1274079256",
+   "tags": [
+    "직장인 가성비"
+   ],
+   "found_by": "네이버 플레이스 검색 '직장인 가성비'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1274079256/home"
+   ],
+   "naver_name": "동동국밥 포항문덕점",
+   "category": "국밥",
+   "address": "경북 포항시 남구 오천읍 원동로 88 1층",
+   "phone": "0507-1402-2485",
+   "reviews": 104,
+   "rating": null,
+   "blogs": 26,
+   "menus": [
+    {
+     "name": "우동돼지국밥",
+     "price": "9,500원"
+    },
+    {
+     "name": "우동순대국밥",
+     "price": "10,000원"
+    },
+    {
+     "name": "얼큰우동돼지국밥",
+     "price": "10,500원"
+    },
+    {
+     "name": "얼큰우동순대국밥",
+     "price": "11,000원"
+    },
+    {
+     "name": "우동갈비찜[辛]",
+     "price": "23,500원"
+    },
+    {
+     "name": "맛보기순대",
+     "price": "4,500원"
+    },
+    {
+     "name": "맛보기수육",
+     "price": "5,000원"
+    },
+    {
+     "name": "순대",
+     "price": "8,000원"
+    },
+    {
+     "name": "수육",
+     "price": "9,000원"
+    },
+    {
+     "name": "[여름메뉴] 우동돼지물회",
+     "price": "11,000원"
+    },
+    {
+     "name": "[여름메뉴] 우동돼지비빔",
+     "price": "10,000원"
+    }
+   ],
+   "price_range": "9,500~10,500원",
+   "hours": "월·화·목·금·토·일 11:00~21:30 (브레이크 15:00~17:00)",
+   "holiday": "수 휴무",
+   "photo_src": "https://ldb-phinf.pstatic.net/20260719_178/1784455149945e8TdB_JPEG/1_%281%29.jpg",
+   "lat": "35.9709189",
+   "lng": "129.4027589",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1274079256/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1274079256",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"동동국밥\" 포항",
+   "photo": "img/r37.jpg",
+   "updated": "2026-10-18",
+   "rank": 26
+  },
+  {
+   "name": "단골돼지국밥",
+   "cat": "ocheon",
+   "naver_id": "1178870451",
+   "tags": [
+    "직장인 가성비"
+   ],
+   "found_by": "네이버 플레이스 검색 '직장인 가성비'",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1178870451/home"
+   ],
+   "naver_name": "단골돼지국밥",
+   "category": "국밥",
+   "address": "경북 포항시 남구 오천읍 문덕로53번길 1 101동 상가 5호",
+   "phone": "0507-1368-0677",
+   "reviews": 74,
+   "rating": null,
+   "blogs": 1,
+   "menus": [
+    {
+     "name": "돼지국밥",
+     "price": "8,000원"
+    },
+    {
+     "name": "내장국밥",
+     "price": "8,000원"
+    },
+    {
+     "name": "순대국밥",
+     "price": "8,000원"
+    },
+    {
+     "name": "콩국수",
+     "price": "6,000원"
+    },
+    {
+     "name": "열무국수",
+     "price": "6,000원"
+    },
+    {
+     "name": "찰순대",
+     "price": "7,000원"
+    },
+    {
+     "name": "모듬순대",
+     "price": "10,000원"
+    },
+    {
+     "name": "곱창전골",
+     "price": "30,000원"
+    },
+    {
+     "name": "홍어삼합",
+     "price": "30,000원"
+    },
+    {
+     "name": "홍어",
+     "price": "15,000원"
+    },
+    {
+     "name": "머리수육",
+     "price": "20,000원"
+    },
+    {
+     "name": "소주",
+     "price": "4,000원"
+    },
+    {
+     "name": "맥주",
+     "price": "4,000원"
+    },
+    {
+     "name": "음료수",
+     "price": "2,000원"
+    },
+    {
+     "name": "공기밥",
+     "price": "1,000원"
+    },
+    {
+     "name": "섞어국밥",
+     "price": "8,000원"
+    },
+    {
+     "name": "수육백반",
+     "price": "12,000원"
+    },
+    {
+     "name": "족발",
+     "price": "15,000원"
+    },
+    {
+     "name": "편육",
+     "price": "15,000원"
+    }
+   ],
+   "price_range": "8,000원",
+   "hours": "매일 09:00~21:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20200615_294/1592216273620NXvMr_JPEG/GzjEvNDXS-vo7Vu9VMXXtX8b.jpg",
+   "lat": "35.9581749",
+   "lng": "129.4031189",
+   "menu_note": null,
+   "menu_url": "https://m.place.naver.com/restaurant/1178870451/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1178870451",
+   "sns": null,
+   "sns_measured": null,
+   "x_query": "\"단골돼지국밥\" 포항",
+   "photo": "img/r38.jpg",
+   "updated": "2026-10-18",
+   "rank": 27
+  },
+  {
+   "name": "영천얼큰돼지국밥 본점",
+   "cat": "ocheon",
+   "naver_id": "1890676989",
+   "tags": [],
+   "found_by": "웹 리서치 1차 목록",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1890676989/home"
+   ],
+   "naver_name": "영천얼큰돼지국밥 본점",
+   "category": "한식",
+   "address": "경북 포항시 남구 오천읍 남원로 36-1 1층",
+   "phone": "054-291-4460",
+   "reviews": 56,
+   "rating": null,
+   "blogs": 20,
+   "menus": [],
+   "price_range": "정보 없음",
+   "hours": "일 10:00~22:00 (브레이크 14:30~16:30) / 월·화·수·목·금·토 10:00~22:00",
+   "holiday": "휴무일 표기 없음",
+   "photo_src": "https://ldb-phinf.pstatic.net/20251211_8/1765418644004WEWxB_JPEG/%B0%A1%B8%CD%B9%AE%C0%C7%C0%CC%B9%CC%C1%F6.jpg",
+   "lat": "35.9708098",
+   "lng": "129.405692",
+   "menu_note": "메뉴판 사진만 등록되어 있어요 (네이버 플레이스 메뉴 탭에서 확인)",
+   "menu_url": "https://m.place.naver.com/restaurant/1890676989/menu/list",
+   "map_url": "https://map.naver.com/p/entry/place/1890676989",
+   "sns": 0,
+   "sns_measured": "2026-10-18",
+   "x_query": "\"영천얼큰돼지국밥\"",
+   "photo": "img/r16.jpg",
+   "updated": "2026-10-18",
+   "rank": 28
+  },
+  {
+   "name": "진가네 장터국수",
+   "cat": "ocheon",
+   "naver_id": null,
+   "tags": [],
+   "found_by": "웹 리서치 1차 목록",
+   "sources": [
+    "https://www.siksinhot.com/theme/magazine/9473"
+   ],
+   "category": "정보 없음",
+   "address": "경북 포항시 남구 오천읍 세계리 831 (오천시장 상가 복도 내)",
+   "phone": "정보 없음",
+   "reviews": null,
+   "rating": null,
+   "blogs": null,
+   "menus": [
+    {
+     "name": "수제비",
+     "price": "약 5,000원"
+    },
+    {
+     "name": "파전",
+     "price": "약 8,000원"
+    },
+    {
+     "name": "칼국수",
+     "price": "정보 없음"
+    },
+    {
+     "name": "칼제비",
+     "price": "정보 없음"
+    },
+    {
+     "name": "비빔밥",
+     "price": "정보 없음"
+    }
+   ],
+   "price_range": "수제비 약 5,000원 · 파전 약 8,000원",
+   "hours": "평일 09:00~15:00, 장날 09:00~17:00",
+   "holiday": "일요일 (장날은 영업)",
+   "photo_src": null,
+   "map_url": "https://map.naver.com/p/search/%EC%A7%84%EA%B0%80%EB%84%A4%20%EC%9E%A5%ED%84%B0%EA%B5%AD%EC%88%98%20%ED%8F%AC%ED%95%AD",
+   "sns": 0,
+   "sns_measured": "2026-10-18",
+   "x_query": "\"진가네\" 오천",
+   "photo": null,
+   "updated": "2026-10-18",
+   "rank": 29
+  }
+ ]
+}
