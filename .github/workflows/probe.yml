@@ -6,6 +6,11 @@ jobs:
     steps:
       - run: |
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/128"
-          echo "=====FEST"; curl -sL --max-time 30 -A "$UA" "https://www.pohang.go.kr/phtour/wmap/festival/index.do?date_type=2&menu_idx=75&org_code=0001" | sed -n '/<body/,$p' | grep -v '^\s*$' | head -c 30000
-          echo; echo "=====KFES"; curl -s --max-time 30 -A Mozilla/5.0 -e https://korean.visitkorea.or.kr/kfes/list/wntyFstvlList.do -d "startIdx=0&searchType=A&searchDate=11&searchArea=35&searchCate=&locationx=undefined&locationy=undefined&filterExcluded=true" https://korean.visitkorea.or.kr/kfes/list/selectWntyFstvlList.do | head -c 4000
-          echo; echo "=====PHCF"; curl -sL --max-time 30 -A "$UA" "https://www.phcf.or.kr/" | grep -o 'href="[^"]*"' | sort -u | head -150
+          curl -sL --max-time 30 -A "$UA" "https://www.pohang.go.kr/phtour/wmap/festival/index.do?date_type=2&menu_idx=75&org_code=0001" > a.html
+          python3 - <<'PY'
+          import re
+          h=open('a.html',encoding='utf-8',errors='ignore').read()
+          i=h.find('포포틴'); print("=====LIST"); print(h[i-3000:i+3500])
+          j=h.find('pagination') if 'pagination' in h else h.find('paging'); print("=====PAGING"); print(h[j-200:j+1500])
+          m=re.search(r'href="([^"]*festival/view[^"]*)"',h) or re.search(r'href="([^"]*(?:view|detail)[^"]*idx=[^"]*)"',h); print("=====VIEWURL",m and m.group(1))
+          PY
