@@ -6,10 +6,10 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "full = 전체 갱신+핫플, hot = 핫플만"
+        description: "full = 전체 갱신+행사+핫플, hot = 핫플만, events = 행사/축제만"
         default: hot
         type: choice
-        options: [hot, full]
+        options: [hot, full, events]
   push:
     branches: [main]
 permissions:
@@ -32,6 +32,9 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install pillow
+      - name: 행사/축제 갱신 (포항시 문화관광·한국관광공사·뉴스)
+        if: github.event.schedule == '0 21 * * *' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'full' || inputs.mode == 'events'))
+        run: python events.py || echo "events 실패 (이전 events.json 유지)"
       - name: 전체 갱신 (네이버 플레이스)
         if: github.event.schedule == '0 21 * * *' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'full')
         env:
@@ -40,7 +43,7 @@ jobs:
           python update.py
           python new_openings.py || echo "new_openings 실패 (무시)"
       - name: 핫플 계산 (블로그·리뷰 급상승)
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' && inputs.mode != 'events'
         env:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
         run: |
@@ -51,7 +54,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data.json img sns_snapshot.json new_openings.json new_openings_seen.json hot.json history seeds.json social_probe.json
+          git add -A data.json img sns_snapshot.json new_openings.json new_openings_seen.json hot.json history seeds.json social_probe.json events.json ev
           if git diff --cached --quiet; then echo "변경 없음"; else git commit -m "자동 갱신 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M KST')" && git pull --rebase -q && git push; fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
