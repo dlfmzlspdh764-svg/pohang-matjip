@@ -1,5 +1,355 @@
 {
  "checked": "2026-10-18",
- "new_places": [],
- "new_blog_posts": []
+ "new_places": [
+  {
+   "name": "스시코이",
+   "area": "포항 북구",
+   "category": "초밥,롤",
+   "address": "경북 포항시 북구 득량동 양학로17번길 46-1",
+   "reviews": 106,
+   "blogs": 5,
+   "map_url": "https://map.naver.com/p/entry/place/2055791418",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "큐슈울트라아멘 포항트리플스트리트점",
+   "area": "포항 북구",
+   "category": "일본식라면",
+   "address": "경북 포항시 북구 학잠동 양학로 58 2층",
+   "reviews": 57,
+   "blogs": 1,
+   "map_url": "https://map.naver.com/p/entry/place/2036482332",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "돈필살 포항철길숲점",
+   "area": "포항 북구",
+   "category": "돼지고기구이",
+   "address": "경북 포항시 북구 용흥동 양학로10번길 19 1층 101호",
+   "reviews": 102,
+   "blogs": 13,
+   "map_url": "https://map.naver.com/p/entry/place/2035767236",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "진교동찜닭 포항우현점",
+   "area": "포항 북구",
+   "category": "찜닭",
+   "address": "경북 포항시 북구 우현동 아치로 37",
+   "reviews": 0,
+   "blogs": 0,
+   "map_url": "https://map.naver.com/p/entry/place/2080274240",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "전주추어탕",
+   "area": "포항 북구",
+   "category": "추어탕",
+   "address": "경북 포항시 북구 죽도동 중흥로330번길 5-3 1층",
+   "reviews": 11,
+   "blogs": 0,
+   "map_url": "https://map.naver.com/p/entry/place/2082367718",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "대밭생아구찜",
+   "area": "포항 북구",
+   "category": "아귀찜,해물찜",
+   "address": "경북 포항시 북구 죽도동 죽파로 16-1 1층",
+   "reviews": 14,
+   "blogs": 1,
+   "map_url": "https://map.naver.com/p/entry/place/2086432908",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "청춘볶음밥",
+   "area": "포항 북구",
+   "category": "한식",
+   "address": "경북 포항시 북구 죽도동 상대로 45 1층 4호",
+   "reviews": 0,
+   "blogs": 0,
+   "map_url": "https://map.naver.com/p/entry/place/2037412974",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "스모프양념통닭 송도점",
+   "area": "포항 남구",
+   "category": "치킨,닭강정",
+   "address": "경북 포항시 남구 송도동 송도해안길 30-2 1층",
+   "reviews": 3,
+   "blogs": 7,
+   "map_url": "https://map.naver.com/p/entry/place/2064223773",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "바름샤브칼국수",
+   "area": "포항 북구",
+   "category": "칼국수,만두",
+   "address": "경북 포항시 북구 우현동 우창동로22번길 23 바름샤브칼국수",
+   "reviews": 784,
+   "blogs": 8,
+   "map_url": "https://map.naver.com/p/entry/place/2033926101",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "태능감자탕 포항장성점",
+   "area": "포항 북구",
+   "category": "감자탕",
+   "address": "경북 포항시 북구 장성동 법원로 14 가동 1층",
+   "reviews": 831,
+   "blogs": 21,
+   "map_url": "https://map.naver.com/p/entry/place/2081067191",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "숯토리 포항장성점",
+   "area": "포항 북구",
+   "category": "이자카야",
+   "address": "경북 포항시 북구 장성동 법원로 26 1층",
+   "reviews": 15,
+   "blogs": 6,
+   "map_url": "https://map.naver.com/p/entry/place/2032246014",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "목구멍 포항장성점",
+   "area": "포항 북구",
+   "category": "육류,고기요리",
+   "address": "경북 포항시 북구 장성동 장량로32번길 65 1층",
+   "reviews": 37,
+   "blogs": 3,
+   "map_url": "https://map.naver.com/p/entry/place/2047083749",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "몽찜닭",
+   "area": "포항 북구",
+   "category": "찜닭",
+   "address": "경북 포항시 북구 장성동 법원로39번길 5-8 1층",
+   "reviews": 3,
+   "blogs": 0,
+   "map_url": "https://map.naver.com/p/entry/place/2044306761",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "충무김밥",
+   "area": "포항 북구",
+   "category": "종합분식",
+   "address": "경북 포항시 북구 장성동 삼흥로 69-1 105호",
+   "reviews": 2,
+   "blogs": 0,
+   "map_url": "https://map.naver.com/p/entry/place/2009573846",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "밤마실",
+   "area": "포항 북구",
+   "category": "요리주점",
+   "address": "경북 포항시 북구 장성동 법원로11번길 5-5 1층",
+   "reviews": 11,
+   "blogs": 0,
+   "map_url": "https://map.naver.com/p/entry/place/2027196097",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "숯토리 포항영일대점",
+   "area": "포항 북구",
+   "category": "이자카야",
+   "address": "경북 포항시 북구 두호동 두호로 23 1층",
+   "reviews": 500,
+   "blogs": 21,
+   "map_url": "https://map.naver.com/p/entry/place/2022917880",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "제주아홉 혼술바 포항점",
+   "area": "포항 북구",
+   "category": "바(BAR)",
+   "address": "경북 포항시 북구 두호동 삼호로 226 2층",
+   "reviews": 33,
+   "blogs": 1,
+   "map_url": "https://map.naver.com/p/entry/place/2042994532",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "양은이네 포항양덕점",
+   "area": "포항 북구",
+   "category": "한식",
+   "address": "경북 포항시 북구 양덕동 천마로 46 1층",
+   "reviews": 216,
+   "blogs": 0,
+   "map_url": "https://map.naver.com/p/entry/place/2020225278",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "하리보원탁가라오케",
+   "area": "포항 북구",
+   "category": "단란주점",
+   "address": "경북 포항시 북구 항구동 삼호로 176 2층",
+   "reviews": 0,
+   "blogs": 0,
+   "map_url": "https://map.naver.com/p/entry/place/2080400561",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "콘서트7080라이브",
+   "area": "포항 북구",
+   "category": "유흥주점",
+   "address": "경북 포항시 북구 두호동 두호로 4 2층",
+   "reviews": 15,
+   "blogs": 0,
+   "map_url": "https://map.naver.com/p/entry/place/2031071987",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "온정돈까스 포항두호점",
+   "area": "포항 북구",
+   "category": "돈가스",
+   "address": "경북 포항시 북구 두호동 대곡로 50 1층 우측상가",
+   "reviews": 418,
+   "blogs": 30,
+   "map_url": "https://map.naver.com/p/entry/place/2009165538",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "마고닭강정",
+   "area": "포항 북구",
+   "category": "치킨,닭강정",
+   "address": "경북 포항시 북구 두호동 삼호로 313-1 마고닭강정",
+   "reviews": 11,
+   "blogs": 17,
+   "map_url": "https://map.naver.com/p/entry/place/2046328787",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "요리조리식당",
+   "area": "포항 북구",
+   "category": "한식",
+   "address": "경북 포항시 북구 두호동 두호로 19-15 B동 1층 101호",
+   "reviews": 4,
+   "blogs": 0,
+   "map_url": "https://map.naver.com/p/entry/place/2066679178",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "대원돼지국밥",
+   "area": "포항 북구",
+   "category": "한식",
+   "address": "경북 포항시 북구 대신동 월막길 13",
+   "reviews": 0,
+   "blogs": 0,
+   "map_url": "https://map.naver.com/p/entry/place/2031418287",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "내방가든",
+   "area": "포항 북구",
+   "category": "육류,고기요리",
+   "address": "경북 포항시 북구 흥해읍 초곡지구로52번길 28-9 1층",
+   "reviews": 27,
+   "blogs": 2,
+   "map_url": "https://map.naver.com/p/entry/place/2013192342",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "담가화로 초곡점",
+   "area": "포항 북구",
+   "category": "육류,고기요리",
+   "address": "경북 포항시 북구 흥해읍 초곡지구로 53 1층",
+   "reviews": 47,
+   "blogs": 5,
+   "map_url": "https://map.naver.com/p/entry/place/2006567226",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "그놈포차 포항초곡점",
+   "area": "포항 북구",
+   "category": "요리주점",
+   "address": "경북 포항시 북구 흥해읍 초곡지구로52번길 14 1층",
+   "reviews": 40,
+   "blogs": 59,
+   "map_url": "https://map.naver.com/p/entry/place/2085449682",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "진심왕돈까스 포항초곡점",
+   "area": "포항 북구",
+   "category": "돈가스",
+   "address": "경북 포항시 북구 흥해읍 초곡지구로52번길 10-2 1층",
+   "reviews": 31,
+   "blogs": 0,
+   "map_url": "https://map.naver.com/p/entry/place/2092807432",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "오늘도정선집",
+   "area": "포항 북구",
+   "category": "한식",
+   "address": "경북 포항시 북구 흥해읍 흥해로74번길 6 8동 1호",
+   "reviews": 0,
+   "blogs": 1,
+   "map_url": "https://map.naver.com/p/entry/place/2005438798",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "name": "월포솔면옥",
+   "area": "포항 북구",
+   "category": "갈비탕",
+   "address": "경북 포항시 북구 청하면 해안로 2306 월포솔면옥",
+   "reviews": 41,
+   "blogs": 2,
+   "map_url": "https://map.naver.com/p/entry/place/2015586750",
+   "first_seen": "2026-10-18"
+  }
+ ],
+ "new_blog_posts": [
+  {
+   "title": "포항 자이애서턴 맛집 오픈! 오복당 & 뽁식당 GRAND OPEN  10월 15일 오픈 기념 특별 이벤트! 안녕하세요  포항 북구 자이애서턴 트리플스트리트 상가에 새로운 맛집이 찾아왔습니다!... #포항맛집 #포항북",
+   "url": "https://m.blog.naver.com/ksinhimart90/224442129634"
+  },
+  {
+   "title": "숯양두마리치킨 송정점 ✅주소 : 전남광주통합특별시 광산구 소촌동 869 ✅연락처 : 0507-1351-8979 포장, 배달 가능 신규오픈 할인으로 방문포장 시 3000원 할인 꼭 받아가세용 우리가 무슨... 진짜 밥",
+   "url": "https://m.blog.naver.com/greatsook/224439542290"
+  },
+  {
+   "title": "포항삼겹살 회식 맛집, 무항생제 돼지고기가 맛있는 참돈 안녕하세요 크리입니다^^ 최근 포항에 새로 오픈한 고깃집 참돈에 다녀왔어요.ㅎ 삼겹살을 워낙 좋아해서 포항 고깃집은 꽤... ㅎ 다음에는 미리 예약해서 훈제삼겹",
+   "url": "https://m.blog.naver.com/shadowsj86/224433551784"
+  },
+  {
+   "title": "주소 - 포항시 북구 삼호로 243 1층 영업시간 - 매일 17:00~24:00 라스트오더 23:00 전화번호 - 0507.1404.1406 주차 - 공영주차장 이용... 내부 매장이 아주 넓어서 테이블 간격도 넉넉",
+   "url": "https://m.blog.naver.com/ansgml4196/224428470120"
+  },
+  {
+   "title": "디마레는 쁠놑맘 생신 기념 양식집을 써치하던 중 픽한 곳이에요 영일대 오션뷰에 예약도 가능하고! (젤중요) 후기가... 주방은 오픈형 주방이라 위생도 깔끔해보였어요 내부가 넓고 뷰가 확 트여있어 좋더라구요 바닷가 출",
+   "url": "https://m.blog.naver.com/plainote/224441771560"
+  },
+  {
+   "title": "맛집이였어 어쩐지 앞사람이 잔뜩 사가더라 레전드 등산.. 7봉했던거 미화된건지 모르겠지만 역대급 힘든 등산이였어... 남은 추석 연휴 이제 걷고싶지않어요 등산 후유증 일찍 도서관가서 공부하고 12시 오픈인 신상빵집을",
+   "url": "https://m.blog.naver.com/dlwjddk8433/224439120229"
+  },
+  {
+   "title": "포항에 새롭게 오픈한 온정돈까스 포항두호점에 다녀왔어요. 특별한 맛과 챌린지로 입소문이 난 곳인데요. 매운맛으로 유명한... #포항북구맛집 #영일대맛집 #포항점심맛집 #포항돈까스맛집 #포항두호동맛집 #포항맛집 #두호",
+   "url": "https://m.blog.naver.com/thth___/224434960385"
+  },
+  {
+   "title": "해변을 따라 맛집들이 준비해 있고 호텔도 엄청 많았어요. 그중에서도 <비치호텔>은 영일대 해변 1분 거리라 뷰도 좋고 위치도 좋고, 오픈한 지 1년 정도밖에 안돼서 외관만 봐도 깔끔한 느낌.✨ ️ 건물 뒤편으로 주차",
+   "url": "https://m.blog.naver.com/boralala__/224427964993"
+  },
+  {
+   "title": "평일 오후 5시 오픈런으로 들어가려고 20분 일찍 왔는데, 왠걸 오픈런 동지가 2팀 더 있더라구요. 이미 영일대칼국수맛집으로 소문난 이곳! 그럼 같이 탐방 시작해볼까요~~~ 맛있는건... 포항낙지볶음맛집 #포항만두맛",
+   "url": "https://m.blog.naver.com/joyably/224427401860"
+  },
+  {
+   "title": "\"포항 여행 포항 맛집 연일개미집 내돈내산 솔직후기\" 렛. 츠. 고 !  연일개미집집 기본 정보 ️ 영업시간 : 11시30분-22시 (21시 라스트오더) ️ 정기휴무 : 없음  주차장 有 ☎️ 0507-1491-23",
+   "url": "https://m.blog.naver.com/kd8291/224381271876"
+  },
+  {
+   "title": "(운동은 먹으려고 하는 법..) 마침 영일대 설머리 물회지구 쪽에 새로 오픈해서 깔끔하다고 소문난 포항 맛집 물회 '오늘도가자미'가 눈에 띄길래 친구랑 고민도 안 하고 바로... 사장님께 여쭤보니까 저희가 방문한 바",
+   "url": "https://m.blog.naver.com/gamguma-/224422142329"
+  },
+  {
+   "title": "포항 돈카츠 맛집│윳쿠리│본점 웨이팅 맛집, 효자에 2호점 오픈!│포항 맛집",
+   "url": "https://m.blog.naver.com/tasty_kpro/224421092088"
+  }
+ ]
 }
