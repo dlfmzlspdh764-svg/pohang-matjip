@@ -1,0 +1,11 @@
+name: probe (temporary)
+on: workflow_dispatch
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/128"
+          echo "=====FEST"; curl -sL --max-time 30 -A "$UA" "https://www.pohang.go.kr/phtour/wmap/festival/index.do?date_type=2&menu_idx=75&org_code=0001" | sed -n '/<body/,$p' | grep -v '^\s*$' | head -c 30000
+          echo; echo "=====KFES"; curl -s --max-time 30 -A Mozilla/5.0 -e https://korean.visitkorea.or.kr/kfes/list/wntyFstvlList.do -d "startIdx=0&searchType=A&searchDate=11&searchArea=35&searchCate=&locationx=undefined&locationy=undefined&filterExcluded=true" https://korean.visitkorea.or.kr/kfes/list/selectWntyFstvlList.do | head -c 4000
+          echo; echo "=====PHCF"; curl -sL --max-time 30 -A "$UA" "https://www.phcf.or.kr/" | grep -o 'href="[^"]*"' | sort -u | head -150
