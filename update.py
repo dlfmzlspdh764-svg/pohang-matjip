@@ -208,12 +208,12 @@ def main():
             except Exception as e: print("  err", s["name"], e)
         return s, d
     with ThreadPoolExecutor(3) as ex: results = list(ex.map(work, seeds))
-    for rnd in range(2):  # 실패분 순차 재시도 (일시 차단 대비)
+    for rnd in range(3):  # 실패분 순차 재시도 (일시 차단 대비)
         miss = [i for i, (s, d) in enumerate(results) if s.get("naver_id") and not d]
         if not miss: break
-        print(f"retry round {rnd + 1}: {len(miss)}곳"); time.sleep(20)
+        print(f"retry round {rnd + 1}: {len(miss)}곳"); time.sleep(30 + 30 * rnd)
         for i in miss:
-            results[i] = work(results[i][0]); time.sleep(3)
+            results[i] = work(results[i][0]); time.sleep(5)
     fails = sum(1 for s, d in results if s.get("naver_id") and not d)
     total = sum(1 for s, _ in results if s.get("naver_id"))
     print(f"naver ok {total - fails}/{total}")

@@ -34,6 +34,7 @@ main{padding:12px 12px 60px;max-width:720px;margin:0 auto}
 .inf span:nth-child(even){overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .mt{display:flex;gap:10px;margin-top:9px;font-size:12px;color:var(--mu);flex-wrap:wrap}.mt b{color:var(--tx)}
 .tg{display:inline-block;font-size:11px;background:var(--c2);color:var(--c);border-radius:8px;padding:1px 7px;margin-left:2px}
+.hb{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}.hb span{background:#ffe9d6;color:#c2410c;font-size:12px;font-weight:700;border-radius:8px;padding:2px 8px}.hb span:first-child{background:#ff5a1f;color:#fff}
 .why{margin-top:7px;font-size:12.5px;color:#6b4d43;background:#fff6e5;border-radius:8px;padding:5px 9px}
 .kw{margin-top:7px;font-size:12px;color:var(--mu)}
 .empty{color:var(--mu);text-align:center;padding:50px 0;line-height:1.6}
@@ -67,8 +68,8 @@ table{width:100%;border-collapse:collapse;font-size:14px}td{padding:8px 2px;bord
 <main><div class="rule" id="rule"></div><div id="list"></div></main>
 <div id="dt"><div class="top"><button class="back" id="back" aria-label="뒤로">‹</button><div class="ttl" id="dtt"></div></div><div id="dtc"></div></div>
 <script>
-const NA='정보 없음',FIL=['전체','술집','횟집','뒷고기','직장인 가성비'],SEC=[['회식','🍻 회식 TOP10'],['치킨','🍗 치킨 TOP10'],['과메기','🐟 과메기 TOP10']];
-let D=null,cat='nam',view='전체',q='';
+const NA='정보 없음',FIL=['전체','술집','횟집','뒷고기','직장인 가성비'],SEC=[['핫플','🔥 실시간 핫플'],['회식','🍻 회식 TOP10'],['치킨','🍗 치킨 TOP10'],['과메기','🐟 과메기 TOP10']];
+let D=null,HOT=null,cat='nam',view='전체',q='';
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const num=v=>v==null?NA:Number(v).toLocaleString('ko-KR');
@@ -77,19 +78,26 @@ const has=v=>v&&v!==NA;
 function chips(){$('chips').innerHTML=FIL.map(t=>`<button class="chip ${t===view?'on':''}" data-v="${t}">${t==='술집'?'술집(술한잔)':t}</button>`).join('')+'<span class="sep"></span>'+SEC.map(([k,l])=>`<button class="chip rk ${k===view?'on':''}" data-v="${k}">${l}</button>`).join('')}
 function repLine(r){const m=(r.rep_menu||[]).filter(x=>x.name);if(!m.length)return `<div class="rep"><b>대표메뉴</b>${r.menu_note?esc(r.menu_note):NA}</div>`;
   return `<div class="rep"><b>대표메뉴</b>${m.slice(0,2).map(x=>`${esc(x.name)} <span class="p">${esc(x.price||NA)}</span>`).join(' · ')}</div>`}
-function card(r,i,why){const n=(r.photos||[]).length;
+function hb(b){return b&&b.length?`<div class="hb">${b.map(x=>`<span>${esc(x)}</span>`).join('')}</div>`:''}
+function mini(h,i){return `<a class="card" style="display:block;text-decoration:none;color:inherit" href="${esc(h.map_url)}" target="_blank" rel="noopener"><div class="bd"><div class="nmr"><span class="badge top" style="position:static">${i+1}</span><p class="nm">${esc(h.name)}</p></div><div class="ct">${esc(h.category||NA)} · ${h.cat==='ocheon'?'문덕·오천':'포항 남구'} · 새로 발견 (다음 일일 갱신 때 상세 정보 수집)</div>${hb(h.badges)}<div class="inf"><span>주소</span><span>${esc(h.address||NA)}</span></div><div class="mt"><span>방문자리뷰 <b>${num(h.reviews)}</b></span><span>네이버 지도 열기 ›</span></div></div></a>`}
+function card(r,i,why,badges){const n=(r.photos||[]).length;
   return `<div class="card" data-n="${esc(r.name)}"><div class="ph"><img loading="lazy" src="${ph(r)}" alt="" onerror="this.src='placeholder.svg'">
   <div class="badge ${i<3?'top':''}">${i+1}</div>${n>1?`<div class="cnt">📷 ${n}</div>`:''}</div>
   <div class="bd"><div class="nmr"><p class="nm">${esc(r.name)}</p>${r.rating?`<span class="star">★ ${esc(r.rating)}</span>`:''}</div>
   <div class="ct">${esc(r.category||NA)} · ${r.cat==='ocheon'?'문덕·오천':'포항 남구'}${(r.tags||[]).map(t=>`<span class="tg">${esc(t)}</span>`).join('')}</div>
-  ${why?`<div class="why">${esc(why)}</div>`:''}${repLine(r)}
+  ${hb(badges)}${why?`<div class="why">${esc(why)}</div>`:''}${repLine(r)}
   <div class="inf"><span>가격대</span><span>${esc(r.price_range||NA)}</span><span>영업</span><span>${esc(r.hours||NA)}</span><span>휴무</span><span>${esc(r.holiday||NA)}</span></div>
   ${(r.keywords||[]).length?`<div class="kw">👍 ${r.keywords.slice(0,2).map(k=>esc(k.label)).join(' · ')}</div>`:''}
   <div class="mt"><span>방문자리뷰 <b>${num(r.reviews)}</b></span><span>블로그 <b>${num(r.blogs)}</b></span><span>X 7일 <b>${num(r.sns)}</b></span></div></div></div>`}
 function match(r){if(!q)return true;const b=[r.name,r.category,r.address,...(r.menus||[]).map(m=>m.name),...(r.tags||[])].join(' ').toLowerCase();return b.includes(q)}
 function list(){
   const R=D.restaurants,byN=Object.fromEntries(R.map(r=>[r.name,r]));let html='',rule='';
-  if(SEC.some(([k])=>k===view)){
+  if(view==='핫플'){
+    const L=HOT?((HOT.top||{})[cat]||[]).filter(h=>match(byN[h.name]||{name:h.name,category:h.category})):[];
+    const sg=HOT?Object.entries(HOT.signals).map(([k,v])=>({naver_blog:'네이버 블로그',naver_review_recent:'네이버 최근 리뷰',naver_review_snapshot_delta:'리뷰 증가분',x:'X',instagram:'인스타그램',facebook:'페이스북',tiktok:'틱톡',google:'구글'}[k]+': '+v)).join(' · '):'';
+    rule=`<b>🔥 실시간 핫플 TOP10</b> · ${HOT?esc(HOT.updated)+' 기준 · '+esc(HOT.rule):'불러오는 중'}<br><span style="font-size:11px">${esc(sg)}</span>`;
+    html=L.length?L.map((h,i)=>byN[h.name]?card(byN[h.name],i,'',h.badges):mini(h,i)).join(''):'<div class="empty">아직 급상승 데이터가 없어요</div>';
+  }else if(SEC.some(([k])=>k===view)){
     const L=((D.sections[view]||{})[cat]||[]).map(x=>[byN[x.name],x.reason]).filter(([r])=>r&&match(r));
     rule=`<b>${view} TOP10</b> · ${esc(D.section_rules[view])}`;
     html=L.length?L.map(([r,w],i)=>card(r,i,w)).join(''):`<div class="empty">조건에 맞는 곳을 아직 못 찾았어요.<br>매일 자동 갱신 때 다시 찾아볼게요.</div>`;
@@ -137,6 +145,7 @@ document.addEventListener('click',e=>{
 });
 $('q').oninput=e=>{q=e.target.value.trim().toLowerCase();list()};
 $('back').onclick=()=>history.back();addEventListener('popstate',()=>{$('dt').style.display='none'});
+fetch('hot.json',{cache:'no-cache'}).then(r=>r.json()).then(h=>{HOT=h;if(D)list()}).catch(()=>{});
 fetch('data.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{D=d;
   $('upd').innerHTML='마지막 업데이트<br><b>'+esc(d.last_updated)+'</b>';chips();list();})
  .catch(()=>$('list').innerHTML='<div class="empty">데이터를 불러오지 못했어요</div>');

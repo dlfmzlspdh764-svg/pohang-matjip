@@ -1,8 +1,15 @@
 name: 데이터 자동 갱신 및 배포
 on:
   schedule:
-    - cron: "0 21 * * *"   # 매일 06:00 KST (UTC 21:00)
+    - cron: "0 21 * * *"              # 매일 06:00 KST: 전체 갱신(update.py) + 핫플
+    - cron: "0 23,2,5,8,11,14 * * *"  # 08·11·14·17·20·23시 KST: 핫플(hot.py)만
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "full = 전체 갱신+핫플, hot = 핫플만"
+        default: hot
+        type: choice
+        options: [hot, full]
   push:
     branches: [main]
 permissions:
@@ -15,7 +22,7 @@ concurrency:
 jobs:
   update-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 50
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -25,21 +32,27 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install pillow
-      - name: 데이터 수집 (네이버 플레이스)
-        if: github.event_name != 'push'
+      - name: 전체 갱신 (네이버 플레이스)
+        if: github.event.schedule == '0 21 * * *' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'full')
         env:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
-          TZ: Asia/Seoul
         run: |
           python update.py
           python new_openings.py || echo "new_openings 실패 (무시)"
+      - name: 핫플 계산 (블로그·리뷰 급상승)
+        if: github.event_name != 'push'
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+        run: |
+          python social_probe.py || true
+          python hot.py
       - name: 변경사항 커밋
         if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data.json img sns_snapshot.json new_openings.json new_openings_seen.json
-          if git diff --cached --quiet; then echo "변경 없음"; else git commit -m "데이터 자동 갱신 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M KST')" && git push; fi
+          git add -A data.json img sns_snapshot.json new_openings.json new_openings_seen.json hot.json history seeds.json social_probe.json
+          if git diff --cached --quiet; then echo "변경 없음"; else git commit -m "자동 갱신 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M KST')" && git pull --rebase -q && git push; fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
