@@ -68,11 +68,33 @@ table{width:100%;border-collapse:collapse;font-size:14px}td{padding:8px 2px;bord
 .st{display:inline-block;font-size:11.5px;font-weight:800;padding:2px 8px;border-radius:99px;margin-right:4px}.st.on{background:#e6f6ec;color:#18864b}.st.up{background:#fff1ea;color:var(--c)}.st.ty{background:#f2eeeb;color:var(--mu)}
 .evp{width:100%;max-height:70vh;object-fit:contain;background:#111;display:block}
 .nw a{display:block;padding:9px 0;border-bottom:1px solid var(--ln);color:var(--tx);text-decoration:none;font-size:13.5px;line-height:1.45}.nw a small{color:var(--mu)}
+
+/* 모바일 최적화 */
+html,body{overflow-x:clip;max-width:100%}
+header{position:static;box-shadow:none;padding:calc(env(safe-area-inset-top) + 8px) calc(14px + env(safe-area-inset-right)) 2px calc(14px + env(safe-area-inset-left))}
+.hd{align-items:center;flex-wrap:nowrap}
+h1{font-size:clamp(17px,5.6vw,22px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;flex:1 1 auto;line-height:1.25}
+.upd{flex:none;font-size:clamp(10px,2.9vw,11.5px);white-space:nowrap}
+.search{margin:8px 0 2px;min-height:44px}.search input{min-height:44px;padding:0;font-size:16px}
+.stk{position:sticky;top:0;z-index:6;background:var(--card);box-shadow:0 1px 0 var(--ln);padding:env(safe-area-inset-top) calc(10px + env(safe-area-inset-right)) 0 calc(10px + env(safe-area-inset-left))}
+.tabs{display:flex;overflow-x:auto;scrollbar-width:none;flex-wrap:nowrap;scroll-snap-type:x proximity}.tabs::-webkit-scrollbar{display:none}
+.tab{flex:1 0 auto;min-height:44px;padding:0 12px;font-size:clamp(13.5px,3.9vw,15px);scroll-snap-align:start}
+.chips{flex-wrap:nowrap;padding:8px 0 10px;-webkit-overflow-scrolling:touch;scroll-padding:0 10px}
+.chip{flex:none;min-height:44px;padding:0 15px;border-radius:22px;display:inline-flex;align-items:center}
+main{padding:12px calc(12px + env(safe-area-inset-right)) calc(60px + env(safe-area-inset-bottom)) calc(12px + env(safe-area-inset-left))}
+.nmr{flex-wrap:nowrap;min-width:0}.nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;flex:0 1 auto}.nmr .star,.nmr .badge{flex:none}
+.evc .t{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.evc .l{overflow-wrap:anywhere}
+.h1d{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:clamp(17px,5.2vw,21px)!important}
+.ttl{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.btn,.more,.back{min-height:44px}.back{min-width:44px}
+.kv span,.sub,.src,.rule{overflow-wrap:anywhere}
+#dtc{padding-bottom:env(safe-area-inset-bottom)}
+img{max-width:100%}
 </style></head><body>
 <header><div class="hd"><h1>포항<span>여기저기요기</span></h1><div class="upd" id="upd">불러오는 중…</div></div>
 <label class="search">🔎<input id="q" type="search" placeholder="가게·메뉴 검색 (예: 물회, 갈비)"></label>
-<div class="tabs"><button class="tab on" data-cat="nam">포항 남구</button><button class="tab" data-cat="buk">포항 북구</button><button class="tab" data-cat="ocheon">문덕·오천</button><button class="tab" data-cat="all">전체</button><button class="tab" data-cat="ev">행사·축제</button></div>
-<div class="chips" id="chips"></div></header>
+</header><nav class="stk"><div class="tabs"><button class="tab on" data-cat="nam">포항 남구</button><button class="tab" data-cat="buk">포항 북구</button><button class="tab" data-cat="ocheon">문덕·오천</button><button class="tab" data-cat="all">전체</button><button class="tab" data-cat="ev">행사·축제</button></div>
+<div class="chips" id="chips"></div></nav>
 <main><div class="rule" id="rule"></div><div id="list"></div></main>
 <div id="dt"><div class="top"><button class="back" id="back" aria-label="뒤로">‹</button><div class="ttl" id="dtt"></div></div><div id="dtc"></div></div>
 <script>
@@ -91,7 +113,7 @@ function repLine(r){const m=(r.rep_menu||[]).filter(x=>x.name);if(!m.length)retu
 function hb(b){return b&&b.length?`<div class="hb">${b.map(x=>`<span>${esc(x)}</span>`).join('')}</div>`:''}
 function mini(h,i){return `<a class="card" style="display:block;text-decoration:none;color:inherit" href="${esc(h.map_url)}" target="_blank" rel="noopener"><div class="bd"><div class="nmr"><span class="badge top" style="position:static">${i+1}</span><p class="nm">${esc(h.name)}</p></div><div class="ct">${esc(h.category||NA)} · ${AREA(h.cat)} · 새로 발견 (다음 일일 갱신 때 상세 정보 수집)</div>${hb(h.badges)}<div class="inf"><span>주소</span><span>${esc(h.address||NA)}</span></div><div class="mt"><span>방문자리뷰 <b>${num(h.reviews)}</b></span><span>네이버 지도 열기 ›</span></div></div></a>`}
 function card(r,i,why,badges){const n=(r.photos||[]).length;
-  return `<div class="card" data-n="${esc(r.name)}"><div class="ph"><img loading="lazy" src="${ph(r)}" alt="" onerror="this.src='placeholder.svg'">
+  return `<div class="card" data-n="${esc(r.name)}"><div class="ph"><img loading="lazy" decoding="async" src="${ph(r)}" alt="" onerror="this.src='placeholder.svg'">
   <div class="badge ${i<3?'top':''}">${i+1}</div>${n>1?`<div class="cnt">📷 ${n}</div>`:''}</div>
   <div class="bd"><div class="nmr"><p class="nm">${esc(r.name)}</p>${r.rating?`<span class="star">★ ${esc(r.rating)}</span>`:''}</div>
   <div class="ct">${esc(r.category||NA)} · ${AREA(r.cat)}${(r.tags||[]).map(t=>`<span class="tg">${esc(t)}</span>`).join('')}</div>
@@ -135,7 +157,7 @@ function evList(){
   L.forEach((x,i)=>{const k=x.status==='진행중'?'지금 진행중':(+x.start.slice(5,7))+'월';
     if(k!==g){g=k;h+=`<div class="evh">${x.status==='진행중'?'🟢 ':'📅 '}${k}<small>${L.filter(y=>(y.status==='진행중'?'지금 진행중':(+y.start.slice(5,7))+'월')===k).length}건</small></div>`}
     const dd=dday(x.start);
-    h+=`<div class="evc" data-e="${esc(x.id)}"><img src="${esc(x.img||'placeholder.svg')}" alt="" loading="lazy" onerror="this.src='placeholder.svg'"><div class="b">
+    h+=`<div class="evc" data-e="${esc(x.id)}"><img src="${esc(x.img||'placeholder.svg')}" alt="" loading="lazy" decoding="async" onerror="this.src='placeholder.svg'"><div class="b">
      <span class="st ${x.status==='진행중'?'on':'up'}">${x.status==='진행중'?'진행중':(dd===0?'오늘':'D-'+dd)}</span><span class="st ty">${esc(x.type)}</span>
      <div class="t">${esc(x.title)}</div><div class="l">📅 <b>${fd(x.start)}${x.end!==x.start?' ~ '+fd(x.end):''}</b><br>📍 ${esc(x.venue)}<br>💰 ${esc(x.fee)} · ${x.area==='all'?'포항 전역':AREA(x.area)}</div></div></div>`});
   if(!L.length)h='<div class="empty">조건에 맞는 진행중·예정 행사가 없어요</div>';
@@ -157,7 +179,7 @@ function evDetail(id){
 function detail(n){
   const r=D.restaurants.find(x=>x.name===n);if(!r)return;$('dtt').textContent=r.name;
   const P=(r.photos||[]).length?r.photos:[{file:'placeholder.svg',kind:'사진 없음'}];
-  const gal=`<div class="gal"><div class="gs" id="gs">${P.map(p=>`<figure><img src="${esc(p.file)}" alt="" loading="lazy" onerror="this.src='placeholder.svg'"><figcaption>${esc(p.kind)}</figcaption></figure>`).join('')}</div>
+  const gal=`<div class="gal"><div class="gs" id="gs">${P.map(p=>`<figure><img src="${esc(p.file)}" alt="" loading="lazy" decoding="async" onerror="this.src='placeholder.svg'"><figcaption>${esc(p.kind)}</figcaption></figure>`).join('')}</div>
    <div class="gn" id="gn">1 / ${P.length}</div>${P.length>1?`<div class="dots" id="dots">${P.map((_,i)=>`<i class="${i?'':'on'}"></i>`).join('')}</div>`:''}</div>`;
   const rep=(r.rep_menu||[]).filter(x=>x.name);
   const menus=r.menus||[];const kmax=Math.max(1,...(r.keywords||[]).map(k=>k.count||0));
