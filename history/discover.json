@@ -1,0 +1,185 @@
+{
+"date": "2026-10-19",
+"discovered": [
+{
+"name": "허가네양갈비양꼬치 문덕점",
+"cat": "ocheon",
+"in_data": false,
+"keyword": "\"허가네양갈비양꼬치\" 문덕",
+"blog7": 14,
+"blog_prev7": 13,
+"blog_growth_pct": 8,
+"score": 15.1,
+"eligible": true,
+"badges": [
+"블로그 +8%",
+"새로 발견"
+],
+"category": "양갈비",
+"address": "경북 포항시 남구 오천읍 원동로 90 1층",
+"reviews": 350,
+"map_url": "https://map.naver.com/p/entry/place/1697687771",
+"naver_id": "1697687771"
+},
+{
+"name": "오천아이누리장난감도서관",
+"cat": "ocheon",
+"in_data": false,
+"keyword": "\"오천아이누리장난감도서관\" 포항",
+"blog7": 6,
+"blog_prev7": 3,
+"blog_growth_pct": 100,
+"score": 12.0,
+"eligible": true,
+"badges": [
+"블로그 +100%",
+"새로 발견"
+],
+"category": "어린이도서관",
+"address": "경북 포항시 남구 오천읍 냉천로320번길 4-11 오천읍민복지회관 2층",
+"reviews": 0,
+"map_url": "https://map.naver.com/p/entry/place/1910918921",
+"naver_id": "1910918921"
+},
+{
+"name": "포항다원복합센터",
+"cat": "ocheon",
+"in_data": false,
+"keyword": "\"포항다원복합센터\" 포항",
+"blog7": 8,
+"blog_prev7": 7,
+"blog_growth_pct": 14,
+"score": 9.1,
+"eligible": true,
+"badges": [
+"블로그 +14%",
+"새로 발견"
+],
+"category": "문화센터",
+"address": "경북 포항시 남구 오천읍 북원로9번길 7",
+"reviews": 54,
+"map_url": "https://map.naver.com/p/entry/place/1215699654",
+"naver_id": "1215699654"
+},
+{
+"name": "등촌샤브칼국수 포항점",
+"cat": "nam",
+"in_data": false,
+"keyword": "\"등촌샤브칼국수\" 포항",
+"blog7": 11,
+"blog_prev7": 3,
+"blog_growth_pct": 267,
+"score": 40.3,
+"eligible": true,
+"badges": [
+"블로그 +267%",
+"새로 발견"
+],
+"category": "칼국수,만두",
+"address": "경북 포항시 남구 이동 대이로143번길 5-1",
+"reviews": 1671,
+"map_url": "https://map.naver.com/p/entry/place/15130771",
+"naver_id": "15130771"
+},
+{
+"name": "맥도날드 포항남부DT점",
+"cat": "nam",
+"in_data": false,
+"keyword": "\"맥도날드\" 남부DT",
+"blog7": 23,
+"blog_prev7": 19,
+"blog_growth_pct": 21,
+"score": 27.8,
+"eligible": true,
+"badges": [
+"블로그 +21%",
+"새로 발견"
+],
+"category": "햄버거",
+"address": "경북 포항시 남구 대잠동 새천년대로 470",
+"reviews": 9905,
+"map_url": "https://map.naver.com/p/entry/place/20963198",
+"naver_id": "20963198"
+},
+{
+"name": "샤브로21 효자",
+"cat": "nam",
+"in_data": false,
+"keyword": "\"샤브로21 효자\" 포항",
+"blog7": 13,
+"blog_prev7": 10,
+"blog_growth_pct": 30,
+"score": 16.9,
+"eligible": true,
+"badges": [
+"블로그 +30%",
+"새로 발견"
+],
+"category": "샤브샤브",
+"address": "경북 포항시 남구 효자동 효자동길 2 1층 102호",
+"reviews": 4341,
+"map_url": "https://map.naver.com/p/entry/place/1899206820",
+"naver_id": "1899206820"
+},
+{
+"name": "샤브20 포항본점",
+"cat": "buk",
+"in_data": false,
+"keyword": "\"샤브20\" 포항",
+"blog7": 18,
+"blog_prev7": 13,
+"blog_growth_pct": 38,
+"score": 24.9,
+"eligible": true,
+"badges": [
+"블로그 +38%",
+"새로 발견"
+],
+"category": "샤브샤브",
+"address": "경북 포항시 북구 장성동 법원로 7 1층 샤브20",
+"reviews": 2962,
+"map_url": "https://map.naver.com/p/entry/place/1310079764",
+"naver_id": "1310079764"
+},
+{
+"name": "포항홍게칼국수",
+"cat": "buk",
+"in_data": false,
+"keyword": "\"포항홍게칼국수\" 포항",
+"blog7": 18,
+"blog_prev7": 13,
+"blog_growth_pct": 38,
+"score": 24.9,
+"eligible": true,
+"badges": [
+"블로그 +38%",
+"새로 발견"
+],
+"category": "칼국수,만두",
+"address": "경북 포항시 북구 두호동 해안로 185 1층",
+"reviews": 2204,
+"map_url": "https://map.naver.com/p/entry/place/1374962763",
+"naver_id": "1374962763"
+},
+{
+"name": "라멘묘조",
+"cat": "buk",
+"in_data": false,
+"keyword": "\"라멘묘조\" 포항",
+"blog7": 9,
+"blog_prev7": 7,
+"blog_growth_pct": 29,
+"score": 11.6,
+"eligible": true,
+"badges": [
+"블로그 +29%",
+"새로 발견"
+],
+"category": "일본식라면",
+"address": "경북 포항시 북구 장성동 장량로 140 1층 라멘묘조",
+"reviews": 2895,
+"map_url": "https://map.naver.com/p/entry/place/1218932843",
+"naver_id": "1218932843"
+}
+]
+}
