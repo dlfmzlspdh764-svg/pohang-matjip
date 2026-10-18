@@ -16,5 +16,6 @@ def place_list(query, x, y):
                     "score": v.get("visitorReviewScore"), "newOpening": v.get("newOpening"), "isAd": "Ad" in k})
     return out
 def area_of(addr):
+    if "포항시 북구" in addr: return "buk"
     if "포항시 남구" not in addr: return None
     return "ocheon" if "오천읍" in addr else "nam"

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""포항 남구·문덕·오천 신규 오픈 음식점 탐지.
+"""포항 남구·북구·문덕·오천 신규 오픈 음식점 탐지.
 1) 네이버 플레이스 목록에서 '새로 오픈(newOpening)' 표시가 붙은 음식점 수집
 2) 네이버 블로그 검색 '그랜드오픈/신상 오픈' 글 제목도 참고용으로 수집
 data.json 에 이미 있거나 new_openings_seen.json 에 기록된 곳은 제외하고 새 것만 출력.
@@ -9,10 +9,12 @@ import json, os, re, subprocess, urllib.parse, datetime, html
 from naverlist import place_list, area_of, UA
 HERE = os.path.dirname(os.path.abspath(__file__))
 SPOTS = [("오천", 129.405, 35.965), ("문덕", 129.405, 35.962), ("효자동", 129.329, 36.008), ("이동", 129.338, 36.030),
-         ("상도동", 129.360, 36.025), ("대이동", 129.335, 36.028), ("구룡포", 129.555, 35.990), ("연일", 129.345, 35.995)]
+         ("상도동", 129.360, 36.025), ("대이동", 129.335, 36.028), ("구룡포", 129.555, 35.990), ("연일", 129.345, 35.995),
+         ("죽도동", 129.366, 36.036), ("양학동", 129.354, 36.040), ("장성동", 129.375, 36.067), ("두호동", 129.385, 36.060),
+         ("영일대", 129.380, 36.056), ("흥해", 129.351, 36.110), ("청하", 129.340, 36.197), ("송라", 129.375, 36.230), ("기계", 129.215, 36.060)]
 WORDS = ["맛집", "음식점", "술집", "고기집", "점심", "신상 맛집", "횟집"]
 BAD = ("카페", "베이커리", "디저트", "제과", "케이크", "도넛", "아이스크림", "빙수", "떡")
-BLOGQ = ["포항 오천 그랜드오픈", "포항 문덕 신상 맛집 오픈", "포항 남구 신규오픈 맛집", "포항 효자동 그랜드오픈"]
+BLOGQ = ["포항 오천 그랜드오픈", "포항 문덕 신상 맛집 오픈", "포항 남구 신규오픈 맛집", "포항 효자동 그랜드오픈", "포항 북구 신규오픈 맛집", "포항 장성동 그랜드오픈", "영일대 신상 맛집 오픈"]
 
 def blog_titles(q):
     u = "https://m.search.naver.com/search.naver?where=m_blog&sm=mtb_opt&nso=so%3Add%2Cp%3A1m&query=" + urllib.parse.quote(q)
@@ -42,7 +44,7 @@ def main():
                 area = area_of(p["addr"])
                 if not area or any(b in (p["category"] or "") for b in BAD): continue
                 if p["id"] in known or p["id"] in seen["places"] or p["id"] in new: continue
-                new[p["id"]] = {"name": p["name"], "area": "문덕·오천" if area == "ocheon" else "포항 남구",
+                new[p["id"]] = {"name": p["name"], "area": {"ocheon": "문덕·오천", "buk": "포항 북구"}.get(area, "포항 남구"),
                                 "category": p["category"], "address": p["addr"].strip(), "reviews": p["reviews"],
                                 "blogs": p["blogs"], "map_url": f"https://map.naver.com/p/entry/place/{p['id']}",
                                 "first_seen": today}

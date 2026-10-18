@@ -46,7 +46,7 @@ def keyword_for(name):
     if len(toks) > 1 and toks[-1].endswith("점"):
         loc = re.sub(r"(본점|점)$", "", toks[-1]); loc = re.sub(r"^포항", "", loc); toks = toks[:-1]
     core = " ".join(toks)
-    return f'"{core}" {loc}' if loc and loc not in ("남구", "") else f'"{core}" 포항'
+    return f'"{core}" {loc}' if loc and loc not in ("남구", "북구", "") else f'"{core}" 포항'
 
 def recent_reviews(pid):
     h = curl(f"https://m.place.naver.com/restaurant/{pid}/review/visitor?reviewSort=recent")
@@ -127,7 +127,8 @@ def main():
     # 신규 탐지
     known = {r.get("naver_id") for r in R}; known_names = {r["name"] for r in R}
     SPOTS = {"ocheon": [("오천", 129.405, 35.965), ("문덕", 129.405, 35.962)],
-             "nam": [("효자동", 129.329, 36.008), ("이동", 129.338, 36.030), ("상도동", 129.360, 36.025), ("구룡포", 129.555, 35.990), ("대이동", 129.335, 36.028)]}
+             "nam": [("효자동", 129.329, 36.008), ("이동", 129.338, 36.030), ("상도동", 129.360, 36.025), ("구룡포", 129.555, 35.990), ("대이동", 129.335, 36.028)],
+             "buk": [("죽도동", 129.366, 36.036), ("양학동", 129.354, 36.040), ("장성동", 129.375, 36.067), ("두호동", 129.385, 36.060), ("영일대", 129.380, 36.056), ("흥해", 129.351, 36.110), ("청하", 129.340, 36.197), ("송라", 129.375, 36.230), ("기계", 129.215, 36.060)]}
     seeds_p = os.path.join(HERE, "seeds.json"); seeds = json.load(open(seeds_p)); seed_ids = {s.get("naver_id") for s in seeds}
     discovered = []
     for area, spots in SPOTS.items():
@@ -157,7 +158,7 @@ def main():
     json.dump(seeds, open(seeds_p, "w"), ensure_ascii=False, indent=1)
 
     allitems = [i for i in items + discovered if i["eligible"]]
-    top = {a: sorted([i for i in allitems if a == "all" or i["cat"] == a], key=lambda i: -i["score"])[:10] for a in ("nam", "ocheon", "all")}
+    top = {a: sorted([i for i in allitems if a == "all" or i["cat"] == a], key=lambda i: -i["score"])[:10] for a in ("nam", "buk", "ocheon", "all")}
     probe_p = os.path.join(HERE, "social_probe.json")
     probe = json.load(open(probe_p)) if os.path.exists(probe_p) else {}
     out = {"updated": now.strftime("%Y-%m-%d %H:%M KST"),
@@ -176,7 +177,7 @@ def main():
                            "review7": next((i["review7"] for i in items if i["name"] == r["name"]), None)} for r in R},
               open(sp, "w"), ensure_ascii=False, indent=0)
     print(out["updated"], out["signals"])
-    for a in ("nam", "ocheon"):
+    for a in ("nam", "buk", "ocheon"):
         print(a, [(i["name"], i["score"], i["badges"][:2]) for i in top[a]])
 
 if __name__ == "__main__":

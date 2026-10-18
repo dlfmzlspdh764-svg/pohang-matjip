@@ -269,7 +269,7 @@ def main():
             if f"img/{f}" not in used: os.remove(os.path.join(HERE, "img", f))
 
     key = lambda r: tuple(-1 if r.get(k) is None else r[k] for k in ("reviews", "blogs", "sns"))
-    for cat in ("nam", "ocheon"):
+    for cat in ("nam", "buk", "ocheon"):
         for n, r in enumerate(sorted([r for r in out if r["cat"] == cat], key=key, reverse=True), 1): r["rank"] = n
     out.sort(key=lambda r: (r["cat"], r["rank"]))
 
@@ -292,7 +292,7 @@ def main():
     sections = {}
     for sec, (f, k) in SECS.items():
         sections[sec] = {}
-        for area in ("nam", "ocheon", "all"):
+        for area in ("nam", "buk", "ocheon", "all"):
             lst = sorted([r for r in out if f(r) and (area == "all" or r["cat"] == area)], key=k, reverse=True)[:10]
             sections[sec][area] = [{"name": r["name"], "reason": sec_reason(r, sec)} for r in lst]
     json.dump(snap, open(snap_p, "w"), ensure_ascii=False, indent=1)
