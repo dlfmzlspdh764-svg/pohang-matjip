@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18 21:02 KST",
+ "updated": "2026-10-18 21:12 KST",
  "rule": "최근 7일 네이버 블로그 글 수(정확한 상호 검색, 최대 30건까지 집계) × (1+성장률, 직전 7일·30일 주평균 대비) + 최근 7일 방문자 리뷰 × 2 + X 언급",
  "signals": {
   "naver_blog": "수집됨 (122/122)",
@@ -257,20 +257,20 @@
     "cat": "ocheon",
     "in_data": true,
     "keyword": "\"욱이네식당\" 문덕",
-    "blog7": 8,
+    "blog7": 9,
     "blog_prev7": 5,
     "blog_prev30": 14,
-    "blog_growth_pct": 60,
+    "blog_growth_pct": 80,
     "review7": 17,
     "review7_capped": false,
     "review_delta_1d": null,
     "review_delta_7d": null,
     "x7": null,
-    "score": 46.8,
+    "score": 50.2,
     "eligible": true,
     "badges": [
-     "블로그 +60%",
-     "7일 블로그 8건",
+     "블로그 +80%",
+     "7일 블로그 9건",
      "7일 리뷰 17건"
     ]
    },
@@ -512,6 +512,28 @@
     ]
    },
    {
+    "name": "욱이네식당 문덕점",
+    "cat": "ocheon",
+    "in_data": true,
+    "keyword": "\"욱이네식당\" 문덕",
+    "blog7": 9,
+    "blog_prev7": 5,
+    "blog_prev30": 14,
+    "blog_growth_pct": 80,
+    "review7": 17,
+    "review7_capped": false,
+    "review_delta_1d": null,
+    "review_delta_7d": null,
+    "x7": null,
+    "score": 50.2,
+    "eligible": true,
+    "badges": [
+     "블로그 +80%",
+     "7일 블로그 9건",
+     "7일 리뷰 17건"
+    ]
+   },
+   {
     "name": "한씨 막국수 포항이동점",
     "cat": "nam",
     "in_data": true,
@@ -594,28 +616,6 @@
      "블로그 +38%",
      "7일 블로그 11건",
      "7일 리뷰 16건"
-    ]
-   },
-   {
-    "name": "욱이네식당 문덕점",
-    "cat": "ocheon",
-    "in_data": true,
-    "keyword": "\"욱이네식당\" 문덕",
-    "blog7": 8,
-    "blog_prev7": 5,
-    "blog_prev30": 14,
-    "blog_growth_pct": 60,
-    "review7": 17,
-    "review7_capped": false,
-    "review_delta_1d": null,
-    "review_delta_7d": null,
-    "x7": null,
-    "score": 46.8,
-    "eligible": true,
-    "badges": [
-     "블로그 +60%",
-     "7일 블로그 8건",
-     "7일 리뷰 17건"
     ]
    },
    {
@@ -853,6 +853,28 @@
    ]
   },
   {
+   "name": "욱이네식당 문덕점",
+   "cat": "ocheon",
+   "in_data": true,
+   "keyword": "\"욱이네식당\" 문덕",
+   "blog7": 9,
+   "blog_prev7": 5,
+   "blog_prev30": 14,
+   "blog_growth_pct": 80,
+   "review7": 17,
+   "review7_capped": false,
+   "review_delta_1d": null,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 50.2,
+   "eligible": true,
+   "badges": [
+    "블로그 +80%",
+    "7일 블로그 9건",
+    "7일 리뷰 17건"
+   ]
+  },
+  {
    "name": "한씨 막국수 포항이동점",
    "cat": "nam",
    "in_data": true,
@@ -915,28 +937,6 @@
     "블로그 +38%",
     "7일 블로그 11건",
     "7일 리뷰 16건"
-   ]
-  },
-  {
-   "name": "욱이네식당 문덕점",
-   "cat": "ocheon",
-   "in_data": true,
-   "keyword": "\"욱이네식당\" 문덕",
-   "blog7": 8,
-   "blog_prev7": 5,
-   "blog_prev30": 14,
-   "blog_growth_pct": 60,
-   "review7": 17,
-   "review7_capped": false,
-   "review_delta_1d": null,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 46.8,
-   "eligible": true,
-   "badges": [
-    "블로그 +60%",
-    "7일 블로그 8건",
-    "7일 리뷰 17건"
    ]
   },
   {
@@ -1346,6 +1346,26 @@
    ]
   },
   {
+   "name": "갓튀긴후라이드 오천문덕점",
+   "cat": "ocheon",
+   "in_data": true,
+   "keyword": "\"갓튀긴후라이드\" 오천문덕",
+   "blog7": 28,
+   "blog_prev7": 28,
+   "blog_prev30": 30,
+   "blog_growth_pct": 0,
+   "review7": 0,
+   "review7_capped": false,
+   "review_delta_1d": null,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 28.0,
+   "eligible": true,
+   "badges": [
+    "7일 블로그 28건"
+   ]
+  },
+  {
    "name": "미남장어 문덕점",
    "cat": "ocheon",
    "in_data": true,
@@ -1473,26 +1493,6 @@
    "badges": [
     "블로그 +4%",
     "7일 블로그 25건"
-   ]
-  },
-  {
-   "name": "갓튀긴후라이드 오천문덕점",
-   "cat": "ocheon",
-   "in_data": true,
-   "keyword": "\"갓튀긴후라이드\" 오천문덕",
-   "blog7": 27,
-   "blog_prev7": 28,
-   "blog_prev30": 30,
-   "blog_growth_pct": -4,
-   "review7": 0,
-   "review7_capped": false,
-   "review_delta_1d": null,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 26.0,
-   "eligible": true,
-   "badges": [
-    "7일 블로그 27건"
    ]
   },
   {
@@ -2272,6 +2272,27 @@
    ]
   },
   {
+   "name": "호돈뒷고기 효자점",
+   "cat": "nam",
+   "in_data": true,
+   "keyword": "\"호돈뒷고기\" 효자",
+   "blog7": 9,
+   "blog_prev7": 9,
+   "blog_prev30": 9,
+   "blog_growth_pct": 0,
+   "review7": 1,
+   "review7_capped": false,
+   "review_delta_1d": null,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 11.0,
+   "eligible": true,
+   "badges": [
+    "7일 블로그 9건",
+    "7일 리뷰 1건"
+   ]
+  },
+  {
    "name": "진달래산천",
    "cat": "ocheon",
    "in_data": true,
@@ -2392,27 +2413,6 @@
    "eligible": true,
    "badges": [
     "7일 블로그 11건"
-   ]
-  },
-  {
-   "name": "호돈뒷고기 효자점",
-   "cat": "nam",
-   "in_data": true,
-   "keyword": "\"호돈뒷고기\" 효자",
-   "blog7": 8,
-   "blog_prev7": 9,
-   "blog_prev30": 9,
-   "blog_growth_pct": -11,
-   "review7": 1,
-   "review7_capped": false,
-   "review_delta_1d": null,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 9.1,
-   "eligible": true,
-   "badges": [
-    "7일 블로그 8건",
-    "7일 리뷰 1건"
    ]
   },
   {
