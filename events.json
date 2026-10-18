@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19 07:42 KST",
+ "updated": "2026-10-19 07:48 KST",
  "today": "2026-10-19",
  "status": {
   "phtour": {
@@ -40,7 +40,7 @@
    "origin": "phtour",
    "area": "buk",
    "status": "진행중",
-   "img": null
+   "img": "ev/55329035f0236910.jpg"
   },
   {
    "id": "ph2055",
@@ -56,7 +56,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2055/202610081314_pEX1ckM.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 축제",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=75&org_code=0001&date_type=2&cm_idx=2055",
-   "desc": "목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=75&org_code=0001&date_type=2\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "정보 없음",
    "link": null,
    "origin": "phtour",
    "area": "buk",
@@ -77,7 +77,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2068/202610131306_IcwdgDU.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 행사",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=29&org_code=0001&date_type=5&cm_idx=2068",
-   "desc": "제46회 권양우의 낭독 사랑방 『봄이 오면 꽃은 다시 핀다』 - 민족시인 이상화 생가터, 라일락뜨락 2,900일의 기록\n●초청작가: 권도훈(시각디자이너, 수채화, 민족시인 이상화 생가터를 살리는 문화기획자)\n●2026.10.19.(월) 19:00~21:00\n●문화공간잇다(포항시 북구 중앙로 413-7, 3층)\n●참가비 20,000원(도서 증정)\n●사전예약 010-5672-0770\n목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=29&org_code=0001&date_type=5\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "제46회 권양우의 낭독 사랑방 『봄이 오면 꽃은 다시 핀다』 - 민족시인 이상화 생가터, 라일락뜨락 2,900일의 기록\n●초청작가: 권도훈(시각디자이너, 수채화, 민족시인 이상화 생가터를 살리는 문화기획자)\n●2026.10.19.(월) 19:00~21:00\n●문화공간잇다(포항시 북구 중앙로 413-7, 3층)\n●참가비 20,000원(도서 증정)\n●사전예약 010-5672-0770",
    "link": null,
    "origin": "phtour",
    "area": "buk",
@@ -98,12 +98,12 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2066/202610121343_OfT1Exc.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 행사",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=29&org_code=0001&date_type=5&cm_idx=2066",
-   "desc": "• 일 시 : 2026. 10. 21.(수) ~ 25.(일) 10:00 ~ 17:00 ※(점심시간 12:00~13:00)\n• 장 소 : 포항시청소년수련관 (포항시 북구 삼호로 533)\n• 주요내용 : 과학기술 전시콘텐츠, 과학실험·실습체험 및 과학공연 등\n- (작동형전시콘텐츠) 플레이사이언스(24종), 싸이팝(16종), 미디어인터액티브(3종) 약 43종\n- (과학실험체험)택배로봇 ·볼록렌즈 만들기, AI콘텐츠체험, 주간 천체 관측\n- (과학공연체험) 스토리텔링을 통한 과학 마술 공연\n- (메타플리콘텐츠) 보물찾기 ·의자쌓기·클라이밍·농구·곤충채집·야구공던지기\n※메타플리콘텐츠 및 과학공연 프로그램은 토 ·일만 운영\n• 주최/주관 : 과학기술정보통신부 / 한국과학관협회\n• 관람방법\n- 개인 : 별도 예약 없이 자유롭게 방문 가능\n- 단체(평일만) : 학교 및 유치원 등 단체 관람은 QR코드를 통한 온라인 사전 신청 필수\n• 문 의 ㅣ 배터리첨단산업과 054-270-2424\n목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=29&org_code=0001&date_type=5\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "• 일 시 : 2026. 10. 21.(수) ~ 25.(일) 10:00 ~ 17:00 ※(점심시간 12:00~13:00)\n• 장 소 : 포항시청소년수련관 (포항시 북구 삼호로 533)\n• 주요내용 : 과학기술 전시콘텐츠, 과학실험·실습체험 및 과학공연 등\n- (작동형전시콘텐츠) 플레이사이언스(24종), 싸이팝(16종), 미디어인터액티브(3종) 약 43종\n- (과학실험체험)택배로봇 ·볼록렌즈 만들기, AI콘텐츠체험, 주간 천체 관측\n- (과학공연체험) 스토리텔링을 통한 과학 마술 공연\n- (메타플리콘텐츠) 보물찾기 ·의자쌓기·클라이밍·농구·곤충채집·야구공던지기\n※메타플리콘텐츠 및 과학공연 프로그램은 토 ·일만 운영\n• 주최/주관 : 과학기술정보통신부 / 한국과학관협회\n• 관람방법\n- 개인 : 별도 예약 없이 자유롭게 방문 가능\n- 단체(평일만) : 학교 및 유치원 등 단체 관람은 QR코드를 통한 온라인 사전 신청 필수\n• 문 의 ㅣ 배터리첨단산업과 054-270-2424",
    "link": null,
    "origin": "phtour",
    "area": "buk",
    "status": "예정",
-   "img": null
+   "img": "ev/2014718ea210d3cf.jpg"
   },
   {
    "id": "ph2048",
@@ -119,7 +119,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2048/202610061313_3kI16Cm.JPG",
    "src": "포항시 문화관광(퐝퐝여행) 공연",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0001&date_type=3&cm_idx=2048",
-   "desc": "정보 없음",
+   "desc": "영화 속 명장면에 어울리는 재즈음악 생각해보신 적 있으세요?\n‣ 일 시 : 2026. 10. 23.(목) 19:30~20:30\n‣ 장 소 : 포은흥해도서관 2~3층 하모니스텝\n‣ 대 상 : 포항시민 / 100명 (선착순, 사전+현장)\n‣ 신 청 : 포항시립도서관 홈페이지 문화행사신청 2026. 10. 8.(목) 10:00 OPEN\n‣ 주 제 : 재즈로 읽는 영화\n‣ 강 연 : 김선영 스토리텔러\n‣ 공 연 : 써니밴드(보컬 정소희/트럼펫 유희원/피아노 장세연/베이스 박주민/드럼 허여정/아코디나, 스토리 김선영)",
    "link": null,
    "origin": "phtour",
    "area": "buk",
@@ -140,7 +140,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2044/202610021315_bPjOVXl.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 시립예술단",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=78&org_code=0002&date_type=8&cm_idx=2044",
-   "desc": "목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=78&org_code=0002&date_type=8\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "정보 없음",
    "link": null,
    "origin": "phtour",
    "area": "nam",
@@ -161,7 +161,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2045/202610021325_6p0mZWR.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 축제",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=75&org_code=0001&date_type=2&cm_idx=2045",
-   "desc": "청정 산골의 맑은 바람과 높은 하늘이 키워낸 죽장에서 만나는 특별한 가을 축제!\n죽장 농가들이 정성껏 키워내 꿀이 꽉 찬 명품 산사과부터 산골의 정이 담긴 청정 농산물, 신나는 축하 공연과 다채로운 체험·이벤트 프로그램까지 함께 즐겨보세요!\n가족, 연인, 친구와 함께 가을빛 물든 죽장에서 자연의 정성과 풍요로움을 가장 먼저 느끼는 포항의 대표 농산물 축제!\n「제4회 죽장 산사과 농산물축제」에서 잊지 못할 가을 추억을 만들어보세요.\n일시 : 2026. 10. 24.(토) 09:30 ~ 16:30\n※ 개막식 : 2026. 10. 24.(토) 11:00\n장소 : 서포중·포항보건고등학교(죽장면 일광길 2)\n주요내용 : 식전행사 / 개막식 / 각종공연 / 전시 및 체험부스\n주최/주관 : 죽장면축제추진위원회\n목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=75&org_code=0001&date_type=2\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "청정 산골의 맑은 바람과 높은 하늘이 키워낸 죽장에서 만나는 특별한 가을 축제!\n죽장 농가들이 정성껏 키워내 꿀이 꽉 찬 명품 산사과부터 산골의 정이 담긴 청정 농산물, 신나는 축하 공연과 다채로운 체험·이벤트 프로그램까지 함께 즐겨보세요!\n가족, 연인, 친구와 함께 가을빛 물든 죽장에서 자연의 정성과 풍요로움을 가장 먼저 느끼는 포항의 대표 농산물 축제!\n「제4회 죽장 산사과 농산물축제」에서 잊지 못할 가을 추억을 만들어보세요.\n일시 : 2026. 10. 24.(토) 09:30 ~ 16:30\n※ 개막식 : 2026. 10. 24.(토) 11:00\n장소 : 서포중·포항보건고등학교(죽장면 일광길 2)\n주요내용 : 식전행사 / 개막식 / 각종공연 / 전시 및 체험부스\n주최/주관 : 죽장면축제추진위원회",
    "link": null,
    "origin": "phtour",
    "area": "buk",
@@ -182,7 +182,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2053/202610081303_SWieeLJ.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 공연",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0002&date_type=3&cm_idx=2053",
-   "desc": "티켓링크 예매 바로가기 (1인 4매)\n목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=27&org_code=0002&date_type=3\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "티켓링크 예매 바로가기 (1인 4매)",
    "link": "https://www.ticketlink.co.kr/product/66083",
    "origin": "phtour",
    "area": "nam",
@@ -203,10 +203,10 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2061/202610121310_xVeCykF.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 행사",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=29&org_code=0001&date_type=5&cm_idx=2061",
-   "desc": "목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=29&org_code=0001&date_type=5\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "정보 없음",
    "link": null,
    "origin": "phtour",
-   "area": "all",
+   "area": "buk",
    "status": "예정",
    "img": "ev/ad2bb4d075d1fe16.jpg"
   },
@@ -224,7 +224,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2050/202610071341_KjWXjpe.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 행사",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=29&org_code=0001&date_type=5&cm_idx=2050",
-   "desc": "KBS 전국노래자랑 포항시편 예심 신청 선착순 접수 마감 되었습니다.\n﻿\n민선9기 출범을 기념하기 위하여\n국내 최장수 프로그램인 『KBS 전국노래자랑』이 포항시에서 개최됩니다.\n시민 여러분의 많은 관심과 참여 바랍니다.\n□ 행사개요\n개최일시 : 2026. 10. 27.(화) 14:00\n개최장소 : 영일대해수욕장 해상누각 앞 광장 ※ 우천시 포항체육관\n초대가수 : 김연자, 박서진, 장한별, 미스김, 이수연\n□ 예심안내\n일 시 : 2026. 10. 25.(일) 13:00\n장소 : 포항체육관(종합운동장 옆)\n모집규모 : 선착순 300팀 ※ 1,2차 예심 같은 날 진행 후 최종 15~16팀 선정 예정\n신청대상 : 포항시민, 포항시 소재 사업자, 직장인, 학생 등\n※ 기성가수(대한가수협회, 한국가수협회, 한국연예협회 가수 및 회원 등)\n음반 발매, 방송 출연, 뮤직비디오 출연 등 대중 활동 이력자\n(한국음악저작권협회, 한국음악실연자연합회, 한국음반산업협회 가입) 참가 불가\n신청기간 : 2026. 10. 15.(목) 09:00 ~ 10. 21.(수)18:00 ※ 방문접수 시 점심시간(12:00~13:00) 및 토요일, 공휴일 제외\n신청방법\n- 방문신청 : 관내 읍․면․동 행정복지센터\n- 온 라 인 : 붙임 신청서 작성 후 스캔본 이메일 제출 ( hyang810@korea.kr )\n신청서식 : 방문접수처에서 수령 또는 첨부파일 다운로드\n문의 : 포항시청 콜센터 (☎054-270-8282)\n목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=29&org_code=0001&date_type=5\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "KBS 전국노래자랑 포항시편 예심 신청 선착순 접수 마감 되었습니다.\n﻿\n민선9기 출범을 기념하기 위하여\n국내 최장수 프로그램인 『KBS 전국노래자랑』이 포항시에서 개최됩니다.\n시민 여러분의 많은 관심과 참여 바랍니다.\n□ 행사개요\n개최일시 : 2026. 10. 27.(화) 14:00\n개최장소 : 영일대해수욕장 해상누각 앞 광장 ※ 우천시 포항체육관\n초대가수 : 김연자, 박서진, 장한별, 미스김, 이수연\n□ 예심안내\n일 시 : 2026. 10. 25.(일) 13:00\n장소 : 포항체육관(종합운동장 옆)\n모집규모 : 선착순 300팀 ※ 1,2차 예심 같은 날 진행 후 최종 15~16팀 선정 예정\n신청대상 : 포항시민, 포항시 소재 사업자, 직장인, 학생 등\n※ 기성가수(대한가수협회, 한국가수협회, 한국연예협회 가수 및 회원 등)\n음반 발매, 방송 출연, 뮤직비디오 출연 등 대중 활동 이력자\n(한국음악저작권협회, 한국음악실연자연합회, 한국음반산업협회 가입) 참가 불가\n신청기간 : 2026. 10. 15.(목) 09:00 ~ 10. 21.(수)18:00 ※ 방문접수 시 점심시간(12:00~13:00) 및 토요일, 공휴일 제외\n신청방법\n- 방문신청 : 관내 읍․면․동 행정복지센터\n- 온 라 인 : 붙임 신청서 작성 후 스캔본 이메일 제출 ( hyang810@korea.kr )\n신청서식 : 방문접수처에서 수령 또는 첨부파일 다운로드\n문의 : 포항시청 콜센터 (☎054-270-8282)",
    "link": null,
    "origin": "phtour",
    "area": "buk",
@@ -245,12 +245,12 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2054/202610081309_1G7CXNZ.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 공연",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0002&date_type=3&cm_idx=2054",
-   "desc": "티켓링크 예매 바로가기 (1인 4매)\n목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=27&org_code=0002&date_type=3\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "티켓링크 예매 바로가기 (1인 4매)",
    "link": "https://www.ticketlink.co.kr/product/66091",
    "origin": "phtour",
    "area": "nam",
    "status": "예정",
-   "img": null
+   "img": "ev/00bf191c73c13c85.jpg"
   },
   {
    "id": "ph2067",
@@ -266,7 +266,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2067/202610121354_zHPhWL9.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 축제",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=75&org_code=0001&date_type=2&cm_idx=2067",
-   "desc": "포항 청소년들 여기 모여라!\n10월 31일, 중앙상가에서 제대로 놀아보자! 공연도 보고! 다양한 체험도 하고! 친구들과 신나게 즐길 준비됐나요? 신나는 공연과 다채로운 즐길 거리가 더해진 청소년이 만들어가는, 청소년을 위한 특별한 축제! 1부 | 꿈공방 강연 - 래퍼 아웃사이더와 함께하는 특별한 시간 2부 | 청소년 공연 - 히든싱어 10cm편 준우승자 축하무대 부대행사 - 청소년 체험부스, 플리마켓, 포토존, 풍성한 참여 이벤트까지! 일 시 : 2026. 10. 31.(토) 13:00 ~ 17:00 장 소 : 포항 중앙상가 일원(롯데시네마 일대) 10월 31일, 친구들과 함께 포포틴에서 만나요~!\n목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=75&org_code=0001&date_type=2\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "포항 청소년들 여기 모여라!\n10월 31일, 중앙상가에서 제대로 놀아보자! 공연도 보고! 다양한 체험도 하고! 친구들과 신나게 즐길 준비됐나요? 신나는 공연과 다채로운 즐길 거리가 더해진 청소년이 만들어가는, 청소년을 위한 특별한 축제! 1부 | 꿈공방 강연 - 래퍼 아웃사이더와 함께하는 특별한 시간 2부 | 청소년 공연 - 히든싱어 10cm편 준우승자 축하무대 부대행사 - 청소년 체험부스, 플리마켓, 포토존, 풍성한 참여 이벤트까지! 일 시 : 2026. 10. 31.(토) 13:00 ~ 17:00 장 소 : 포항 중앙상가 일원(롯데시네마 일대) 10월 31일, 친구들과 함께 포포틴에서 만나요~!",
    "link": null,
    "origin": "phtour",
    "area": "buk",
@@ -287,7 +287,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2070/202610131659_xEQgfOD.png",
    "src": "포항시 문화관광(퐝퐝여행) 공연",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0001&date_type=3&cm_idx=2070",
-   "desc": "- 주 최 : 포항시, 경상북도, 국가유산청\n- 주 관 : 서포항문화유산연구회\n- 일 시 : 2026년 10월 31일 [토] 오후 17:30\n- 장 소 : 분옥정 잔디광장 상설무대 [포항시 북구 기계면 봉계리 735 일원]\n- 주요내용 : 문화유산 해설과 함께하는 분옥정 고택 달빛음악회 개최\n목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=27&org_code=0001&date_type=3\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "- 주 최 : 포항시, 경상북도, 국가유산청\n- 주 관 : 서포항문화유산연구회\n- 일 시 : 2026년 10월 31일 [토] 오후 17:30\n- 장 소 : 분옥정 잔디광장 상설무대 [포항시 북구 기계면 봉계리 735 일원]\n- 주요내용 : 문화유산 해설과 함께하는 분옥정 고택 달빛음악회 개최",
    "link": null,
    "origin": "phtour",
    "area": "buk",
@@ -308,7 +308,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2056/202610081544_2ILJaMb.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 행사",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=29&org_code=0001&date_type=5&cm_idx=2056",
-   "desc": "행 사 명 : 2026 대한민국 동화축제\n기　　간 : 2026. 10. 31.(토) 11:00 ~ 17:00\n장　　소 : 포항시립 포은오천도서관(오천읍 정몽주로 566)\n주최/주관 : 포항시·경상북도 / 경북일보(주)\n내　　용 : 문화공연, 체험 활동 등\n마술공연, 몬스터 랜덤 플레이댄스, 할로윈 어린이 워킹 패션쇼\n유튜버 '슈뻘맨' 팬미팅\n할로윈 퍼레이드, 특수분장, 귀신의 집 체험\n어린이 꿈 사생대회, 에어바운스, 포토존 및 인생네컷 등\n6. 문　　의 : 경북일보 대외협력실 054-289-2215\n목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=29&org_code=0001&date_type=5\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "행 사 명 : 2026 대한민국 동화축제\n기　　간 : 2026. 10. 31.(토) 11:00 ~ 17:00\n장　　소 : 포항시립 포은오천도서관(오천읍 정몽주로 566)\n주최/주관 : 포항시·경상북도 / 경북일보(주)\n내　　용 : 문화공연, 체험 활동 등\n마술공연, 몬스터 랜덤 플레이댄스, 할로윈 어린이 워킹 패션쇼\n유튜버 '슈뻘맨' 팬미팅\n할로윈 퍼레이드, 특수분장, 귀신의 집 체험\n어린이 꿈 사생대회, 에어바운스, 포토존 및 인생네컷 등\n6. 문　　의 : 경북일보 대외협력실 054-289-2215",
    "link": null,
    "origin": "phtour",
    "area": "ocheon",
@@ -329,7 +329,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2071/202610161353_y8J2Y08.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 공연",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0001&date_type=3&cm_idx=2071",
-   "desc": "‧행사명 : 포항CBS 창립26주년 통(通)해야 안전콘서트 ‧일 시 : 2026. 11. 3(화) 오후7시 ‧장 소 : 포스코 효자아트홀 ‧출 연 : 라포엠, 서영은\n‧특별출연 : 포스코 다락( 多樂) 밴드, 포항CBS 소년소녀합창단\n* 초대권 신청 안내( 10월 6일 화요일 오전 8:30 티켓 오픈 )\n초대권 신청 링크---> https://forms.gle/nyhgn5vQric9auhu8\n사전신청은 10월 6일(화) 오전8시 30분부터 10월 23일(금)오후 5시까지 사전신청을 받습니다.(8세이상 관람가능) 사전신청하신 분은 추첨 후 문자초대권(2명 입장)을 10월 27일(화) 오후5시까지 보내드린 후 공연당일 현장에서 지정좌석권으로 교환하여 드립니다.\n초청 및 협찬사 지정석이 별도로 있음을 양해바랍니다. 사전신청 일정은 예고없이 변경될 수 있습니다.\n[공연 안내]\n* 관람등급 : 초등학생이상 입장(초등학생 미만자는 보호자 동반시에도 관람불가)\n* 사진촬영 및 동영상 촬영을 금지합니다.\n* 지정주차장을 반드시 이용하여 주시기 바랍니다.\n목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=27&org_code=0001&date_type=3\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "‧행사명 : 포항CBS 창립26주년 통(通)해야 안전콘서트 ‧일 시 : 2026. 11. 3(화) 오후7시 ‧장 소 : 포스코 효자아트홀 ‧출 연 : 라포엠, 서영은\n‧특별출연 : 포스코 다락( 多樂) 밴드, 포항CBS 소년소녀합창단\n* 초대권 신청 안내( 10월 6일 화요일 오전 8:30 티켓 오픈 )\n초대권 신청 링크---> https://forms.gle/nyhgn5vQric9auhu8\n사전신청은 10월 6일(화) 오전8시 30분부터 10월 23일(금)오후 5시까지 사전신청을 받습니다.(8세이상 관람가능) 사전신청하신 분은 추첨 후 문자초대권(2명 입장)을 10월 27일(화) 오후5시까지 보내드린 후 공연당일 현장에서 지정좌석권으로 교환하여 드립니다.\n초청 및 협찬사 지정석이 별도로 있음을 양해바랍니다. 사전신청 일정은 예고없이 변경될 수 있습니다.\n[공연 안내]\n* 관람등급 : 초등학생이상 입장(초등학생 미만자는 보호자 동반시에도 관람불가)\n* 사진촬영 및 동영상 촬영을 금지합니다.\n* 지정주차장을 반드시 이용하여 주시기 바랍니다.",
    "link": "https://forms.gle/nyhgn5vQric9auhu8",
    "origin": "phtour",
    "area": "nam",
@@ -350,7 +350,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2057/202610081552_YzWNvwZ.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 공연",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0002&date_type=3&cm_idx=2057",
-   "desc": "목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=27&org_code=0002&date_type=3\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "정보 없음",
    "link": null,
    "origin": "phtour",
    "area": "nam",
@@ -371,7 +371,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/1996/202609031306_pfPObuf.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 공연",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0002&date_type=3&cm_idx=1996",
-   "desc": "목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=27&org_code=0002&date_type=3\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "정보 없음",
    "link": null,
    "origin": "phtour",
    "area": "nam",
@@ -392,7 +392,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/1997/202609031310_tnya34K.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 공연",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0002&date_type=3&cm_idx=1997",
-   "desc": "목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=27&org_code=0002&date_type=3\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "정보 없음",
    "link": null,
    "origin": "phtour",
    "area": "nam",
@@ -413,7 +413,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/1998/202609031313_DCCZjpj.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 공연",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0002&date_type=3&cm_idx=1998",
-   "desc": "목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=27&org_code=0002&date_type=3\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "정보 없음",
    "link": null,
    "origin": "phtour",
    "area": "nam",
@@ -434,7 +434,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/1999/202609031519_WKk5I2r.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 공연",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0002&date_type=3&cm_idx=1999",
-   "desc": "목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=27&org_code=0002&date_type=3\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "정보 없음",
    "link": null,
    "origin": "phtour",
    "area": "nam",
@@ -455,7 +455,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2058/202610081632_uacp45J.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 공연",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0002&date_type=3&cm_idx=2058",
-   "desc": "목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=27&org_code=0002&date_type=3\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "정보 없음",
    "link": null,
    "origin": "phtour",
    "area": "nam",
@@ -476,7 +476,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2000/202609031525_G9bNHBs.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 공연",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0002&date_type=3&cm_idx=2000",
-   "desc": "목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=27&org_code=0002&date_type=3\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "정보 없음",
    "link": null,
    "origin": "phtour",
    "area": "nam",
@@ -497,7 +497,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2059/202610081636_xLc9N5u.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 공연",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0002&date_type=3&cm_idx=2059",
-   "desc": "목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=27&org_code=0002&date_type=3\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "정보 없음",
    "link": null,
    "origin": "phtour",
    "area": "nam",
@@ -518,7 +518,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2001/202609031608_kCnQJma.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 공연",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0002&date_type=3&cm_idx=2001",
-   "desc": "목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=27&org_code=0002&date_type=3\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "정보 없음",
    "link": null,
    "origin": "phtour",
    "area": "nam",
@@ -539,7 +539,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2060/202610081641_UsvZQZz.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 공연",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0002&date_type=3&cm_idx=2060",
-   "desc": "목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=27&org_code=0002&date_type=3\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "정보 없음",
    "link": null,
    "origin": "phtour",
    "area": "nam",
@@ -560,7 +560,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2002/202609031611_D9O2uyA.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 공연",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0002&date_type=3&cm_idx=2002",
-   "desc": "목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=27&org_code=0002&date_type=3\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "정보 없음",
    "link": null,
    "origin": "phtour",
    "area": "nam",
@@ -623,7 +623,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/1993/202608311542_i5WP9u6.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 공연",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0002&date_type=3&cm_idx=1993",
-   "desc": "목록으로\nfunction returnIndexPage() {\nconst url = \"index.do\";\nconst param = \"menu_idx=27&org_code=0002&date_type=3\";\ndoGetLoad(url, param);\n}\ndocument.addEventListener('DOMContentLoaded', function() {\n$(\"#footer__familys__header1\").click(function(){\nvar currentTitle = $(\"#footer__familys__header1\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header1\").attr(\"title\", newTitle);\n});\n$(\"#footer__familys__header2\").click(function(){\nvar currentTitle = $(\"#footer__familys__header2\").attr(\"title\");\nvar newTitle = (currentTitle === \"접기\") ? \"펼치기\" : \"접기\";\n$(\"#footer__familys__header2\").attr(\"title\", newTitle);\n});\n});",
+   "desc": "정보 없음",
    "link": null,
    "origin": "phtour",
    "area": "nam",
@@ -633,22 +633,16 @@
  ],
  "news": [
   {
-   "title": "미식과 불빛놀이…축제로 물든 포항 - 한국경제",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RdXhwT2ZwZnRSWEpxREc5MEhpc2V6elJoc2dRcHl5aGdUSVFkZm1Qalo0c3pmUTdTX0kwWHk3MFVzbV9jQXlUdTdZcDBqcmtxSjBOZWVHeFpFdw?oc=5",
-   "date": "Mon, 05 Oct 2026 07:00:00 GMT",
-   "source": "한국경제"
-  },
-  {
-   "title": "영일대 바다서 찾는 ‘나만의 색’…10일 ‘포항 미(美)&미(Me) 페스티벌’ 열린다 - 경북매일",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBYmM2cy1OcHFjaG8zbWJyQlFuMmFaUXg0dHU4THBuc0FoclVJMEJNTkkxNDFSeVZJQi1nV0FKdGZvNTlHVTBhOFJZUF9hWHc4ZlNXQm83d245Zw?oc=5",
-   "date": "Tue, 06 Oct 2026 07:00:00 GMT",
-   "source": "경북매일"
-  },
-  {
    "title": "포항 대형축제 잇단 개최…예산은 수억 원, 성과는 어디에 - 프레시안",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB1UVdBS0FMUUdOXy1jd3l5a0hHMnRqRERSOVhrQ0ZKbFR2VS0zZzFvQWZWejBZV3FKRkxiWlVLZWJURVVRc0JHWlFJdjhDXzEzT2djVDhfS3laNTlLUXhPWW9nUGN1MTRsVTdZ?oc=5",
    "date": "Mon, 12 Oct 2026 10:44:21 GMT",
    "source": "프레시안"
+  },
+  {
+   "title": "청소년들 참여해 만든 ′포·포·틴 청소년 축제′…31일 포항 중앙상가서 개최 - KPI뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1rZUVSR0lZdFA4NXFydzNQQ25VOUlsUUtlSXM0TzhrYnNEbjZSSnRhbHdtaFBZZmZjcDF5OWZfQkNpbm9yMG0tajZuYnBHdnlFeVJr?oc=5",
+   "date": "Thu, 15 Oct 2026 06:57:23 GMT",
+   "source": "KPI뉴스"
   },
   {
    "title": "포항시, 영유아 가족축제 개최…놀이·체험 프로그램 운영 - 신아일보",
@@ -657,10 +651,10 @@
    "source": "신아일보"
   },
   {
-   "title": "‘2026 포항 해병대문화축제’ 11월 14일 개막 - 이로운넷",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04NUVUaV93bHhCdFN6RjZ2Rndwa3BJSkpELWFNRU1zUnFIMWhOODBZenB0ejlsYzdxQlBmZFRaR2xDbHZLUDJTWFVJdDMwSFc3ZGxkSEN4T3ZPUXhvTFFYNjhBanpkQQ?oc=5",
-   "date": "Mon, 05 Oct 2026 07:00:00 GMT",
-   "source": "이로운넷"
+   "title": "제23회 사천시 삼천포항 자연산 전어축제 개최…여름 햇전어의 참맛, 삼천포에서 만난다 - 진주인터넷뉴스",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5CWTRZQVNFelRpSllPNFRleDhqZDFZd25XRlZWYzVkVXl0TThrS0NzeDJtTkh5b25neWRsTE5KeDBhN2JFT2ZJdWE5NG1wT2FEZmNKbzE4bTdmVEdtUDE2Z2NKZ3ZJSDF0UUpSTzNubWlxNWpxMUhZ?oc=5",
+   "date": "Fri, 16 Oct 2026 07:00:00 GMT",
+   "source": "진주인터넷뉴스"
   },
   {
    "title": "포스코, 포항·광양 설비·자재 공급사 정보교류회 개최 - 철강금속신문",
@@ -669,16 +663,16 @@
    "source": "철강금속신문"
   },
   {
+   "title": "세대와 이웃 아우르는 하모니…포항 ‘온마을 합창 페스타’ 24일 개최 - 경북뉴스",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1Wc2xYcUZmdlhxTlQxeFFyTjROVmFQeDZ0LTRMUEt0U0VRbFNRSXZ4WjFDUTNhamZqeEZhQnZYQmpPcHFOcW94SlNjbURScEdXTExoZkNCTkZzOTQ5MldkRzdvR1VKQ3hTek9ZblF4cG9QaHVZeTg3bVpZbjE?oc=5",
+   "date": "Fri, 16 Oct 2026 07:04:05 GMT",
+   "source": "경북뉴스"
+  },
+  {
    "title": "포항시, 민선9기 기념 'KBS 전국노래자랑' 영일대서 개최 - 글로벌경제신문",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kMzhKSGVQemQzZzZOYi0yQm1EeFBxN3ZwZC1ITjd6ZWUweDBBM2FEZEMxRmYyX0lwX0N2YUNZb2xUVlFGX3RxaTh0MUh4RTJQSlU3cXBsenU0STlocWI0dDhrTlRLZGFQSFZrLdIBcEFVX3lxTFAyd092UW9VdHg3QjNFcTBoRHNWcENGb190Y204SkhRTGpqaEpaeFJOb3RJRGcxZUV4WFdMVGpVbVZEQm5xQzZwWDdiMVZPcy1NOVdMNjRsUEY1UmR5WkNTSXp1Yk5XTjRqUk5QN1NhRXg?oc=5",
    "date": "Mon, 12 Oct 2026 07:47:23 GMT",
    "source": "글로벌경제신문"
-  },
-  {
-   "title": "포스코 포항제철소, PIMS Tech Day 개최 - 영남경제",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zWnNHTnRBNWdTS0lGbzE3YmFFSlZIdW1QNHRmbXkxQ0FFX1RpZU5OSVktdm1HV1Z4X2YyelMxc2pGN1k2Nzg4UXRVUkZycXp1TzQxaXg4MU5qclBCLVlsU09mT2V6Ykk?oc=5",
-   "date": "Tue, 06 Oct 2026 07:02:16 GMT",
-   "source": "영남경제"
   },
   {
    "title": "포항시청소년재단, 31일 중앙상가서 ‘포·포·틴 청소년 축제’ 개최 - 미디어경북",
@@ -687,22 +681,28 @@
    "source": "미디어경북"
   },
   {
-   "title": "포항 해병대문화축제, 11월 14~15일 개최 - 위키트리",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIckhtQng2U2NmcUdWbzl5b0RiZDJ2SVpPck1ZU3UyQmE4MUlnVUN6VmdQeXdobFBWUjdiZVZLSVMzZ3JnN2dQN2htMkNzWUgtcFF3TUR3?oc=5",
-   "date": "Mon, 05 Oct 2026 07:00:00 GMT",
-   "source": "위키트리"
+   "title": "“해병의 혼 살아 숨 쉬는 포항으로”…‘2026 해병대문화 축제’ 깃발 올린다 - 경북매일",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qcURQQzg5MVhxQTV1d29kZ1dqWmxJazFOMFpYSHJ5WWdWbjgtZWdONThaRDVmNE5FRFNpS3RSckZfd19MQkNtUVNxWnhibWlOS3FqUThzNTdUQQ?oc=5",
+   "date": "Fri, 16 Oct 2026 00:40:00 GMT",
+   "source": "경북매일"
   },
   {
-   "title": "운하 물길 위로 내리는 가을밤 불빛, 2026 포항 낙화의 밤 개최 - 영남신문",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnZE56em5hV3ptNzFpeC1IcklqV0E3OW5yeTY1eHZzYzBNRmN5a1I5SnNTQko5Z3h0RC1pTW1CQ3B0cGVNN1FZODNzQklZM3FRZDNfUy1ReGo0VndwR1FHRGlyTWRjMDBZdUF4ZTRn?oc=5",
-   "date": "Tue, 06 Oct 2026 01:30:40 GMT",
-   "source": "영남신문"
+   "title": "포항교육지원청, 학부모 어울림 한마당 개최…280여 명 참여 - 시사경제신문",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10MlFoN25fVXJkSlpnOU5fbkhjak4xS0NvMjRPLUZxRlJlQkg5bnk3ekwyR0EtVVB6OGVyd2hidVJTcl8yT2o4V2hOb1d2RWNLR1N1TWdPbWxMYXlKSE1sRUswS3l6Mmpo0gFsQVVfeXFMUFhWaDBDc2FPeDBpbkFJZ2JkcTRhRVV4R1BoV2pob1NORENwUFljZEdpV0Z0WjI1OVBXN0VUQkwyMGFySkdDalZoYnhUMlkzWVktNHZ2QnVJMkgzM3l0Rl95MzhhTmpaeTNxY3Bw?oc=5",
+   "date": "Wed, 14 Oct 2026 09:48:12 GMT",
+   "source": "시사경제신문"
   },
   {
-   "title": "가을밤 강물 위로 불꽃이 내린다…포항운하 낙화불꽃놀이 개최 - 뉴스1",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iRy0tQU1jT2VNbWFhMUhaT1Z0V29pNExyZHoxTHZST2pScTJKQUUzSVpKYlNDZ0FEYXU5T3lRUm5IZVZFRnhHMXJCMjhrUkU1V0lWUWlPVy1SWkVjenZB?oc=5",
-   "date": "Thu, 08 Oct 2026 07:00:00 GMT",
-   "source": "뉴스1"
+   "title": "'즐거운 놀이, 소중한 추억' 2026 포항 영유아 페스티벌 개최 - 국제뉴스",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE84VmxTcjdjbzJQdXF4VnMyMlJuaVI3UXNmN0pPSjRJcE80bnF2WGxlZV9tVndxdGp3bGRZMG5ZRktubFZxMmExZFl4SnRPSzEybXFZZ2x0R2ZRNk5FSUlLazBnUlJzZEhFSzlid1d3?oc=5",
+   "date": "Sun, 18 Oct 2026 04:39:01 GMT",
+   "source": "국제뉴스"
+  },
+  {
+   "title": "포항시, ‘2026 포항시 이·통장 한마음대회’ 개최…행정 최일선 노고 격려 - 콘텐츠코리아",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SR0NNMDVtSktjdHE5Q1lyUlhsei1QZlE3QzAwQ1NCY1Y2T2dzak95RGN6dGpGNFVDZTh3X3oxNnVhd1JyVDkyR3ppZU9XbVRIMWJCODYwdEs0WlRIWXI4Wk1ySVdnT1A3TWxFb2tWVlY?oc=5",
+   "date": "Sun, 18 Oct 2026 02:47:17 GMT",
+   "source": "콘텐츠코리아"
   }
  ]
 }
