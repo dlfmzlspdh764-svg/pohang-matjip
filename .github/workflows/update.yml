@@ -16,16 +16,15 @@ permissions:
   contents: write
   pages: write
   id-token: write
-concurrency:
-  group: pages
-  cancel-in-progress: false
 jobs:
-  update-and-deploy:
+  # 1) 데이터 갱신: 'data' 그룹에서 하나씩 (배포를 막지 않음)
+  update:
+    if: github.event_name != 'push'
     runs-on: ubuntu-latest
-    timeout-minutes: 50
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+    timeout-minutes: 55
+    concurrency:
+      group: data
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -33,9 +32,11 @@ jobs:
           python-version: "3.12"
       - run: pip install pillow
       - name: 행사/축제 갱신 (포항시 문화관광·한국관광공사·뉴스)
+        timeout-minutes: 10
         if: github.event.schedule == '0 21 * * *' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'full' || inputs.mode == 'events'))
         run: python events.py || echo "events 실패 (이전 events.json 유지)"
       - name: 전체 갱신 (네이버 플레이스)
+        timeout-minutes: 40
         if: github.event.schedule == '0 21 * * *' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'full')
         env:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
@@ -43,6 +44,8 @@ jobs:
           python update.py
           python new_openings.py || echo "new_openings 실패 (무시)"
       - name: 핫플 계산 (블로그·리뷰 급상승)
+        timeout-minutes: 12
+        continue-on-error: true
         if: github.event_name != 'push' && inputs.mode != 'events'
         env:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
@@ -50,12 +53,27 @@ jobs:
           python social_probe.py || true
           python hot.py
       - name: 변경사항 커밋
-        if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A data.json img sns_snapshot.json new_openings.json new_openings_seen.json hot.json history seeds.json social_probe.json events.json ev
           if git diff --cached --quiet; then echo "변경 없음"; else git commit -m "자동 갱신 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M KST')" && git pull --rebase -q && git push; fi
+  # 2) 배포: 'pages' 그룹, 최신 main 을 그대로 올림 (1분 내외). push 때는 이것만 실행
+  deploy:
+    needs: update
+    if: ${{ always() && needs.update.result != 'cancelled' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

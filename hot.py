@@ -13,7 +13,7 @@
 신규 탐지: 지역별 네이버 플레이스 목록 중 앱에 없는 곳의 최근 7일 블로그 수를 재서 3건 이상이면 핫플 후보로 추가하고 seeds.json에도 등록(다음 일일 갱신 때 전체 정보 수집).
 결과: hot.json, history/YYYY-MM-DD.json(일별 스냅샷), history/blogwin.json(직전 기간 블로그 수 캐시)
 """
-import json, os, re, sys, time, datetime, subprocess, urllib.parse
+import json, os, re, sys, time, datetime, subprocess, urllib.parse, threading
 from concurrent.futures import ThreadPoolExecutor
 from naverlist import place_list, area_of
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -22,8 +22,20 @@ UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.1
 now = datetime.datetime.now(KST); today = now.date()
 D = lambda n: (today - datetime.timedelta(days=n)).isoformat()
 
+# 속도/예의: 동시 4개 + 요청 간 최소 간격 0.25초(전체 합산), 요청당 최대 12초, 전체 시간 예산(기본 8분)
+T0 = time.time(); BUDGET = int(os.environ.get("HOT_BUDGET_SEC", "480"))
+def over(): return time.time() - T0 > BUDGET
+_lock = threading.Lock(); _last = [0.0]
+def _pace():
+    with _lock:
+        w = _last[0] + 0.25 - time.time()
+        if w > 0: time.sleep(w)
+        _last[0] = time.time()
+STATS = {"req": 0, "fail": 0}
 def curl(url, headers=()):
-    cmd = ["curl", "-sL", "--compressed", "--max-time", "25", "-A", UA]
+    if over(): return ""
+    _pace(); STATS["req"] += 1
+    cmd = ["curl", "-sL", "--compressed", "--max-time", "12", "-A", UA]
     for h in headers: cmd += ["-H", h]
     return subprocess.run(cmd + [url], capture_output=True).stdout.decode("utf-8", "ignore")
 
@@ -33,11 +45,13 @@ def blog_count(keyword, start, end):
     s, e = start.replace("-", ""), end.replace("-", "")
     u = ("https://m.search.naver.com/search.naver?where=m_blog&query=" + urllib.parse.quote(keyword)
          + f"&nso=so%3Add%2Cp%3Afrom{s}to{e}")
-    for _ in range(2):
+    for i in range(2):
         h = curl(u)
         if len(h) > 20000:
             return min(CAP, len(set(re.findall(r"https://m\.blog\.naver\.com/([\w-]+/\d+)", h))))
-        time.sleep(2)
+        STATS["fail"] += 1
+        if over(): break
+        time.sleep(1.5)
     return None
 
 def keyword_for(name):
@@ -84,20 +98,37 @@ def main():
         p = os.path.join(hist_dir, f"{D(n)}.json")
         return json.load(open(p)) if os.path.exists(p) else None
     s1, s7 = snap(1), snap(7)
+    # 이전 결과(시간 예산 초과·실패 시 대체값) + 최근 리뷰 캐시(6시간 유효)
+    hp = os.path.join(HERE, "hot.json")
+    prev = {i["name"]: i for i in (json.load(open(hp)).get("all", []) if os.path.exists(hp) else [])}
+    rvc_p = os.path.join(hist_dir, "rvcache.json")
+    rvc = json.load(open(rvc_p)) if os.path.exists(rvc_p) else {}
+    stale = {"blog": 0, "review": 0}
 
     def work(r):
         kw = keyword_for(r.get("naver_name") or r["name"])
         b7 = blog_count(kw, D(6), D(0))
+        if b7 is None and (prev.get(r["name"]) or {}).get("keyword") == kw:
+            b7 = prev[r["name"]].get("blog7"); stale["blog"] += 1
         c = cache.get(r["name"])
-        if not c or c.get("kw") != kw:
+        if not c or c.get("kw") != kw or c.get("prev7") is None:
             c = {"date": today.isoformat(), "kw": kw, "prev7": blog_count(kw, D(13), D(7)), "prev30": blog_count(kw, D(37), D(8))}
-        rv = recent_reviews(r["naver_id"]) if r.get("naver_id") else None
+        rc = rvc.get(r["name"])
+        if rc and time.time() - rc.get("t", 0) < 6 * 3600 and rc.get("d") == today.isoformat():
+            rv = rc.get("rv")
+        else:
+            rv = recent_reviews(r["naver_id"]) if r.get("naver_id") else None
+            if rv is not None: rvc[r["name"]] = {"t": time.time(), "d": today.isoformat(), "rv": rv}
+            elif rc and rc.get("d") == today.isoformat(): rv = rc.get("rv"); stale["review"] += 1
         return r, kw, b7, c, rv
-    with ThreadPoolExecutor(3) as ex: res = list(ex.map(work, R))
+    # 오래 걸리는(직전 기간 캐시 없는) 곳을 먼저
+    order = sorted(R, key=lambda r: (r["name"] in cache, -(r.get("reviews") or 0)))
+    with ThreadPoolExecutor(4) as ex: res = list(ex.map(work, order))
+    print(f"places done {time.time() - T0:.0f}s, requests {STATS['req']}, fails {STATS['fail']}, stale {stale}")
 
     items, okb, okr = [], 0, 0
     for r, kw, b7, c, rv in res:
-        cache[r["name"]] = c
+        if c.get("prev7") is not None or c.get("prev30") is not None: cache[r["name"]] = c
         if b7 is not None: okb += 1
         if rv is not None: okr += 1
         base = None
@@ -130,7 +161,13 @@ def main():
              "nam": [("효자동", 129.329, 36.008), ("이동", 129.338, 36.030), ("상도동", 129.360, 36.025), ("구룡포", 129.555, 35.990), ("대이동", 129.335, 36.028)],
              "buk": [("죽도동", 129.366, 36.036), ("양학동", 129.354, 36.040), ("장성동", 129.375, 36.067), ("두호동", 129.385, 36.060), ("영일대", 129.380, 36.056), ("흥해", 129.351, 36.110), ("청하", 129.340, 36.197), ("송라", 129.375, 36.230), ("기계", 129.215, 36.060)]}
     seeds_p = os.path.join(HERE, "seeds.json"); seeds = json.load(open(seeds_p)); seed_ids = {s.get("naver_id") for s in seeds}
-    discovered = []
+    disc_p = os.path.join(hist_dir, "discover.json")
+    dprev = json.load(open(disc_p)) if os.path.exists(disc_p) else {}
+    if dprev.get("date") == today.isoformat() or over():
+        discovered = [d for d in dprev.get("discovered", []) if d["naver_id"] not in known]  # 하루 1번만 탐지 (예산 초과 시 이전 결과)
+        SPOTS = {}
+    else:
+        discovered = []
     for area, spots in SPOTS.items():
         cand = {}
         for an, x, y in spots:
@@ -140,7 +177,8 @@ def main():
                     if any(b in (p["category"] or "") for b in ("카페", "베이커리", "디저트", "제과", "절", "사찰", "명소", "공원", "관광", "숙박", "노래", "PC방", "헬스")): continue
                     cand[p["id"]] = p
         scored = []
-        for p in list(cand.values())[:25]:
+        for p in sorted(cand.values(), key=lambda p: -(p["reviews"] or 0))[:15]:
+            if over(): break
             kw = keyword_for(p["name"]); b7 = blog_count(kw, D(6), D(0))
             if b7 and b7 >= 3:
                 pv = blog_count(kw, D(13), D(7)) or 0
@@ -156,6 +194,8 @@ def main():
                 seeds.append({"cat": area, "name": p["name"], "naver_id": p["id"], "tags": [], "x_query": kw,
                               "found_by": f"핫플 탐지 ({today.isoformat()}, 최근 7일 블로그 {b7}건)"}); seed_ids.add(p["id"])
     json.dump(seeds, open(seeds_p, "w"), ensure_ascii=False, indent=1)
+    if SPOTS: json.dump({"date": today.isoformat(), "discovered": discovered}, open(disc_p, "w"), ensure_ascii=False, indent=0)
+    json.dump(rvc, open(rvc_p, "w"), ensure_ascii=False, indent=0)
 
     allitems = [i for i in items + discovered if i["eligible"]]
     top = {a: sorted([i for i in allitems if a == "all" or i["cat"] == a], key=lambda i: -i["score"])[:10] for a in ("nam", "buk", "ocheon", "all")}
@@ -163,7 +203,7 @@ def main():
     probe = json.load(open(probe_p)) if os.path.exists(probe_p) else {}
     out = {"updated": now.strftime("%Y-%m-%d %H:%M KST"),
            "rule": "최근 7일 네이버 블로그 글 수(정확한 상호 검색, 최대 30건까지 집계) × (1+성장률, 직전 7일·30일 주평균 대비) + 최근 7일 방문자 리뷰 × 2 + X 언급",
-           "signals": {"naver_blog": f"수집됨 ({okb}/{len(R)})", "naver_review_recent": f"수집됨 ({okr}/{len(R)})",
+           "signals": {"naver_blog": f"수집됨 ({okb}/{len(R)}" + (f", 이전값 {stale['blog']}" if stale["blog"] else "") + ")", "naver_review_recent": f"수집됨 ({okr}/{len(R)})",
                        "naver_review_snapshot_delta": "수집됨" if s1 else "기록 쌓는 중 (내일부터 하루 증가분 표시)",
                        "x": "수집됨" if os.environ.get("X_BEARER_TOKEN") else "미수집 (X_BEARER_TOKEN 없음)",
                        "instagram": probe.get("instagram", "미수집"), "facebook": probe.get("facebook", "미수집"),
@@ -176,7 +216,7 @@ def main():
                            "blog7": next((i["blog7"] for i in items if i["name"] == r["name"]), None),
                            "review7": next((i["review7"] for i in items if i["name"] == r["name"]), None)} for r in R},
               open(sp, "w"), ensure_ascii=False, indent=0)
-    print(out["updated"], out["signals"])
+    print(out["updated"], out["signals"], f"총 {time.time() - T0:.0f}s, 요청 {STATS['req']}, 실패 {STATS['fail']}")
     for a in ("nam", "buk", "ocheon"):
         print(a, [(i["name"], i["score"], i["badges"][:2]) for i in top[a]])
 
