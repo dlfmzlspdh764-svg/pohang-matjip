@@ -194,6 +194,7 @@ def main():
     only = int(args[args.index("--only") + 1]) if "--only" in args else None
     seeds = json.load(open(os.path.join(HERE, "seeds.json")))
     if only: seeds = seeds[:only]
+    cats = args[args.index("--cat") + 1].split(",") if "--cat" in args else None  # 지정 지역만 새로 수집, 나머지는 이전 값 유지
     snap_p = os.path.join(HERE, "sns_snapshot.json")
     snap = json.load(open(snap_p)) if os.path.exists(snap_p) else {}
     dp = os.path.join(HERE, "data.json")
@@ -203,6 +204,9 @@ def main():
 
     def work(s):
         d = None
+        pv = old.get(s["name"])
+        if cats and s["cat"] not in cats and pv and pv.get("reviews") is not None:  # 이전 값 없는 곳은 새로 수집
+            return s, {k: v for k, v in pv.items() if k not in ("rank",)}
         if s.get("naver_id"):
             try: d = collect(s["naver_id"])
             except Exception as e: print("  err", s["name"], e)
@@ -226,9 +230,9 @@ def main():
              "found_by": s.get("found_by", "웹 리서치 1차 목록"), "sources": []}
         prev = old.get(s["name"]) or {}
         if d:
-            r.update(d); r["sources"].append(d["naver_url"]); r["map_url"] = f"https://map.naver.com/p/entry/place/{s['naver_id']}"
+            r.update(d); r["sources"] = list(dict.fromkeys((r.get("sources") or []) + [d["naver_url"]])); r["map_url"] = f"https://map.naver.com/p/entry/place/{s['naver_id']}"
             if d.get("dc_url"): r["sources"].append(d["dc_url"])
-            r["stale"] = False; r["updated"] = today
+            r["stale"] = d.get("stale", False); r["updated"] = d.get("updated", today)
         elif prev and s.get("naver_id") and prev.get("reviews") is not None:
             r.update({k: v for k, v in prev.items() if k not in ("rank",)}); r["stale"] = True
         elif s.get("naver_id"):
@@ -264,7 +268,7 @@ def main():
             r["photo"] = r["photos"][0]["file"] if r["photos"] else None
             r.pop("photo_srcs", None)
     used = {p["file"] for r in out for p in r["photos"]}
-    if not no_photos and not only:
+    if not no_photos and not only and not cats:
         for f in os.listdir(os.path.join(HERE, "img")):
             if f"img/{f}" not in used: os.remove(os.path.join(HERE, "img", f))
 
