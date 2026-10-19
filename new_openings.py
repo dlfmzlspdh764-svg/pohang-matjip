@@ -19,13 +19,19 @@ BLOGQ = ["포항 오천 그랜드오픈", "포항 문덕 신상 맛집 오픈", 
 def blog_titles(q):
     u = "https://m.search.naver.com/search.naver?where=m_blog&sm=mtb_opt&nso=so%3Add%2Cp%3A1m&query=" + urllib.parse.quote(q)
     h = subprocess.run(["curl", "-sL", "--max-time", "30", "-A", UA, u], capture_output=True).stdout.decode("utf-8", "ignore")
+    FOOD = ("맛집", "식당", "횟집", "고기", "돈까스", "국밥", "술집", "이자카야", "삼계탕", "피자", "버거", "라멘", "회")
+    NOISE = ("카페", "베이커리", "헬멧", "스터디", "독서실", "미용", "금리", "주식", "AI", "신규 음식점", "사진전")
+    texts = {}
+    # 2026-10 네이버 모바일 마크업: 한 글에 앵커가 여러 개(썸네일·제목·본문 요약)라 URL별로 텍스트를 모은다
+    for m in re.finditer(r'<a[^>]*href="(https://m\.blog\.naver\.com/[\w.-]+/\d+)"[^>]*>(.*?)</a>', h, re.S):
+        t = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", m.group(2)))).strip()
+        if t: texts.setdefault(m.group(1), []).append(t)
     out = []
-    for m in re.finditer(r'href="(https://m\.blog\.naver\.com/[^"]+)"[^>]*>(.*?)</a>', h, re.S):
-        t = html.unescape(re.sub(r"<[^>]+>", "", m.group(2))).strip()
-        FOOD = ("맛집", "식당", "횟집", "고기", "돈까스", "국밥", "술집", "이자카야", "삼계탕", "피자", "버거", "라멘", "회")
-        NOISE = ("카페", "베이커리", "헬멧", "스터디", "독서실", "미용", "금리", "주식", "AI")
-        if len(t) > 8 and ("오픈" in t or "신상" in t) and any(f in t for f in FOOD) and not any(n in t for n in NOISE) and m.group(1) not in [o["url"] for o in out]:
-            out.append({"title": t[:120], "url": m.group(1)})
+    for url, ts in texts.items():
+        title = min(ts, key=len) if ts else ""
+        full = " ".join(ts)
+        if len(title) > 8 and ("오픈" in full or "신상" in full) and any(f in full for f in FOOD) and not any(n in title for n in NOISE):
+            out.append({"title": title[:120], "url": url})
     return out[:10]
 
 def main():
