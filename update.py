@@ -307,7 +307,7 @@ def main():
                               "치킨": "업종이 치킨·닭강정·통닭인 곳을 방문자 리뷰 수 순으로",
                               "과메기": "상호·업종·메뉴·리뷰 언급 메뉴에 ‘과메기’가 있는 곳을 방문자 리뷰 수 순으로"},
             "naver_ok": f"{total - fails}/{total}", "sections": sections, "restaurants": out}
-    json.dump(data, open(dp, "w"), ensure_ascii=False, indent=1)
+    json.dump(data, open(dp, "w"), ensure_ascii=False, separators=(",", ":"))
     print("saved", len(out), data["last_updated"])
 
 if __name__ == "__main__":
