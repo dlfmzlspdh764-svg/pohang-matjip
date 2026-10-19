@@ -1,13 +1,13 @@
 {
- "last_updated": "2026-10-19 06:32 KST",
- "last_updated_iso": "2026-10-19T06:32+09:00",
+ "last_updated": "2026-10-19 10:34 KST",
+ "last_updated_iso": "2026-10-19T10:34+09:00",
  "ranking_rule": "방문자 리뷰 수 → 블로그·카페 리뷰 수 → X 최근 7일 언급 수 순서로 비교 (네이버 플레이스·X 기준)",
  "section_rules": {
   "회식": "‘단체모임 하기 좋아요’ 투표 수 → 방문자 리뷰 수 (단체 이용 가능·단체석·룸·투표가 있는 곳만)",
   "치킨": "업종이 치킨·닭강정·통닭인 곳을 방문자 리뷰 수 순으로",
   "과메기": "상호·업종·메뉴·리뷰 언급 메뉴에 ‘과메기’가 있는 곳을 방문자 리뷰 수 순으로"
  },
- "naver_ok": "204/204",
+ "naver_ok": "218/218",
  "sections": {
   "회식": {
    "nam": [
@@ -40,16 +40,16 @@
      "reason": "‘단체모임 하기 좋아요’ 169표 · 단체석(80명 이하) · 룸(최소 4명 ~ 최대 7명) · 주차"
     },
     {
+     "name": "맥도날드 포항남부DT점",
+     "reason": "‘단체모임 하기 좋아요’ 164표"
+    },
+    {
      "name": "구룡포 영일만회대게",
      "reason": "‘단체모임 하기 좋아요’ 144표 · 단체석(최소 10명 ~ 최대 50명) · 주차"
     },
     {
      "name": "새천년회대게",
      "reason": "‘단체모임 하기 좋아요’ 142표 · 단체석(250명 이하) · 주차"
-    },
-    {
-     "name": "샤브20 이동점",
-     "reason": "‘단체모임 하기 좋아요’ 135표 · 주차"
     }
    ],
    "buk": [
@@ -1130,7 +1130,7 @@
      "kind": "업체 사진"
     },
     {
-     "file": "img/ac0bc572d6a8874f.jpg",
+     "file": "img/50b3d78dda5feeb3.jpg",
      "kind": "사진"
     },
     {
@@ -3861,7 +3861,7 @@
    "category": "조개요리",
    "address": "경북 포항시 북구 해안로 99 마당집",
    "phone": "0507-1440-3124",
-   "reviews": 3437,
+   "reviews": 3436,
    "rating": null,
    "blogs": 1919,
    "menus": [
@@ -5004,6 +5004,424 @@
    "rank": 17
   },
   {
+   "name": "샤브20 포항본점",
+   "cat": "buk",
+   "naver_id": "1310079764",
+   "tags": [],
+   "found_by": "핫플 탐지 (2026-10-19, 최근 7일 블로그 18건)",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1310079764/home",
+    "https://diningcode.com/profile.php?rid=s14PRbagEJRF"
+   ],
+   "naver_name": "샤브20 포항본점",
+   "category": "샤브샤브",
+   "address": "경북 포항시 북구 법원로 7 1층 샤브20",
+   "phone": "0507-1430-0139",
+   "reviews": 2962,
+   "rating": 4.7,
+   "blogs": 7109,
+   "menus": [
+    {
+     "name": "평일런치(고기무제한)",
+     "price": "21,900원"
+    },
+    {
+     "name": "평일디너, 주말공휴일(고기무제한)",
+     "price": "25,900원"
+    },
+    {
+     "name": "최고급 소고기/돼지고기 무제한",
+     "price": "무료"
+    },
+    {
+     "name": "샤브20 시그니처 닭강정(양념,간장)",
+     "price": "무료"
+    },
+    {
+     "name": "맛있고 신선한 월남쌈 무제한!",
+     "price": "무료"
+    },
+    {
+     "name": "생맥주 무제한(품질보증)",
+     "price": "무료"
+    },
+    {
+     "name": "커피,음료,아이스크림 테이크아웃서비스",
+     "price": "무료"
+    },
+    {
+     "name": "초등학생",
+     "price": "13,900원"
+    },
+    {
+     "name": "미취학아동",
+     "price": "5,900원"
+    }
+   ],
+   "menu_source": "네이버 플레이스",
+   "rep_menu": [
+    {
+     "name": "평일런치(고기무제한)",
+     "price": "21,900원"
+    },
+    {
+     "name": "평일디너, 주말공휴일(고기무제한)",
+     "price": "25,900원"
+    }
+   ],
+   "price_range": "21,900~25,900원",
+   "hours": "월·화·수·목·금 11:00~22:00 (브레이크 15:00~17:00) / 토·일 11:00~22:00",
+   "holiday": "휴무일 표기 없음",
+   "parking": "무료 주차",
+   "facilities": [
+    "단체 이용 가능",
+    "예약",
+    "남/녀 화장실 구분",
+    "무선 인터넷",
+    "유아의자",
+    "대기공간"
+   ],
+   "seats": [],
+   "keywords": [
+    {
+     "label": "음식이 맛있어요",
+     "count": 1280
+    },
+    {
+     "label": "재료가 신선해요",
+     "count": 1043
+    },
+    {
+     "label": "양이 많아요",
+     "count": 681
+    },
+    {
+     "label": "친절해요",
+     "count": 532
+    },
+    {
+     "label": "가성비가 좋아요",
+     "count": 431
+    },
+    {
+     "label": "매장이 넓어요",
+     "count": 411
+    }
+   ],
+   "menu_mentions": [
+    {
+     "label": "고기",
+     "count": 812
+    },
+    {
+     "label": "샤브샤브",
+     "count": 471
+    },
+    {
+     "label": "샐러드",
+     "count": 176
+    },
+    {
+     "label": "소고기",
+     "count": 68
+    },
+    {
+     "label": "강정",
+     "count": 64
+    },
+    {
+     "label": "닭강정",
+     "count": 64
+    },
+    {
+     "label": "커피",
+     "count": 36
+    },
+    {
+     "label": "아이스크림",
+     "count": 35
+    }
+   ],
+   "group_votes": 248,
+   "micro": null,
+   "description": "맛과 정성을 다하는 샤브20 포항본점 입니다.\n\n샤브20은 건강한 한끼를 위해 그저 좋은 음식이\n아닌 환경을 생각하고 자연의 힘이 깃든 음식만을\n고집하겠습니다.\n\n샤브20의 최고급 소고기는\n신선하고 질좋은 엄선된 고기만을 취급하며\n한장씩 정성스럽게 바로 썰어 드시기 직전까지\n최상의 신선도를 맛보실 수 있으며 안심하고\n드실 수 있습니다.\n\n샤브20은 고객님들의 취향에 맞춰\n맛있게 샤브샤브를 드시도록 많은 노력과 개발을 통해\n5가지맛 육수를 만들어서 제공하고 있으며\n짜지않고 더 맛있는 육수를 위해 매일\n염도체크 하여 정성스럽게 조리 하",
+   "lat": "36.0757277",
+   "lng": "129.3862146",
+   "menu_note": null,
+   "menu_images": [
+    "https://ldb-phinf.pstatic.net/20251219_284/17661243733528Nta9_PNG/21.25.139.59.png",
+    "https://ldb-phinf.pstatic.net/20251219_4/1766124369716uTesn_PNG/21.25.o.png"
+   ],
+   "menu_url": "https://m.place.naver.com/restaurant/1310079764/menu/list",
+   "naver_url": "https://m.place.naver.com/restaurant/1310079764/home",
+   "dc_url": "https://diningcode.com/profile.php?rid=s14PRbagEJRF",
+   "siksin_url": "https://www.siksinhot.com/P/1049114",
+   "map_url": "https://map.naver.com/p/entry/place/1310079764",
+   "stale": false,
+   "updated": "2026-10-19",
+   "sns": null,
+   "sns_measured": null,
+   "photos": [
+    {
+     "file": "img/18df56f50b4417c4.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/4623996b474b53da.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/411889c494222dc2.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/f7c6b6ec18adc9a3.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/fc65bc9d47d47ddb.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/abcc0b25b5a0cba6.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/28b42ef0dcb6c737.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/49e426a9da5500cf.jpg",
+     "kind": "사진"
+    }
+   ],
+   "photo": "img/18df56f50b4417c4.jpg",
+   "rank": 18
+  },
+  {
+   "name": "라멘묘조",
+   "cat": "buk",
+   "naver_id": "1218932843",
+   "tags": [],
+   "found_by": "핫플 탐지 (2026-10-19, 최근 7일 블로그 9건)",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1218932843/home"
+   ],
+   "naver_name": "라멘묘조",
+   "category": "일본식라면",
+   "address": "경북 포항시 북구 장량로 140 1층 라멘묘조",
+   "phone": "070-7766-2734",
+   "reviews": 2895,
+   "rating": 4.92,
+   "blogs": 523,
+   "menus": [
+    {
+     "name": "특선 토리파이탄",
+     "price": "13,000원"
+    },
+    {
+     "name": "카라파이탄 (홍탕)",
+     "price": "11,000원"
+    },
+    {
+     "name": "토리파이탄",
+     "price": "10,000원"
+    },
+    {
+     "name": "특선 카라파이탄(홍탕)",
+     "price": "14,000원"
+    },
+    {
+     "name": "아부라소바 (비빔라멘)",
+     "price": "13,000원"
+    },
+    {
+     "name": "공기밥",
+     "price": "1,000원"
+    },
+    {
+     "name": "코카콜라 355ml",
+     "price": "2,500원"
+    },
+    {
+     "name": "스프라이트 355ml",
+     "price": "2,500원"
+    },
+    {
+     "name": "제로콜라 355ml",
+     "price": "2,500원"
+    }
+   ],
+   "menu_source": "네이버 플레이스",
+   "rep_menu": [
+    {
+     "name": "특선 토리파이탄",
+     "price": "13,000원"
+    },
+    {
+     "name": "카라파이탄 (홍탕)",
+     "price": "11,000원"
+    },
+    {
+     "name": "토리파이탄",
+     "price": "10,000원"
+    }
+   ],
+   "price_range": "10,000~14,000원",
+   "hours": "매일 11:00~20:00",
+   "holiday": "휴무일 표기 없음",
+   "parking": "무료 주차 · 건물 옆공간 2대/주변 골목길 주차 가능하며 매장 뒷편에 전용주차장이 있습니다. 자세한 안내는 '소식'에서 확인해주세요.",
+   "facilities": [
+    "무선 인터넷",
+    "남/녀 화장실 구분",
+    "예약",
+    "대기공간",
+    "유아의자",
+    "단체 이용 가능",
+    "포장",
+    "배달",
+    "화장실 휠체어 이용가능",
+    "출입구 휠체어 이용가능",
+    "좌석 휠체어 이용가능"
+   ],
+   "seats": [
+    {
+     "name": "바테이블",
+     "desc": ""
+    },
+    {
+     "name": "연인석",
+     "desc": ""
+    },
+    {
+     "name": "1인석",
+     "desc": ""
+    },
+    {
+     "name": "입식",
+     "desc": ""
+    },
+    {
+     "name": "단체석",
+     "desc": "최소 3명 ~ 최대 6명"
+    }
+   ],
+   "keywords": [
+    {
+     "label": "음식이 맛있어요",
+     "count": 2724
+    },
+    {
+     "label": "재료가 신선해요",
+     "count": 1308
+    },
+    {
+     "label": "특별한 메뉴가 있어요",
+     "count": 1301
+    },
+    {
+     "label": "인테리어가 멋져요",
+     "count": 1047
+    },
+    {
+     "label": "친절해요",
+     "count": 884
+    },
+    {
+     "label": "가성비가 좋아요",
+     "count": 683
+    }
+   ],
+   "menu_mentions": [
+    {
+     "label": "라멘",
+     "count": 894
+    },
+    {
+     "label": "교자",
+     "count": 171
+    },
+    {
+     "label": "라면",
+     "count": 81
+    },
+    {
+     "label": "닭가슴살",
+     "count": 70
+    },
+    {
+     "label": "고기",
+     "count": 60
+    },
+    {
+     "label": "만두",
+     "count": 60
+    },
+    {
+     "label": "닭고기",
+     "count": 31
+    },
+    {
+     "label": "돼지고기",
+     "count": 24
+    }
+   ],
+   "group_votes": 59,
+   "micro": "자연재료의 진심이 담긴 한그릇",
+   "description": "토리파이탄(진한 닭 육수) 라멘전문으로 만듭니다.\n\n- 라멘묘조의 스프(육수)\n 저희 육수는 12시간 이상 정성으로 끓여 깊고 풍부한 맛을 완성했습니다.\n 생닭, 닭뼈, 닭발을 사용해 풍부한 콜라겐과 몸을 따뜻하게 해주는 보약 같은 영양을 담고, 신선한 향채를 더해 두번 걸러내 깔끔하고 담백한 맛을 냅니다.\n 이런 과정에는 치킨스탁이나 농축액 같은 합성조미료와 유화/보존제 같은 첨가물을 일체 넣지않는 천연주의 조리방식을 통해 건강한 맛을 지켜내고 있습니다.\n 완성된 육수는 비법 소스와 함께 블랜딩하여 우유 거품처럼 부드럽고 풍성한 ",
+   "lat": "36.0815393",
+   "lng": "129.3955413",
+   "menu_note": null,
+   "menu_images": [
+    "https://ldb-phinf.pstatic.net/20250117_66/1737088947439wQlgr_PNG/%B9%A6%C1%B6_%C6%AF%BC%B1%C5%E4%B8%AE%C6%C4%C0%CC%C5%BAv2_%BE%F0%B4%F510m.png"
+   ],
+   "menu_url": "https://m.place.naver.com/restaurant/1218932843/menu/list",
+   "naver_url": "https://m.place.naver.com/restaurant/1218932843/home",
+   "dc_url": null,
+   "siksin_url": null,
+   "map_url": "https://map.naver.com/p/entry/place/1218932843",
+   "stale": false,
+   "updated": "2026-10-19",
+   "sns": null,
+   "sns_measured": null,
+   "photos": [
+    {
+     "file": "img/0121d21b9e6d4013.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/90ec6074f6a29471.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/fdcf0f5df7bb0727.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/be9b21d219970c55.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/5e1ae6ca3406155f.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/4a178f3c59b97202.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/2b13c9205b4a21dd.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/f09817f01c7e2d75.jpg",
+     "kind": "사진"
+    }
+   ],
+   "photo": "img/0121d21b9e6d4013.jpg",
+   "rank": 19
+  },
+  {
    "name": "널판지 포항영일대점",
    "cat": "buk",
    "naver_id": "1426422581",
@@ -5248,7 +5666,7 @@
     }
    ],
    "photo": "img/29e0e7b41dc1cae1.jpg",
-   "rank": 18
+   "rank": 20
   },
   {
    "name": "대화식당",
@@ -5443,7 +5861,7 @@
     }
    ],
    "photo": "img/7fae962e1fb6ad6b.jpg",
-   "rank": 19
+   "rank": 21
   },
   {
    "name": "단막 포항 장성점",
@@ -5683,7 +6101,7 @@
     }
    ],
    "photo": "img/eb9b20cf6aa17607.jpg",
-   "rank": 20
+   "rank": 22
   },
   {
    "name": "포항 바다원해",
@@ -5911,7 +6329,7 @@
     }
    ],
    "photo": "img/460ceed7541b137c.jpg",
-   "rank": 21
+   "rank": 23
   },
   {
    "name": "반송정국시",
@@ -6120,7 +6538,7 @@
     }
    ],
    "photo": "img/b403bcc52ae6b30e.jpg",
-   "rank": 22
+   "rank": 24
   },
   {
    "name": "장기식당",
@@ -6298,7 +6716,7 @@
     }
    ],
    "photo": "img/6fbb4a2533d981f6.jpg",
-   "rank": 23
+   "rank": 25
   },
   {
    "name": "연다라회식당",
@@ -6487,7 +6905,7 @@
     }
    ],
    "photo": "img/4936dcb9582776fd.jpg",
-   "rank": 24
+   "rank": 26
   },
   {
    "name": "포항숯불가든",
@@ -6746,7 +7164,7 @@
     }
    ],
    "photo": "img/6a350fb0ceae4800.jpg",
-   "rank": 25
+   "rank": 27
   },
   {
    "name": "연막창 초곡점",
@@ -7003,7 +7421,207 @@
     }
    ],
    "photo": "img/6fd288adf40097a6.jpg",
-   "rank": 26
+   "rank": 28
+  },
+  {
+   "name": "포항홍게칼국수",
+   "cat": "buk",
+   "naver_id": "1374962763",
+   "tags": [],
+   "found_by": "핫플 탐지 (2026-10-19, 최근 7일 블로그 18건)",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1374962763/home",
+    "https://diningcode.com/profile.php?rid=6yMTJY0zVCSx"
+   ],
+   "naver_name": "포항홍게칼국수",
+   "category": "칼국수,만두",
+   "address": "경북 포항시 북구 해안로 185 1층",
+   "phone": "0507-1435-3523",
+   "reviews": 2204,
+   "rating": null,
+   "blogs": 435,
+   "menus": [
+    {
+     "name": "포항홍게칼국수",
+     "price": "11,000원"
+    },
+    {
+     "name": "홍게비빔칼국수",
+     "price": "12,000원"
+    },
+    {
+     "name": "눈꽃홍게살 더블",
+     "price": "3,000원"
+    },
+    {
+     "name": "면추가(100g)",
+     "price": "1,000원"
+    },
+    {
+     "name": "홍게 내장 페이스트(30g)",
+     "price": "1,000원"
+    },
+    {
+     "name": "태양의 맛 양념장",
+     "price": "무료"
+    },
+    {
+     "name": "홍게 오일 추가",
+     "price": "무료"
+    },
+    {
+     "name": "초록향채 추가",
+     "price": "무료"
+    },
+    {
+     "name": "육수 추가",
+     "price": "무료"
+    }
+   ],
+   "menu_source": "네이버 플레이스",
+   "rep_menu": [
+    {
+     "name": "포항홍게칼국수",
+     "price": "11,000원"
+    },
+    {
+     "name": "홍게비빔칼국수",
+     "price": "12,000원"
+    },
+    {
+     "name": "눈꽃홍게살 더블",
+     "price": "3,000원"
+    }
+   ],
+   "price_range": "3,000~12,000원",
+   "hours": "화·수·목·금·토·일 10:00~20:00 (브레이크 15:00~17:00)",
+   "holiday": "월 휴무",
+   "parking": "주차 가능 · 영일대 2 공영주차장 유료로 이용가능하시고 도보로 5분 거리의 두무치공영주차장은 무료로 이용가능하십니다.",
+   "facilities": [
+    "무선 인터넷",
+    "대기공간",
+    "유아의자"
+   ],
+   "seats": [
+    {
+     "name": "카운터석",
+     "desc": ""
+    }
+   ],
+   "keywords": [
+    {
+     "label": "음식이 맛있어요",
+     "count": 1971
+    },
+    {
+     "label": "특별한 메뉴가 있어요",
+     "count": 1094
+    },
+    {
+     "label": "재료가 신선해요",
+     "count": 1087
+    },
+    {
+     "label": "인테리어가 멋져요",
+     "count": 993
+    },
+    {
+     "label": "친절해요",
+     "count": 774
+    },
+    {
+     "label": "혼밥하기 좋아요",
+     "count": 731
+    }
+   ],
+   "menu_mentions": [
+    {
+     "label": "홍게",
+     "count": 645
+    },
+    {
+     "label": "칼국수",
+     "count": 641
+    },
+    {
+     "label": "비빔칼국수",
+     "count": 107
+    },
+    {
+     "label": "국수",
+     "count": 28
+    },
+    {
+     "label": "물회",
+     "count": 21
+    },
+    {
+     "label": "비빔면",
+     "count": 18
+    },
+    {
+     "label": "비빔국수",
+     "count": 14
+    },
+    {
+     "label": "대게",
+     "count": 13
+    }
+   ],
+   "group_votes": 1,
+   "micro": "다시 찾게 되는 바다향 가득한 맛집",
+   "description": "포항의 바다와 사람의 온기를 담은 한 그릇,\n포항홍게칼국수입니다.\n\n영일대 해수욕장과 스페이스워크 사이, 설머리 물회지구 입구에 자리한 작은 칼국수집.\n하지만 그 안에는 포항이라는 도시의 정취, 그리고 한 사람의 진심이 가득 담겨 있습니다.\n\n포항의 바다를 닮은 한 그릇\n\n포항홍게칼국수의 육수는 구룡포 홍게로 만듭니다.\n홍게를 찌고 말린 뒤, 다시 한번 볶아 깊은 풍미를 끌어올린 뒤 정성껏 우려냅니다.\n그렇게 만들어진 육수는 바다의 향과 감칠맛을 품은 포항의 바다 그 자체입니다.\n여기에 홍게를 볶아 만든 향미유를 더해,\n첫 숟가락부",
+   "lat": "36.0640534",
+   "lng": "129.3834224",
+   "menu_note": null,
+   "menu_images": [
+    "https://ldb-phinf.pstatic.net/20250404_206/17437463607351Akpu_PNG/%B8%DE%B4%BA%C6%C7.png"
+   ],
+   "menu_url": "https://m.place.naver.com/restaurant/1374962763/menu/list",
+   "naver_url": "https://m.place.naver.com/restaurant/1374962763/home",
+   "dc_url": "https://diningcode.com/profile.php?rid=6yMTJY0zVCSx",
+   "siksin_url": "https://www.siksinhot.com/P/1778385",
+   "map_url": "https://map.naver.com/p/entry/place/1374962763",
+   "stale": false,
+   "updated": "2026-10-19",
+   "sns": null,
+   "sns_measured": null,
+   "photos": [
+    {
+     "file": "img/d09b9b38ba367441.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/b6b09f71534bcaf0.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/54d3f29270cde87f.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/40c2b0e838b2997b.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/912c61d4fdd53a07.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/84836562df937c59.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/231fd4ead173f24a.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/87f809041b724768.jpg",
+     "kind": "사진"
+    }
+   ],
+   "photo": "img/d09b9b38ba367441.jpg",
+   "rank": 29
   },
   {
    "name": "해아름",
@@ -7231,7 +7849,7 @@
     }
    ],
    "photo": "img/154e540ac1dc1482.jpg",
-   "rank": 27
+   "rank": 30
   },
   {
    "name": "미남장어 양덕본점",
@@ -7452,7 +8070,7 @@
     }
    ],
    "photo": "img/0796db06ee0fbe4c.jpg",
-   "rank": 28
+   "rank": 31
   },
   {
    "name": "명가돈까스&가야밀면 시내영일대점",
@@ -7733,7 +8351,7 @@
     }
    ],
    "photo": "img/d9a64802420c5e8c.jpg",
-   "rank": 29
+   "rank": 32
   },
   {
    "name": "갈릴리대게회식당",
@@ -7984,7 +8602,7 @@
     }
    ],
    "photo": "img/1aeab494aa73c2ee.jpg",
-   "rank": 30
+   "rank": 33
   },
   {
    "name": "산더미미성돼지국밥 포항장성점",
@@ -8227,7 +8845,7 @@
     }
    ],
    "photo": "img/6edc0f8e07a7695f.jpg",
-   "rank": 31
+   "rank": 34
   },
   {
    "name": "주가대첩 북구본점",
@@ -8618,7 +9236,7 @@
     }
    ],
    "photo": "img/b8f3fb99cfc20228.jpg",
-   "rank": 32
+   "rank": 35
   },
   {
    "name": "돌빡라면 흥해",
@@ -8819,7 +9437,7 @@
     }
    ],
    "photo": "img/53be925c7d413f72.jpg",
-   "rank": 33
+   "rank": 36
   },
   {
    "name": "정든밤 영일대점",
@@ -9058,7 +9676,7 @@
     }
    ],
    "photo": "img/a796755ac4a94304.jpg",
-   "rank": 34
+   "rank": 37
   },
   {
    "name": "부산가야밀면",
@@ -9234,7 +9852,7 @@
     }
    ],
    "photo": "img/73989620e61c4d9a.jpg",
-   "rank": 35
+   "rank": 38
   },
   {
    "name": "사슴",
@@ -9509,7 +10127,162 @@
     }
    ],
    "photo": "img/40c4d74b6bf47717.jpg",
-   "rank": 36
+   "rank": 39
+  },
+  {
+   "name": "수향회식당",
+   "cat": "buk",
+   "naver_id": "33877802",
+   "tags": [],
+   "found_by": "핫플 탐지 (2026-10-19, 최근 7일 블로그 10건)",
+   "sources": [
+    "https://m.place.naver.com/restaurant/33877802/home",
+    "https://diningcode.com/profile.php?rid=dIH13ct2azv4"
+   ],
+   "naver_name": "수향회식당",
+   "category": "생선회",
+   "address": "경북 포항시 북구 죽도시장14길 3",
+   "phone": "054-241-1589",
+   "reviews": 1034,
+   "rating": null,
+   "blogs": 785,
+   "menus": [
+    {
+     "name": "물회",
+     "price": "20,000원"
+    },
+    {
+     "name": "회덮밥",
+     "price": "20,000원"
+    }
+   ],
+   "menu_source": "네이버 플레이스",
+   "rep_menu": [
+    {
+     "name": "물회",
+     "price": "20,000원"
+    }
+   ],
+   "price_range": "20,000원",
+   "hours": "월·화·목·금·토·일 10:30~20:00",
+   "holiday": "수 휴무 · 주말, 공휴일 재료소진 시 브레이크타임 있습니다.",
+   "parking": "정보 없음",
+   "facilities": [],
+   "seats": [],
+   "keywords": [
+    {
+     "label": "음식이 맛있어요",
+     "count": 636
+    },
+    {
+     "label": "재료가 신선해요",
+     "count": 394
+    },
+    {
+     "label": "친절해요",
+     "count": 294
+    },
+    {
+     "label": "양이 많아요",
+     "count": 265
+    },
+    {
+     "label": "특별한 메뉴가 있어요",
+     "count": 195
+    },
+    {
+     "label": "가성비가 좋아요",
+     "count": 106
+    }
+   ],
+   "menu_mentions": [
+    {
+     "label": "물회",
+     "count": 299
+    },
+    {
+     "label": "회덮밥",
+     "count": 53
+    },
+    {
+     "label": "백반",
+     "count": 22
+    },
+    {
+     "label": "우럭",
+     "count": 15
+    },
+    {
+     "label": "조개탕",
+     "count": 11
+    },
+    {
+     "label": "비빔밥",
+     "count": 9
+    },
+    {
+     "label": "도다리",
+     "count": 7
+    },
+    {
+     "label": "가자미",
+     "count": 5
+    }
+   ],
+   "group_votes": 2,
+   "micro": "신선함이 살아있는 회덮밥의 정석",
+   "description": "죽도시장 내에 있는 물회 전문점. 광어, 도다리, 우럭 등의 활어를 잘게 썰어 그릇에 담고 배, 오이, 상추, 김 가루 등을 얹은 뒤 깨와 참기름을 얹어 고추장과 함께 낸다.\n*** 포장 가능 여부 미리 확인 바랍니다!",
+   "lat": "36.0350027",
+   "lng": "129.3690264",
+   "menu_note": null,
+   "menu_images": [
+    "https://ldb-phinf.pstatic.net/20260422_111/1776863664648FeLhP_JPEG/1776863626340.jpg"
+   ],
+   "menu_url": "https://m.place.naver.com/restaurant/33877802/menu/list",
+   "naver_url": "https://m.place.naver.com/restaurant/33877802/home",
+   "dc_url": "https://diningcode.com/profile.php?rid=dIH13ct2azv4",
+   "siksin_url": "https://www.siksinhot.com/P/1269860",
+   "map_url": "https://map.naver.com/p/entry/place/33877802",
+   "stale": false,
+   "updated": "2026-10-19",
+   "sns": null,
+   "sns_measured": null,
+   "photos": [
+    {
+     "file": "img/c398c60dd9014ef7.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/6dd5fbc548c89fed.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/0454c07c556ed24e.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/570def43e9436b2f.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/cb41d010142a9900.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/66bdf64e518d3282.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/4ae7edc2c991b37e.jpg",
+     "kind": "메뉴 · 물회"
+    },
+    {
+     "file": "img/347c375b996e253e.jpg",
+     "kind": "메뉴 · 회덮밥"
+    }
+   ],
+   "photo": "img/c398c60dd9014ef7.jpg",
+   "rank": 40
   },
   {
    "name": "인어아저씨",
@@ -9754,7 +10527,7 @@
     }
    ],
    "photo": "img/186b05a1af12242e.jpg",
-   "rank": 37
+   "rank": 41
   },
   {
    "name": "영광회대게센타",
@@ -9922,7 +10695,7 @@
     }
    ],
    "photo": "img/b168b78cb816fcd7.jpg",
-   "rank": 38
+   "rank": 42
   },
   {
    "name": "청춘통닭 포항본점",
@@ -10154,7 +10927,7 @@
     }
    ],
    "photo": "img/90d1c797d8c31fc8.jpg",
-   "rank": 39
+   "rank": 43
   },
   {
    "name": "BHC치킨 포항창포점",
@@ -10882,7 +11655,7 @@
     }
    ],
    "photo": "img/8731f2427491b009.jpg",
-   "rank": 40
+   "rank": 44
   },
   {
    "name": "대구통닭 영일대점",
@@ -11231,7 +12004,7 @@
     }
    ],
    "photo": "img/9afca8c461c12695.jpg",
-   "rank": 41
+   "rank": 45
   },
   {
    "name": "호돈뒷고기본점",
@@ -11453,7 +12226,7 @@
     }
    ],
    "photo": "img/fb1b150c2edf47c9.jpg",
-   "rank": 42
+   "rank": 46
   },
   {
    "name": "영일대명물포항초닭강정",
@@ -11634,7 +12407,7 @@
     }
    ],
    "photo": "img/993e3fca6ed69ba4.jpg",
-   "rank": 43
+   "rank": 47
   },
   {
    "name": "윤금자모리칼국수",
@@ -11888,7 +12661,7 @@
     }
    ],
    "photo": "img/34e56df38e51fcf6.jpg",
-   "rank": 44
+   "rank": 48
   },
   {
    "name": "핑키핑키",
@@ -12049,7 +12822,7 @@
     }
    ],
    "photo": "img/b981cb7697862bba.jpg",
-   "rank": 45
+   "rank": 49
   },
   {
    "name": "119딧고기 양덕직영점",
@@ -12238,7 +13011,7 @@
     }
    ],
    "photo": "img/07d1df07a3572a3f.jpg",
-   "rank": 46
+   "rank": 50
   },
   {
    "name": "영일대특별시",
@@ -12652,7 +13425,7 @@
     }
    ],
    "photo": "img/1d846e2af91baab8.jpg",
-   "rank": 47
+   "rank": 51
   },
   {
    "name": "교촌치킨 환호장량점",
@@ -13252,7 +14025,7 @@
     }
    ],
    "photo": "img/2edf758f0cfe85c9.jpg",
-   "rank": 48
+   "rank": 52
   },
   {
    "name": "60계치킨 포항흥해초곡점",
@@ -13892,7 +14665,7 @@
     }
    ],
    "photo": "img/f22fe0a336a0c75d.jpg",
-   "rank": 49
+   "rank": 53
   },
   {
    "name": "교촌치킨 장성점",
@@ -14508,7 +15281,7 @@
     }
    ],
    "photo": "img/2edf758f0cfe85c9.jpg",
-   "rank": 50
+   "rank": 54
   },
   {
    "name": "태평족 흥해점",
@@ -14798,7 +15571,7 @@
     }
    ],
    "photo": "img/6408f70b66d2ac61.jpg",
-   "rank": 51
+   "rank": 55
   },
   {
    "name": "한신수산",
@@ -14991,7 +15764,7 @@
     }
    ],
    "photo": "img/bda0f2e18a7e42ba.jpg",
-   "rank": 52
+   "rank": 56
   },
   {
    "name": "세운상회",
@@ -15145,7 +15918,7 @@
     }
    ],
    "photo": "img/ff7131449252dac3.jpg",
-   "rank": 53
+   "rank": 57
   },
   {
    "name": "처갓집양념치킨 항구영일대점",
@@ -15484,7 +16257,7 @@
     }
    ],
    "photo": "img/609095a22dd18973.jpg",
-   "rank": 54
+   "rank": 58
   },
   {
    "name": "호식이두마리치킨 죽도점",
@@ -15930,7 +16703,7 @@
     }
    ],
    "photo": "img/2db18e08ef328d85.jpg",
-   "rank": 55
+   "rank": 59
   },
   {
    "name": "가마치통닭 포항두호점",
@@ -16197,7 +16970,7 @@
     }
    ],
    "photo": "img/df33242a9995d332.jpg",
-   "rank": 56
+   "rank": 60
   },
   {
    "name": "엘토르원조구룡포과메기",
@@ -16407,7 +17180,7 @@
     }
    ],
    "photo": "img/955ba98dd48bd09e.jpg",
-   "rank": 57
+   "rank": 61
   },
   {
    "name": "포항홍게무한리필 창포수산",
@@ -16600,7 +17373,7 @@
     }
    ],
    "photo": "img/fca14ae3c8935235.jpg",
-   "rank": 58
+   "rank": 62
   },
   {
    "name": "누구나홀딱반한닭 장성점",
@@ -16992,7 +17765,7 @@
     }
    ],
    "photo": "img/6fe41229df416f8d.jpg",
-   "rank": 59
+   "rank": 63
   },
   {
    "name": "60계 치킨 포항두호우창점",
@@ -17144,7 +17917,7 @@
     }
    ],
    "photo": "img/a9c2560f9baa7c27.jpg",
-   "rank": 60
+   "rank": 64
   },
   {
    "name": "푸라닭 포항영일대점",
@@ -17539,7 +18312,7 @@
     }
    ],
    "photo": "img/c4b6e2a65a13e31a.jpg",
-   "rank": 61
+   "rank": 65
   },
   {
    "name": "마장동뒷고기",
@@ -17741,7 +18514,7 @@
     }
    ],
    "photo": "img/8e1cd3af5f7f6b15.jpg",
-   "rank": 62
+   "rank": 66
   },
   {
    "name": "냠냠숯불두마리치킨 포항북구점",
@@ -18122,7 +18895,7 @@
     }
    ],
    "photo": "img/ac61247b1dcc8329.jpg",
-   "rank": 63
+   "rank": 67
   },
   {
    "name": "마장동본가뒷고기",
@@ -18289,7 +19062,7 @@
     }
    ],
    "photo": "img/181d2eac9f9ec34e.jpg",
-   "rank": 64
+   "rank": 68
   },
   {
    "name": "마장동뒷고기 마장동북부점",
@@ -18467,7 +19240,418 @@
     }
    ],
    "photo": "img/6d248ac0990abba2.jpg",
-   "rank": 65
+   "rank": 69
+  },
+  {
+   "name": "큐슈울트라아멘 포항트리플스트리트점",
+   "cat": "buk",
+   "naver_id": "2036482332",
+   "tags": [],
+   "found_by": "핫플 탐지 (2026-10-19, 최근 7일 블로그 5건)",
+   "sources": [
+    "https://m.place.naver.com/restaurant/2036482332/home"
+   ],
+   "naver_name": "큐슈울트라아멘 포항트리플스트리트점",
+   "category": "일본식라면",
+   "address": "경북 포항시 북구 양학로 58 2층",
+   "phone": "정보 없음",
+   "reviews": 57,
+   "rating": 4.96,
+   "blogs": 1,
+   "menus": [
+    {
+     "name": "울트라아멘",
+     "price": "14,900원"
+    },
+    {
+     "name": "돈코츠 시오라아멘",
+     "price": "10,500원"
+    },
+    {
+     "name": "돈코츠 소유라아멘",
+     "price": "10,500원"
+    },
+    {
+     "name": "돈코츠 미소라아멘",
+     "price": "11,000원"
+    },
+    {
+     "name": "중화 탄탄멘",
+     "price": "11,000원"
+    },
+    {
+     "name": "쿠로시오라아멘",
+     "price": "11,500원"
+    },
+    {
+     "name": "특제 마제소바",
+     "price": "11,500원"
+    },
+    {
+     "name": "에비돈코츠(새우탕멘)",
+     "price": "11,500원"
+    },
+    {
+     "name": "에비(새우)마제소바",
+     "price": "12,000원"
+    },
+    {
+     "name": "울트라동",
+     "price": "14,900원"
+    },
+    {
+     "name": "큐슈 규동",
+     "price": "11,000원"
+    },
+    {
+     "name": "수제 차슈동",
+     "price": "12,000원"
+    },
+    {
+     "name": "가라아게동",
+     "price": "11,000원"
+    },
+    {
+     "name": "가라아게 카레",
+     "price": "11,500원"
+    },
+    {
+     "name": "고로케 카레",
+     "price": "11,500원"
+    },
+    {
+     "name": "돈까스 카레",
+     "price": "12,000원"
+    },
+    {
+     "name": "가라아게 4p",
+     "price": "4,000원"
+    },
+    {
+     "name": "튀김교자 5p",
+     "price": "5,000원"
+    },
+    {
+     "name": "돈까스 1장",
+     "price": "5,000원"
+    },
+    {
+     "name": "고로케 3p",
+     "price": "5,000원"
+    },
+    {
+     "name": "코코넛 새우 6p",
+     "price": "5,000원"
+    },
+    {
+     "name": "미니 명란밥",
+     "price": "4,000원"
+    },
+    {
+     "name": "미니 치킨마요밥",
+     "price": "4,000원"
+    },
+    {
+     "name": "미니 카레밥",
+     "price": "4,000원"
+    },
+    {
+     "name": "미니 새우밥",
+     "price": "4,000원"
+    },
+    {
+     "name": "탄산음료",
+     "price": "2,000원"
+    },
+    {
+     "name": "메론소다",
+     "price": "3,500원"
+    }
+   ],
+   "menu_source": "네이버 플레이스",
+   "rep_menu": [
+    {
+     "name": "울트라아멘",
+     "price": "14,900원"
+    },
+    {
+     "name": "울트라동",
+     "price": "14,900원"
+    }
+   ],
+   "price_range": "14,900원",
+   "hours": "월·화·수·목 11:00~21:00 (브레이크 15:00~17:00) / 금·토·일 11:00~20:00 (브레이크 15:00~17:00)",
+   "holiday": "휴무일 표기 없음",
+   "parking": "무료 주차",
+   "facilities": [
+    "남/녀 화장실 구분",
+    "무선 인터넷",
+    "단체 이용 가능"
+   ],
+   "seats": [],
+   "keywords": [
+    {
+     "label": "음식이 맛있어요",
+     "count": 40
+    },
+    {
+     "label": "혼밥하기 좋아요",
+     "count": 17
+    },
+    {
+     "label": "친절해요",
+     "count": 17
+    },
+    {
+     "label": "재료가 신선해요",
+     "count": 15
+    },
+    {
+     "label": "양이 많아요",
+     "count": 14
+    },
+    {
+     "label": "매장이 청결해요",
+     "count": 9
+    }
+   ],
+   "menu_mentions": [
+    {
+     "label": "라멘",
+     "count": 17
+    },
+    {
+     "label": "고기",
+     "count": 1
+    },
+    {
+     "label": "교자",
+     "count": 1
+    },
+    {
+     "label": "덮밥",
+     "count": 1
+    },
+    {
+     "label": "돈코츠라멘",
+     "count": 1
+    },
+    {
+     "label": "라면",
+     "count": 1
+    },
+    {
+     "label": "마제소바",
+     "count": 1
+    },
+    {
+     "label": "명란",
+     "count": 1
+    }
+   ],
+   "group_votes": 0,
+   "micro": null,
+   "description": "<블루리본 서베이 2012-2023 선정 맛집>\n\n큐슈 지방의 정통 일식 레시피로 만든\n1세대 라멘 전문점, '큐슈울트라아멘'입니다.\n\n진한 돈코츠 육수의 라멘부터\n마제소바, 츠케멘, 규동, 가라아게까지\n남녀노소 취향에 맞는 다양한 메뉴를 준비했습니다.\n\n혼밥, 점심식사, 든든한 저녁 한 끼 모두 편하게 즐기실 수 있도록\n깔끔한 매장과 정성 어린 한 그릇으로 맞이하겠습니다.\n\n추천메뉴\n-울트라아멘 / 돈코츠미소라멘 / 마제소바 / 특제 츠케멘\n-울트라동 / 규동 / 튀김교자 / 가라아게 튀김",
+   "lat": "36.0294629",
+   "lng": "129.349858",
+   "menu_note": null,
+   "menu_images": [
+    "https://ldb-phinf.pstatic.net/20261014_86/1791975477621ch6VR_JPEG/KakaoTalk_20261014_115404788_02.jpg",
+    "https://ldb-phinf.pstatic.net/20261014_64/1791975483061JnxiV_JPEG/KakaoTalk_20261014_115404788.jpg",
+    "https://ldb-phinf.pstatic.net/20261014_180/1791975480513jnpja_JPEG/KakaoTalk_20261014_115404788_01.jpg"
+   ],
+   "menu_url": "https://m.place.naver.com/restaurant/2036482332/menu/list",
+   "naver_url": "https://m.place.naver.com/restaurant/2036482332/home",
+   "dc_url": null,
+   "siksin_url": null,
+   "map_url": "https://map.naver.com/p/entry/place/2036482332",
+   "stale": false,
+   "updated": "2026-10-19",
+   "sns": null,
+   "sns_measured": null,
+   "photos": [
+    {
+     "file": "img/8607532d7c35c7a0.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/7ca25d808c68cd38.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/36c75b739f5c269d.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/9eceed9b8fa6b7cf.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/727e437c0bbedf5f.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/6f2b7fd597e96808.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/eb1bee2a5e261feb.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/302e74dff16a7205.jpg",
+     "kind": "사진"
+    }
+   ],
+   "photo": "img/8607532d7c35c7a0.jpg",
+   "rank": 70
+  },
+  {
+   "name": "우리집먹거리",
+   "cat": "buk",
+   "naver_id": "15207437",
+   "tags": [],
+   "found_by": "핫플 탐지 (2026-10-19, 최근 7일 블로그 20건)",
+   "sources": [
+    "https://m.place.naver.com/restaurant/15207437/home",
+    "https://diningcode.com/profile.php?rid=EXorEOaaqtSQ"
+   ],
+   "naver_name": "우리집먹거리",
+   "category": "종합분식",
+   "address": "경북 포항시 북구 죽도로 20-1",
+   "phone": "054-275-0937",
+   "reviews": null,
+   "rating": null,
+   "blogs": 189,
+   "menus": [
+    {
+     "name": "즉석김밥",
+     "price": "2,000원"
+    },
+    {
+     "name": "국수",
+     "price": "2,500원"
+    },
+    {
+     "name": "비빔국수",
+     "price": "3,000원"
+    },
+    {
+     "name": "우동",
+     "price": "2,500원"
+    },
+    {
+     "name": "냉국수",
+     "price": "3,000원"
+    },
+    {
+     "name": "냉콩국수",
+     "price": "6,000원"
+    },
+    {
+     "name": "라면",
+     "price": "2,500원"
+    },
+    {
+     "name": "떡라면",
+     "price": "3,000원"
+    },
+    {
+     "name": "떡볶이",
+     "price": "2,500원"
+    },
+    {
+     "name": "파전",
+     "price": "2,000원"
+    },
+    {
+     "name": "순대",
+     "price": "3,000원"
+    },
+    {
+     "name": "오뎅",
+     "price": "2,500원"
+    },
+    {
+     "name": "돼지국밥",
+     "price": "6,000원"
+    },
+    {
+     "name": "육개장",
+     "price": "6,000원"
+    },
+    {
+     "name": "떡만두국",
+     "price": "4,000원"
+    },
+    {
+     "name": "비빔밥",
+     "price": "5,000원"
+    },
+    {
+     "name": "돼지수육",
+     "price": "10,000원"
+    },
+    {
+     "name": "군만두",
+     "price": "2,500원"
+    }
+   ],
+   "menu_source": "네이버 플레이스",
+   "rep_menu": [
+    {
+     "name": "즉석김밥",
+     "price": "2,000원"
+    },
+    {
+     "name": "국수",
+     "price": "2,500원"
+    },
+    {
+     "name": "비빔국수",
+     "price": "3,000원"
+    }
+   ],
+   "price_range": "2,000~3,000원",
+   "hours": "월·화·목·금·토·일 05:30~01:00",
+   "holiday": "수 휴무",
+   "parking": "정보 없음",
+   "facilities": [],
+   "seats": [],
+   "keywords": [],
+   "menu_mentions": [],
+   "group_votes": 0,
+   "micro": null,
+   "description": null,
+   "lat": "36.034296",
+   "lng": "129.363264",
+   "menu_note": null,
+   "menu_images": [
+    "https://ldb-phinf.pstatic.net/20260205_3/1770256110637FxT2Y_JPEG/P20260203_175857996_E12E9CED-C8D3-4E56-95E8-3DA7EF982611.JPG",
+    "https://ldb-phinf.pstatic.net/20260123_283/1769137316408cd5yW_JPEG/IMG_1777.jpeg",
+    "https://ldb-phinf.pstatic.net/20240713_100/1720869622820zKHju_JPEG/BandPhoto_2024_07_13_20_20_01.jpg"
+   ],
+   "menu_url": "https://m.place.naver.com/restaurant/15207437/menu/list",
+   "naver_url": "https://m.place.naver.com/restaurant/15207437/home",
+   "dc_url": "https://diningcode.com/profile.php?rid=EXorEOaaqtSQ",
+   "siksin_url": "https://www.siksinhot.com/P/391755",
+   "map_url": "https://map.naver.com/p/entry/place/15207437",
+   "stale": false,
+   "updated": "2026-10-19",
+   "sns": null,
+   "sns_measured": null,
+   "photos": [
+    {
+     "file": "img/5f607ad5d2c447cf.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/3343f308d28efe09.jpg",
+     "kind": "사진"
+    }
+   ],
+   "photo": "img/5f607ad5d2c447cf.jpg",
+   "rank": 71
   },
   {
    "name": "가정초밥 효자본점",
@@ -18701,6 +19885,192 @@
    "rank": 1
   },
   {
+   "name": "맥도날드 포항남부DT점",
+   "cat": "nam",
+   "naver_id": "20963198",
+   "tags": [],
+   "found_by": "핫플 탐지 (2026-10-19, 최근 7일 블로그 23건)",
+   "sources": [
+    "https://m.place.naver.com/restaurant/20963198/home",
+    "https://diningcode.com/profile.php?rid=7Xc78koBEsxg"
+   ],
+   "naver_name": "맥도날드 포항남부DT점",
+   "category": "햄버거",
+   "address": "경북 포항시 남구 새천년대로 470",
+   "phone": "054-614-6100",
+   "reviews": 9905,
+   "rating": null,
+   "blogs": 180,
+   "menus": [
+    {
+     "name": "빅맥® 세트",
+     "price": "가격 변동"
+    },
+    {
+     "name": "맥스파이시® 상하이 버거 세트",
+     "price": "가격 변동"
+    },
+    {
+     "name": "1955 버거™ 세트",
+     "price": "가격 변동"
+    },
+    {
+     "name": "불고기 버거 세트",
+     "price": "가격 변동"
+    },
+    {
+     "name": "슈슈 버거 세트",
+     "price": "가격 변동"
+    },
+    {
+     "name": "베이컨 토마토 디럭스 세트",
+     "price": "가격 변동"
+    }
+   ],
+   "menu_source": "네이버 플레이스",
+   "rep_menu": [
+    {
+     "name": "빅맥® 세트",
+     "price": "가격 변동"
+    },
+    {
+     "name": "맥스파이시® 상하이 버거 세트",
+     "price": "가격 변동"
+    },
+    {
+     "name": "1955 버거™ 세트",
+     "price": "가격 변동"
+    }
+   ],
+   "price_range": "정보 없음",
+   "hours": "매일 00:00~24:00",
+   "holiday": "휴무일 표기 없음",
+   "parking": "정보 없음",
+   "facilities": [
+    "배달",
+    "24시간",
+    "드라이브스루",
+    "포장"
+   ],
+   "seats": [],
+   "keywords": [
+    {
+     "label": "음식이 맛있어요",
+     "count": 3358
+    },
+    {
+     "label": "친절해요",
+     "count": 1150
+    },
+    {
+     "label": "가성비가 좋아요",
+     "count": 1121
+    },
+    {
+     "label": "매장이 넓어요",
+     "count": 1057
+    },
+    {
+     "label": "주차하기 편해요",
+     "count": 895
+    },
+    {
+     "label": "재료가 신선해요",
+     "count": 859
+    }
+   ],
+   "menu_mentions": [
+    {
+     "label": "햄버거",
+     "count": 71
+    },
+    {
+     "label": "커피",
+     "count": 55
+    },
+    {
+     "label": "아이스크림",
+     "count": 29
+    },
+    {
+     "label": "튀김",
+     "count": 27
+    },
+    {
+     "label": "감자튀김",
+     "count": 26
+    },
+    {
+     "label": "치킨",
+     "count": 23
+    },
+    {
+     "label": "불고기",
+     "count": 22
+    },
+    {
+     "label": "불고기버거",
+     "count": 20
+    }
+   ],
+   "group_votes": 164,
+   "micro": null,
+   "description": null,
+   "lat": "36.0173511",
+   "lng": "129.347269",
+   "menu_note": null,
+   "menu_images": [
+    "https://ldb-phinf.pstatic.net/20220326_273/1648290637123NqDtw_JPEG/55F57828-0756-4C3B-883E-56FB85BCE2A4.jpeg",
+    "https://ldb-phinf.pstatic.net/20220317_144/164744747885453HMe_JPEG/BF358B31-4315-44E6-A045-956E8AAC3AA2.jpeg",
+    "https://ldb-phinf.pstatic.net/20201224_90/1608774873294omnfm_JPEG/16ahGZt9LeM0tGDzPRUk1F58.jpg"
+   ],
+   "menu_url": "https://m.place.naver.com/restaurant/20963198/menu/list",
+   "naver_url": "https://m.place.naver.com/restaurant/20963198/home",
+   "dc_url": "https://diningcode.com/profile.php?rid=7Xc78koBEsxg",
+   "siksin_url": "https://www.siksinhot.com/P/409343",
+   "map_url": "https://map.naver.com/p/entry/place/20963198",
+   "stale": false,
+   "updated": "2026-10-19",
+   "sns": null,
+   "sns_measured": null,
+   "photos": [
+    {
+     "file": "img/83abd3537feebaf7.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/7382beaea2444b31.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/f2318b9486647bd4.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/aaf26c089e00ba55.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/cf7ede10f841a155.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/d1bbac06b9ee3243.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/12f42b8243c029c2.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/967c71de6c9f5838.jpg",
+     "kind": "사진"
+    }
+   ],
+   "photo": "img/83abd3537feebaf7.jpg",
+   "rank": 2
+  },
+  {
    "name": "포항 순이",
    "cat": "nam",
    "naver_id": "1336470115",
@@ -18918,7 +20288,7 @@
     }
    ],
    "photo": "img/03163549e5013a3b.jpg",
-   "rank": 2
+   "rank": 3
   },
   {
    "name": "짬홍",
@@ -19115,7 +20485,7 @@
     }
    ],
    "photo": "img/9e952924d3984f24.jpg",
-   "rank": 3
+   "rank": 4
   },
   {
    "name": "효자동곱닭 곱창전골 매운갈비찜",
@@ -19335,7 +20705,274 @@
     }
    ],
    "photo": "img/232068b6de19223d.jpg",
-   "rank": 4
+   "rank": 5
+  },
+  {
+   "name": "샤브로21 효자",
+   "cat": "nam",
+   "naver_id": "1899206820",
+   "tags": [],
+   "found_by": "핫플 탐지 (2026-10-19, 최근 7일 블로그 13건)",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1899206820/home",
+    "https://diningcode.com/profile.php?rid=VfR0sPh81Re8"
+   ],
+   "naver_name": "샤브로21 효자",
+   "category": "샤브샤브",
+   "address": "경북 포항시 남구 효자동길 2 1층 102호",
+   "phone": "0507-1413-4749",
+   "reviews": 4341,
+   "rating": 4.93,
+   "blogs": 170,
+   "menus": [
+    {
+     "name": "샤브로21 샤브샤브",
+     "price": "8,000원"
+    },
+    {
+     "name": "얼큰 샤브샤브",
+     "price": "9,000원"
+    },
+    {
+     "name": "미소 샤브샤브",
+     "price": "9,000원"
+    },
+    {
+     "name": "포(Phở) 샤브샤브",
+     "price": "9,000원"
+    },
+    {
+     "name": "마라 샤브샤브",
+     "price": "9,300원"
+    },
+    {
+     "name": "반반 샤브샤브",
+     "price": "9,500원"
+    },
+    {
+     "name": "스키야키",
+     "price": "9,000원"
+    },
+    {
+     "name": "야키파스타",
+     "price": "8,800원"
+    },
+    {
+     "name": "샤브로21X목련어묵 어묵탕",
+     "price": "8,800원"
+    },
+    {
+     "name": "소불고기덮밥",
+     "price": "6,800원"
+    },
+    {
+     "name": "돼지불고기 덮밥",
+     "price": "6,800원"
+    },
+    {
+     "name": "고추장 소불고기덮밥",
+     "price": "7,300원"
+    },
+    {
+     "name": "고추장 돼지불고기덮밥",
+     "price": "7,300원"
+    },
+    {
+     "name": "레몬 에이드",
+     "price": "3,800원"
+    },
+    {
+     "name": "자몽에이드",
+     "price": "3,800원"
+    },
+    {
+     "name": "청포도 에이드",
+     "price": "3,800원"
+    },
+    {
+     "name": "플라워 하이볼",
+     "price": "3,800원"
+    },
+    {
+     "name": "미도리 하이볼",
+     "price": "3,800원"
+    },
+    {
+     "name": "핑크자몽 하이볼",
+     "price": "3,800원"
+    },
+    {
+     "name": "레몬 하이볼",
+     "price": "3,800원"
+    },
+    {
+     "name": "쿨라임 하이볼",
+     "price": "3,800원"
+    },
+    {
+     "name": "자몽허니블랙티 하이볼",
+     "price": "3,800원"
+    },
+    {
+     "name": "위스키 하이볼",
+     "price": "3,800원"
+    },
+    {
+     "name": "산토리 하이볼",
+     "price": "5,800원"
+    },
+    {
+     "name": "봄베이 하이볼",
+     "price": "5,800원"
+    },
+    {
+     "name": "짐빔 하이볼",
+     "price": "5,800원"
+    },
+    {
+     "name": "잭콕 하이볼",
+     "price": "5,800원"
+    }
+   ],
+   "menu_source": "네이버 플레이스",
+   "rep_menu": [
+    {
+     "name": "샤브로21 샤브샤브",
+     "price": "8,000원"
+    },
+    {
+     "name": "얼큰 샤브샤브",
+     "price": "9,000원"
+    },
+    {
+     "name": "미소 샤브샤브",
+     "price": "9,000원"
+    }
+   ],
+   "price_range": "6,800~9,500원",
+   "hours": "월·화·수·목·금·일 10:30~21:00",
+   "holiday": "토 휴무",
+   "parking": "주차 가능 · 효자시장 공영주차장 이용 가능합니다.",
+   "facilities": [
+    "무선 인터넷",
+    "남/녀 화장실 구분"
+   ],
+   "seats": [],
+   "keywords": [
+    {
+     "label": "음식이 맛있어요",
+     "count": 4058
+    },
+    {
+     "label": "재료가 신선해요",
+     "count": 2758
+    },
+    {
+     "label": "혼밥하기 좋아요",
+     "count": 1717
+    },
+    {
+     "label": "가성비가 좋아요",
+     "count": 1372
+    },
+    {
+     "label": "인테리어가 멋져요",
+     "count": 1228
+    },
+    {
+     "label": "양이 많아요",
+     "count": 974
+    }
+   ],
+   "menu_mentions": [
+    {
+     "label": "샤브샤브",
+     "count": 516
+    },
+    {
+     "label": "고기",
+     "count": 92
+    },
+    {
+     "label": "규동",
+     "count": 31
+    },
+    {
+     "label": "스키야키",
+     "count": 29
+    },
+    {
+     "label": "칼국수",
+     "count": 26
+    },
+    {
+     "label": "덮밥",
+     "count": 12
+    },
+    {
+     "label": "어묵",
+     "count": 11
+    },
+    {
+     "label": "불고기",
+     "count": 10
+    }
+   ],
+   "group_votes": 30,
+   "micro": null,
+   "description": "행복한 식사를 맛있는 여행으로 바꿔줄 곳, 포항 효자동에 자리한 샤브로21입니다.\n효자동 최고의 가성비를 자랑하며 근처맛집으로 부상하는 저희 샤브로21에서 합리적인 가격과 편안하고 모던한 공간에서 감성적인 식사를 즐겨보세요!\n\n<<맛과 가성비 그리고 하이볼>>\n샤브로21만의 비법으로 자연의 맛을 담은 [육수]와 음식과 잘어울리는 [칠리소스], [땅콩소스], [쯔유소스]로 신선하고 맛있는 음식을 맛보실 수 있습니다. 또한 기본메뉴가 7,500원으로 힘들어지는 경기 속에 부담없는 가격으로 맛있는 샤브샤브를 즐기실 수 있도록 최선을 다했",
+   "lat": "36.0078071",
+   "lng": "129.3304018",
+   "menu_note": null,
+   "menu_images": [
+    "https://ldb-phinf.pstatic.net/20260804_6/1785822884481PBn5m_JPEG/%BB%FE%BA%EA%B7%CE21_%B8%DE%B4%BA2026new%28image%2901_0804.jpg",
+    "https://ldb-phinf.pstatic.net/20260804_77/1785810569870fChrb_JPEG/%BB%FE%BA%EA%B7%CE21_%B8%DE%B4%BA2026new%28image%2902_0804.jpg"
+   ],
+   "menu_url": "https://m.place.naver.com/restaurant/1899206820/menu/list",
+   "naver_url": "https://m.place.naver.com/restaurant/1899206820/home",
+   "dc_url": "https://diningcode.com/profile.php?rid=VfR0sPh81Re8",
+   "siksin_url": "https://www.siksinhot.com/P/1549825",
+   "map_url": "https://map.naver.com/p/entry/place/1899206820",
+   "stale": false,
+   "updated": "2026-10-19",
+   "sns": null,
+   "sns_measured": null,
+   "photos": [
+    {
+     "file": "img/5fa233532da0846a.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/5cfb477ca44a51d8.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/ddc495f5cb6d41de.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/611368f8b5da44b5.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/1cb82f7c1f636112.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/16bf182885dff3a0.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/02fd5540a677cf50.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/a11475722ce9daa7.jpg",
+     "kind": "사진"
+    }
+   ],
+   "photo": "img/5fa233532da0846a.jpg",
+   "rank": 6
   },
   {
    "name": "태평족 포항쌍사점",
@@ -19615,7 +21252,7 @@
     }
    ],
    "photo": "img/bcb35246d7095f32.jpg",
-   "rank": 5
+   "rank": 7
   },
   {
    "name": "담박집",
@@ -19848,7 +21485,7 @@
     }
    ],
    "photo": "img/1d437555464d6d8d.jpg",
-   "rank": 6
+   "rank": 8
   },
   {
    "name": "해일향",
@@ -20041,7 +21678,7 @@
     }
    ],
    "photo": "img/a7e1dd693fd1edec.jpg",
-   "rank": 7
+   "rank": 9
   },
   {
    "name": "와비사비 포항 효자점",
@@ -20339,7 +21976,7 @@
     }
    ],
    "photo": "img/3d4dea93bd62fe7f.jpg",
-   "rank": 8
+   "rank": 10
   },
   {
    "name": "훠궈먹고 포항이동점",
@@ -20541,7 +22178,7 @@
     }
    ],
    "photo": "img/cc53c206e9dbf60d.jpg",
-   "rank": 9
+   "rank": 11
   },
   {
    "name": "스틸룸코티지",
@@ -20768,7 +22405,7 @@
     }
    ],
    "photo": "img/bed26254cb15bebc.jpg",
-   "rank": 10
+   "rank": 12
   },
   {
    "name": "대게총판도소매",
@@ -20967,7 +22604,7 @@
     }
    ],
    "photo": "img/8862f8d44b0946c9.jpg",
-   "rank": 11
+   "rank": 13
   },
   {
    "name": "구룡포 영일만회대게",
@@ -21186,7 +22823,7 @@
     }
    ],
    "photo": "img/ea6382f880a0970d.jpg",
-   "rank": 12
+   "rank": 14
   },
   {
    "name": "샤브20 이동점",
@@ -21385,7 +23022,7 @@
     }
    ],
    "photo": "img/6e71976343571db5.jpg",
-   "rank": 13
+   "rank": 15
   },
   {
    "name": "석암생소금구이 포항효자점",
@@ -21624,7 +23261,7 @@
     }
    ],
    "photo": "img/d4d8d2d0df19e720.jpg",
-   "rank": 14
+   "rank": 16
   },
   {
    "name": "효자꼬들집 꼬들목살 막창 효자점",
@@ -21823,7 +23460,193 @@
     }
    ],
    "photo": "img/bc3fa208e1fe5c8d.jpg",
-   "rank": 15
+   "rank": 17
+  },
+  {
+   "name": "등촌샤브칼국수 포항점",
+   "cat": "nam",
+   "naver_id": "15130771",
+   "tags": [],
+   "found_by": "핫플 탐지 (2026-10-19, 최근 7일 블로그 10건)",
+   "sources": [
+    "https://m.place.naver.com/restaurant/15130771/home",
+    "https://diningcode.com/profile.php?rid=uNtMenj0nYZw"
+   ],
+   "naver_name": "등촌샤브칼국수 포항점",
+   "category": "칼국수,만두",
+   "address": "경북 포항시 남구 대이로143번길 5-1",
+   "phone": "054-272-9345",
+   "reviews": 1671,
+   "rating": 4.44,
+   "blogs": 426,
+   "menus": [
+    {
+     "name": "소고기샤브+버섯칼국수+볶음밥",
+     "price": "15,000원"
+    },
+    {
+     "name": "석쇠불고기",
+     "price": "8,000원"
+    },
+    {
+     "name": "물만두",
+     "price": "5,000원"
+    },
+    {
+     "name": "추가 소고기",
+     "price": "8,000원"
+    },
+    {
+     "name": "추가 야채/볶음밥/면사리",
+     "price": "1,000원"
+    }
+   ],
+   "menu_source": "네이버 플레이스",
+   "rep_menu": [
+    {
+     "name": "소고기샤브+버섯칼국수+볶음밥",
+     "price": "15,000원"
+    },
+    {
+     "name": "석쇠불고기",
+     "price": "8,000원"
+    },
+    {
+     "name": "물만두",
+     "price": "5,000원"
+    }
+   ],
+   "price_range": "5,000~15,000원",
+   "hours": "화·수·목·금·토·일 11:00~21:30 (브레이크 15:00~17:00)",
+   "holiday": "월 휴무",
+   "parking": "무료 주차",
+   "facilities": [
+    "포장",
+    "예약",
+    "무선 인터넷",
+    "남/녀 화장실 구분",
+    "대기공간",
+    "유아의자",
+    "단체 이용 가능",
+    "화장실 휠체어 이용가능",
+    "출입구 휠체어 이용가능",
+    "좌석 휠체어 이용가능"
+   ],
+   "seats": [],
+   "keywords": [
+    {
+     "label": "음식이 맛있어요",
+     "count": 968
+    },
+    {
+     "label": "재료가 신선해요",
+     "count": 295
+    },
+    {
+     "label": "친절해요",
+     "count": 292
+    },
+    {
+     "label": "매장이 넓어요",
+     "count": 268
+    },
+    {
+     "label": "양이 많아요",
+     "count": 173
+    },
+    {
+     "label": "주차하기 편해요",
+     "count": 165
+    }
+   ],
+   "menu_mentions": [
+    {
+     "label": "볶음밥",
+     "count": 90
+    },
+    {
+     "label": "칼국수",
+     "count": 47
+    },
+    {
+     "label": "고기",
+     "count": 33
+    },
+    {
+     "label": "샤브샤브",
+     "count": 29
+    },
+    {
+     "label": "소고기",
+     "count": 5
+    },
+    {
+     "label": "계란볶음밥",
+     "count": 4
+    },
+    {
+     "label": "콜라",
+     "count": 3
+    },
+    {
+     "label": "국수",
+     "count": 1
+    }
+   ],
+   "group_votes": 103,
+   "micro": null,
+   "description": null,
+   "lat": "36.0275236",
+   "lng": "129.3397899",
+   "menu_note": null,
+   "menu_images": [
+    "https://ldb-phinf.pstatic.net/20260121_24/1768998189356d5UHD_JPEG/IMG_5186.jpeg"
+   ],
+   "menu_url": "https://m.place.naver.com/restaurant/15130771/menu/list",
+   "naver_url": "https://m.place.naver.com/restaurant/15130771/home",
+   "dc_url": "https://diningcode.com/profile.php?rid=uNtMenj0nYZw",
+   "siksin_url": "https://www.siksinhot.com/P/391406",
+   "map_url": "https://map.naver.com/p/entry/place/15130771",
+   "stale": false,
+   "updated": "2026-10-19",
+   "sns": null,
+   "sns_measured": null,
+   "photos": [
+    {
+     "file": "img/0468e5ee5236b371.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/5f35cfa55be8055e.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/abee6605dd4d7412.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/aeb4f77272985e48.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/1b41877f756ee313.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/ad9f2f76f3d2325c.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/bd12738f2f055952.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/4fbfa8be518e9a5c.jpg",
+     "kind": "사진"
+    }
+   ],
+   "photo": "img/0468e5ee5236b371.jpg",
+   "rank": 18
   },
   {
    "name": "효자동오륙도",
@@ -22009,7 +23832,7 @@
     }
    ],
    "photo": "img/255777e7e2e45056.jpg",
-   "rank": 16
+   "rank": 19
   },
   {
    "name": "구룡포 바다풍경물회대게",
@@ -22182,7 +24005,7 @@
     }
    ],
    "photo": "img/b79a0783765b3c21.jpg",
-   "rank": 17
+   "rank": 20
   },
   {
    "name": "1992덮밥&짜글이 포항점",
@@ -22451,7 +24274,7 @@
     }
    ],
    "photo": "img/5778bec5a3f5ffaa.jpg",
-   "rank": 18
+   "rank": 21
   },
   {
    "name": "횟집진",
@@ -22661,7 +24484,7 @@
     }
    ],
    "photo": "img/1d695a8a05756cc9.jpg",
-   "rank": 19
+   "rank": 22
   },
   {
    "name": "한씨 막국수 포항이동점",
@@ -22858,7 +24681,7 @@
     }
    ],
    "photo": "img/4c1e4782bee16af0.jpg",
-   "rank": 20
+   "rank": 23
   },
   {
    "name": "대게닷컴",
@@ -23060,7 +24883,7 @@
     }
    ],
    "photo": "img/5378ff76ec11085d.jpg",
-   "rank": 21
+   "rank": 24
   },
   {
    "name": "효자동쌀국수미",
@@ -23350,7 +25173,7 @@
     }
    ],
    "photo": "img/52efac5239700115.jpg",
-   "rank": 22
+   "rank": 25
   },
   {
    "name": "청마루",
@@ -23529,7 +25352,7 @@
     }
    ],
    "photo": "img/0cc1f3e4e2afb790.jpg",
-   "rank": 23
+   "rank": 26
   },
   {
    "name": "커터 쌍사",
@@ -23771,7 +25594,7 @@
     }
    ],
    "photo": "img/53a2dca1e69bc4b9.jpg",
-   "rank": 24
+   "rank": 27
   },
   {
    "name": "오두막창 포항효자점",
@@ -24015,7 +25838,7 @@
     }
    ],
    "photo": "img/759ba968b7cf271d.jpg",
-   "rank": 25
+   "rank": 28
   },
   {
    "name": "숯토리 포항효자점",
@@ -24534,7 +26357,7 @@
     }
    ],
    "photo": "img/4c4b7552d0b90551.jpg",
-   "rank": 26
+   "rank": 29
   },
   {
    "name": "대현수산",
@@ -24733,7 +26556,7 @@
     }
    ],
    "photo": "img/abaf476fb37dc75a.jpg",
-   "rank": 27
+   "rank": 30
   },
   {
    "name": "바다랑대게",
@@ -24938,7 +26761,7 @@
     }
    ],
    "photo": "img/9fb9d588f7fc9bf3.jpg",
-   "rank": 28
+   "rank": 31
   },
   {
    "name": "새천년회대게",
@@ -25155,7 +26978,7 @@
     }
    ],
    "photo": "img/1d4429d23438ffc7.jpg",
-   "rank": 29
+   "rank": 32
   },
   {
    "name": "구룡포 할매국수",
@@ -25348,7 +27171,7 @@
     }
    ],
    "photo": "img/8ec121d1a29f349f.jpg",
-   "rank": 30
+   "rank": 33
   },
   {
    "name": "진강수산식당",
@@ -25564,7 +27387,7 @@
     }
    ],
    "photo": "img/84101602a2a3e339.jpg",
-   "rank": 31
+   "rank": 34
   },
   {
    "name": "연막창 쌍용사거리점",
@@ -25809,7 +27632,7 @@
     }
    ],
    "photo": "img/da79ebf67cbe6111.jpg",
-   "rank": 32
+   "rank": 35
   },
   {
    "name": "한양횟집",
@@ -26014,7 +27837,7 @@
     }
    ],
    "photo": "img/1ddfe7a625b79b33.jpg",
-   "rank": 33
+   "rank": 36
   },
   {
    "name": "교촌치킨 양학대이점",
@@ -26642,7 +28465,7 @@
     }
    ],
    "photo": "img/2edf758f0cfe85c9.jpg",
-   "rank": 34
+   "rank": 37
   },
   {
    "name": "마고닭 포항본점",
@@ -26870,7 +28693,7 @@
     }
    ],
    "photo": "img/caea944f0ef8cbd7.jpg",
-   "rank": 35
+   "rank": 38
   },
   {
    "name": "구룡포 대게홍게 강두기수산",
@@ -27112,7 +28935,7 @@
     }
    ],
    "photo": "img/ce53599a13ee50e4.jpg",
-   "rank": 36
+   "rank": 39
   },
   {
    "name": "구룡포대게마을회",
@@ -27302,7 +29125,7 @@
     }
    ],
    "photo": "img/0fefe89401049b1c.jpg",
-   "rank": 37
+   "rank": 40
   },
   {
    "name": "돈명가",
@@ -27515,7 +29338,7 @@
     }
    ],
    "photo": "img/c51fcf7366219c2c.jpg",
-   "rank": 38
+   "rank": 41
   },
   {
    "name": "교촌치킨 효곡점",
@@ -27671,7 +29494,7 @@
     }
    ],
    "photo": "img/2edf758f0cfe85c9.jpg",
-   "rank": 39
+   "rank": 42
   },
   {
    "name": "까꾸네모리국수",
@@ -27854,7 +29677,7 @@
     }
    ],
    "photo": "img/e1f1b8ccb6dea71f.jpg",
-   "rank": 40
+   "rank": 43
   },
   {
    "name": "후라이드참잘하는집 포항남구점",
@@ -28252,7 +30075,7 @@
     }
    ],
    "photo": "img/6056eccd9d3332c7.jpg",
-   "rank": 41
+   "rank": 44
   },
   {
    "name": "교촌치킨 연일점",
@@ -28880,7 +30703,7 @@
     }
    ],
    "photo": "img/2edf758f0cfe85c9.jpg",
-   "rank": 42
+   "rank": 45
   },
   {
    "name": "창우물회",
@@ -29138,7 +30961,7 @@
     }
    ],
    "photo": "img/a3305f052fce78bc.jpg",
-   "rank": 43
+   "rank": 46
   },
   {
    "name": "푸라닭 포항시청점",
@@ -29559,7 +31382,7 @@
     }
    ],
    "photo": "img/c4b6e2a65a13e31a.jpg",
-   "rank": 44
+   "rank": 47
   },
   {
    "name": "진심왕돈까스 포항이동점",
@@ -29862,7 +31685,7 @@
     }
    ],
    "photo": "img/afb227c784fe6c55.jpg",
-   "rank": 45
+   "rank": 48
   },
   {
    "name": "기막힌뒷고기 대잠점",
@@ -30125,7 +31948,7 @@
     }
    ],
    "photo": "img/2cb365e47962b518.jpg",
-   "rank": 46
+   "rank": 49
   },
   {
    "name": "추탄집 연일점",
@@ -30339,7 +32162,7 @@
     }
    ],
    "photo": "img/643b42125335cbf9.jpg",
-   "rank": 47
+   "rank": 50
   },
   {
    "name": "쌀통닭 지곡점",
@@ -30661,7 +32484,7 @@
     }
    ],
    "photo": "img/de8069aee75f9fb7.jpg",
-   "rank": 48
+   "rank": 51
   },
   {
    "name": "쌍둥이네 통닭",
@@ -30913,7 +32736,7 @@
     }
    ],
    "photo": "img/ee93aa1ca9548627.jpg",
-   "rank": 49
+   "rank": 52
   },
   {
    "name": "참맛대게전문점",
@@ -31134,7 +32957,7 @@
     }
    ],
    "photo": "img/b6ddc6d6821eaeb4.jpg",
-   "rank": 50
+   "rank": 53
   },
   {
    "name": "우진수산",
@@ -31303,7 +33126,7 @@
     }
    ],
    "photo": "img/89f110e260046002.jpg",
-   "rank": 51
+   "rank": 54
   },
   {
    "name": "교촌치킨 남부점",
@@ -31459,7 +33282,7 @@
     }
    ],
    "photo": "img/2edf758f0cfe85c9.jpg",
-   "rank": 52
+   "rank": 55
   },
   {
    "name": "호돈뒷고기 효자점",
@@ -31664,7 +33487,7 @@
     }
    ],
    "photo": "img/37a0bbbb18b709ea.jpg",
-   "rank": 53
+   "rank": 56
   },
   {
    "name": "탐솥 효자점",
@@ -31914,7 +33737,7 @@
     }
    ],
    "photo": "img/2a88d5ed8bdfe497.jpg",
-   "rank": 54
+   "rank": 57
   },
   {
    "name": "과메기를좋아하는사람들 해창",
@@ -32095,7 +33918,7 @@
     }
    ],
    "photo": "img/8446f7cf4053c3ac.jpg",
-   "rank": 55
+   "rank": 58
   },
   {
    "name": "호식이두마리치킨 연일점",
@@ -32470,7 +34293,7 @@
     }
    ],
    "photo": "img/3d0e113844919179.jpg",
-   "rank": 56
+   "rank": 59
   },
   {
    "name": "BHC치킨 포항남부점",
@@ -33182,7 +35005,7 @@
     }
    ],
    "photo": "img/8731f2427491b009.jpg",
-   "rank": 57
+   "rank": 60
   },
   {
    "name": "장풍 고기의 정석",
@@ -33447,7 +35270,7 @@
     }
    ],
    "photo": "img/be510780fbe62644.jpg",
-   "rank": 58
+   "rank": 61
   },
   {
    "name": "유강옛날통닭",
@@ -33622,7 +35445,7 @@
     }
    ],
    "photo": "img/e43c66d8deba586c.jpg",
-   "rank": 59
+   "rank": 62
   },
   {
    "name": "기운내",
@@ -33814,7 +35637,7 @@
     }
    ],
    "photo": "img/d1ef98a97284a8f0.jpg",
-   "rank": 60
+   "rank": 63
   },
   {
    "name": "누구나홀딱반한닭 포항효자점",
@@ -34177,7 +36000,7 @@
     }
    ],
    "photo": "img/64c1155844e74a7e.jpg",
-   "rank": 61
+   "rank": 64
   },
   {
    "name": "갓튀긴후라이드 이동점",
@@ -34679,7 +36502,7 @@
     }
    ],
    "photo": "img/0d12ca60428239f0.jpg",
-   "rank": 62
+   "rank": 65
   },
   {
    "name": "포항아구탕",
@@ -34867,7 +36690,249 @@
     }
    ],
    "photo": "img/d9d549028b9a34e6.jpg",
-   "rank": 63
+   "rank": 66
+  },
+  {
+   "name": "맛있는 고기에 솜씨를 더하다 이동점",
+   "cat": "nam",
+   "naver_id": "1167535017",
+   "tags": [],
+   "found_by": "핫플 탐지 (2026-10-19, 최근 7일 블로그 14건)",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1167535017/home",
+    "https://diningcode.com/profile.php?rid=LaSUPP8oO6IA"
+   ],
+   "naver_name": "맛있는 고기에 솜씨를 더하다 이동점",
+   "category": "육류,고기요리",
+   "address": "경북 포항시 남구 대이로143번길 22-14 1층",
+   "phone": "054-277-2722",
+   "reviews": 172,
+   "rating": null,
+   "blogs": 171,
+   "menus": [
+    {
+     "name": "숙성 삼겹살 100g",
+     "price": "4,990원"
+    },
+    {
+     "name": "숙성 목살 100g",
+     "price": "4,990원"
+    },
+    {
+     "name": "숙성 오겹살 100g",
+     "price": "5,290원"
+    },
+    {
+     "name": "숙성 항정살 100g",
+     "price": "5,990원"
+    },
+    {
+     "name": "숙성 가브리살 100g",
+     "price": "5,990원"
+    },
+    {
+     "name": "더하다 대패 100g",
+     "price": "4,490원"
+    },
+    {
+     "name": "한우 차돌박이 100g",
+     "price": "12,990원"
+    },
+    {
+     "name": "패밀리세트 1kg",
+     "price": "42,990원"
+    },
+    {
+     "name": "모듬 B세트 800g",
+     "price": "37,990원"
+    },
+    {
+     "name": "모듬 A세트 600g",
+     "price": "28,990원"
+    },
+    {
+     "name": "수제 양념돼지갈비 200g",
+     "price": "7,990원"
+    },
+    {
+     "name": "껍데기 1인분 120g",
+     "price": "4,990원"
+    },
+    {
+     "name": "수제 소세지 1인분 200g",
+     "price": "4,990원"
+    },
+    {
+     "name": "모듬버섯",
+     "price": "1,990원"
+    },
+    {
+     "name": "막국수(물)",
+     "price": "6,000원"
+    },
+    {
+     "name": "막국수(비빔)",
+     "price": "6,000원"
+    },
+    {
+     "name": "해장라면",
+     "price": "4,000원"
+    },
+    {
+     "name": "된장찌게",
+     "price": "3,000원"
+    },
+    {
+     "name": "누룽지",
+     "price": "3,000원"
+    },
+    {
+     "name": "콩나물밥",
+     "price": "2,000원"
+    },
+    {
+     "name": "공기밥",
+     "price": "1,000원"
+    }
+   ],
+   "menu_source": "네이버 플레이스",
+   "rep_menu": [
+    {
+     "name": "숙성 삼겹살 100g",
+     "price": "4,990원"
+    },
+    {
+     "name": "패밀리세트 1kg",
+     "price": "42,990원"
+    }
+   ],
+   "price_range": "4,990~42,990원",
+   "hours": "매일 17:00~22:00",
+   "holiday": "매달 2, 4번째 화요일 정기 휴무 휴무",
+   "parking": "무료 주차 · 가게앞 주차 가능 : 5대\n그외 노상주차 가능합니다.",
+   "facilities": [
+    "단체 이용 가능",
+    "예약",
+    "무선 인터넷",
+    "남/녀 화장실 구분",
+    "유아의자"
+   ],
+   "seats": [],
+   "keywords": [
+    {
+     "label": "음식이 맛있어요",
+     "count": 134
+    },
+    {
+     "label": "가성비가 좋아요",
+     "count": 115
+    },
+    {
+     "label": "고기 질이 좋아요",
+     "count": 96
+    },
+    {
+     "label": "친절해요",
+     "count": 54
+    },
+    {
+     "label": "매장이 넓어요",
+     "count": 45
+    },
+    {
+     "label": "양이 많아요",
+     "count": 41
+    }
+   ],
+   "menu_mentions": [
+    {
+     "label": "고기",
+     "count": 62
+    },
+    {
+     "label": "삼겹살",
+     "count": 10
+    },
+    {
+     "label": "된장찌개",
+     "count": 8
+    },
+    {
+     "label": "찌개",
+     "count": 8
+    },
+    {
+     "label": "오겹살",
+     "count": 6
+    },
+    {
+     "label": "목살",
+     "count": 5
+    },
+    {
+     "label": "막국수",
+     "count": 3
+    },
+    {
+     "label": "가브리살",
+     "count": 2
+    }
+   ],
+   "group_votes": 19,
+   "micro": "육즙 팡팡 오겹살과 멜젓의 환상 궁합",
+   "description": "누구나 즐기는 --돼지고기--\n가격이 저렴하다고 결코 질이 떨어지지 않습니다.\n부담없이 오셔서 즐기세요!!\n\n돼지고기에도 육즙이 있습니다. 놀라지 마세요!!\n씹는 순간 고기가 머금고 있는 본연의 육즙이 터--집니다.\n\n그릴링--고기를 맛있게 드시기 위해 비치된 고기 맛있게 굽는법을\n참고하여 구워드시면 제대로된 숙성 고기의 참맛을 느끼실 수 있습니다.\n\n더하다의 특별한 숙성기법으로 고기의 풍미를 극대로 끌어 올려\n육질과 육향이 다른고기를 선보입니다",
+   "lat": "36.0278906",
+   "lng": "129.3376535",
+   "menu_note": null,
+   "menu_images": [
+    "https://ldb-phinf.pstatic.net/20250628_118/1751077559222z89qf_PNG/_%C0%FC%B8%E9_%B9%E8%B3%CA_%C4%ED%C6%F9.png",
+    "https://ldb-phinf.pstatic.net/20250612_183/1749691540870f1mq2_PNG/_%B8%DE%B4%BA.png"
+   ],
+   "menu_url": "https://m.place.naver.com/restaurant/1167535017/menu/list",
+   "naver_url": "https://m.place.naver.com/restaurant/1167535017/home",
+   "dc_url": "https://diningcode.com/profile.php?rid=LaSUPP8oO6IA",
+   "siksin_url": null,
+   "map_url": "https://map.naver.com/p/entry/place/1167535017",
+   "stale": false,
+   "updated": "2026-10-19",
+   "sns": null,
+   "sns_measured": null,
+   "photos": [
+    {
+     "file": "img/f9b385143ebf1015.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/957d1da763460ae3.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/e7e9228e33f88891.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/8d5343c694314508.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/a995d576ca2749f3.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/496b4a27d110fdc8.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/fecd2f5f13f4ea79.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/602f04bc5020d9c4.jpg",
+     "kind": "사진"
+    }
+   ],
+   "photo": "img/f9b385143ebf1015.jpg",
+   "rank": 67
   },
   {
    "name": "언양닭칼국수 포항남구점",
@@ -35062,7 +37127,245 @@
     }
    ],
    "photo": "img/c796aceeca16a1d7.jpg",
-   "rank": 64
+   "rank": 68
+  },
+  {
+   "name": "효자동칼국수",
+   "cat": "nam",
+   "naver_id": "2070267307",
+   "tags": [],
+   "found_by": "핫플 탐지 (2026-10-19, 최근 7일 블로그 18건)",
+   "sources": [
+    "https://m.place.naver.com/restaurant/2070267307/home",
+    "https://diningcode.com/profile.php?rid=W4Qk7gNcRrHk"
+   ],
+   "naver_name": "효자동칼국수",
+   "category": "칼국수,만두",
+   "address": "경북 포항시 남구 효성로93번길 18 1층",
+   "phone": "0507-1465-7080",
+   "reviews": 157,
+   "rating": null,
+   "blogs": 34,
+   "menus": [
+    {
+     "name": "깊은맛 멸치칼국수",
+     "price": "7,000원"
+    },
+    {
+     "name": "칼제비",
+     "price": "7,000원"
+    },
+    {
+     "name": "수제비",
+     "price": "7,000원"
+    },
+    {
+     "name": "구수한 들깨칼국수",
+     "price": "9,000원"
+    },
+    {
+     "name": "들깨미역국수제비",
+     "price": "9,000원"
+    },
+    {
+     "name": "얼큰한 김치칼국수",
+     "price": "9,000원"
+    },
+    {
+     "name": "매콤달콤 비빔국수",
+     "price": "9,000원"
+    },
+    {
+     "name": "잔치국수",
+     "price": "7,000원"
+    },
+    {
+     "name": "고소한 콩국수",
+     "price": "10,000원"
+    },
+    {
+     "name": "김치말이 냉국수",
+     "price": "9,000원"
+    },
+    {
+     "name": "수제돈까스",
+     "price": "12,000원"
+    },
+    {
+     "name": "치즈 돈가스",
+     "price": "12,000원"
+    },
+    {
+     "name": "모듬 돈까스",
+     "price": "12,000원"
+    },
+    {
+     "name": "한장 돈가스",
+     "price": "6,000원"
+    },
+    {
+     "name": "비빔만두",
+     "price": "8,000원"
+    },
+    {
+     "name": "야채전",
+     "price": "7,000원"
+    },
+    {
+     "name": "효칼김밥",
+     "price": "5,000원"
+    }
+   ],
+   "menu_source": "네이버 플레이스",
+   "rep_menu": [
+    {
+     "name": "깊은맛 멸치칼국수",
+     "price": "7,000원"
+    },
+    {
+     "name": "칼제비",
+     "price": "7,000원"
+    },
+    {
+     "name": "수제비",
+     "price": "7,000원"
+    }
+   ],
+   "price_range": "7,000원",
+   "hours": "월·화·수·목·금·토 11:00~20:00 (브레이크 15:00~17:00)",
+   "holiday": "일 휴무",
+   "parking": "무료 주차",
+   "facilities": [
+    "예약",
+    "유아의자",
+    "무선 인터넷"
+   ],
+   "seats": [
+    {
+     "name": "1인석",
+     "desc": ""
+    },
+    {
+     "name": "단체석",
+     "desc": "최소 1명 ~ 최대 6명"
+    }
+   ],
+   "keywords": [
+    {
+     "label": "음식이 맛있어요",
+     "count": 153
+    },
+    {
+     "label": "재료가 신선해요",
+     "count": 85
+    },
+    {
+     "label": "친절해요",
+     "count": 56
+    },
+    {
+     "label": "양이 많아요",
+     "count": 56
+    },
+    {
+     "label": "매장이 청결해요",
+     "count": 48
+    },
+    {
+     "label": "가성비가 좋아요",
+     "count": 46
+    }
+   ],
+   "menu_mentions": [
+    {
+     "label": "칼국수",
+     "count": 60
+    },
+    {
+     "label": "국수",
+     "count": 27
+    },
+    {
+     "label": "돈까스",
+     "count": 27
+    },
+    {
+     "label": "수제비",
+     "count": 21
+    },
+    {
+     "label": "칼제비",
+     "count": 17
+    },
+    {
+     "label": "비빔국수",
+     "count": 12
+    },
+    {
+     "label": "콩국수",
+     "count": 11
+    },
+    {
+     "label": "만두",
+     "count": 9
+    }
+   ],
+   "group_votes": 3,
+   "micro": "쫄깃한 수제비가 선사하는 행복",
+   "description": "매일 정성껏 준비하는 한 그릇의 따뜻한 칼국수\n효자동칼국수는 깊고 진한 육수와 쫄깃한 면발, 정직한 재료로 한 끼의 든든함을 채워드립니다.\n따뜻한 칼국수뿐만아니라 여름에는 직접 콩을 갈아만든 효자동칼국수의 시그니처메뉴인 콩국수와 어린이들도 좋아하는 수제돈까스까지 계절과 취향에 맞기 즐기실 수 있으며 언제 찾아오셔도 변함없는 맛과 친절한 서비스로 맞이하겠습니다",
+   "lat": "36.0062998",
+   "lng": "129.3428043",
+   "menu_note": null,
+   "menu_images": [
+    "https://ldb-phinf.pstatic.net/20260719_110/1784439701426ci2pC_JPEG/IMG_4637.jpg",
+    "https://ldb-phinf.pstatic.net/20261002_182/1790924397527lv3RT_JPEG/copy_image_2600.jpg",
+    "https://ldb-phinf.pstatic.net/20261002_234/1790924378983p77dH_JPEG/copy_image_2918.jpg"
+   ],
+   "menu_url": "https://m.place.naver.com/restaurant/2070267307/menu/list",
+   "naver_url": "https://m.place.naver.com/restaurant/2070267307/home",
+   "dc_url": "https://diningcode.com/profile.php?rid=W4Qk7gNcRrHk",
+   "siksin_url": null,
+   "map_url": "https://map.naver.com/p/entry/place/2070267307",
+   "stale": false,
+   "updated": "2026-10-19",
+   "sns": null,
+   "sns_measured": null,
+   "photos": [
+    {
+     "file": "img/bfba1e8e04fde797.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/f11eea5efb60e262.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/a28260a5d44a6951.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/3570ae830bb26a94.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/2ffd26c9a23e1562.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/aeb257003b765999.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/f8461d36c02ae9f9.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/e3547c99a99c796a.jpg",
+     "kind": "사진"
+    }
+   ],
+   "photo": "img/bfba1e8e04fde797.jpg",
+   "rank": 69
   },
   {
    "name": "호보스피자 효자점",
@@ -35521,7 +37824,7 @@
     }
    ],
    "photo": "img/bb2cc5866a472614.jpg",
-   "rank": 65
+   "rank": 70
   },
   {
    "name": "코다리각시 포항이동점",
@@ -35825,7 +38128,7 @@
     }
    ],
    "photo": "img/4e4e8b0ebf4b5efd.jpg",
-   "rank": 66
+   "rank": 71
   },
   {
    "name": "효자동수우동",
@@ -36008,7 +38311,7 @@
     }
    ],
    "photo": "img/682dde1233653b3c.jpg",
-   "rank": 67
+   "rank": 72
   },
   {
    "name": "철규분식",
@@ -36172,7 +38475,7 @@
     }
    ],
    "photo": "img/867f8ec180e8edee.jpg",
-   "rank": 68
+   "rank": 73
   },
   {
    "name": "슈퍼크리스피 포항이동점",
@@ -36350,7 +38653,7 @@
     }
    ],
    "photo": "img/299cdf061aa5ac35.jpg",
-   "rank": 69
+   "rank": 74
   },
   {
    "name": "미남장어 문덕점",
@@ -44316,6 +46619,179 @@
    "rank": 28
   },
   {
+   "name": "허가네양갈비양꼬치 문덕점",
+   "cat": "ocheon",
+   "naver_id": "1697687771",
+   "tags": [],
+   "found_by": "핫플 탐지 (2026-10-19, 최근 7일 블로그 15건)",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1697687771/home"
+   ],
+   "naver_name": "허가네양갈비양꼬치 문덕점",
+   "category": "양갈비",
+   "address": "경북 포항시 남구 오천읍 원동로 90 1층",
+   "phone": "0507-1348-5705",
+   "reviews": 350,
+   "rating": 4.89,
+   "blogs": 355,
+   "menus": [
+    {
+     "name": "양갈비",
+     "price": "25,000원"
+    },
+    {
+     "name": "양등심꼬치",
+     "price": "22,000원"
+    },
+    {
+     "name": "양왕꼬치",
+     "price": "18,000원"
+    }
+   ],
+   "menu_source": "네이버 플레이스",
+   "rep_menu": [
+    {
+     "name": "양갈비",
+     "price": "25,000원"
+    },
+    {
+     "name": "양등심꼬치",
+     "price": "22,000원"
+    },
+    {
+     "name": "양왕꼬치",
+     "price": "18,000원"
+    }
+   ],
+   "price_range": "18,000~25,000원",
+   "hours": "매일 17:00~01:00",
+   "holiday": "휴무일 표기 없음",
+   "parking": "무료 주차",
+   "facilities": [
+    "단체 이용 가능",
+    "예약",
+    "무선 인터넷",
+    "남/녀 화장실 구분",
+    "포장",
+    "대기공간"
+   ],
+   "seats": [],
+   "keywords": [
+    {
+     "label": "고기 질이 좋아요",
+     "count": 203
+    },
+    {
+     "label": "음식이 맛있어요",
+     "count": 201
+    },
+    {
+     "label": "잡내가 적어요",
+     "count": 169
+    },
+    {
+     "label": "양이 많아요",
+     "count": 102
+    },
+    {
+     "label": "특별한 메뉴가 있어요",
+     "count": 102
+    },
+    {
+     "label": "인테리어가 멋져요",
+     "count": 89
+    }
+   ],
+   "menu_mentions": [
+    {
+     "label": "꼬치",
+     "count": 195
+    },
+    {
+     "label": "고기",
+     "count": 141
+    },
+    {
+     "label": "갈비",
+     "count": 135
+    },
+    {
+     "label": "양갈비",
+     "count": 128
+    },
+    {
+     "label": "양꼬치",
+     "count": 126
+    },
+    {
+     "label": "등심",
+     "count": 71
+    },
+    {
+     "label": "양등심",
+     "count": 66
+    },
+    {
+     "label": "양고기",
+     "count": 62
+    }
+   ],
+   "group_votes": 42,
+   "micro": "육즙 가득 부드러운 양갈비의 매력",
+   "description": null,
+   "lat": "35.9711744",
+   "lng": "129.4027326",
+   "menu_note": null,
+   "menu_images": [
+    "https://ldb-phinf.pstatic.net/20241221_53/1734770732770ITFz5_JPEG/image.jpg"
+   ],
+   "menu_url": "https://m.place.naver.com/restaurant/1697687771/menu/list",
+   "naver_url": "https://m.place.naver.com/restaurant/1697687771/home",
+   "dc_url": null,
+   "siksin_url": "https://www.siksinhot.com/P/1938676",
+   "map_url": "https://map.naver.com/p/entry/place/1697687771",
+   "stale": false,
+   "updated": "2026-10-19",
+   "sns": null,
+   "sns_measured": null,
+   "photos": [
+    {
+     "file": "img/9396f06ae23e3bea.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/16f2f061adcaba4a.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/fc1c72e384413aa1.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/caef3cef96f2f2f6.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/a85c687e89b491bc.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/c9f306150a7d0dea.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/06d432890af971aa.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/49561f8a0c403148.jpg",
+     "kind": "사진"
+    }
+   ],
+   "photo": "img/9396f06ae23e3bea.jpg",
+   "rank": 29
+  },
+  {
    "name": "대박회센타",
    "cat": "ocheon",
    "naver_id": "37815414",
@@ -44660,7 +47136,7 @@
     }
    ],
    "photo": "img/953b5f15a9a728fc.jpg",
-   "rank": 29
+   "rank": 30
   },
   {
    "name": "문덕반점",
@@ -44975,7 +47451,7 @@
     }
    ],
    "photo": "img/62f4f15d07029d0c.jpg",
-   "rank": 30
+   "rank": 31
   },
   {
    "name": "긴타로 오천점",
@@ -45282,7 +47758,7 @@
     }
    ],
    "photo": "img/ae5de0b9750e7f71.jpg",
-   "rank": 31
+   "rank": 32
   },
   {
    "name": "60계 치킨 포항오천점",
@@ -45854,7 +48330,7 @@
     }
    ],
    "photo": "img/38ccd07c790263bf.jpg",
-   "rank": 32
+   "rank": 33
   },
   {
    "name": "포차25 문덕점",
@@ -46119,7 +48595,7 @@
     }
    ],
    "photo": "img/5ca37107f87ea618.jpg",
-   "rank": 33
+   "rank": 34
   },
   {
    "name": "마라섬 포항오천점",
@@ -46464,7 +48940,7 @@
     }
    ],
    "photo": "img/e9c87e33d5f8c0f7.jpg",
-   "rank": 34
+   "rank": 35
   },
   {
    "name": "토리아에즈 포항문덕점",
@@ -46720,7 +49196,7 @@
     }
    ],
    "photo": "img/c039f2c4c3e3e1b4.jpg",
-   "rank": 35
+   "rank": 36
   },
   {
    "name": "명짬뽕",
@@ -46903,7 +49379,7 @@
     }
    ],
    "photo": "img/2f1e94f0e7533947.jpg",
-   "rank": 36
+   "rank": 37
   },
   {
    "name": "가마치통닭 포항문덕점",
@@ -47185,7 +49661,7 @@
     }
    ],
    "photo": "img/5ecb3066967dbd70.jpg",
-   "rank": 37
+   "rank": 38
   },
   {
    "name": "철인7호치킨 문덕점",
@@ -47426,7 +49902,7 @@
     }
    ],
    "photo": "img/32c4066872fbb23d.jpg",
-   "rank": 38
+   "rank": 39
   },
   {
    "name": "백록담 오천점",
@@ -47595,7 +50071,7 @@
     }
    ],
    "photo": "img/5a69686fc3b15522.jpg",
-   "rank": 39
+   "rank": 40
   },
   {
    "name": "백정 식육식당 문덕오천본점",
@@ -47784,7 +50260,7 @@
     }
    ],
    "photo": "img/ddc54cc4ce86f628.jpg",
-   "rank": 40
+   "rank": 41
   },
   {
    "name": "오늘도꿉자",
@@ -47966,7 +50442,7 @@
     }
    ],
    "photo": "img/1f6b381320a2b4c9.jpg",
-   "rank": 41
+   "rank": 42
   },
   {
    "name": "전복품은돼지",
@@ -48207,7 +50683,7 @@
     }
    ],
    "photo": "img/8b4291665265b280.jpg",
-   "rank": 42
+   "rank": 43
   },
   {
    "name": "운수대통수산",
@@ -48343,7 +50819,7 @@
     }
    ],
    "photo": "img/d745962d9855a3ac.jpg",
-   "rank": 43
+   "rank": 44
   },
   {
    "name": "장터김해숯불뒷고기",
@@ -48513,7 +50989,7 @@
     }
    ],
    "photo": "img/6dc0649f4e673f08.jpg",
-   "rank": 44
+   "rank": 45
   },
   {
    "name": "산초록식당",
@@ -48719,7 +51195,7 @@
     }
    ],
    "photo": "img/2b3b594c5e714ec1.jpg",
-   "rank": 45
+   "rank": 46
   },
   {
    "name": "푸라닭 포항문덕점",
@@ -48870,7 +51346,7 @@
     }
    ],
    "photo": "img/4d4f0faac3436581.jpg",
-   "rank": 46
+   "rank": 47
   },
   {
    "name": "굽네치킨 포항오천점",
@@ -49405,7 +51881,7 @@
     }
    ],
    "photo": "img/be264bb1d94abd12.jpg",
-   "rank": 47
+   "rank": 48
   },
   {
    "name": "조아숯불닭바베큐 문덕본점",
@@ -49544,7 +52020,7 @@
     }
    ],
    "photo": "img/89627169fe77c0c3.jpg",
-   "rank": 48
+   "rank": 49
   },
   {
    "name": "오천뭉티기 술시자시",
@@ -49786,7 +52262,7 @@
     }
    ],
    "photo": "img/645ea65847739ffe.jpg",
-   "rank": 49
+   "rank": 50
   },
   {
    "name": "자담치킨 포항문덕점",
@@ -50084,7 +52560,7 @@
     }
    ],
    "photo": "img/6c07982bf1b917d9.jpg",
-   "rank": 50
+   "rank": 51
   },
   {
    "name": "김종구 식맛치킨.전기바베큐 옛날통닭 포항원리점",
@@ -50249,7 +52725,7 @@
     }
    ],
    "photo": "img/b6c25ab540587c17.jpg",
-   "rank": 51
+   "rank": 52
   },
   {
    "name": "후라이드참잘하는집 오천문덕점",
@@ -50642,7 +53118,7 @@
     }
    ],
    "photo": "img/6056eccd9d3332c7.jpg",
-   "rank": 52
+   "rank": 53
   },
   {
    "name": "동동국밥 포항문덕점",
@@ -50853,7 +53329,7 @@
     }
    ],
    "photo": "img/e500faeebc90b3bc.jpg",
-   "rank": 53
+   "rank": 54
   },
   {
    "name": "노가닭 오천문덕점",
@@ -51256,7 +53732,7 @@
     }
    ],
    "photo": "img/0821bf1cdda3cd70.jpg",
-   "rank": 54
+   "rank": 55
   },
   {
    "name": "갓튀긴후라이드 오천문덕점",
@@ -51706,7 +54182,7 @@
     }
    ],
    "photo": "img/0d12ca60428239f0.jpg",
-   "rank": 55
+   "rank": 56
   },
   {
    "name": "우야네식당&포차",
@@ -51963,7 +54439,7 @@
     }
    ],
    "photo": "img/586dfacf963f0767.jpg",
-   "rank": 56
+   "rank": 57
   },
   {
    "name": "우리수산 등푸른회식당 포항문덕점",
@@ -52152,7 +54628,7 @@
     }
    ],
    "photo": "img/d25fba31e27aec36.jpg",
-   "rank": 57
+   "rank": 58
   },
   {
    "name": "가마치통닭 포항오천점",
@@ -52503,7 +54979,7 @@
     }
    ],
    "photo": "img/1d669152116f5496.jpg",
-   "rank": 58
+   "rank": 59
   },
   {
    "name": "단골돼지국밥",
@@ -52732,7 +55208,7 @@
     }
    ],
    "photo": "img/bfa03b65aa2fbaed.jpg",
-   "rank": 59
+   "rank": 60
   },
   {
    "name": "영천얼큰돼지국밥 본점",
@@ -53149,7 +55625,66 @@
     }
    ],
    "photo": "img/03243d246d7c0dc2.jpg",
-   "rank": 60
+   "rank": 61
+  },
+  {
+   "name": "포항다원복합센터",
+   "cat": "ocheon",
+   "naver_id": "1215699654",
+   "tags": [],
+   "found_by": "핫플 탐지 (2026-10-19, 최근 7일 블로그 8건)",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1215699654/home"
+   ],
+   "naver_name": "포항다원복합센터",
+   "category": "문화센터",
+   "address": "경북 포항시 남구 오천읍 북원로9번길 7",
+   "phone": "054-280-9650",
+   "reviews": 54,
+   "rating": 0,
+   "blogs": 0,
+   "menus": [
+    {
+     "name": "이용요금 월",
+     "price": "68,000원"
+    }
+   ],
+   "menu_source": "네이버 플레이스",
+   "rep_menu": [
+    {
+     "name": "이용요금 월",
+     "price": "68,000원"
+    }
+   ],
+   "price_range": "68,000원",
+   "hours": "월·화·수·목·금 05:50~20:50 (브레이크 11:50~13:00) / 토 09:00~17:30 (브레이크 12:00~13:00)",
+   "holiday": "일 휴무",
+   "parking": "정보 없음",
+   "facilities": [],
+   "seats": [],
+   "keywords": [],
+   "menu_mentions": [],
+   "group_votes": 0,
+   "micro": null,
+   "description": null,
+   "lat": "35.9800811",
+   "lng": "129.404893",
+   "menu_note": null,
+   "menu_images": [
+    "https://ldb-phinf.pstatic.net/20260106_47/1767666671810HEOcu_JPEG/IMG_1723.jpeg"
+   ],
+   "menu_url": "https://m.place.naver.com/restaurant/1215699654/menu/list",
+   "naver_url": "https://m.place.naver.com/restaurant/1215699654/home",
+   "dc_url": null,
+   "siksin_url": null,
+   "map_url": "https://map.naver.com/p/entry/place/1215699654",
+   "stale": false,
+   "updated": "2026-10-19",
+   "sns": null,
+   "sns_measured": null,
+   "photos": [],
+   "photo": null,
+   "rank": 62
   },
   {
    "name": "덕구포차",
@@ -53339,7 +55874,7 @@
     }
    ],
    "photo": "img/05887b8fc10c5137.jpg",
-   "rank": 61
+   "rank": 63
   },
   {
    "name": "현서네과메기",
@@ -53459,7 +55994,7 @@
     }
    ],
    "photo": "img/dbb571da1c1a0372.jpg",
-   "rank": 62
+   "rank": 64
   },
   {
    "name": "진달래산천",
@@ -53631,7 +56166,7 @@
     }
    ],
    "photo": "img/386642231ecf1871.jpg",
-   "rank": 63
+   "rank": 65
   },
   {
    "name": "무지개과메기",
@@ -53787,7 +56322,7 @@
     }
    ],
    "photo": "img/10d473d565656cf0.jpg",
-   "rank": 64
+   "rank": 66
   },
   {
    "name": "사또수산",
@@ -53880,7 +56415,7 @@
     }
    ],
    "photo": "img/7bcd9f3dbfff66a4.jpg",
-   "rank": 65
+   "rank": 67
   },
   {
    "name": "주야포차",
@@ -54003,7 +56538,7 @@
     }
    ],
    "photo": "img/e74371ff33e64511.jpg",
-   "rank": 66
+   "rank": 68
   },
   {
    "name": "맛고을",
@@ -54113,7 +56648,7 @@
     }
    ],
    "photo": "img/557af144fc68ec9a.jpg",
-   "rank": 67
+   "rank": 69
   },
   {
    "name": "달빛마실",
@@ -54214,7 +56749,7 @@
     }
    ],
    "photo": "img/5bc7dd11ac511bfe.jpg",
-   "rank": 68
+   "rank": 70
   },
   {
    "name": "단지과메기",
@@ -54288,7 +56823,7 @@
    "sns_measured": null,
    "photos": [],
    "photo": null,
-   "rank": 69
+   "rank": 71
   },
   {
    "name": "장가가기전",
@@ -54385,7 +56920,111 @@
     }
    ],
    "photo": "img/a4babc7ad18e98d3.jpg",
-   "rank": 70
+   "rank": 72
+  },
+  {
+   "name": "오천아이누리장난감도서관",
+   "cat": "ocheon",
+   "naver_id": "1910918921",
+   "tags": [],
+   "found_by": "핫플 탐지 (2026-10-19, 최근 7일 블로그 6건)",
+   "sources": [
+    "https://m.place.naver.com/restaurant/1910918921/home"
+   ],
+   "naver_name": "오천아이누리장난감도서관",
+   "category": "어린이도서관",
+   "address": "경북 포항시 남구 오천읍 냉천로320번길 4-11 오천읍민복지회관 2층",
+   "phone": "054-614-2587",
+   "reviews": null,
+   "rating": null,
+   "blogs": 16,
+   "menus": [
+    {
+     "name": "어린이집 연회비",
+     "price": "20,000원"
+    },
+    {
+     "name": "개인 연회비",
+     "price": "10,000원"
+    }
+   ],
+   "menu_source": "네이버 플레이스",
+   "rep_menu": [
+    {
+     "name": "어린이집 연회비",
+     "price": "20,000원"
+    },
+    {
+     "name": "개인 연회비",
+     "price": "10,000원"
+    }
+   ],
+   "price_range": "10,000~20,000원",
+   "hours": "월·수·금 10:00~17:00 (브레이크 12:00~13:00) / 화·목 09:30~17:40 (브레이크 12:00~13:00)",
+   "holiday": "토, 일 휴무",
+   "parking": "무료 주차",
+   "facilities": [
+    "화장실 휠체어 이용가능",
+    "출입구 휠체어 이용가능",
+    "장애인 주차구역"
+   ],
+   "seats": [],
+   "keywords": [],
+   "menu_mentions": [],
+   "group_votes": 0,
+   "micro": null,
+   "description": null,
+   "lat": "35.9671435",
+   "lng": "129.4087879",
+   "menu_note": null,
+   "menu_images": [
+    "https://ldb-phinf.pstatic.net/20250401_264/1743490602211zkiIm_PNG/%C8%AD%B8%E9_%C4%B8%C3%B3_2025-04-01_154656.png"
+   ],
+   "menu_url": "https://m.place.naver.com/restaurant/1910918921/menu/list",
+   "naver_url": "https://m.place.naver.com/restaurant/1910918921/home",
+   "dc_url": null,
+   "siksin_url": null,
+   "map_url": "https://map.naver.com/p/entry/place/1910918921",
+   "stale": false,
+   "updated": "2026-10-19",
+   "sns": null,
+   "sns_measured": null,
+   "photos": [
+    {
+     "file": "img/9981df37629a9ff9.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/ae8de0e0bd4fb97d.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/8ef5648436fd5d8f.jpg",
+     "kind": "업체 사진"
+    },
+    {
+     "file": "img/e390ec6c11925186.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/56436eb038d5a409.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/4bbf2127341104a3.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/5172149b6f09e286.jpg",
+     "kind": "사진"
+    },
+    {
+     "file": "img/7f12cdd07a56263a.jpg",
+     "kind": "사진"
+    }
+   ],
+   "photo": "img/9981df37629a9ff9.jpg",
+   "rank": 73
   },
   {
    "name": "진가네 장터국수",
@@ -54451,7 +57090,7 @@
    "sns_measured": "2026-10-18",
    "photos": [],
    "photo": null,
-   "rank": 71
+   "rank": 74
   }
  ]
 }
