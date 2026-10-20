@@ -94,6 +94,9 @@ img{max-width:100%}
 .updw{flex:none;text-align:right;min-width:0}.clk{font-size:clamp(11px,3.3vw,13px);font-weight:800;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--tx);line-height:1.3}
 .upd b.ok{color:#18864b}.upd b.bad{color:#c0392b}
 #ptr{position:fixed;left:50%;top:6px;transform:translate(-50%,-60px);z-index:20;background:var(--card);border-radius:99px;box-shadow:0 2px 8px rgba(0,0,0,.15);padding:8px 14px;font-size:13px;transition:transform .2s}
+.lu{font-size:12.5px;margin-top:5px;display:flex;align-items:center;gap:2px;white-space:nowrap;color:var(--tx);min-width:0}.lu .nm2{overflow:hidden;text-overflow:ellipsis;min-width:0}.lu b{font-weight:700}.lu .ok2,.lu .na2{flex:none}
+.ok2{display:inline-block;font-size:10.5px;font-weight:800;color:#fff;background:#18864b;border-radius:6px;padding:1px 6px;margin-left:4px;vertical-align:1px}.na2{display:inline-block;font-size:10.5px;font-weight:700;color:var(--mu);background:#f2eeeb;border-radius:6px;padding:1px 6px}
+.pf{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px solid var(--ln);font-size:14px}.pf b{flex:none}.pf span{color:var(--mu);text-align:right;font-size:12.5px}
 </style></head><body>
 <header><div class="hd"><h1>포항<span>여기저기요기</span></h1><button class="rf" id="rf" aria-label="새로고침">↻</button><div class="updw"><div class="clk" id="clk"></div><div class="upd" id="upd">서버 접속 중…</div></div></div>
 <label class="search">🔎<input id="q" type="search" placeholder="가게·메뉴 검색 (예: 물회, 갈비)"></label>
@@ -151,6 +154,20 @@ const WD='일월화수목금토';
 function fd(s){const d=new Date(s+'T00:00:00+09:00');return `${d.getMonth()+1}.${d.getDate()}(${WD[d.getDay()]})`}
 function dday(s){return Math.round((new Date(s+'T00:00:00+09:00')-new Date(new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Seoul'})+'T00:00:00+09:00'))/864e5)}
 function evStatus(x){const t=new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Seoul'});if(x.end<t)return null;if(x.start<=t)return '진행중';return '예정'}
+function luMD(s){const m=String(s||'').match(/\d{4}-(\d\d)-(\d\d)/);return m?`${+m[1]}/${+m[2]}`:''}
+function luLine(x){const l=x.lineup;
+  if(l&&l.status==='confirmed'&&(l.performers||[]).length){const n=l.performers.map(p=>p.name);return `<div class="lu">🎤 <span class="nm2"><b>${esc(n.slice(0,3).join('·'))}</b>${n.length>3?` 외 ${n.length-3}`:''}</span><span class="ok2">공식 확인 ${luMD(l.checked)}</span></div>`}
+  if((l&&l.status!=='confirmed')||x.type==='축제')return `<div class="lu">🎤 <span class="na2">라인업 미발표</span></div>`;return ''}
+function luBlock(x){const l=x.lineup;
+  if(!l&&x.type!=='축제'&&!(x.lineup_news||[]).length)return '';
+  let h='<div class="blk"><h3>🎤 출연진 · 라인업</h3>';
+  if(l&&l.status==='confirmed'){h+=`<div class="sub" style="margin-bottom:6px"><span class="ok2" style="margin:0">공식 확인</span> ${esc(l.checked||'')} 확인</div>`+(l.performers||[]).map(p=>`<div class="pf"><b>${esc(p.name)}</b><span>${esc(p.role||'')}</span></div>`).join('')}
+  else h+='<div class="sub"><span class="na2">라인업 미발표</span> 공식 발표된 출연진이 아직 없어요'+(l&&l.checked?` (${esc(l.checked)} 확인)`:'')+'</div>';
+  if(l&&l.stage)h+=`<div class="sub" style="margin-top:8px">🗓 ${esc(l.stage)}</div>`;
+  if(l&&l.note)h+=`<div class="sub" style="margin-top:6px;white-space:pre-line">${esc(l.note)}</div>`;
+  if(l&&(l.sources||[]).length)h+=`<div class="src" style="margin-top:8px">출처: ${l.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.publisher)} · ${esc(s.title)}</a>`).join('<br>')}</div>`;
+  if((x.lineup_news||[]).length)h+=`<div class="sub" style="margin-top:10px"><b>📰 출연 관련 최신 기사 (확인 전, 참고용)</b></div><div class="nw">${x.lineup_news.map(n=>`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}<br><small>${esc(n.source||'')} · ${esc((n.date||'').slice(5,16))}</small></a>`).join('')}</div>`;
+  return h+'</div>'}
 function evList(){
   if(!EV){$('rule').innerHTML='';$('list').innerHTML='<div class="empty">행사 정보를 불러오는 중…</div>';return}
   const L=EV.events.map(x=>({...x,status:evStatus(x)})).filter(x=>x.status&&(evA==='전체'||x.area===evA||x.area==='all')&&(!q||(x.title+' '+x.venue+' '+x.type).toLowerCase().includes(q)))
@@ -163,7 +180,7 @@ function evList(){
     const dd=dday(x.start);
     h+=`<div class="evc" data-e="${esc(x.id)}"><img src="${esc(x.img||'placeholder.svg')}" alt="" loading="lazy" decoding="async" onerror="this.src='placeholder.svg'"><div class="b">
      <span class="st ${x.status==='진행중'?'on':'up'}">${x.status==='진행중'?'진행중':(dd===0?'오늘':'D-'+dd)}</span><span class="st ty">${esc(x.type)}</span>
-     <div class="t">${esc(x.title)}</div><div class="l">📅 <b>${fd(x.start)}${x.end!==x.start?' ~ '+fd(x.end):''}</b><br>📍 ${esc(x.venue)}<br>💰 ${esc(x.fee)} · ${x.area==='all'?'포항 전역':AREA(x.area)}</div></div></div>`});
+     <div class="t">${esc(x.title)}</div>${luLine(x)}<div class="l">📅 <b>${fd(x.start)}${x.end!==x.start?' ~ '+fd(x.end):''}</b><br>📍 ${esc(x.venue)}<br>💰 ${esc(x.fee)} · ${x.area==='all'?'포항 전역':AREA(x.area)}</div></div></div>`});
   if(!L.length)h='<div class="empty">조건에 맞는 진행중·예정 행사가 없어요</div>';
   if((EV.news||[]).length&&!q)h+=`<div class="evh">📰 최근 포항 축제·행사 기사<small>Google 뉴스 · 참고용</small></div><div class="blk nw">${EV.news.map(n=>`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}<br><small>${esc(n.source||'')} · ${esc((n.date||'').slice(5,16))}</small></a>`).join('')}</div>`;
   $('list').innerHTML=h;
@@ -176,6 +193,7 @@ function evDetail(id){
    <div class="btns">${x.link?`<a class="btn" href="${esc(x.link)}" target="_blank" rel="noopener">공식 홈페이지</a>`:''}<a class="btn ${x.link?'alt':''}" href="${esc(x.srcu)}" target="_blank" rel="noopener">공식 안내 원문</a><a class="btn alt" href="${map}" target="_blank" rel="noopener">장소 지도</a></div></div>
   <div class="blk"><h3>ℹ️ 행사 정보</h3><div class="kv"><span>일시</span><span>${fd(x.start)}${x.end!==x.start?' ~ '+fd(x.end):''}</span><span>장소</span><span>${esc(x.venue||NA)}</span><span>이용료</span><span>${esc(x.fee||NA)}</span>
    <span>주최/주관</span><span>${esc(x.org||NA)}</span><span>관람연령</span><span>${esc(x.age||NA)}</span><span>문의</span><span>${esc(x.tel||NA)}</span></div></div>
+  ${luBlock(x)}
   <div class="blk"><h3>📝 소개</h3><div class="sub" style="color:var(--tx);white-space:pre-line;line-height:1.6">${has(x.desc)?esc(x.desc):'정보 없음 (원문에 글 소개가 없어요. 포스터·공식 안내 원문을 확인하세요)'}</div></div>
   <div class="src">출처: <a href="${esc(x.srcu)}" target="_blank" rel="noopener">${esc(x.src)}</a>${(x.also||[]).map(a=>` · <a href="${esc(a.srcu)}" target="_blank" rel="noopener">${esc(a.src)}</a>`).join('')} · ${esc(EV.updated)} 수집</div></div>`;
   const dt=$('dt');dt.style.display='block';dt.scrollTop=0;history.pushState({d:1},'');

@@ -146,6 +146,37 @@ def scrape_news():
     print("news:", len(out))
     return out
 
+def core_title(t):
+    t = re.sub(r"\[[^\]]*\]|「|」|《|》|'|\"|‘|’|“|”|\(.*?\)", " ", t)
+    t = re.sub(r"20\d\d년?도?|제\d+회|개최|안내|축제 안내", " ", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+def apply_lineups(evs):
+    """lineups.json(공식 확인분만 사람이 관리)을 행사에 붙이고, 미발표·미등록 주요 행사는 매일 뉴스에서 출연진 소식을 찾아
+    '확인 전 소식'으로만 붙임(자동으로 '공식 확인' 처리하지 않음)."""
+    lp = os.path.join(HERE, "lineups.json")
+    L = json.load(open(lp))["lineups"] if os.path.exists(lp) else []
+    checks = 0
+    for x in evs:
+        m = next((l for l in L if re.search(l["match"], x["title"]) and (not l.get("start") or l["start"] == x["start"])), None)
+        if m: x["lineup"] = {k: m.get(k) for k in ("status", "performers", "stage", "note", "sources", "checked")}
+        need = (m and m["status"] != "confirmed") or (not m and x["type"] in ("축제", "행사") and x.get("origin") == "kfes")
+        if not need or checks >= 12: continue
+        checks += 1
+        q = f'"{core_title(x["title"])[:30]}" 포항 (출연 OR 초대가수 OR 라인업 OR 축하공연) when:21d'
+        try:
+            rss = get("https://news.google.com/rss/search?" + urllib.parse.urlencode({"q": q, "hl": "ko", "gl": "KR", "ceid": "KR:ko"}))
+        except Exception: continue
+        news = []
+        for it in re.findall(r"<item>(.*?)</item>", rss, re.S)[:15]:
+            g = lambda tg: html.unescape((re.search(fr"<{tg}[^>]*>(.*?)</{tg}>", it, re.S) or [None, ""])[1]).strip()
+            tt = g("title")
+            if re.search(r"출연|가수|라인업|축하공연|무대", tt) and not re.search(r"성료|폐막|마무리|성황", tt):
+                news.append({"title": tt, "url": g("link"), "date": g("pubDate"), "source": g("source")})
+        if news:
+            x["lineup_news"] = news[:5]
+            print("  라인업 새 소식(확인 필요):", x["title"][:30], "→", [n["title"][:50] for n in news[:3]])
+
 def norm(t): return re.sub(r"[\s\W_]|제\d+회|20\d\d|개최|안내|년", "", t or "")
 
 def main():
@@ -174,6 +205,7 @@ def main():
         x["status"] = "진행중" if x["start"] <= TODAY <= x["end"] else "예정"
         if x.get("img_src") and not x.get("img"): x["img"] = save_img(x["img_src"])
     merged.sort(key=lambda x: (x["status"] != "진행중", x["start"], x["end"]))
+    apply_lineups(merged)
     try: news = scrape_news(); status["news"] = {"ok": True, "count": len(news)}
     except Exception as e: news = prev.get("news", []); status["news"] = {"ok": False, "error": str(e)[:200]}
     used = {x.get("img") for x in merged}
