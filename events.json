@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20 06:51 KST",
+ "updated": "2026-10-20 09:07 KST",
  "today": "2026-10-20",
  "status": {
   "phtour": {
@@ -266,8 +266,8 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2053/202610081303_SWieeLJ.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 공연",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0002&date_type=3&cm_idx=2053",
-   "desc": "티켓링크 예매 바로가기 (1인 4매)",
-   "link": "https://www.ticketlink.co.kr/product/66083",
+   "desc": "정보 없음",
+   "link": null,
    "origin": "phtour",
    "area": "nam",
    "status": "예정",
@@ -392,7 +392,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2056/202610081544_2ILJaMb.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 행사",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=29&org_code=0001&date_type=5&cm_idx=2056",
-   "desc": "행 사 명 : 2026 대한민국 동화축제\n기　　간 : 2026. 10. 31.(토) 11:00 ~ 17:00\n장　　소 : 포항시립 포은오천도서관(오천읍 정몽주로 566)\n주최/주관 : 포항시·경상북도 / 경북일보(주)\n내　　용 : 문화공연, 체험 활동 등\n마술공연, 몬스터 랜덤 플레이댄스, 할로윈 어린이 워킹 패션쇼\n유튜버 '슈뻘맨' 팬미팅\n할로윈 퍼레이드, 특수분장, 귀신의 집 체험\n어린이 꿈 사생대회, 에어바운스, 포토존 및 인생네컷 등\n6. 문　　의 : 경북일보 대외협력실 054-289-2215",
+   "desc": "<ol start=\"1\" data-pm-slice=\"3 5 []\" data-spread=\"true\" style=\"color-scheme: revert; forced-color-adjust: revert; math-depth: revert; position: revert; position-anchor: revert; text-size-adjust: revert; appearance: revert; font-feature-settings: revert; font-kerning: revert; font-language-override: revert; font-optical-sizing: revert; font-palette: revert; font-size-adjust: revert; font-stretch: revert; font-synthesis: revert; font-variant-alternates: revert; font-variant-east-asian: revert; font-variant-emoji: revert; font-variant-numeric: revert; font-variant-position: revert; font-variation-settings: revert; position-area: revert; text-orientation: revert; text-rendering: revert; text-spacing-trim: revert; -webkit-font-smoothing: revert; -webkit-locale: revert; -webkit-text-orientation: revert; -webkit-writing-mode: revert; writing-mode: revert; zoom: revert; accent-color: revert; place-content: revert; place-items: revert; place-self: revert; alignment-baseline: revert; anchor-name: revert; anchor-scope: revert; animation-composition: revert; animation: revert; animation-trigger: revert; app-region: revert; aspect-ratio: revert; backdrop-filter: revert; backface-visibility: revert; background-image: revert; background-position: revert; background-size: revert; background-repeat: revert; background-attachment: revert; background-origin: revert; background-clip: revert; background-blend-mode: revert; baseline-shift: revert; baseline-source: revert; block-size: revert; borde",
    "link": null,
    "origin": "phtour",
    "area": "ocheon",
@@ -783,10 +783,10 @@
    "source": "국제뉴스"
   },
   {
-   "title": "“해병의 혼 살아 숨 쉬는 포항으로”…‘2026 해병대문화 축제’ 깃발 올린다 - 경북매일",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qcURQQzg5MVhxQTV1d29kZ1dqWmxJazFOMFpYSHJ5WWdWbjgtZWdONThaRDVmNE5FRFNpS3RSckZfd19MQkNtUVNxWnhibWlOS3FqUThzNTdUQQ?oc=5",
-   "date": "Fri, 16 Oct 2026 00:40:00 GMT",
-   "source": "경북매일"
+   "title": "포항시, 16~18일 호미곶서 ‘경관푸드 페스타’ 개최 - 대경일보",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTa0Z5a21saHVfMlNyQ2xnWlV1ZWFOZElmV0JRem5YRTF1bTY3MlBKQS1KSDMzTjNIbXJxaWt3WEFneGdGUE9OZm5iZTRrdlNWdmdiR3llOWVUdUZ5VlI2WWNTdWdkUENY?oc=5",
+   "date": "Tue, 13 Oct 2026 08:48:24 GMT",
+   "source": "대경일보"
   }
  ]
 }
