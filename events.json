@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-21 06:31 KST",
+ "updated": "2026-10-21 08:39 KST",
  "today": "2026-10-21",
  "status": {
   "phtour": {
    "ok": true,
-   "count": 34
+   "count": 33
   },
   "kfes": {
    "ok": true,
@@ -167,27 +167,6 @@
    "area": "buk",
    "status": "진행중",
    "img": "ev/2014718ea210d3cf.jpg"
-  },
-  {
-   "id": "ph2048",
-   "title": "'2026 렉쳐콘서트' 세번째 시간",
-   "type": "공연",
-   "start": "2026-10-22",
-   "end": "2026-10-22",
-   "venue": "포은흥해도서관 2~3층 하모니스텝",
-   "fee": "무료",
-   "org": "포항시립도서관",
-   "age": "전체관람가",
-   "tel": "정보 없음",
-   "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2048/202610061313_3kI16Cm.JPG",
-   "src": "포항시 문화관광(퐝퐝여행) 공연",
-   "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0001&date_type=3&cm_idx=2048",
-   "desc": "영화 속 명장면에 어울리는 재즈음악 생각해보신 적 있으세요?\n‣ 일 시 : 2026. 10. 23.(목) 19:30~20:30\n‣ 장 소 : 포은흥해도서관 2~3층 하모니스텝\n‣ 대 상 : 포항시민 / 100명 (선착순, 사전+현장)\n‣ 신 청 : 포항시립도서관 홈페이지 문화행사신청 2026. 10. 8.(목) 10:00 OPEN\n‣ 주 제 : 재즈로 읽는 영화\n‣ 강 연 : 김선영 스토리텔러\n‣ 공 연 : 써니밴드(보컬 정소희/트럼펫 유희원/피아노 장세연/베이스 박주민/드럼 허여정/아코디나, 스토리 김선영)",
-   "link": null,
-   "origin": "phtour",
-   "area": "buk",
-   "status": "예정",
-   "img": "ev/279b1e639778a355.jpg"
   },
   {
    "id": "ph2044",
@@ -369,7 +348,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2050/202610071341_KjWXjpe.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 행사",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=29&org_code=0001&date_type=5&cm_idx=2050",
-   "desc": "정보 없음",
+   "desc": "KBS 전국노래자랑 포항시편 예심 신청 선착순 접수 마감 되었습니다.\n﻿\n민선9기 출범을 기념하기 위하여\n국내 최장수 프로그램인 『KBS 전국노래자랑』이 포항시에서 개최됩니다.\n시민 여러분의 많은 관심과 참여 바랍니다.\n□ 행사개요\n개최일시 : 2026. 10. 27.(화) 14:00\n개최장소 : 영일대해수욕장 해상누각 앞 광장 ※ 우천시 포항체육관\n초대가수 : 김연자, 박서진, 장한별, 미스김, 이수연\n□ 예심안내\n일 시 : 2026. 10. 25.(일) 13:00\n장소 : 포항체육관(종합운동장 옆)\n모집규모 : 선착순 300팀 ※ 1,2차 예심 같은 날 진행 후 최종 15~16팀 선정 예정\n신청대상 : 포항시민, 포항시 소재 사업자, 직장인, 학생 등\n※ 기성가수(대한가수협회, 한국가수협회, 한국연예협회 가수 및 회원 등)\n음반 발매, 방송 출연, 뮤직비디오 출연 등 대중 활동 이력자\n(한국음악저작권협회, 한국음악실연자연합회, 한국음반산업협회 가입) 참가 불가\n신청기간 : 2026. 10. 15.(목) 09:00 ~ 10. 21.(수)18:00 ※ 방문접수 시 점심시간(12:00~13:00) 및 토요일, 공휴일 제외\n신청방법\n- 방문신청 : 관내 읍․면․동 행정복지센터\n- 온 라 인 : 붙임 신청서 작성 후 스캔본 이메일 제출 ( hyang810@korea.kr )\n신청서식 : 방문접수처에서 수령 또는 첨부파일 다운로드\n문의 : 포항시청 콜센터 (☎054-270-8282)",
    "link": null,
    "origin": "phtour",
    "area": "buk",
@@ -1104,22 +1083,10 @@
    "source": "이로운넷"
   },
   {
-   "title": "제23회 사천시 삼천포항 자연산 전어축제 개최…여름 햇전어의 참맛, 삼천포에서 만난다 - 진주인터넷뉴스",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5CWTRZQVNFelRpSllPNFRleDhqZDFZd25XRlZWYzVkVXl0TThrS0NzeDJtTkh5b25neWRsTE5KeDBhN2JFT2ZJdWE5NG1wT2FEZmNKbzE4bTdmVEdtUDE2Z2NKZ3ZJSDF0UUpSTzNubWlxNWpxMUhZ?oc=5",
-   "date": "Fri, 16 Oct 2026 07:00:00 GMT",
-   "source": "진주인터넷뉴스"
-  },
-  {
    "title": "더불어민주당 포항북구지역위원회, 철길숲서 첫 플로깅 행사 개최 - 다경뉴스",
    "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE13X2VCR2F0TDRnZ2lQZFN1M3NLWkdIUGt1RHRRc0dNUG5Vc1BpSWhQdjhGRWZYME5sVzhMX29uWXJrS1df?oc=5",
    "date": "Mon, 19 Oct 2026 11:16:00 GMT",
    "source": "다경뉴스"
-  },
-  {
-   "title": "경치에 취하고 맛에 취하는...포항 호미곶 \"미식관광 축제\" - 경북구미신문",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ud0QxY2hsQUstQ2wxNGlWVmdlbk1WQkY2VnJYMm8wSXBBT1lNdGJyMW84TmRXeXJkVVFBbVBGSF9RMWNYT2RMMlhDMXRKUFBoZG1kdWRsZkY2ampPUVFMWDVKM2tEaExxQ3c?oc=5",
-   "date": "Wed, 14 Oct 2026 05:52:01 GMT",
-   "source": "경북구미신문"
   },
   {
    "title": "포항운하 물들인 호러 분장…‘퐝퐝호러나이트’ 열려 - 경북일보",
@@ -1128,16 +1095,22 @@
    "source": "경북일보"
   },
   {
+   "title": "경치에 취하고 맛에 취하는...포항 호미곶 \"미식관광 축제\" - 경북구미신문",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ud0QxY2hsQUstQ2wxNGlWVmdlbk1WQkY2VnJYMm8wSXBBT1lNdGJyMW84TmRXeXJkVVFBbVBGSF9RMWNYT2RMMlhDMXRKUFBoZG1kdWRsZkY2ampPUVFMWDVKM2tEaExxQ3c?oc=5",
+   "date": "Wed, 14 Oct 2026 05:52:01 GMT",
+   "source": "경북구미신문"
+  },
+  {
+   "title": "제23회 사천시 삼천포항 자연산 전어축제 개최…여름 햇전어의 참맛, 삼천포에서 만난다 - 진주인터넷뉴스",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5CWTRZQVNFelRpSllPNFRleDhqZDFZd25XRlZWYzVkVXl0TThrS0NzeDJtTkh5b25neWRsTE5KeDBhN2JFT2ZJdWE5NG1wT2FEZmNKbzE4bTdmVEdtUDE2Z2NKZ3ZJSDF0UUpSTzNubWlxNWpxMUhZ?oc=5",
+   "date": "Fri, 16 Oct 2026 07:00:00 GMT",
+   "source": "진주인터넷뉴스"
+  },
+  {
    "title": "포항교육지원청, 학부모 어울림 한마당 개최…280여 명 참여 - 시사경제신문",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10MlFoN25fVXJkSlpnOU5fbkhjak4xS0NvMjRPLUZxRlJlQkg5bnk3ekwyR0EtVVB6OGVyd2hidVJTcl8yT2o4V2hOb1d2RWNLR1N1TWdPbWxMYXlKSE1sRUswS3l6Mmpo0gFsQVVfeXFMUFhWaDBDc2FPeDBpbkFJZ2JkcTRhRVV4R1BoV2pob1NORENwUFljZEdpV0Z0WjI1OVBXN0VUQkwyMGFySkdDalZoYnhUMlkzWVktNHZ2QnVJMkgzM3l0Rl95MzhhTmpaeTNxY3Bw?oc=5",
    "date": "Wed, 14 Oct 2026 09:48:12 GMT",
    "source": "시사경제신문"
-  },
-  {
-   "title": "포항 영일대 가을 바다 수놓은 ‘2026 전국드론낚시페스타’ 개최 - 서프라이즈뉴스",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9nTG10VXB2QmYzMmNuSzZQQTQ0ZU5JMnNWTnctYl9XQ2ZCSTkzOUQ5RzJ5SVgweHJONmFMQTRuNndNRnFOZmJiS3NLMEVJbmd1T3oyeHhjaHpqcXNTa2lDMUZqSWZlcEhuRlhia1V3?oc=5",
-   "date": "Sun, 18 Oct 2026 02:24:49 GMT",
-   "source": "서프라이즈뉴스"
   },
   {
    "title": "포항시청소년재단, 31일 중앙상가서 ‘포·포·틴 청소년 축제’ 개최 - 미디어경북",
@@ -1146,16 +1119,22 @@
    "source": "미디어경북"
   },
   {
-   "title": "포항 가을 차문화 대축제, 철길숲 대잠마당에서 개최 - 국제뉴스",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5abTFad3QwWFBseUtCVC0wdlhoYWFhdUFRUmNmN0dpQ1lKSktOenZWRXJ3al8tYzg5ZzNmWHpCUHBMVElEVi1jU0pjV1p3bmhfRG45TGI4dzhoaUNPOXhYcUZiVm14TmluN1J4VW5R?oc=5",
-   "date": "Mon, 19 Oct 2026 05:25:30 GMT",
-   "source": "국제뉴스"
+   "title": "포항 영일대 가을 바다 수놓은 ‘2026 전국드론낚시페스타’ 개최 - 서프라이즈뉴스",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9nTG10VXB2QmYzMmNuSzZQQTQ0ZU5JMnNWTnctYl9XQ2ZCSTkzOUQ5RzJ5SVgweHJONmFMQTRuNndNRnFOZmJiS3NLMEVJbmd1T3oyeHhjaHpqcXNTa2lDMUZqSWZlcEhuRlhia1V3?oc=5",
+   "date": "Sun, 18 Oct 2026 02:24:49 GMT",
+   "source": "서프라이즈뉴스"
   },
   {
    "title": "세대와 이웃 아우르는 하모니…포항 ‘온마을 합창 페스타’ 24일 개최 - OMATE 시니어",
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvOUNuN2xEZnNvbHZzdVNmeWlCLWNacDA4azZ3blctRnhvQUVVbHkwLXBmMzdCNVNVdWx2ZTZEaHNaaFJjbk1ZZVFaWlZ0MFNyeVdxanhkaDFEWWhvMG5DNnprSHI?oc=5",
    "date": "Fri, 16 Oct 2026 06:14:45 GMT",
    "source": "OMATE 시니어"
+  },
+  {
+   "title": "재포항강원특별자치도민회 한자리에…‘제40회 한마음 축제’ 성황 - 프레시안",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBEc3A2NmpkYmdjSVFkQ3hET2hoeURyQVlHRHhNRi1nRTIwSU80X3lmY1Z0R2l0aC0xVUpjZ3pZcVZpa1dreUQ3Z2NvVkRVNS1Rd05uOWU1eHRydE9LOGxHT3FIcXZOTzBfOXBj?oc=5",
+   "date": "Sat, 17 Oct 2026 10:28:46 GMT",
+   "source": "프레시안"
   },
   {
    "title": "“해병의 혼 살아 숨 쉬는 포항으로”…‘2026 해병대문화 축제’ 깃발 올린다 - 경북매일",
