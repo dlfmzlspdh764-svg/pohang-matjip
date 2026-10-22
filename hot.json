@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-22 10:08 KST",
+ "updated": "2026-10-22 15:32 KST",
  "rule": "최근 7일 네이버 블로그 글 수(정확한 상호 검색, 최대 30건까지 집계) × (1+성장률, 직전 7일·30일 주평균 대비) + 최근 7일 방문자 리뷰 × 2 + X 언급",
  "signals": {
-  "naver_blog": "수집됨 (219/219)",
-  "naver_review_recent": "수집됨 (216/219)",
+  "naver_blog": "수집됨 (220/220)",
+  "naver_review_recent": "수집됨 (217/220)",
   "naver_review_snapshot_delta": "수집됨",
   "x": "미수집 (X_BEARER_TOKEN 없음)",
   "instagram": "미수집 (캡차/JS 요구)",
@@ -18,7 +18,7 @@
     "cat": "nam",
     "in_data": true,
     "keyword": "\"효자동칼국수\" 포항",
-    "blog7": 20,
+    "blog7": 21,
     "blog_prev7": 0,
     "blog_prev30": 0,
     "blog_growth_pct": "new",
@@ -27,11 +27,11 @@
     "review_delta_1d": 4,
     "review_delta_7d": null,
     "x7": null,
-    "score": 160,
+    "score": 166,
     "eligible": true,
     "badges": [
-     "블로그 신규 20건",
-     "7일 블로그 20건",
+     "블로그 신규 21건",
+     "7일 블로그 21건",
      "7일 리뷰 20건",
      "하루 리뷰 +4"
     ]
@@ -41,7 +41,7 @@
     "cat": "nam",
     "in_data": true,
     "keyword": "\"갓튀긴후라이드\" 이동",
-    "blog7": 26,
+    "blog7": 25,
     "blog_prev7": 0,
     "blog_prev30": 0,
     "blog_growth_pct": "new",
@@ -50,32 +50,11 @@
     "review_delta_1d": 0,
     "review_delta_7d": null,
     "x7": null,
-    "score": 156,
+    "score": 150,
     "eligible": true,
     "badges": [
-     "블로그 신규 26건",
-     "7일 블로그 26건"
-    ]
-   },
-   {
-    "name": "효자동수우동",
-    "cat": "nam",
-    "in_data": true,
-    "keyword": "\"효자동수우동\" 포항",
-    "blog7": 20,
-    "blog_prev7": 0,
-    "blog_prev30": 0,
-    "blog_growth_pct": "new",
-    "review7": 0,
-    "review7_capped": false,
-    "review_delta_1d": 0,
-    "review_delta_7d": null,
-    "x7": null,
-    "score": 120,
-    "eligible": true,
-    "badges": [
-     "블로그 신규 20건",
-     "7일 블로그 20건"
+     "블로그 신규 25건",
+     "7일 블로그 25건"
     ]
    },
    {
@@ -129,6 +108,49 @@
     "cat": "nam",
     "in_data": true,
     "keyword": "\"포항아구탕\" 포항",
+    "blog7": 18,
+    "blog_prev7": 0,
+    "blog_prev30": 0,
+    "blog_growth_pct": "new",
+    "review7": 0,
+    "review7_capped": false,
+    "review_delta_1d": 0,
+    "review_delta_7d": null,
+    "x7": null,
+    "score": 108,
+    "eligible": true,
+    "badges": [
+     "블로그 신규 18건",
+     "7일 블로그 18건"
+    ]
+   },
+   {
+    "name": "슈퍼크리스피 포항이동점",
+    "cat": "nam",
+    "in_data": true,
+    "keyword": "\"슈퍼크리스피\" 이동",
+    "blog7": 14,
+    "blog_prev7": 0,
+    "blog_prev30": 0,
+    "blog_growth_pct": "new",
+    "review7": 10,
+    "review7_capped": false,
+    "review_delta_1d": 0,
+    "review_delta_7d": null,
+    "x7": null,
+    "score": 104,
+    "eligible": true,
+    "badges": [
+     "블로그 신규 14건",
+     "7일 블로그 14건",
+     "7일 리뷰 10건"
+    ]
+   },
+   {
+    "name": "효자동수우동",
+    "cat": "nam",
+    "in_data": true,
+    "keyword": "\"효자동수우동\" 포항",
     "blog7": 17,
     "blog_prev7": 0,
     "blog_prev30": 0,
@@ -143,28 +165,6 @@
     "badges": [
      "블로그 신규 17건",
      "7일 블로그 17건"
-    ]
-   },
-   {
-    "name": "슈퍼크리스피 포항이동점",
-    "cat": "nam",
-    "in_data": true,
-    "keyword": "\"슈퍼크리스피\" 이동",
-    "blog7": 13,
-    "blog_prev7": 0,
-    "blog_prev30": 0,
-    "blog_growth_pct": "new",
-    "review7": 10,
-    "review7_capped": false,
-    "review_delta_1d": 0,
-    "review_delta_7d": null,
-    "x7": null,
-    "score": 98,
-    "eligible": true,
-    "badges": [
-     "블로그 신규 13건",
-     "7일 블로그 13건",
-     "7일 리뷰 10건"
     ]
    },
    {
@@ -242,7 +242,7 @@
     "cat": "buk",
     "in_data": true,
     "keyword": "\"마장동뒷고기\" 마장동북부",
-    "blog7": 22,
+    "blog7": 21,
     "blog_prev7": 0,
     "blog_prev30": 0,
     "blog_growth_pct": "new",
@@ -251,11 +251,11 @@
     "review_delta_1d": 0,
     "review_delta_7d": null,
     "x7": null,
-    "score": 132,
+    "score": 126,
     "eligible": true,
     "badges": [
-     "블로그 신규 22건",
-     "7일 블로그 22건"
+     "블로그 신규 21건",
+     "7일 블로그 21건"
     ]
    },
    {
@@ -263,7 +263,7 @@
     "cat": "buk",
     "in_data": true,
     "keyword": "\"우리집먹거리\" 포항",
-    "blog7": 16,
+    "blog7": 17,
     "blog_prev7": 0,
     "blog_prev30": 0,
     "blog_growth_pct": "new",
@@ -272,11 +272,11 @@
     "review_delta_1d": null,
     "review_delta_7d": null,
     "x7": null,
-    "score": 96,
+    "score": 102,
     "eligible": true,
     "badges": [
-     "블로그 신규 16건",
-     "7일 블로그 16건"
+     "블로그 신규 17건",
+     "7일 블로그 17건"
     ]
    },
    {
@@ -303,6 +303,29 @@
     ]
    },
    {
+    "name": "마당집",
+    "cat": "buk",
+    "in_data": true,
+    "keyword": "\"마당집\" 포항",
+    "blog7": 21,
+    "blog_prev7": 11,
+    "blog_prev30": 21,
+    "blog_growth_pct": 91,
+    "review7": 10,
+    "review7_capped": true,
+    "review_delta_1d": 1,
+    "review_delta_7d": null,
+    "x7": null,
+    "score": 60.1,
+    "eligible": true,
+    "badges": [
+     "블로그 +91%",
+     "7일 블로그 21건",
+     "7일 리뷰 10+건",
+     "하루 리뷰 +1"
+    ]
+   },
+   {
     "name": "샤브야키 포항북구점",
     "cat": "buk",
     "in_data": true,
@@ -311,40 +334,62 @@
     "blog_prev7": 5,
     "blog_prev30": 13,
     "blog_growth_pct": -60,
-    "review7": 27,
-    "review7_capped": false,
+    "review7": 29,
+    "review7_capped": true,
     "review_delta_1d": 12,
     "review_delta_7d": null,
     "x7": null,
-    "score": 56,
+    "score": 60,
     "eligible": true,
     "badges": [
      "7일 블로그 2건",
-     "7일 리뷰 27건",
+     "7일 리뷰 29+건",
      "하루 리뷰 +12"
     ]
    },
    {
-    "name": "돌빡라면 흥해",
+    "name": "단막 포항 장성점",
     "cat": "buk",
     "in_data": true,
-    "keyword": "\"돌빡라면 흥해\" 포항",
-    "blog7": 6,
-    "blog_prev7": 3,
-    "blog_prev30": 15,
-    "blog_growth_pct": 71,
-    "review7": 19,
+    "keyword": "\"단막 포항\" 장성",
+    "blog7": 10,
+    "blog_prev7": 12,
+    "blog_prev30": 3,
+    "blog_growth_pct": -17,
+    "review7": 23,
     "review7_capped": false,
-    "review_delta_1d": -3,
+    "review_delta_1d": 4,
     "review_delta_7d": null,
     "x7": null,
-    "score": 48.3,
+    "score": 54.3,
     "eligible": true,
     "badges": [
-     "블로그 +71%",
-     "7일 블로그 6건",
+     "7일 블로그 10건",
+     "7일 리뷰 23건",
+     "하루 리뷰 +4"
+    ]
+   },
+   {
+    "name": "삼형제횟집",
+    "cat": "buk",
+    "in_data": true,
+    "keyword": "\"삼형제횟집\" 포항",
+    "blog7": 8,
+    "blog_prev7": 6,
+    "blog_prev30": 23,
+    "blog_growth_pct": 33,
+    "review7": 19,
+    "review7_capped": false,
+    "review_delta_1d": -2,
+    "review_delta_7d": null,
+    "x7": null,
+    "score": 48.7,
+    "eligible": true,
+    "badges": [
+     "블로그 +33%",
+     "7일 블로그 8건",
      "7일 리뷰 19건",
-     "하루 리뷰 +-3"
+     "하루 리뷰 +-2"
     ]
    },
    {
@@ -370,25 +415,26 @@
     ]
    },
    {
-    "name": "단막 포항 장성점",
+    "name": "돌빡라면 흥해",
     "cat": "buk",
     "in_data": true,
-    "keyword": "\"단막 포항\" 장성",
-    "blog7": 10,
-    "blog_prev7": 12,
-    "blog_prev30": 3,
-    "blog_growth_pct": -17,
-    "review7": 17,
+    "keyword": "\"돌빡라면 흥해\" 포항",
+    "blog7": 6,
+    "blog_prev7": 3,
+    "blog_prev30": 15,
+    "blog_growth_pct": 71,
+    "review7": 18,
     "review7_capped": false,
-    "review_delta_1d": 4,
+    "review_delta_1d": -3,
     "review_delta_7d": null,
     "x7": null,
-    "score": 42.3,
+    "score": 46.3,
     "eligible": true,
     "badges": [
-     "7일 블로그 10건",
-     "7일 리뷰 17건",
-     "하루 리뷰 +4"
+     "블로그 +71%",
+     "7일 블로그 6건",
+     "7일 리뷰 18건",
+     "하루 리뷰 +-3"
     ]
    },
    {
@@ -413,52 +459,6 @@
      "7일 리뷰 10+건",
      "하루 리뷰 +4"
     ]
-   },
-   {
-    "name": "옹짬뽕 포항양덕본점",
-    "cat": "buk",
-    "in_data": true,
-    "keyword": "\"옹짬뽕\" 양덕",
-    "blog7": 19,
-    "blog_prev7": 17,
-    "blog_prev30": 20,
-    "blog_growth_pct": 12,
-    "review7": 10,
-    "review7_capped": true,
-    "review_delta_1d": 3,
-    "review_delta_7d": null,
-    "x7": null,
-    "score": 41.2,
-    "eligible": true,
-    "badges": [
-     "블로그 +12%",
-     "7일 블로그 19건",
-     "7일 리뷰 10+건",
-     "하루 리뷰 +3"
-    ]
-   },
-   {
-    "name": "솔밭샤브 포항양덕점",
-    "cat": "buk",
-    "in_data": true,
-    "keyword": "\"솔밭샤브\" 양덕",
-    "blog7": 19,
-    "blog_prev7": 17,
-    "blog_prev30": 20,
-    "blog_growth_pct": 12,
-    "review7": 10,
-    "review7_capped": true,
-    "review_delta_1d": 6,
-    "review_delta_7d": null,
-    "x7": null,
-    "score": 41.2,
-    "eligible": true,
-    "badges": [
-     "블로그 +12%",
-     "7일 블로그 19건",
-     "7일 리뷰 10+건",
-     "하루 리뷰 +6"
-    ]
    }
   ],
   "ocheon": [
@@ -467,7 +467,7 @@
     "cat": "ocheon",
     "in_data": true,
     "keyword": "\"후라이드참잘하는집\" 오천문덕",
-    "blog7": 26,
+    "blog7": 30,
     "blog_prev7": 0,
     "blog_prev30": 0,
     "blog_growth_pct": "new",
@@ -476,11 +476,11 @@
     "review_delta_1d": 0,
     "review_delta_7d": null,
     "x7": null,
-    "score": 156,
+    "score": 180,
     "eligible": true,
     "badges": [
-     "블로그 신규 26건",
-     "7일 블로그 26건"
+     "블로그 신규 30건",
+     "7일 블로그 30+건"
     ]
    },
    {
@@ -488,6 +488,27 @@
     "cat": "ocheon",
     "in_data": true,
     "keyword": "\"갓튀긴후라이드\" 오천문덕",
+    "blog7": 29,
+    "blog_prev7": 0,
+    "blog_prev30": 0,
+    "blog_growth_pct": "new",
+    "review7": 0,
+    "review7_capped": false,
+    "review_delta_1d": 0,
+    "review_delta_7d": null,
+    "x7": null,
+    "score": 174,
+    "eligible": true,
+    "badges": [
+     "블로그 신규 29건",
+     "7일 블로그 29건"
+    ]
+   },
+   {
+    "name": "노가닭 오천문덕점",
+    "cat": "ocheon",
+    "in_data": true,
+    "keyword": "\"노가닭\" 오천문덕",
     "blog7": 26,
     "blog_prev7": 0,
     "blog_prev30": 0,
@@ -505,10 +526,10 @@
     ]
    },
    {
-    "name": "노가닭 오천문덕점",
+    "name": "맛고을",
     "cat": "ocheon",
     "in_data": true,
-    "keyword": "\"노가닭\" 오천문덕",
+    "keyword": "\"맛고을\" 포항",
     "blog7": 22,
     "blog_prev7": 0,
     "blog_prev30": 0,
@@ -526,24 +547,25 @@
     ]
    },
    {
-    "name": "맛고을",
+    "name": "백정 식육식당 문덕오천본점",
     "cat": "ocheon",
     "in_data": true,
-    "keyword": "\"맛고을\" 포항",
-    "blog7": 21,
+    "keyword": "\"백정\" 문덕오천",
+    "blog7": 20,
     "blog_prev7": 0,
     "blog_prev30": 0,
     "blog_growth_pct": "new",
-    "review7": 0,
+    "review7": 1,
     "review7_capped": false,
     "review_delta_1d": 0,
     "review_delta_7d": null,
     "x7": null,
-    "score": 126,
+    "score": 122,
     "eligible": true,
     "badges": [
-     "블로그 신규 21건",
-     "7일 블로그 21건"
+     "블로그 신규 20건",
+     "7일 블로그 20건",
+     "7일 리뷰 1건"
     ]
    },
    {
@@ -565,27 +587,6 @@
     "badges": [
      "블로그 신규 19건",
      "7일 블로그 19건"
-    ]
-   },
-   {
-    "name": "명짬뽕",
-    "cat": "ocheon",
-    "in_data": true,
-    "keyword": "\"명짬뽕\" 포항",
-    "blog7": 17,
-    "blog_prev7": 0,
-    "blog_prev30": 0,
-    "blog_growth_pct": "new",
-    "review7": 0,
-    "review7_capped": false,
-    "review_delta_1d": 0,
-    "review_delta_7d": null,
-    "x7": null,
-    "score": 102,
-    "eligible": true,
-    "badges": [
-     "블로그 신규 17건",
-     "7일 블로그 17건"
     ]
    },
    {
@@ -611,25 +612,24 @@
     ]
    },
    {
-    "name": "백정 식육식당 문덕오천본점",
+    "name": "명짬뽕",
     "cat": "ocheon",
     "in_data": true,
-    "keyword": "\"백정\" 문덕오천",
+    "keyword": "\"명짬뽕\" 포항",
     "blog7": 16,
     "blog_prev7": 0,
     "blog_prev30": 0,
     "blog_growth_pct": "new",
-    "review7": 1,
+    "review7": 0,
     "review7_capped": false,
     "review_delta_1d": 0,
     "review_delta_7d": null,
     "x7": null,
-    "score": 98,
+    "score": 96,
     "eligible": true,
     "badges": [
      "블로그 신규 16건",
-     "7일 블로그 16건",
-     "7일 리뷰 1건"
+     "7일 블로그 16건"
     ]
    },
    {
@@ -679,11 +679,53 @@
   ],
   "all": [
    {
+    "name": "후라이드참잘하는집 오천문덕점",
+    "cat": "ocheon",
+    "in_data": true,
+    "keyword": "\"후라이드참잘하는집\" 오천문덕",
+    "blog7": 30,
+    "blog_prev7": 0,
+    "blog_prev30": 0,
+    "blog_growth_pct": "new",
+    "review7": 0,
+    "review7_capped": false,
+    "review_delta_1d": 0,
+    "review_delta_7d": null,
+    "x7": null,
+    "score": 180,
+    "eligible": true,
+    "badges": [
+     "블로그 신규 30건",
+     "7일 블로그 30+건"
+    ]
+   },
+   {
+    "name": "갓튀긴후라이드 오천문덕점",
+    "cat": "ocheon",
+    "in_data": true,
+    "keyword": "\"갓튀긴후라이드\" 오천문덕",
+    "blog7": 29,
+    "blog_prev7": 0,
+    "blog_prev30": 0,
+    "blog_growth_pct": "new",
+    "review7": 0,
+    "review7_capped": false,
+    "review_delta_1d": 0,
+    "review_delta_7d": null,
+    "x7": null,
+    "score": 174,
+    "eligible": true,
+    "badges": [
+     "블로그 신규 29건",
+     "7일 블로그 29건"
+    ]
+   },
+   {
     "name": "효자동칼국수",
     "cat": "nam",
     "in_data": true,
     "keyword": "\"효자동칼국수\" 포항",
-    "blog7": 20,
+    "blog7": 21,
     "blog_prev7": 0,
     "blog_prev30": 0,
     "blog_growth_pct": "new",
@@ -692,97 +734,13 @@
     "review_delta_1d": 4,
     "review_delta_7d": null,
     "x7": null,
-    "score": 160,
+    "score": 166,
     "eligible": true,
     "badges": [
-     "블로그 신규 20건",
-     "7일 블로그 20건",
+     "블로그 신규 21건",
+     "7일 블로그 21건",
      "7일 리뷰 20건",
      "하루 리뷰 +4"
-    ]
-   },
-   {
-    "name": "갓튀긴후라이드 이동점",
-    "cat": "nam",
-    "in_data": true,
-    "keyword": "\"갓튀긴후라이드\" 이동",
-    "blog7": 26,
-    "blog_prev7": 0,
-    "blog_prev30": 0,
-    "blog_growth_pct": "new",
-    "review7": 0,
-    "review7_capped": false,
-    "review_delta_1d": 0,
-    "review_delta_7d": null,
-    "x7": null,
-    "score": 156,
-    "eligible": true,
-    "badges": [
-     "블로그 신규 26건",
-     "7일 블로그 26건"
-    ]
-   },
-   {
-    "name": "후라이드참잘하는집 오천문덕점",
-    "cat": "ocheon",
-    "in_data": true,
-    "keyword": "\"후라이드참잘하는집\" 오천문덕",
-    "blog7": 26,
-    "blog_prev7": 0,
-    "blog_prev30": 0,
-    "blog_growth_pct": "new",
-    "review7": 0,
-    "review7_capped": false,
-    "review_delta_1d": 0,
-    "review_delta_7d": null,
-    "x7": null,
-    "score": 156,
-    "eligible": true,
-    "badges": [
-     "블로그 신규 26건",
-     "7일 블로그 26건"
-    ]
-   },
-   {
-    "name": "갓튀긴후라이드 오천문덕점",
-    "cat": "ocheon",
-    "in_data": true,
-    "keyword": "\"갓튀긴후라이드\" 오천문덕",
-    "blog7": 26,
-    "blog_prev7": 0,
-    "blog_prev30": 0,
-    "blog_growth_pct": "new",
-    "review7": 0,
-    "review7_capped": false,
-    "review_delta_1d": 0,
-    "review_delta_7d": null,
-    "x7": null,
-    "score": 156,
-    "eligible": true,
-    "badges": [
-     "블로그 신규 26건",
-     "7일 블로그 26건"
-    ]
-   },
-   {
-    "name": "마장동뒷고기 마장동북부점",
-    "cat": "buk",
-    "in_data": true,
-    "keyword": "\"마장동뒷고기\" 마장동북부",
-    "blog7": 22,
-    "blog_prev7": 0,
-    "blog_prev30": 0,
-    "blog_growth_pct": "new",
-    "review7": 0,
-    "review7_capped": false,
-    "review_delta_1d": 0,
-    "review_delta_7d": null,
-    "x7": null,
-    "score": 132,
-    "eligible": true,
-    "badges": [
-     "블로그 신규 22건",
-     "7일 블로그 22건"
     ]
    },
    {
@@ -790,6 +748,48 @@
     "cat": "ocheon",
     "in_data": true,
     "keyword": "\"노가닭\" 오천문덕",
+    "blog7": 26,
+    "blog_prev7": 0,
+    "blog_prev30": 0,
+    "blog_growth_pct": "new",
+    "review7": 0,
+    "review7_capped": false,
+    "review_delta_1d": 0,
+    "review_delta_7d": null,
+    "x7": null,
+    "score": 156,
+    "eligible": true,
+    "badges": [
+     "블로그 신규 26건",
+     "7일 블로그 26건"
+    ]
+   },
+   {
+    "name": "갓튀긴후라이드 이동점",
+    "cat": "nam",
+    "in_data": true,
+    "keyword": "\"갓튀긴후라이드\" 이동",
+    "blog7": 25,
+    "blog_prev7": 0,
+    "blog_prev30": 0,
+    "blog_growth_pct": "new",
+    "review7": 0,
+    "review7_capped": false,
+    "review_delta_1d": 0,
+    "review_delta_7d": null,
+    "x7": null,
+    "score": 150,
+    "eligible": true,
+    "badges": [
+     "블로그 신규 25건",
+     "7일 블로그 25건"
+    ]
+   },
+   {
+    "name": "맛고을",
+    "cat": "ocheon",
+    "in_data": true,
+    "keyword": "\"맛고을\" 포항",
     "blog7": 22,
     "blog_prev7": 0,
     "blog_prev30": 0,
@@ -807,10 +807,10 @@
     ]
    },
    {
-    "name": "맛고을",
-    "cat": "ocheon",
+    "name": "마장동뒷고기 마장동북부점",
+    "cat": "buk",
     "in_data": true,
-    "keyword": "\"맛고을\" 포항",
+    "keyword": "\"마장동뒷고기\" 마장동북부",
     "blog7": 21,
     "blog_prev7": 0,
     "blog_prev30": 0,
@@ -828,24 +828,25 @@
     ]
    },
    {
-    "name": "효자동수우동",
-    "cat": "nam",
+    "name": "백정 식육식당 문덕오천본점",
+    "cat": "ocheon",
     "in_data": true,
-    "keyword": "\"효자동수우동\" 포항",
+    "keyword": "\"백정\" 문덕오천",
     "blog7": 20,
     "blog_prev7": 0,
     "blog_prev30": 0,
     "blog_growth_pct": "new",
-    "review7": 0,
+    "review7": 1,
     "review7_capped": false,
     "review_delta_1d": 0,
     "review_delta_7d": null,
     "x7": null,
-    "score": 120,
+    "score": 122,
     "eligible": true,
     "badges": [
      "블로그 신규 20건",
-     "7일 블로그 20건"
+     "7일 블로그 20건",
+     "7일 리뷰 1건"
     ]
    },
    {
@@ -897,11 +898,53 @@
  "discovered": [],
  "all": [
   {
+   "name": "후라이드참잘하는집 오천문덕점",
+   "cat": "ocheon",
+   "in_data": true,
+   "keyword": "\"후라이드참잘하는집\" 오천문덕",
+   "blog7": 30,
+   "blog_prev7": 0,
+   "blog_prev30": 0,
+   "blog_growth_pct": "new",
+   "review7": 0,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 180,
+   "eligible": true,
+   "badges": [
+    "블로그 신규 30건",
+    "7일 블로그 30+건"
+   ]
+  },
+  {
+   "name": "갓튀긴후라이드 오천문덕점",
+   "cat": "ocheon",
+   "in_data": true,
+   "keyword": "\"갓튀긴후라이드\" 오천문덕",
+   "blog7": 29,
+   "blog_prev7": 0,
+   "blog_prev30": 0,
+   "blog_growth_pct": "new",
+   "review7": 0,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 174,
+   "eligible": true,
+   "badges": [
+    "블로그 신규 29건",
+    "7일 블로그 29건"
+   ]
+  },
+  {
    "name": "효자동칼국수",
    "cat": "nam",
    "in_data": true,
    "keyword": "\"효자동칼국수\" 포항",
-   "blog7": 20,
+   "blog7": 21,
    "blog_prev7": 0,
    "blog_prev30": 0,
    "blog_growth_pct": "new",
@@ -910,97 +953,13 @@
    "review_delta_1d": 4,
    "review_delta_7d": null,
    "x7": null,
-   "score": 160,
+   "score": 166,
    "eligible": true,
    "badges": [
-    "블로그 신규 20건",
-    "7일 블로그 20건",
+    "블로그 신규 21건",
+    "7일 블로그 21건",
     "7일 리뷰 20건",
     "하루 리뷰 +4"
-   ]
-  },
-  {
-   "name": "갓튀긴후라이드 이동점",
-   "cat": "nam",
-   "in_data": true,
-   "keyword": "\"갓튀긴후라이드\" 이동",
-   "blog7": 26,
-   "blog_prev7": 0,
-   "blog_prev30": 0,
-   "blog_growth_pct": "new",
-   "review7": 0,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 156,
-   "eligible": true,
-   "badges": [
-    "블로그 신규 26건",
-    "7일 블로그 26건"
-   ]
-  },
-  {
-   "name": "후라이드참잘하는집 오천문덕점",
-   "cat": "ocheon",
-   "in_data": true,
-   "keyword": "\"후라이드참잘하는집\" 오천문덕",
-   "blog7": 26,
-   "blog_prev7": 0,
-   "blog_prev30": 0,
-   "blog_growth_pct": "new",
-   "review7": 0,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 156,
-   "eligible": true,
-   "badges": [
-    "블로그 신규 26건",
-    "7일 블로그 26건"
-   ]
-  },
-  {
-   "name": "갓튀긴후라이드 오천문덕점",
-   "cat": "ocheon",
-   "in_data": true,
-   "keyword": "\"갓튀긴후라이드\" 오천문덕",
-   "blog7": 26,
-   "blog_prev7": 0,
-   "blog_prev30": 0,
-   "blog_growth_pct": "new",
-   "review7": 0,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 156,
-   "eligible": true,
-   "badges": [
-    "블로그 신규 26건",
-    "7일 블로그 26건"
-   ]
-  },
-  {
-   "name": "마장동뒷고기 마장동북부점",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"마장동뒷고기\" 마장동북부",
-   "blog7": 22,
-   "blog_prev7": 0,
-   "blog_prev30": 0,
-   "blog_growth_pct": "new",
-   "review7": 0,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 132,
-   "eligible": true,
-   "badges": [
-    "블로그 신규 22건",
-    "7일 블로그 22건"
    ]
   },
   {
@@ -1008,6 +967,48 @@
    "cat": "ocheon",
    "in_data": true,
    "keyword": "\"노가닭\" 오천문덕",
+   "blog7": 26,
+   "blog_prev7": 0,
+   "blog_prev30": 0,
+   "blog_growth_pct": "new",
+   "review7": 0,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 156,
+   "eligible": true,
+   "badges": [
+    "블로그 신규 26건",
+    "7일 블로그 26건"
+   ]
+  },
+  {
+   "name": "갓튀긴후라이드 이동점",
+   "cat": "nam",
+   "in_data": true,
+   "keyword": "\"갓튀긴후라이드\" 이동",
+   "blog7": 25,
+   "blog_prev7": 0,
+   "blog_prev30": 0,
+   "blog_growth_pct": "new",
+   "review7": 0,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 150,
+   "eligible": true,
+   "badges": [
+    "블로그 신규 25건",
+    "7일 블로그 25건"
+   ]
+  },
+  {
+   "name": "맛고을",
+   "cat": "ocheon",
+   "in_data": true,
+   "keyword": "\"맛고을\" 포항",
    "blog7": 22,
    "blog_prev7": 0,
    "blog_prev30": 0,
@@ -1025,10 +1026,10 @@
    ]
   },
   {
-   "name": "맛고을",
-   "cat": "ocheon",
+   "name": "마장동뒷고기 마장동북부점",
+   "cat": "buk",
    "in_data": true,
-   "keyword": "\"맛고을\" 포항",
+   "keyword": "\"마장동뒷고기\" 마장동북부",
    "blog7": 21,
    "blog_prev7": 0,
    "blog_prev30": 0,
@@ -1046,24 +1047,25 @@
    ]
   },
   {
-   "name": "효자동수우동",
-   "cat": "nam",
+   "name": "백정 식육식당 문덕오천본점",
+   "cat": "ocheon",
    "in_data": true,
-   "keyword": "\"효자동수우동\" 포항",
+   "keyword": "\"백정\" 문덕오천",
    "blog7": 20,
    "blog_prev7": 0,
    "blog_prev30": 0,
    "blog_growth_pct": "new",
-   "review7": 0,
+   "review7": 1,
    "review7_capped": false,
    "review_delta_1d": 0,
    "review_delta_7d": null,
    "x7": null,
-   "score": 120,
+   "score": 122,
    "eligible": true,
    "badges": [
     "블로그 신규 20건",
-    "7일 블로그 20건"
+    "7일 블로그 20건",
+    "7일 리뷰 1건"
    ]
   },
   {
@@ -1134,10 +1136,53 @@
    ]
   },
   {
-   "name": "명짬뽕",
-   "cat": "ocheon",
+   "name": "포항아구탕",
+   "cat": "nam",
    "in_data": true,
-   "keyword": "\"명짬뽕\" 포항",
+   "keyword": "\"포항아구탕\" 포항",
+   "blog7": 18,
+   "blog_prev7": 0,
+   "blog_prev30": 0,
+   "blog_growth_pct": "new",
+   "review7": 0,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 108,
+   "eligible": true,
+   "badges": [
+    "블로그 신규 18건",
+    "7일 블로그 18건"
+   ]
+  },
+  {
+   "name": "슈퍼크리스피 포항이동점",
+   "cat": "nam",
+   "in_data": true,
+   "keyword": "\"슈퍼크리스피\" 이동",
+   "blog7": 14,
+   "blog_prev7": 0,
+   "blog_prev30": 0,
+   "blog_growth_pct": "new",
+   "review7": 10,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 104,
+   "eligible": true,
+   "badges": [
+    "블로그 신규 14건",
+    "7일 블로그 14건",
+    "7일 리뷰 10건"
+   ]
+  },
+  {
+   "name": "효자동수우동",
+   "cat": "nam",
+   "in_data": true,
+   "keyword": "\"효자동수우동\" 포항",
    "blog7": 17,
    "blog_prev7": 0,
    "blog_prev30": 0,
@@ -1155,17 +1200,17 @@
    ]
   },
   {
-   "name": "포항아구탕",
-   "cat": "nam",
+   "name": "우리집먹거리",
+   "cat": "buk",
    "in_data": true,
-   "keyword": "\"포항아구탕\" 포항",
+   "keyword": "\"우리집먹거리\" 포항",
    "blog7": 17,
    "blog_prev7": 0,
    "blog_prev30": 0,
    "blog_growth_pct": "new",
-   "review7": 0,
+   "review7": null,
    "review7_capped": false,
-   "review_delta_1d": 0,
+   "review_delta_1d": null,
    "review_delta_7d": null,
    "x7": null,
    "score": 102,
@@ -1198,61 +1243,17 @@
    ]
   },
   {
-   "name": "백정 식육식당 문덕오천본점",
+   "name": "명짬뽕",
    "cat": "ocheon",
    "in_data": true,
-   "keyword": "\"백정\" 문덕오천",
+   "keyword": "\"명짬뽕\" 포항",
    "blog7": 16,
    "blog_prev7": 0,
    "blog_prev30": 0,
    "blog_growth_pct": "new",
-   "review7": 1,
+   "review7": 0,
    "review7_capped": false,
    "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 98,
-   "eligible": true,
-   "badges": [
-    "블로그 신규 16건",
-    "7일 블로그 16건",
-    "7일 리뷰 1건"
-   ]
-  },
-  {
-   "name": "슈퍼크리스피 포항이동점",
-   "cat": "nam",
-   "in_data": true,
-   "keyword": "\"슈퍼크리스피\" 이동",
-   "blog7": 13,
-   "blog_prev7": 0,
-   "blog_prev30": 0,
-   "blog_growth_pct": "new",
-   "review7": 10,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 98,
-   "eligible": true,
-   "badges": [
-    "블로그 신규 13건",
-    "7일 블로그 13건",
-    "7일 리뷰 10건"
-   ]
-  },
-  {
-   "name": "우리집먹거리",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"우리집먹거리\" 포항",
-   "blog7": 16,
-   "blog_prev7": 0,
-   "blog_prev30": 0,
-   "blog_growth_pct": "new",
-   "review7": null,
-   "review7_capped": false,
-   "review_delta_1d": null,
    "review_delta_7d": null,
    "x7": null,
    "score": 96,
@@ -1350,6 +1351,27 @@
    ]
   },
   {
+   "name": "굽네치킨 포항오천점",
+   "cat": "ocheon",
+   "in_data": true,
+   "keyword": "\"굽네치킨\" 오천",
+   "blog7": 11,
+   "blog_prev7": 0,
+   "blog_prev30": 0,
+   "blog_growth_pct": "new",
+   "review7": 0,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 66,
+   "eligible": true,
+   "badges": [
+    "블로그 신규 11건",
+    "7일 블로그 11건"
+   ]
+  },
+  {
    "name": "포항다원복합센터",
    "cat": "ocheon",
    "in_data": true,
@@ -1417,24 +1439,48 @@
    ]
   },
   {
-   "name": "굽네치킨 포항오천점",
-   "cat": "ocheon",
+   "name": "마당집",
+   "cat": "buk",
    "in_data": true,
-   "keyword": "\"굽네치킨\" 오천",
-   "blog7": 10,
-   "blog_prev7": 0,
-   "blog_prev30": 0,
-   "blog_growth_pct": "new",
-   "review7": 0,
-   "review7_capped": false,
-   "review_delta_1d": 0,
+   "keyword": "\"마당집\" 포항",
+   "blog7": 21,
+   "blog_prev7": 11,
+   "blog_prev30": 21,
+   "blog_growth_pct": 91,
+   "review7": 10,
+   "review7_capped": true,
+   "review_delta_1d": 1,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 60.1,
+   "eligible": true,
+   "badges": [
+    "블로그 +91%",
+    "7일 블로그 21건",
+    "7일 리뷰 10+건",
+    "하루 리뷰 +1"
+   ]
+  },
+  {
+   "name": "샤브야키 포항북구점",
+   "cat": "buk",
+   "in_data": true,
+   "keyword": "\"샤브야키\" 포항",
+   "blog7": 2,
+   "blog_prev7": 5,
+   "blog_prev30": 13,
+   "blog_growth_pct": -60,
+   "review7": 29,
+   "review7_capped": true,
+   "review_delta_1d": 12,
    "review_delta_7d": null,
    "x7": null,
    "score": 60,
    "eligible": true,
    "badges": [
-    "블로그 신규 10건",
-    "7일 블로그 10건"
+    "7일 블로그 2건",
+    "7일 리뷰 29+건",
+    "하루 리뷰 +12"
    ]
   },
   {
@@ -1459,51 +1505,6 @@
    ]
   },
   {
-   "name": "욱이네식당 문덕점",
-   "cat": "ocheon",
-   "in_data": true,
-   "keyword": "\"욱이네식당\" 문덕",
-   "blog7": 13,
-   "blog_prev7": 7,
-   "blog_prev30": 5,
-   "blog_growth_pct": 86,
-   "review7": 16,
-   "review7_capped": false,
-   "review_delta_1d": -1,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 56.1,
-   "eligible": true,
-   "badges": [
-    "블로그 +86%",
-    "7일 블로그 13건",
-    "7일 리뷰 16건",
-    "하루 리뷰 +-1"
-   ]
-  },
-  {
-   "name": "샤브야키 포항북구점",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"샤브야키\" 포항",
-   "blog7": 2,
-   "blog_prev7": 5,
-   "blog_prev30": 13,
-   "blog_growth_pct": -60,
-   "review7": 27,
-   "review7_capped": false,
-   "review_delta_1d": 12,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 56,
-   "eligible": true,
-   "badges": [
-    "7일 블로그 2건",
-    "7일 리뷰 27건",
-    "하루 리뷰 +12"
-   ]
-  },
-  {
    "name": "우야네식당&포차",
    "cat": "ocheon",
    "in_data": true,
@@ -1523,6 +1524,28 @@
     "블로그 신규 6건",
     "7일 블로그 6건",
     "7일 리뷰 10건",
+    "하루 리뷰 +4"
+   ]
+  },
+  {
+   "name": "단막 포항 장성점",
+   "cat": "buk",
+   "in_data": true,
+   "keyword": "\"단막 포항\" 장성",
+   "blog7": 10,
+   "blog_prev7": 12,
+   "blog_prev30": 3,
+   "blog_growth_pct": -17,
+   "review7": 23,
+   "review7_capped": false,
+   "review_delta_1d": 4,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 54.3,
+   "eligible": true,
+   "badges": [
+    "7일 블로그 10건",
+    "7일 리뷰 23건",
     "하루 리뷰 +4"
    ]
   },
@@ -1592,6 +1615,29 @@
    ]
   },
   {
+   "name": "욱이네식당 문덕점",
+   "cat": "ocheon",
+   "in_data": true,
+   "keyword": "\"욱이네식당\" 문덕",
+   "blog7": 11,
+   "blog_prev7": 7,
+   "blog_prev30": 5,
+   "blog_growth_pct": 57,
+   "review7": 16,
+   "review7_capped": false,
+   "review_delta_1d": -1,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 49.3,
+   "eligible": true,
+   "badges": [
+    "블로그 +57%",
+    "7일 블로그 11건",
+    "7일 리뷰 16건",
+    "하루 리뷰 +-1"
+   ]
+  },
+  {
    "name": "진심왕돈까스 포항이동점",
    "cat": "nam",
    "in_data": true,
@@ -1614,48 +1660,26 @@
    ]
   },
   {
-   "name": "돌빡라면 흥해",
+   "name": "삼형제횟집",
    "cat": "buk",
    "in_data": true,
-   "keyword": "\"돌빡라면 흥해\" 포항",
-   "blog7": 6,
-   "blog_prev7": 3,
-   "blog_prev30": 15,
-   "blog_growth_pct": 71,
+   "keyword": "\"삼형제횟집\" 포항",
+   "blog7": 8,
+   "blog_prev7": 6,
+   "blog_prev30": 23,
+   "blog_growth_pct": 33,
    "review7": 19,
    "review7_capped": false,
-   "review_delta_1d": -3,
+   "review_delta_1d": -2,
    "review_delta_7d": null,
    "x7": null,
-   "score": 48.3,
+   "score": 48.7,
    "eligible": true,
    "badges": [
-    "블로그 +71%",
-    "7일 블로그 6건",
+    "블로그 +33%",
+    "7일 블로그 8건",
     "7일 리뷰 19건",
-    "하루 리뷰 +-3"
-   ]
-  },
-  {
-   "name": "훠궈먹고 포항이동점",
-   "cat": "nam",
-   "in_data": true,
-   "keyword": "\"훠궈먹고\" 이동",
-   "blog7": 29,
-   "blog_prev7": 30,
-   "blog_prev30": 27,
-   "blog_growth_pct": -3,
-   "review7": 10,
-   "review7_capped": false,
-   "review_delta_1d": 12,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 48.0,
-   "eligible": true,
-   "badges": [
-    "7일 블로그 29건",
-    "7일 리뷰 10건",
-    "하루 리뷰 +12"
+    "하루 리뷰 +-2"
    ]
   },
   {
@@ -1725,25 +1749,70 @@
    ]
   },
   {
-   "name": "1992덮밥&짜글이 포항점",
+   "name": "샤브로21 효자",
    "cat": "nam",
    "in_data": true,
-   "keyword": "\"1992덮밥&짜글이\" 포항",
+   "keyword": "\"샤브로21 효자\" 포항",
    "blog7": 8,
-   "blog_prev7": 9,
+   "blog_prev7": 14,
    "blog_prev30": 11,
-   "blog_growth_pct": -11,
-   "review7": 19,
+   "blog_growth_pct": -43,
+   "review7": 21,
    "review7_capped": false,
-   "review_delta_1d": 3,
+   "review_delta_1d": 8,
    "review_delta_7d": null,
    "x7": null,
-   "score": 45.1,
+   "score": 46.6,
    "eligible": true,
    "badges": [
     "7일 블로그 8건",
-    "7일 리뷰 19건",
-    "하루 리뷰 +3"
+    "7일 리뷰 21건",
+    "하루 리뷰 +8"
+   ]
+  },
+  {
+   "name": "돌빡라면 흥해",
+   "cat": "buk",
+   "in_data": true,
+   "keyword": "\"돌빡라면 흥해\" 포항",
+   "blog7": 6,
+   "blog_prev7": 3,
+   "blog_prev30": 15,
+   "blog_growth_pct": 71,
+   "review7": 18,
+   "review7_capped": false,
+   "review_delta_1d": -3,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 46.3,
+   "eligible": true,
+   "badges": [
+    "블로그 +71%",
+    "7일 블로그 6건",
+    "7일 리뷰 18건",
+    "하루 리뷰 +-3"
+   ]
+  },
+  {
+   "name": "훠궈먹고 포항이동점",
+   "cat": "nam",
+   "in_data": true,
+   "keyword": "\"훠궈먹고\" 이동",
+   "blog7": 28,
+   "blog_prev7": 30,
+   "blog_prev30": 27,
+   "blog_growth_pct": -7,
+   "review7": 10,
+   "review7_capped": false,
+   "review_delta_1d": 12,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 46.1,
+   "eligible": true,
+   "badges": [
+    "7일 블로그 28건",
+    "7일 리뷰 10건",
+    "하루 리뷰 +12"
    ]
   },
   {
@@ -1767,28 +1836,6 @@
     "7일 블로그 4건",
     "7일 리뷰 20+건",
     "하루 리뷰 +2"
-   ]
-  },
-  {
-   "name": "단막 포항 장성점",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"단막 포항\" 장성",
-   "blog7": 10,
-   "blog_prev7": 12,
-   "blog_prev30": 3,
-   "blog_growth_pct": -17,
-   "review7": 17,
-   "review7_capped": false,
-   "review_delta_1d": 4,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 42.3,
-   "eligible": true,
-   "badges": [
-    "7일 블로그 10건",
-    "7일 리뷰 17건",
-    "하루 리뷰 +4"
    ]
   },
   {
@@ -1819,6 +1866,27 @@
    "cat": "ocheon",
    "in_data": true,
    "keyword": "\"조아숯불닭바베큐\" 문덕",
+   "blog7": 7,
+   "blog_prev7": 0,
+   "blog_prev30": 0,
+   "blog_growth_pct": "new",
+   "review7": 0,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 42,
+   "eligible": true,
+   "badges": [
+    "블로그 신규 7건",
+    "7일 블로그 7건"
+   ]
+  },
+  {
+   "name": "철규분식",
+   "cat": "nam",
+   "in_data": true,
+   "keyword": "\"철규분식\" 포항",
    "blog7": 7,
    "blog_prev7": 0,
    "blog_prev30": 0,
@@ -1899,117 +1967,47 @@
    ]
   },
   {
-   "name": "옹짬뽕 포항양덕본점",
-   "cat": "buk",
+   "name": "석암생소금구이 포항효자점",
+   "cat": "nam",
    "in_data": true,
-   "keyword": "\"옹짬뽕\" 양덕",
-   "blog7": 19,
-   "blog_prev7": 17,
-   "blog_prev30": 20,
-   "blog_growth_pct": 12,
-   "review7": 10,
-   "review7_capped": true,
-   "review_delta_1d": 3,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 41.2,
-   "eligible": true,
-   "badges": [
-    "블로그 +12%",
-    "7일 블로그 19건",
-    "7일 리뷰 10+건",
-    "하루 리뷰 +3"
-   ]
-  },
-  {
-   "name": "솔밭샤브 포항양덕점",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"솔밭샤브\" 양덕",
-   "blog7": 19,
-   "blog_prev7": 17,
-   "blog_prev30": 20,
-   "blog_growth_pct": 12,
-   "review7": 10,
-   "review7_capped": true,
-   "review_delta_1d": 6,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 41.2,
-   "eligible": true,
-   "badges": [
-    "블로그 +12%",
-    "7일 블로그 19건",
-    "7일 리뷰 10+건",
-    "하루 리뷰 +6"
-   ]
-  },
-  {
-   "name": "스시노칸도 포항양덕점",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"스시노칸도\" 양덕",
-   "blog7": 18,
-   "blog_prev7": 16,
+   "keyword": "\"석암생소금구이\" 효자",
+   "blog7": 17,
+   "blog_prev7": 15,
    "blog_prev30": 19,
-   "blog_growth_pct": 12,
+   "blog_growth_pct": 13,
    "review7": 10,
    "review7_capped": true,
-   "review_delta_1d": 4,
+   "review_delta_1d": 2,
    "review_delta_7d": null,
    "x7": null,
-   "score": 40.2,
+   "score": 39.3,
    "eligible": true,
    "badges": [
-    "블로그 +12%",
-    "7일 블로그 18건",
+    "블로그 +13%",
+    "7일 블로그 17건",
     "7일 리뷰 10+건",
-    "하루 리뷰 +4"
+    "하루 리뷰 +2"
    ]
   },
   {
-   "name": "미남장어 양덕본점",
-   "cat": "buk",
+   "name": "1992덮밥&짜글이 포항점",
+   "cat": "nam",
    "in_data": true,
-   "keyword": "\"미남장어\" 양덕",
-   "blog7": 18,
-   "blog_prev7": 16,
-   "blog_prev30": 19,
-   "blog_growth_pct": 12,
-   "review7": 10,
-   "review7_capped": true,
-   "review_delta_1d": 1,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 40.2,
-   "eligible": true,
-   "badges": [
-    "블로그 +12%",
-    "7일 블로그 18건",
-    "7일 리뷰 10+건",
-    "하루 리뷰 +1"
-   ]
-  },
-  {
-   "name": "라멘묘조",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"라멘묘조\" 포항",
-   "blog7": 10,
-   "blog_prev7": 5,
-   "blog_prev30": 18,
-   "blog_growth_pct": 100,
-   "review7": 10,
+   "keyword": "\"1992덮밥&짜글이\" 포항",
+   "blog7": 8,
+   "blog_prev7": 9,
+   "blog_prev30": 11,
+   "blog_growth_pct": -11,
+   "review7": 16,
    "review7_capped": false,
    "review_delta_1d": 3,
    "review_delta_7d": null,
    "x7": null,
-   "score": 40.0,
+   "score": 39.1,
    "eligible": true,
    "badges": [
-    "블로그 +100%",
-    "7일 블로그 10건",
-    "7일 리뷰 10건",
+    "7일 블로그 8건",
+    "7일 리뷰 16건",
     "하루 리뷰 +3"
    ]
   },
@@ -2036,29 +2034,6 @@
    ]
   },
   {
-   "name": "삼형제횟집",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"삼형제횟집\" 포항",
-   "blog7": 8,
-   "blog_prev7": 6,
-   "blog_prev30": 23,
-   "blog_growth_pct": 33,
-   "review7": 14,
-   "review7_capped": false,
-   "review_delta_1d": -2,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 38.7,
-   "eligible": true,
-   "badges": [
-    "블로그 +33%",
-    "7일 블로그 8건",
-    "7일 리뷰 14건",
-    "하루 리뷰 +-2"
-   ]
-  },
-  {
    "name": "오늘도꿉자",
    "cat": "ocheon",
    "in_data": true,
@@ -2081,48 +2056,25 @@
    ]
   },
   {
-   "name": "샤브로21 효자",
-   "cat": "nam",
+   "name": "오천뭉티기 술시자시",
+   "cat": "ocheon",
    "in_data": true,
-   "keyword": "\"샤브로21 효자\" 포항",
-   "blog7": 9,
-   "blog_prev7": 14,
-   "blog_prev30": 11,
-   "blog_growth_pct": -36,
-   "review7": 16,
+   "keyword": "\"오천뭉티기 술시자시\" 포항",
+   "blog7": 6,
+   "blog_prev7": 0,
+   "blog_prev30": 0,
+   "blog_growth_pct": "new",
+   "review7": 1,
    "review7_capped": false,
-   "review_delta_1d": 8,
+   "review_delta_1d": 0,
    "review_delta_7d": null,
    "x7": null,
-   "score": 37.8,
+   "score": 38,
    "eligible": true,
    "badges": [
-    "7일 블로그 9건",
-    "7일 리뷰 16건",
-    "하루 리뷰 +8"
-   ]
-  },
-  {
-   "name": "마당집",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"마당집\" 포항",
-   "blog7": 14,
-   "blog_prev7": 11,
-   "blog_prev30": 21,
-   "blog_growth_pct": 27,
-   "review7": 10,
-   "review7_capped": true,
-   "review_delta_1d": 1,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 37.8,
-   "eligible": true,
-   "badges": [
-    "블로그 +27%",
-    "7일 블로그 14건",
-    "7일 리뷰 10+건",
-    "하루 리뷰 +1"
+    "블로그 신규 6건",
+    "7일 블로그 6건",
+    "7일 리뷰 1건"
    ]
   },
   {
@@ -2149,26 +2101,47 @@
    ]
   },
   {
-   "name": "석암생소금구이 포항효자점",
-   "cat": "nam",
+   "name": "라멘묘조",
+   "cat": "buk",
    "in_data": true,
-   "keyword": "\"석암생소금구이\" 효자",
-   "blog7": 16,
-   "blog_prev7": 15,
-   "blog_prev30": 19,
-   "blog_growth_pct": 7,
+   "keyword": "\"라멘묘조\" 포항",
+   "blog7": 9,
+   "blog_prev7": 5,
+   "blog_prev30": 18,
+   "blog_growth_pct": 80,
    "review7": 10,
-   "review7_capped": true,
-   "review_delta_1d": 2,
+   "review7_capped": false,
+   "review_delta_1d": 3,
    "review_delta_7d": null,
    "x7": null,
-   "score": 37.1,
+   "score": 36.2,
    "eligible": true,
    "badges": [
-    "블로그 +7%",
+    "블로그 +80%",
+    "7일 블로그 9건",
+    "7일 리뷰 10건",
+    "하루 리뷰 +3"
+   ]
+  },
+  {
+   "name": "횟집진",
+   "cat": "nam",
+   "in_data": true,
+   "keyword": "\"횟집진\" 포항",
+   "blog7": 16,
+   "blog_prev7": 16,
+   "blog_prev30": 16,
+   "blog_growth_pct": 0,
+   "review7": 10,
+   "review7_capped": true,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 36.0,
+   "eligible": true,
+   "badges": [
     "7일 블로그 16건",
-    "7일 리뷰 10+건",
-    "하루 리뷰 +2"
+    "7일 리뷰 10+건"
    ]
   },
   {
@@ -2190,27 +2163,6 @@
    "badges": [
     "블로그 +200%",
     "7일 블로그 12건"
-   ]
-  },
-  {
-   "name": "철규분식",
-   "cat": "nam",
-   "in_data": true,
-   "keyword": "\"철규분식\" 포항",
-   "blog7": 6,
-   "blog_prev7": 0,
-   "blog_prev30": 0,
-   "blog_growth_pct": "new",
-   "review7": 0,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 36,
-   "eligible": true,
-   "badges": [
-    "블로그 신규 6건",
-    "7일 블로그 6건"
    ]
   },
   {
@@ -2237,28 +2189,6 @@
    ]
   },
   {
-   "name": "허가네양갈비양꼬치 문덕점",
-   "cat": "ocheon",
-   "in_data": true,
-   "keyword": "\"허가네양갈비양꼬치\" 문덕",
-   "blog7": 15,
-   "blog_prev7": 15,
-   "blog_prev30": 9,
-   "blog_growth_pct": 0,
-   "review7": 10,
-   "review7_capped": true,
-   "review_delta_1d": 2,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 35.0,
-   "eligible": true,
-   "badges": [
-    "7일 블로그 15건",
-    "7일 리뷰 10+건",
-    "하루 리뷰 +2"
-   ]
-  },
-  {
    "name": "돈명가",
    "cat": "nam",
    "in_data": true,
@@ -2277,6 +2207,50 @@
    "badges": [
     "7일 리뷰 17건",
     "하루 리뷰 +1"
+   ]
+  },
+  {
+   "name": "옹짬뽕 포항양덕본점",
+   "cat": "buk",
+   "in_data": true,
+   "keyword": "\"옹짬뽕\" 양덕",
+   "blog7": 15,
+   "blog_prev7": 17,
+   "blog_prev30": 20,
+   "blog_growth_pct": -12,
+   "review7": 10,
+   "review7_capped": true,
+   "review_delta_1d": 3,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 33.2,
+   "eligible": true,
+   "badges": [
+    "7일 블로그 15건",
+    "7일 리뷰 10+건",
+    "하루 리뷰 +3"
+   ]
+  },
+  {
+   "name": "솔밭샤브 포항양덕점",
+   "cat": "buk",
+   "in_data": true,
+   "keyword": "\"솔밭샤브\" 양덕",
+   "blog7": 15,
+   "blog_prev7": 17,
+   "blog_prev30": 20,
+   "blog_growth_pct": -12,
+   "review7": 10,
+   "review7_capped": true,
+   "review_delta_1d": 6,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 33.2,
+   "eligible": true,
+   "badges": [
+    "7일 블로그 15건",
+    "7일 리뷰 10+건",
+    "하루 리뷰 +6"
    ]
   },
   {
@@ -2302,24 +2276,47 @@
    ]
   },
   {
-   "name": "횟집진",
-   "cat": "nam",
+   "name": "스시노칸도 포항양덕점",
+   "cat": "buk",
    "in_data": true,
-   "keyword": "\"횟집진\" 포항",
+   "keyword": "\"스시노칸도\" 양덕",
    "blog7": 14,
    "blog_prev7": 16,
-   "blog_prev30": 16,
+   "blog_prev30": 19,
    "blog_growth_pct": -12,
    "review7": 10,
    "review7_capped": true,
-   "review_delta_1d": 0,
+   "review_delta_1d": 4,
    "review_delta_7d": null,
    "x7": null,
    "score": 32.2,
    "eligible": true,
    "badges": [
     "7일 블로그 14건",
-    "7일 리뷰 10+건"
+    "7일 리뷰 10+건",
+    "하루 리뷰 +4"
+   ]
+  },
+  {
+   "name": "미남장어 양덕본점",
+   "cat": "buk",
+   "in_data": true,
+   "keyword": "\"미남장어\" 양덕",
+   "blog7": 14,
+   "blog_prev7": 16,
+   "blog_prev30": 19,
+   "blog_growth_pct": -12,
+   "review7": 10,
+   "review7_capped": true,
+   "review_delta_1d": 1,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 32.2,
+   "eligible": true,
+   "badges": [
+    "7일 블로그 14건",
+    "7일 리뷰 10+건",
+    "하루 리뷰 +1"
    ]
   },
   {
@@ -2341,28 +2338,6 @@
    "badges": [
     "블로그 +7%",
     "7일 블로그 30+건"
-   ]
-  },
-  {
-   "name": "오천뭉티기 술시자시",
-   "cat": "ocheon",
-   "in_data": true,
-   "keyword": "\"오천뭉티기 술시자시\" 포항",
-   "blog7": 5,
-   "blog_prev7": 0,
-   "blog_prev30": 0,
-   "blog_growth_pct": "new",
-   "review7": 1,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 32,
-   "eligible": true,
-   "badges": [
-    "블로그 신규 5건",
-    "7일 블로그 5건",
-    "7일 리뷰 1건"
    ]
   },
   {
@@ -2432,6 +2407,29 @@
    ]
   },
   {
+   "name": "라라코스트 포항문덕점",
+   "cat": "ocheon",
+   "in_data": true,
+   "keyword": "\"라라코스트\" 문덕",
+   "blog7": 5,
+   "blog_prev7": 2,
+   "blog_prev30": 11,
+   "blog_growth_pct": 95,
+   "review7": 10,
+   "review7_capped": true,
+   "review_delta_1d": 1,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 29.7,
+   "eligible": true,
+   "badges": [
+    "블로그 +95%",
+    "7일 블로그 5건",
+    "7일 리뷰 10+건",
+    "하루 리뷰 +1"
+   ]
+  },
+  {
    "name": "와비사비 포항 효자점",
    "cat": "nam",
    "in_data": true,
@@ -2450,28 +2448,6 @@
    "badges": [
     "7일 블로그 10건",
     "7일 리뷰 10+건"
-   ]
-  },
-  {
-   "name": "산더미미성돼지국밥 포항장성점",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"산더미미성돼지국밥\" 장성",
-   "blog7": 9,
-   "blog_prev7": 10,
-   "blog_prev30": 14,
-   "blog_growth_pct": -10,
-   "review7": 10,
-   "review7_capped": true,
-   "review_delta_1d": 4,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 28.1,
-   "eligible": true,
-   "badges": [
-    "7일 블로그 9건",
-    "7일 리뷰 10+건",
-    "하루 리뷰 +4"
    ]
   },
   {
@@ -2542,6 +2518,28 @@
    ]
   },
   {
+   "name": "포항홍게칼국수",
+   "cat": "buk",
+   "in_data": true,
+   "keyword": "\"포항홍게칼국수\" 포항",
+   "blog7": 12,
+   "blog_prev7": 20,
+   "blog_prev30": 29,
+   "blog_growth_pct": -40,
+   "review7": 10,
+   "review7_capped": false,
+   "review_delta_1d": 4,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 27.2,
+   "eligible": true,
+   "badges": [
+    "7일 블로그 12건",
+    "7일 리뷰 10건",
+    "하루 리뷰 +4"
+   ]
+  },
+  {
    "name": "맥도날드 포항남부DT점",
    "cat": "nam",
    "in_data": true,
@@ -2585,26 +2583,25 @@
    ]
   },
   {
-   "name": "라라코스트 포항문덕점",
-   "cat": "ocheon",
+   "name": "산더미미성돼지국밥 포항장성점",
+   "cat": "buk",
    "in_data": true,
-   "keyword": "\"라라코스트\" 문덕",
-   "blog7": 4,
-   "blog_prev7": 2,
-   "blog_prev30": 11,
-   "blog_growth_pct": 56,
+   "keyword": "\"산더미미성돼지국밥\" 장성",
+   "blog7": 8,
+   "blog_prev7": 10,
+   "blog_prev30": 14,
+   "blog_growth_pct": -20,
    "review7": 10,
    "review7_capped": true,
-   "review_delta_1d": 1,
+   "review_delta_1d": 4,
    "review_delta_7d": null,
    "x7": null,
-   "score": 26.2,
+   "score": 26.4,
    "eligible": true,
    "badges": [
-    "블로그 +56%",
-    "7일 블로그 4건",
+    "7일 블로그 8건",
     "7일 리뷰 10+건",
-    "하루 리뷰 +1"
+    "하루 리뷰 +4"
    ]
   },
   {
@@ -2630,28 +2627,6 @@
    ]
   },
   {
-   "name": "포항 바다원해",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"포항 바다원해\" 포항",
-   "blog7": 16,
-   "blog_prev7": 12,
-   "blog_prev30": 11,
-   "blog_growth_pct": 33,
-   "review7": 2,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 25.3,
-   "eligible": true,
-   "badges": [
-    "블로그 +33%",
-    "7일 블로그 16건",
-    "7일 리뷰 2건"
-   ]
-  },
-  {
    "name": "수가성순두부",
    "cat": "ocheon",
    "in_data": true,
@@ -2670,28 +2645,6 @@
    "badges": [
     "블로그 +152%",
     "7일 블로그 10건"
-   ]
-  },
-  {
-   "name": "포항홍게칼국수",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"포항홍게칼국수\" 포항",
-   "blog7": 10,
-   "blog_prev7": 20,
-   "blog_prev30": 29,
-   "blog_growth_pct": -50,
-   "review7": 10,
-   "review7_capped": false,
-   "review_delta_1d": 4,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 25.0,
-   "eligible": true,
-   "badges": [
-    "7일 블로그 10건",
-    "7일 리뷰 10건",
-    "하루 리뷰 +4"
    ]
   },
   {
@@ -2717,6 +2670,49 @@
    ]
   },
   {
+   "name": "가정초밥 영일대직영점",
+   "cat": "buk",
+   "in_data": true,
+   "keyword": "\"가정초밥\" 영일대직영",
+   "blog7": 6,
+   "blog_prev7": 8,
+   "blog_prev30": 16,
+   "blog_growth_pct": -25,
+   "review7": 10,
+   "review7_capped": true,
+   "review_delta_1d": 5,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 24.5,
+   "eligible": true,
+   "badges": [
+    "7일 블로그 6건",
+    "7일 리뷰 10+건",
+    "하루 리뷰 +5"
+   ]
+  },
+  {
+   "name": "엉터리 무한대패 포항문덕점",
+   "cat": "ocheon",
+   "in_data": true,
+   "keyword": "\"엉터리 무한대패\" 문덕",
+   "blog7": 9,
+   "blog_prev7": 10,
+   "blog_prev30": 17,
+   "blog_growth_pct": -10,
+   "review7": 8,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 24.1,
+   "eligible": true,
+   "badges": [
+    "7일 블로그 9건",
+    "7일 리뷰 8건"
+   ]
+  },
+  {
    "name": "일품대패 포항점",
    "cat": "ocheon",
    "in_data": true,
@@ -2739,10 +2735,10 @@
    ]
   },
   {
-   "name": "운수대통수산",
+   "name": "철인7호치킨 문덕점",
    "cat": "ocheon",
    "in_data": true,
-   "keyword": "\"운수대통수산\" 포항",
+   "keyword": "\"철인7호치킨\" 문덕",
    "blog7": 4,
    "blog_prev7": 0,
    "blog_prev30": 0,
@@ -2760,10 +2756,10 @@
    ]
   },
   {
-   "name": "장터김해숯불뒷고기",
+   "name": "운수대통수산",
    "cat": "ocheon",
    "in_data": true,
-   "keyword": "\"장터김해숯불뒷고기\" 포항",
+   "keyword": "\"운수대통수산\" 포항",
    "blog7": 4,
    "blog_prev7": 0,
    "blog_prev30": 0,
@@ -2867,6 +2863,28 @@
    ]
   },
   {
+   "name": "구룡포 할매국수",
+   "cat": "nam",
+   "in_data": true,
+   "keyword": "\"구룡포할매국수집\" 포항",
+   "blog7": 14,
+   "blog_prev7": 9,
+   "blog_prev30": 19,
+   "blog_growth_pct": 56,
+   "review7": 1,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 23.8,
+   "eligible": true,
+   "badges": [
+    "블로그 +56%",
+    "7일 블로그 14건",
+    "7일 리뷰 1건"
+   ]
+  },
+  {
    "name": "널판지 포항영일대점",
    "cat": "buk",
    "in_data": true,
@@ -2889,46 +2907,67 @@
    ]
   },
   {
-   "name": "가정초밥 영일대직영점",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"가정초밥\" 영일대직영",
-   "blog7": 5,
-   "blog_prev7": 8,
-   "blog_prev30": 16,
-   "blog_growth_pct": -38,
-   "review7": 10,
-   "review7_capped": true,
-   "review_delta_1d": 5,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 23.1,
-   "eligible": true,
-   "badges": [
-    "7일 블로그 5건",
-    "7일 리뷰 10+건",
-    "하루 리뷰 +5"
-   ]
-  },
-  {
-   "name": "엉터리 무한대패 포항문덕점",
+   "name": "부산본가돼지국밥",
    "cat": "ocheon",
    "in_data": true,
-   "keyword": "\"엉터리 무한대패\" 문덕",
-   "blog7": 8,
-   "blog_prev7": 10,
-   "blog_prev30": 17,
-   "blog_growth_pct": -20,
+   "keyword": "\"부산본가돼지국밥\" 포항",
+   "blog7": 9,
+   "blog_prev7": 12,
+   "blog_prev30": 25,
+   "blog_growth_pct": -25,
    "review7": 8,
    "review7_capped": false,
    "review_delta_1d": 0,
    "review_delta_7d": null,
    "x7": null,
-   "score": 22.4,
+   "score": 22.8,
    "eligible": true,
    "badges": [
-    "7일 블로그 8건",
+    "7일 블로그 9건",
     "7일 리뷰 8건"
+   ]
+  },
+  {
+   "name": "환여횟집",
+   "cat": "buk",
+   "in_data": true,
+   "keyword": "\"환여횟집\" 포항",
+   "blog7": 19,
+   "blog_prev7": 16,
+   "blog_prev30": 17,
+   "blog_growth_pct": 19,
+   "review7": 0,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 22.6,
+   "eligible": true,
+   "badges": [
+    "블로그 +19%",
+    "7일 블로그 19건"
+   ]
+  },
+  {
+   "name": "구룡포 바다풍경물회대게",
+   "cat": "nam",
+   "in_data": true,
+   "keyword": "\"구룡포 바다풍경물회대게\" 포항",
+   "blog7": 10,
+   "blog_prev7": 8,
+   "blog_prev30": 16,
+   "blog_growth_pct": 25,
+   "review7": 5,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 22.5,
+   "eligible": true,
+   "badges": [
+    "블로그 +25%",
+    "7일 블로그 10건",
+    "7일 리뷰 5건"
    ]
   },
   {
@@ -2954,24 +2993,24 @@
    ]
   },
   {
-   "name": "가마치통닭 포항두호점",
-   "cat": "buk",
+   "name": "황룡짬뽕",
+   "cat": "ocheon",
    "in_data": true,
-   "keyword": "\"가마치통닭\" 두호",
-   "blog7": 20,
-   "blog_prev7": 18,
-   "blog_prev30": 15,
-   "blog_growth_pct": 11,
-   "review7": 0,
+   "keyword": "\"황룡짬뽕\" 포항",
+   "blog7": 13,
+   "blog_prev7": 14,
+   "blog_prev30": 16,
+   "blog_growth_pct": -7,
+   "review7": 5,
    "review7_capped": false,
    "review_delta_1d": 0,
    "review_delta_7d": null,
    "x7": null,
-   "score": 22.2,
+   "score": 22.1,
    "eligible": true,
    "badges": [
-    "블로그 +11%",
-    "7일 블로그 20건"
+    "7일 블로그 13건",
+    "7일 리뷰 5건"
    ]
   },
   {
@@ -3037,6 +3076,48 @@
     "7일 블로그 2건",
     "7일 리뷰 10+건",
     "하루 리뷰 +2"
+   ]
+  },
+  {
+   "name": "119딧고기 양덕직영점",
+   "cat": "buk",
+   "in_data": true,
+   "keyword": "\"119딧고기\" 양덕직영",
+   "blog7": 18,
+   "blog_prev7": 15,
+   "blog_prev30": 13,
+   "blog_growth_pct": 20,
+   "review7": 0,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 21.6,
+   "eligible": true,
+   "badges": [
+    "블로그 +20%",
+    "7일 블로그 18건"
+   ]
+  },
+  {
+   "name": "교촌치킨 효곡점",
+   "cat": "nam",
+   "in_data": true,
+   "keyword": "\"교촌치킨\" 효곡",
+   "blog7": 18,
+   "blog_prev7": 15,
+   "blog_prev30": 13,
+   "blog_growth_pct": 20,
+   "review7": 0,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 21.6,
+   "eligible": true,
+   "badges": [
+    "블로그 +20%",
+    "7일 블로그 18건"
    ]
   },
   {
@@ -3193,24 +3274,48 @@
    ]
   },
   {
-   "name": "부산본가돼지국밥",
+   "name": "허가네양갈비양꼬치 문덕점",
    "cat": "ocheon",
    "in_data": true,
-   "keyword": "\"부산본가돼지국밥\" 포항",
-   "blog7": 9,
-   "blog_prev7": 12,
-   "blog_prev30": 25,
-   "blog_growth_pct": -25,
-   "review7": 7,
-   "review7_capped": false,
-   "review_delta_1d": 0,
+   "keyword": "\"허가네양갈비양꼬치\" 문덕",
+   "blog7": 1,
+   "blog_prev7": 15,
+   "blog_prev30": 9,
+   "blog_growth_pct": -93,
+   "review7": 10,
+   "review7_capped": true,
+   "review_delta_1d": 2,
    "review_delta_7d": null,
    "x7": null,
-   "score": 20.8,
+   "score": 21,
    "eligible": true,
    "badges": [
-    "7일 블로그 9건",
-    "7일 리뷰 7건"
+    "7일 블로그 1건",
+    "7일 리뷰 10+건",
+    "하루 리뷰 +2"
+   ]
+  },
+  {
+   "name": "통큰회수산",
+   "cat": "ocheon",
+   "in_data": true,
+   "keyword": "\"통큰회수산\" 포항",
+   "blog7": 13,
+   "blog_prev7": 10,
+   "blog_prev30": 11,
+   "blog_growth_pct": 30,
+   "review7": 2,
+   "review7_capped": false,
+   "review_delta_1d": 1,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 20.9,
+   "eligible": true,
+   "badges": [
+    "블로그 +30%",
+    "7일 블로그 13건",
+    "7일 리뷰 2건",
+    "하루 리뷰 +1"
    ]
   },
   {
@@ -3232,27 +3337,6 @@
    "badges": [
     "7일 블로그 6건",
     "7일 리뷰 8건"
-   ]
-  },
-  {
-   "name": "환여횟집",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"환여횟집\" 포항",
-   "blog7": 18,
-   "blog_prev7": 16,
-   "blog_prev30": 17,
-   "blog_growth_pct": 12,
-   "review7": 0,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 20.2,
-   "eligible": true,
-   "badges": [
-    "블로그 +12%",
-    "7일 블로그 18건"
    ]
   },
   {
@@ -3339,28 +3423,6 @@
    ]
   },
   {
-   "name": "장기식당",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"장기식당\" 포항",
-   "blog7": 12,
-   "blog_prev7": 8,
-   "blog_prev30": 7,
-   "blog_growth_pct": 50,
-   "review7": 1,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 20.0,
-   "eligible": true,
-   "badges": [
-    "블로그 +50%",
-    "7일 블로그 12건",
-    "7일 리뷰 1건"
-   ]
-  },
-  {
    "name": "돈화문 문덕본점",
    "cat": "ocheon",
    "in_data": true,
@@ -3404,6 +3466,27 @@
    ]
   },
   {
+   "name": "바다랑대게",
+   "cat": "nam",
+   "in_data": true,
+   "keyword": "\"바다랑대게\" 포항",
+   "blog7": 18,
+   "blog_prev7": 18,
+   "blog_prev30": 16,
+   "blog_growth_pct": 0,
+   "review7": 1,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 20.0,
+   "eligible": true,
+   "badges": [
+    "7일 블로그 18건",
+    "7일 리뷰 1건"
+   ]
+  },
+  {
    "name": "태평족 흥해점",
    "cat": "buk",
    "in_data": true,
@@ -3432,27 +3515,6 @@
    "blog7": 17,
    "blog_prev7": 15,
    "blog_prev30": 0,
-   "blog_growth_pct": 13,
-   "review7": 0,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 19.3,
-   "eligible": true,
-   "badges": [
-    "블로그 +13%",
-    "7일 블로그 17건"
-   ]
-  },
-  {
-   "name": "교촌치킨 효곡점",
-   "cat": "nam",
-   "in_data": true,
-   "keyword": "\"교촌치킨\" 효곡",
-   "blog7": 17,
-   "blog_prev7": 15,
-   "blog_prev30": 13,
    "blog_growth_pct": 13,
    "review7": 0,
    "review7_capped": false,
@@ -3511,99 +3573,51 @@
    ]
   },
   {
-   "name": "통큰회수산",
+   "name": "교촌치킨 오천점",
    "cat": "ocheon",
    "in_data": true,
-   "keyword": "\"통큰회수산\" 포항",
-   "blog7": 12,
-   "blog_prev7": 10,
-   "blog_prev30": 11,
-   "blog_growth_pct": 20,
-   "review7": 2,
-   "review7_capped": false,
-   "review_delta_1d": 1,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 18.4,
-   "eligible": true,
-   "badges": [
-    "블로그 +20%",
-    "7일 블로그 12건",
-    "7일 리뷰 2건",
-    "하루 리뷰 +1"
-   ]
-  },
-  {
-   "name": "황룡짬뽕",
-   "cat": "ocheon",
-   "in_data": true,
-   "keyword": "\"황룡짬뽕\" 포항",
-   "blog7": 12,
-   "blog_prev7": 14,
-   "blog_prev30": 16,
-   "blog_growth_pct": -14,
-   "review7": 4,
+   "keyword": "\"교촌치킨\" 오천",
+   "blog7": 20,
+   "blog_prev7": 21,
+   "blog_prev30": 20,
+   "blog_growth_pct": -5,
+   "review7": 0,
    "review7_capped": false,
    "review_delta_1d": 0,
    "review_delta_7d": null,
    "x7": null,
-   "score": 18.3,
+   "score": 19.0,
    "eligible": true,
    "badges": [
-    "7일 블로그 12건",
-    "7일 리뷰 4건"
+    "7일 블로그 20건"
    ]
   },
   {
-   "name": "호돈뒷고기 효자점",
-   "cat": "nam",
+   "name": "윤금자모리칼국수",
+   "cat": "buk",
    "in_data": true,
-   "keyword": "\"호돈뒷고기\" 효자",
-   "blog7": 9,
-   "blog_prev7": 5,
-   "blog_prev30": 3,
-   "blog_growth_pct": 80,
-   "review7": 1,
-   "review7_capped": false,
-   "review_delta_1d": 1,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 18.2,
-   "eligible": true,
-   "badges": [
-    "블로그 +80%",
-    "7일 블로그 9건",
-    "7일 리뷰 1건",
-    "하루 리뷰 +1"
-   ]
-  },
-  {
-   "name": "구룡포 할매국수",
-   "cat": "nam",
-   "in_data": true,
-   "keyword": "\"구룡포할매국수집\" 포항",
-   "blog7": 12,
-   "blog_prev7": 9,
-   "blog_prev30": 19,
-   "blog_growth_pct": 33,
-   "review7": 1,
+   "keyword": "\"윤금자모리칼국수\" 포항",
+   "blog7": 15,
+   "blog_prev7": 12,
+   "blog_prev30": 10,
+   "blog_growth_pct": 25,
+   "review7": 0,
    "review7_capped": false,
    "review_delta_1d": 0,
    "review_delta_7d": null,
    "x7": null,
-   "score": 18.0,
+   "score": 18.8,
    "eligible": true,
    "badges": [
-    "블로그 +33%",
-    "7일 블로그 12건",
-    "7일 리뷰 1건"
+    "블로그 +25%",
+    "7일 블로그 15건"
    ]
   },
   {
-   "name": "철인7호치킨 문덕점",
+   "name": "장터김해숯불뒷고기",
    "cat": "ocheon",
    "in_data": true,
-   "keyword": "\"철인7호치킨\" 문덕",
+   "keyword": "\"장터김해숯불뒷고기\" 포항",
    "blog7": 3,
    "blog_prev7": 0,
    "blog_prev30": 0,
@@ -3618,6 +3632,27 @@
    "badges": [
     "블로그 신규 3건",
     "7일 블로그 3건"
+   ]
+  },
+  {
+   "name": "BHC치킨 포항남부점",
+   "cat": "nam",
+   "in_data": true,
+   "keyword": "\"BHC치킨\" 남부",
+   "blog7": 14,
+   "blog_prev7": 11,
+   "blog_prev30": 15,
+   "blog_growth_pct": 27,
+   "review7": 0,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 17.8,
+   "eligible": true,
+   "badges": [
+    "블로그 +27%",
+    "7일 블로그 14건"
    ]
   },
   {
@@ -3639,27 +3674,6 @@
    "badges": [
     "블로그 +27%",
     "7일 블로그 14건"
-   ]
-  },
-  {
-   "name": "119딧고기 양덕직영점",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"119딧고기\" 양덕직영",
-   "blog7": 16,
-   "blog_prev7": 15,
-   "blog_prev30": 13,
-   "blog_growth_pct": 7,
-   "review7": 0,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 17.1,
-   "eligible": true,
-   "badges": [
-    "블로그 +7%",
-    "7일 블로그 16건"
    ]
   },
   {
@@ -3704,6 +3718,27 @@
    ]
   },
   {
+   "name": "마라섬 포항오천점",
+   "cat": "ocheon",
+   "in_data": true,
+   "keyword": "\"마라섬\" 오천",
+   "blog7": 19,
+   "blog_prev7": 24,
+   "blog_prev30": 17,
+   "blog_growth_pct": -21,
+   "review7": 1,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 17.0,
+   "eligible": true,
+   "badges": [
+    "7일 블로그 19건",
+    "7일 리뷰 1건"
+   ]
+  },
+  {
    "name": "호식이두마리치킨 연일점",
    "cat": "nam",
    "in_data": true,
@@ -3722,6 +3757,49 @@
    "badges": [
     "블로그 +67%",
     "7일 블로그 10건"
+   ]
+  },
+  {
+   "name": "장기식당",
+   "cat": "buk",
+   "in_data": true,
+   "keyword": "\"장기식당\" 포항",
+   "blog7": 10,
+   "blog_prev7": 8,
+   "blog_prev30": 7,
+   "blog_growth_pct": 25,
+   "review7": 2,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 16.5,
+   "eligible": true,
+   "badges": [
+    "블로그 +25%",
+    "7일 블로그 10건",
+    "7일 리뷰 2건"
+   ]
+  },
+  {
+   "name": "구룡포대게마을회",
+   "cat": "nam",
+   "in_data": true,
+   "keyword": "\"구룡포 구룡포대게마을회\" 포항",
+   "blog7": 7,
+   "blog_prev7": 3,
+   "blog_prev30": 10,
+   "blog_growth_pct": 133,
+   "review7": 0,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 16.3,
+   "eligible": true,
+   "badges": [
+    "블로그 +133%",
+    "7일 블로그 7건"
    ]
   },
   {
@@ -3769,6 +3847,27 @@
    ]
   },
   {
+   "name": "포항 바다원해",
+   "cat": "buk",
+   "in_data": true,
+   "keyword": "\"포항 바다원해\" 포항",
+   "blog7": 12,
+   "blog_prev7": 12,
+   "blog_prev30": 11,
+   "blog_growth_pct": 0,
+   "review7": 2,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 16.0,
+   "eligible": true,
+   "badges": [
+    "7일 블로그 12건",
+    "7일 리뷰 2건"
+   ]
+  },
+  {
    "name": "해아름",
    "cat": "buk",
    "in_data": true,
@@ -3786,27 +3885,6 @@
    "eligible": true,
    "badges": [
     "7일 리뷰 8건"
-   ]
-  },
-  {
-   "name": "구룡포 바다풍경물회대게",
-   "cat": "nam",
-   "in_data": true,
-   "keyword": "\"구룡포 바다풍경물회대게\" 포항",
-   "blog7": 8,
-   "blog_prev7": 8,
-   "blog_prev30": 16,
-   "blog_growth_pct": 0,
-   "review7": 4,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 16.0,
-   "eligible": true,
-   "badges": [
-    "7일 블로그 8건",
-    "7일 리뷰 4건"
    ]
   },
   {
@@ -3830,65 +3908,46 @@
    ]
   },
   {
-   "name": "마라섬 포항오천점",
-   "cat": "ocheon",
+   "name": "한신수산",
+   "cat": "buk",
    "in_data": true,
-   "keyword": "\"마라섬\" 오천",
-   "blog7": 18,
-   "blog_prev7": 24,
-   "blog_prev30": 17,
-   "blog_growth_pct": -25,
-   "review7": 1,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 15.5,
-   "eligible": true,
-   "badges": [
-    "7일 블로그 18건",
-    "7일 리뷰 1건"
-   ]
-  },
-  {
-   "name": "교촌치킨 오천점",
-   "cat": "ocheon",
-   "in_data": true,
-   "keyword": "\"교촌치킨\" 오천",
-   "blog7": 18,
-   "blog_prev7": 21,
-   "blog_prev30": 20,
-   "blog_growth_pct": -14,
+   "keyword": "\"한신수산\" 포항",
+   "blog7": 12,
+   "blog_prev7": 9,
+   "blog_prev30": 19,
+   "blog_growth_pct": 33,
    "review7": 0,
    "review7_capped": false,
    "review_delta_1d": 0,
    "review_delta_7d": null,
    "x7": null,
-   "score": 15.4,
+   "score": 16.0,
    "eligible": true,
    "badges": [
-    "7일 블로그 18건"
+    "블로그 +33%",
+    "7일 블로그 12건"
    ]
   },
   {
-   "name": "BHC치킨 포항남부점",
+   "name": "동가네삼계탕",
    "cat": "nam",
    "in_data": true,
-   "keyword": "\"BHC치킨\" 남부",
-   "blog7": 13,
+   "keyword": "\"동가네삼계탕\" 포항",
+   "blog7": 12,
    "blog_prev7": 11,
-   "blog_prev30": 15,
-   "blog_growth_pct": 18,
-   "review7": 0,
+   "blog_prev30": 12,
+   "blog_growth_pct": 9,
+   "review7": 1,
    "review7_capped": false,
-   "review_delta_1d": 0,
+   "review_delta_1d": null,
    "review_delta_7d": null,
    "x7": null,
-   "score": 15.4,
+   "score": 15.1,
    "eligible": true,
    "badges": [
-    "블로그 +18%",
-    "7일 블로그 13건"
+    "블로그 +9%",
+    "7일 블로그 12건",
+    "7일 리뷰 1건"
    ]
   },
   {
@@ -3958,45 +4017,93 @@
    ]
   },
   {
-   "name": "바다랑대게",
+   "name": "호돈뒷고기 효자점",
    "cat": "nam",
    "in_data": true,
-   "keyword": "\"바다랑대게\" 포항",
-   "blog7": 15,
-   "blog_prev7": 18,
-   "blog_prev30": 16,
-   "blog_growth_pct": -17,
+   "keyword": "\"호돈뒷고기\" 효자",
+   "blog7": 8,
+   "blog_prev7": 5,
+   "blog_prev30": 3,
+   "blog_growth_pct": 60,
    "review7": 1,
    "review7_capped": false,
-   "review_delta_1d": 0,
+   "review_delta_1d": 1,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 14.8,
+   "eligible": true,
+   "badges": [
+    "블로그 +60%",
+    "7일 블로그 8건",
+    "7일 리뷰 1건",
+    "하루 리뷰 +1"
+   ]
+  },
+  {
+   "name": "수향회식당",
+   "cat": "buk",
+   "in_data": true,
+   "keyword": "\"수향회식당\" 포항",
+   "blog7": 10,
+   "blog_prev7": 8,
+   "blog_prev30": 14,
+   "blog_growth_pct": 25,
+   "review7": 1,
+   "review7_capped": false,
+   "review_delta_1d": 1,
    "review_delta_7d": null,
    "x7": null,
    "score": 14.5,
    "eligible": true,
    "badges": [
-    "7일 블로그 15건",
-    "7일 리뷰 1건"
+    "블로그 +25%",
+    "7일 블로그 10건",
+    "7일 리뷰 1건",
+    "하루 리뷰 +1"
    ]
   },
   {
-   "name": "윤금자모리칼국수",
+   "name": "샤브20 포항본점",
    "cat": "buk",
    "in_data": true,
-   "keyword": "\"윤금자모리칼국수\" 포항",
+   "keyword": "\"샤브20\" 포항",
    "blog7": 13,
-   "blog_prev7": 12,
-   "blog_prev30": 10,
-   "blog_growth_pct": 8,
-   "review7": 0,
+   "blog_prev7": 14,
+   "blog_prev30": 13,
+   "blog_growth_pct": -7,
+   "review7": 1,
    "review7_capped": false,
-   "review_delta_1d": 0,
+   "review_delta_1d": -3,
    "review_delta_7d": null,
    "x7": null,
    "score": 14.1,
    "eligible": true,
    "badges": [
-    "블로그 +8%",
-    "7일 블로그 13건"
+    "7일 블로그 13건",
+    "7일 리뷰 1건",
+    "하루 리뷰 +-3"
+   ]
+  },
+  {
+   "name": "영일대특별시",
+   "cat": "buk",
+   "in_data": true,
+   "keyword": "\"영일대특별시\" 포항",
+   "blog7": 12,
+   "blog_prev7": 15,
+   "blog_prev30": 1,
+   "blog_growth_pct": -20,
+   "review7": 2,
+   "review7_capped": false,
+   "review_delta_1d": 1,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 13.6,
+   "eligible": true,
+   "badges": [
+    "7일 블로그 12건",
+    "7일 리뷰 2건",
+    "하루 리뷰 +1"
    ]
   },
   {
@@ -4007,27 +4114,6 @@
    "blog7": 11,
    "blog_prev7": 9,
    "blog_prev30": 4,
-   "blog_growth_pct": 22,
-   "review7": 0,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 13.4,
-   "eligible": true,
-   "badges": [
-    "블로그 +22%",
-    "7일 블로그 11건"
-   ]
-  },
-  {
-   "name": "한신수산",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"한신수산\" 포항",
-   "blog7": 11,
-   "blog_prev7": 9,
-   "blog_prev30": 19,
    "blog_growth_pct": 22,
    "review7": 0,
    "review7_capped": false,
@@ -4063,6 +4149,27 @@
    ]
   },
   {
+   "name": "조림명가",
+   "cat": "ocheon",
+   "in_data": true,
+   "keyword": "\"조림명가\" 포항",
+   "blog7": 11,
+   "blog_prev7": 14,
+   "blog_prev30": 18,
+   "blog_growth_pct": -21,
+   "review7": 2,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 12.6,
+   "eligible": true,
+   "badges": [
+    "7일 블로그 11건",
+    "7일 리뷰 2건"
+   ]
+  },
+  {
    "name": "BHC치킨 포항창포점",
    "cat": "buk",
    "in_data": true,
@@ -4084,91 +4191,23 @@
    ]
   },
   {
-   "name": "샤브20 포항본점",
+   "name": "가마치통닭 포항두호점",
    "cat": "buk",
    "in_data": true,
-   "keyword": "\"샤브20\" 포항",
-   "blog7": 12,
-   "blog_prev7": 14,
-   "blog_prev30": 13,
-   "blog_growth_pct": -14,
-   "review7": 1,
-   "review7_capped": false,
-   "review_delta_1d": -3,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 12.3,
-   "eligible": true,
-   "badges": [
-    "7일 블로그 12건",
-    "7일 리뷰 1건",
-    "하루 리뷰 +-3"
-   ]
-  },
-  {
-   "name": "수향회식당",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"수향회식당\" 포항",
-   "blog7": 9,
-   "blog_prev7": 8,
-   "blog_prev30": 14,
-   "blog_growth_pct": 12,
-   "review7": 1,
-   "review7_capped": false,
-   "review_delta_1d": 1,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 12.1,
-   "eligible": true,
-   "badges": [
-    "블로그 +12%",
-    "7일 블로그 9건",
-    "7일 리뷰 1건",
-    "하루 리뷰 +1"
-   ]
-  },
-  {
-   "name": "영일대특별시",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"영일대특별시\" 포항",
-   "blog7": 11,
-   "blog_prev7": 15,
-   "blog_prev30": 1,
-   "blog_growth_pct": -27,
-   "review7": 2,
-   "review7_capped": false,
-   "review_delta_1d": 1,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 12.1,
-   "eligible": true,
-   "badges": [
-    "7일 블로그 11건",
-    "7일 리뷰 2건",
-    "하루 리뷰 +1"
-   ]
-  },
-  {
-   "name": "구룡포대게마을회",
-   "cat": "nam",
-   "in_data": true,
-   "keyword": "\"구룡포 구룡포대게마을회\" 포항",
-   "blog7": 6,
-   "blog_prev7": 3,
-   "blog_prev30": 10,
-   "blog_growth_pct": 100,
+   "keyword": "\"가마치통닭\" 두호",
+   "blog7": 15,
+   "blog_prev7": 18,
+   "blog_prev30": 15,
+   "blog_growth_pct": -17,
    "review7": 0,
    "review7_capped": false,
    "review_delta_1d": 0,
    "review_delta_7d": null,
    "x7": null,
-   "score": 12.0,
+   "score": 12.5,
    "eligible": true,
    "badges": [
-    "블로그 +100%",
-    "7일 블로그 6건"
+    "7일 블로그 15건"
    ]
   },
   {
@@ -4213,15 +4252,15 @@
    ]
   },
   {
-   "name": "조림명가",
-   "cat": "ocheon",
+   "name": "포갈집",
+   "cat": "buk",
    "in_data": true,
-   "keyword": "\"조림명가\" 포항",
+   "keyword": "\"포갈집\" 포항",
    "blog7": 10,
-   "blog_prev7": 14,
-   "blog_prev30": 18,
-   "blog_growth_pct": -29,
-   "review7": 2,
+   "blog_prev7": 9,
+   "blog_prev30": 14,
+   "blog_growth_pct": 11,
+   "review7": 0,
    "review7_capped": false,
    "review_delta_1d": 0,
    "review_delta_7d": null,
@@ -4229,8 +4268,8 @@
    "score": 11.1,
    "eligible": true,
    "badges": [
-    "7일 블로그 10건",
-    "7일 리뷰 2건"
+    "블로그 +11%",
+    "7일 블로그 10건"
    ]
   },
   {
@@ -4277,6 +4316,28 @@
    ]
   },
   {
+   "name": "탐솥 효자점",
+   "cat": "nam",
+   "in_data": true,
+   "keyword": "\"탐솥\" 효자",
+   "blog7": 3,
+   "blog_prev7": 1,
+   "blog_prev30": 4,
+   "blog_growth_pct": 200,
+   "review7": 1,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 11.0,
+   "eligible": true,
+   "badges": [
+    "블로그 +200%",
+    "7일 블로그 3건",
+    "7일 리뷰 1건"
+   ]
+  },
+  {
    "name": "추탄집 연일점",
    "cat": "nam",
    "in_data": true,
@@ -4295,29 +4356,6 @@
    "badges": [
     "7일 블로그 8건",
     "7일 리뷰 2건"
-   ]
-  },
-  {
-   "name": "솔가숯불갈비 포항문덕점",
-   "cat": "ocheon",
-   "in_data": true,
-   "keyword": "\"솔가숯불갈비\" 문덕",
-   "blog7": 7,
-   "blog_prev7": 6,
-   "blog_prev30": 7,
-   "blog_growth_pct": 17,
-   "review7": 1,
-   "review7_capped": false,
-   "review_delta_1d": 1,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 10.2,
-   "eligible": true,
-   "badges": [
-    "블로그 +17%",
-    "7일 블로그 7건",
-    "7일 리뷰 1건",
-    "하루 리뷰 +1"
    ]
   },
   {
@@ -4425,6 +4463,28 @@
    ]
   },
   {
+   "name": "구룡포 영일만회대게",
+   "cat": "nam",
+   "in_data": true,
+   "keyword": "\"구룡포 영일만회대게\" 포항",
+   "blog7": 5,
+   "blog_prev7": 5,
+   "blog_prev30": 14,
+   "blog_growth_pct": 0,
+   "review7": 2,
+   "review7_capped": false,
+   "review_delta_1d": 1,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 9.0,
+   "eligible": true,
+   "badges": [
+    "7일 블로그 5건",
+    "7일 리뷰 2건",
+    "하루 리뷰 +1"
+   ]
+  },
+  {
    "name": "유강옛날통닭",
    "cat": "nam",
    "in_data": true,
@@ -4446,25 +4506,25 @@
    ]
   },
   {
-   "name": "아쿠아춘천닭갈비 문덕본점",
+   "name": "솔가숯불갈비 포항문덕점",
    "cat": "ocheon",
    "in_data": true,
-   "keyword": "\"아쿠아춘천닭갈비\" 문덕",
-   "blog7": 5,
-   "blog_prev7": 4,
-   "blog_prev30": 5,
-   "blog_growth_pct": 25,
+   "keyword": "\"솔가숯불갈비\" 문덕",
+   "blog7": 6,
+   "blog_prev7": 6,
+   "blog_prev30": 7,
+   "blog_growth_pct": 0,
    "review7": 1,
    "review7_capped": false,
-   "review_delta_1d": 0,
+   "review_delta_1d": 1,
    "review_delta_7d": null,
    "x7": null,
-   "score": 8.2,
+   "score": 8.0,
    "eligible": true,
    "badges": [
-    "블로그 +25%",
-    "7일 블로그 5건",
-    "7일 리뷰 1건"
+    "7일 블로그 6건",
+    "7일 리뷰 1건",
+    "하루 리뷰 +1"
    ]
   },
   {
@@ -4510,45 +4570,25 @@
    ]
   },
   {
-   "name": "구룡포 영일만회대게",
+   "name": "까꾸네모리국수",
    "cat": "nam",
    "in_data": true,
-   "keyword": "\"구룡포 영일만회대게\" 포항",
-   "blog7": 4,
-   "blog_prev7": 5,
-   "blog_prev30": 14,
-   "blog_growth_pct": -20,
-   "review7": 2,
+   "keyword": "\"까꾸네모리국수\" 포항",
+   "blog7": 7,
+   "blog_prev7": 9,
+   "blog_prev30": 16,
+   "blog_growth_pct": -22,
+   "review7": 1,
    "review7_capped": false,
    "review_delta_1d": 1,
    "review_delta_7d": null,
    "x7": null,
-   "score": 7.2,
+   "score": 7.4,
    "eligible": true,
    "badges": [
-    "7일 블로그 4건",
-    "7일 리뷰 2건",
+    "7일 블로그 7건",
+    "7일 리뷰 1건",
     "하루 리뷰 +1"
-   ]
-  },
-  {
-   "name": "포갈집",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"포갈집\" 포항",
-   "blog7": 8,
-   "blog_prev7": 9,
-   "blog_prev30": 14,
-   "blog_growth_pct": -11,
-   "review7": 0,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 7.1,
-   "eligible": true,
-   "badges": [
-    "7일 블로그 8건"
    ]
   },
   {
@@ -4634,26 +4674,6 @@
    ]
   },
   {
-   "name": "푸라닭 포항시청점",
-   "cat": "nam",
-   "in_data": true,
-   "keyword": "\"푸라닭\" 시청",
-   "blog7": 8,
-   "blog_prev7": 12,
-   "blog_prev30": 13,
-   "blog_growth_pct": -33,
-   "review7": 0,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 5.3,
-   "eligible": true,
-   "badges": [
-    "7일 블로그 8건"
-   ]
-  },
-  {
    "name": "진강수산식당",
    "cat": "nam",
    "in_data": true,
@@ -4672,28 +4692,6 @@
    "badges": [
     "7일 블로그 7건",
     "하루 리뷰 +-2"
-   ]
-  },
-  {
-   "name": "까꾸네모리국수",
-   "cat": "nam",
-   "in_data": true,
-   "keyword": "\"까꾸네모리국수\" 포항",
-   "blog7": 5,
-   "blog_prev7": 9,
-   "blog_prev30": 16,
-   "blog_growth_pct": -44,
-   "review7": 1,
-   "review7_capped": false,
-   "review_delta_1d": 1,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 4.8,
-   "eligible": true,
-   "badges": [
-    "7일 블로그 5건",
-    "7일 리뷰 1건",
-    "하루 리뷰 +1"
    ]
   },
   {
@@ -4738,6 +4736,26 @@
    ]
   },
   {
+   "name": "푸라닭 포항시청점",
+   "cat": "nam",
+   "in_data": true,
+   "keyword": "\"푸라닭\" 시청",
+   "blog7": 7,
+   "blog_prev7": 12,
+   "blog_prev30": 13,
+   "blog_growth_pct": -42,
+   "review7": 0,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 4.1,
+   "eligible": true,
+   "badges": [
+    "7일 블로그 7건"
+   ]
+  },
+  {
    "name": "청마루",
    "cat": "nam",
    "in_data": true,
@@ -4777,27 +4795,6 @@
    "badges": [
     "7일 리뷰 2건",
     "하루 리뷰 +2"
-   ]
-  },
-  {
-   "name": "탐솥 효자점",
-   "cat": "nam",
-   "in_data": true,
-   "keyword": "\"탐솥\" 효자",
-   "blog7": 2,
-   "blog_prev7": 1,
-   "blog_prev30": 4,
-   "blog_growth_pct": 100,
-   "review7": 1,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 4,
-   "eligible": true,
-   "badges": [
-    "7일 블로그 2건",
-    "7일 리뷰 1건"
    ]
   },
   {
@@ -4863,6 +4860,27 @@
    ]
   },
   {
+   "name": "아쿠아춘천닭갈비 문덕본점",
+   "cat": "ocheon",
+   "in_data": true,
+   "keyword": "\"아쿠아춘천닭갈비\" 문덕",
+   "blog7": 1,
+   "blog_prev7": 4,
+   "blog_prev30": 5,
+   "blog_growth_pct": -75,
+   "review7": 1,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 3,
+   "eligible": false,
+   "badges": [
+    "7일 블로그 1건",
+    "7일 리뷰 1건"
+   ]
+  },
+  {
    "name": "대구통닭 영일대점",
    "cat": "buk",
    "in_data": true,
@@ -4900,6 +4918,27 @@
    "eligible": true,
    "badges": [
     "7일 블로그 3건"
+   ]
+  },
+  {
+   "name": "엘토르원조구룡포과메기",
+   "cat": "buk",
+   "in_data": true,
+   "keyword": "\"엘토르원조구룡포과메기\" 포항",
+   "blog7": 1,
+   "blog_prev7": 0,
+   "blog_prev30": 1,
+   "blog_growth_pct": 329,
+   "review7": 1,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 3,
+   "eligible": false,
+   "badges": [
+    "7일 블로그 1건",
+    "7일 리뷰 1건"
    ]
   },
   {
@@ -5124,6 +5163,26 @@
    ]
   },
   {
+   "name": "마장동뒷고기",
+   "cat": "buk",
+   "in_data": true,
+   "keyword": "\"마장동뒷고기\" 포항",
+   "blog7": 4,
+   "blog_prev7": 13,
+   "blog_prev30": 23,
+   "blog_growth_pct": -69,
+   "review7": 0,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 1.2,
+   "eligible": true,
+   "badges": [
+    "7일 블로그 4건"
+   ]
+  },
+  {
    "name": "반송정국시",
    "cat": "buk",
    "in_data": true,
@@ -5173,6 +5232,46 @@
    "blog_prev7": 1,
    "blog_prev30": 2,
    "blog_growth_pct": 0,
+   "review7": 0,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 1,
+   "eligible": false,
+   "badges": [
+    "7일 블로그 1건"
+   ]
+  },
+  {
+   "name": "쌀통닭 지곡점",
+   "cat": "nam",
+   "in_data": true,
+   "keyword": "\"쌀통닭\" 지곡",
+   "blog7": 1,
+   "blog_prev7": 1,
+   "blog_prev30": 2,
+   "blog_growth_pct": 0,
+   "review7": 0,
+   "review7_capped": false,
+   "review_delta_1d": 0,
+   "review_delta_7d": null,
+   "x7": null,
+   "score": 1,
+   "eligible": false,
+   "badges": [
+    "7일 블로그 1건"
+   ]
+  },
+  {
+   "name": "우진수산",
+   "cat": "nam",
+   "in_data": true,
+   "keyword": "\"우진수산\" 포항",
+   "blog7": 1,
+   "blog_prev7": 1,
+   "blog_prev30": 5,
+   "blog_growth_pct": -14,
    "review7": 0,
    "review7_capped": false,
    "review_delta_1d": 0,
@@ -5285,26 +5384,6 @@
    ]
   },
   {
-   "name": "마장동뒷고기",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"마장동뒷고기\" 포항",
-   "blog7": 3,
-   "blog_prev7": 13,
-   "blog_prev30": 23,
-   "blog_growth_pct": -77,
-   "review7": 0,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 0.7,
-   "eligible": true,
-   "badges": [
-    "7일 블로그 3건"
-   ]
-  },
-  {
    "name": "교촌치킨 양학대이점",
    "cat": "nam",
    "in_data": true,
@@ -5359,42 +5438,6 @@
    "badges": []
   },
   {
-   "name": "쌀통닭 지곡점",
-   "cat": "nam",
-   "in_data": true,
-   "keyword": "\"쌀통닭\" 지곡",
-   "blog7": 0,
-   "blog_prev7": 1,
-   "blog_prev30": 2,
-   "blog_growth_pct": -100,
-   "review7": 0,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 0,
-   "eligible": false,
-   "badges": []
-  },
-  {
-   "name": "우진수산",
-   "cat": "nam",
-   "in_data": true,
-   "keyword": "\"우진수산\" 포항",
-   "blog7": 0,
-   "blog_prev7": 1,
-   "blog_prev30": 5,
-   "blog_growth_pct": -100,
-   "review7": 0,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 0,
-   "eligible": false,
-   "badges": []
-  },
-  {
    "name": "구룡포소문난발과메기",
    "cat": "ocheon",
    "in_data": true,
@@ -5420,24 +5463,6 @@
    "blog7": 0,
    "blog_prev7": 1,
    "blog_prev30": 2,
-   "blog_growth_pct": -100,
-   "review7": 0,
-   "review7_capped": false,
-   "review_delta_1d": 0,
-   "review_delta_7d": null,
-   "x7": null,
-   "score": 0,
-   "eligible": false,
-   "badges": []
-  },
-  {
-   "name": "엘토르원조구룡포과메기",
-   "cat": "buk",
-   "in_data": true,
-   "keyword": "\"엘토르원조구룡포과메기\" 포항",
-   "blog7": 0,
-   "blog_prev7": 0,
-   "blog_prev30": 1,
    "blog_growth_pct": -100,
    "review7": 0,
    "review7_capped": false,
