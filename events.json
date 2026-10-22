@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-22 08:54 KST",
- "today": "2026-10-22",
+ "updated": "2026-10-23 06:40 KST",
+ "today": "2026-10-23",
  "status": {
   "phtour": {
    "ok": true,
-   "count": 29
+   "count": 36
   },
   "kfes": {
    "ok": true,
@@ -140,7 +140,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2072/202610191339_HojRfuU.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 전시",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=28&org_code=0001&date_type=4&cm_idx=2072",
-   "desc": "《 약해서 강한 마음에게 》\n허용호 작가 책 속의 그림전 안내\n마음이 약하다는 건 어쩌면 다른 사람의 마음을 더 잘 이해할 수 있다는 뜻일지도 모릅니다 .\n허용호 작가의 그림과 이야기를 만나보세요 !\n허용호 작가는 미술을 바탕으로 테라코타와 그림 작업을 이어왔으며 , 2018 년 조선일보 신춘문예 동화 부문에 당선되며 동화 작가로 활동을 넓혔습니다 .\n동화책 《 비밀이 사는 아파트 》 를 비롯해 글과 그림으로 일상과 세상의 이야기를 전해왔습니다 .\n이번 전시 《 약해서 강한 마음에게 》 는 약한 마음을 이해하고 , 상처받기 쉬운 마음을 다정하게 바라보는 이야기를 담고 있습니다 .\n누군가의 말 한마디에 쉽게 상처받기도 하고 , 괜찮은 척 하루를 보내기도 하는 우리 .\n작품을 따라가며 다른 사람의 마음을 헤아리고 , 나 자신의 마음도 가만히 들여다보는 시간을 가져보세요 .\n작가와 직접 이야기를 나눌 수 있는 작가와의 만남도 마련되어 있습니다 . 그림과 이야기가 건네는 위로를 청포도다방에서 만나보세요 .\n전시 기간 2026 년 10 월 20 일 ( 화 ) ~ 11 월 5 일 ( 목 )\n작가와의 만남 10 월 21 일 ( 수 ) 오후 5 시\n문화경작소 청포도다방 ( 경북 포항시 북구 중앙로 298 번길 14-6)\n약한 마음도 충분히 소중하고 , 다정하게 보듬어야 할 마음입니다 .\n올가을 , 청포도다방에서 그림과 함께 마음을 쉬어가는 시간을 만나보세요 .",
+   "desc": "정보 없음",
    "link": null,
    "origin": "phtour",
    "area": "buk",
@@ -148,78 +148,25 @@
    "img": "ev/9980d62240925817.jpg"
   },
   {
-   "id": "ph2048",
-   "title": "'2026 렉쳐콘서트' 세번째 시간",
-   "type": "공연",
-   "start": "2026-10-22",
-   "end": "2026-10-22",
-   "venue": "포은흥해도서관 2~3층 하모니스텝",
+   "id": "ph2066",
+   "title": "「2026 찾아가는 과학관」 개최",
+   "type": "행사",
+   "start": "2026-10-21",
+   "end": "2026-10-25",
+   "venue": "포항시청소년수련관 (포항시 북구 삼호로 533)",
    "fee": "무료",
-   "org": "포항시립도서관",
+   "org": "과학기술정보통신부 / 한국과학관협회",
    "age": "전체관람가",
-   "tel": "정보 없음",
-   "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2048/202610061313_3kI16Cm.JPG",
-   "src": "포항시 문화관광(퐝퐝여행) 공연",
-   "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0001&date_type=3&cm_idx=2048",
-   "desc": "영화 속 명장면에 어울리는 재즈음악 생각해보신 적 있으세요?\n‣ 일 시 : 2026. 10. 23.(목) 19:30~20:30\n‣ 장 소 : 포은흥해도서관 2~3층 하모니스텝\n‣ 대 상 : 포항시민 / 100명 (선착순, 사전+현장)\n‣ 신 청 : 포항시립도서관 홈페이지 문화행사신청 2026. 10. 8.(목) 10:00 OPEN\n‣ 주 제 : 재즈로 읽는 영화\n‣ 강 연 : 김선영 스토리텔러\n‣ 공 연 : 써니밴드(보컬 정소희/트럼펫 유희원/피아노 장세연/베이스 박주민/드럼 허여정/아코디나, 스토리 김선영)",
+   "tel": "배터리첨단산업과054-270-2424",
+   "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2066/202610121343_OfT1Exc.jpg",
+   "src": "포항시 문화관광(퐝퐝여행) 행사",
+   "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=29&org_code=0001&date_type=5&cm_idx=2066",
+   "desc": "• 일 시 : 2026. 10. 21.(수) ~ 25.(일) 10:00 ~ 17:00 ※(점심시간 12:00~13:00)\n• 장 소 : 포항시청소년수련관 (포항시 북구 삼호로 533)\n• 주요내용 : 과학기술 전시콘텐츠, 과학실험·실습체험 및 과학공연 등\n- (작동형전시콘텐츠) 플레이사이언스(24종), 싸이팝(16종), 미디어인터액티브(3종) 약 43종\n- (과학실험체험)택배로봇 ·볼록렌즈 만들기, AI콘텐츠체험, 주간 천체 관측\n- (과학공연체험) 스토리텔링을 통한 과학 마술 공연\n- (메타플리콘텐츠) 보물찾기 ·의자쌓기·클라이밍·농구·곤충채집·야구공던지기\n※메타플리콘텐츠 및 과학공연 프로그램은 토 ·일만 운영\n• 주최/주관 : 과학기술정보통신부 / 한국과학관협회\n• 관람방법\n- 개인 : 별도 예약 없이 자유롭게 방문 가능\n- 단체(평일만) : 학교 및 유치원 등 단체 관람은 QR코드를 통한 온라인 사전 신청 필수\n• 문 의 ㅣ 배터리첨단산업과 054-270-2424",
    "link": null,
    "origin": "phtour",
    "area": "buk",
    "status": "진행중",
-   "img": "ev/279b1e639778a355.jpg"
-  },
-  {
-   "id": "ph2044",
-   "title": "2026 포항·경주·울산 해오름동맹 시립예술단 합동공연 「천년의 빛, 하나의 울림」",
-   "type": "시립예술단",
-   "start": "2026-10-22",
-   "end": "2026-10-22",
-   "venue": "포항문화예술회관 대공연장",
-   "fee": "유료 · 5000원",
-   "org": "경주시,울산광역시,포항시/경주시립예술단,울산시립예술단,포항시립예술단",
-   "age": "전체관람가",
-   "tel": "포항시립예술단054-270-5482",
-   "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2044/202610021315_bPjOVXl.jpg",
-   "src": "포항시 문화관광(퐝퐝여행) 시립예술단",
-   "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=78&org_code=0002&date_type=8&cm_idx=2044",
-   "desc": "정보 없음",
-   "link": null,
-   "origin": "phtour",
-   "area": "nam",
-   "status": "진행중",
-   "img": "ev/519fddb72b7f7019.jpg",
-   "lineup": {
-    "status": "confirmed",
-    "performers": [
-     {
-      "name": "포항시립예술단",
-      "role": "합창·오케스트라"
-     },
-     {
-      "name": "경주시립예술단",
-      "role": "합창·오케스트라"
-     },
-     {
-      "name": "울산시립예술단",
-      "role": "합창·오케스트라"
-     }
-    ],
-    "stage": "10.22(목) 포항문화예술회관 · 합창오페라 '천년의 빛, 하나의 울림'(16곡)",
-    "note": "경주시 발표(10.12). 뮤지컬 배우들이 함께 출연한다고 발표됐지만, 공식 출처에서 개인 이름은 확인되지 않아 적지 않았습니다.",
-    "sources": [
-     {
-      "title": "경주·포항·울산 시립예술단 합창오페라 ‘천년의 빛, 하나의 울림’ 무대에 오른다 (ⓒ경주시청 제공)",
-      "publisher": "프레시안",
-      "url": "https://www.pressian.com/pages/articles/2026101215535809295"
-     },
-     {
-      "title": "신라 천년 역사, 합창오페라로…경주·포항·울산 무대 오른다",
-      "publisher": "경북매일",
-      "url": "https://www.kbmaeil.com/article/20261012500440"
-     }
-    ],
-    "checked": "2026-10-20"
-   }
+   "img": "ev/2014718ea210d3cf.jpg"
   },
   {
    "id": "ph2074",
@@ -239,7 +186,7 @@
    "link": null,
    "origin": "phtour",
    "area": "buk",
-   "status": "예정",
+   "status": "진행중",
    "img": "ev/fa949f407efbae49.jpg"
   },
   {
@@ -314,6 +261,130 @@
    "img": "ev/47d1a7de990ac69d.jpg"
   },
   {
+   "id": "ph2061",
+   "title": "제5회 마장지생태환경가꾸기 문화행사 개최",
+   "type": "행사",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "venue": "우창동 마장지 야외문대 일",
+   "fee": "무료",
+   "org": "포항시,마장지생태환경가꾸기문화행사추진위원회",
+   "age": "전체관람가",
+   "tel": "우창동 (054-240-7833)",
+   "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2061/202610121310_xVeCykF.jpg",
+   "src": "포항시 문화관광(퐝퐝여행) 행사",
+   "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=29&org_code=0001&date_type=5&cm_idx=2061",
+   "desc": "정보 없음",
+   "link": null,
+   "origin": "phtour",
+   "area": "buk",
+   "status": "예정",
+   "img": "ev/ad2bb4d075d1fe16.jpg"
+  },
+  {
+   "id": "ph2081",
+   "title": "2026 꿈다락 문화예술학교",
+   "type": "행사",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "venue": "문화예술팩토리 3층 멀티미디어홀",
+   "fee": "무료",
+   "org": "문화체육관광부/한국문화예술교육진흥원",
+   "age": "전체관람가",
+   "tel": "이리로(010-7358-5554)",
+   "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2081/202610211439_2pp6vM6.jpg",
+   "src": "포항시 문화관광(퐝퐝여행) 행사",
+   "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=29&org_code=0002&date_type=5&cm_idx=2081",
+   "desc": "2026 꿈다락 문화예술학교 <어린이 예술 탐험대: AI 북, 아트, 비트, 사운드! 쇼케이스> 동화에서 출발해 팝업북과 AI 음악과 자신의 목소리를 담아 직접 편집한 오디오북까지! 10번의 예술 탐험을 끝마친 아이들의 마지막 이야기, 쇼케이스에 여러분을 초대합니다! 많은 관심 부탁드립니다! 일시: 2026. 10. 24. (토) 오후 2시 장소: 문화예술팩토리 3층 멀티미디어홀 문의: 이리로 010-7358-5554",
+   "link": null,
+   "origin": "phtour",
+   "area": "all",
+   "status": "예정",
+   "img": "ev/3f0d86b5090fc958.jpg"
+  },
+  {
+   "id": "ph2082",
+   "title": "2026 포항스틸아트페스티벌",
+   "type": "축제",
+   "start": "2026-10-24",
+   "end": "2026-11-15",
+   "venue": "포항시 일원",
+   "fee": "무료",
+   "org": "포항시/포항문화재단",
+   "age": "전체관람가",
+   "tel": "054-289-7852~6",
+   "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2082/202610221334_dHtZTbJ.jpg",
+   "src": "포항시 문화관광(퐝퐝여행) 축제",
+   "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=75&org_code=0001&date_type=2&cm_idx=2082",
+   "desc": "정보 없음",
+   "link": null,
+   "origin": "phtour",
+   "area": "all",
+   "status": "예정",
+   "img": "ev/f72bdf25211355e6.jpg"
+  },
+  {
+   "id": "ph2050",
+   "title": "KBS전국노래자랑 포항시편 개최 안내(예심 신청 선착순 접수마감)",
+   "type": "행사",
+   "start": "2026-10-27",
+   "end": "2026-10-27",
+   "venue": "영일대해수욕장 해상누각 앞 광장 ※ 우천시 포항체육관",
+   "fee": "무료",
+   "org": "KBS",
+   "age": "전체관람가",
+   "tel": "포항시콜센터(054-270-8282)",
+   "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2050/202610071341_KjWXjpe.jpg",
+   "src": "포항시 문화관광(퐝퐝여행) 행사",
+   "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=29&org_code=0001&date_type=5&cm_idx=2050",
+   "desc": "KBS 전국노래자랑 포항시편 예심 신청 선착순 접수 마감 되었습니다.\n﻿\n민선9기 출범을 기념하기 위하여\n국내 최장수 프로그램인 『KBS 전국노래자랑』이 포항시에서 개최됩니다.\n시민 여러분의 많은 관심과 참여 바랍니다.\n□ 행사개요\n개최일시 : 2026. 10. 27.(화) 14:00\n개최장소 : 영일대해수욕장 해상누각 앞 광장 ※ 우천시 포항체육관\n초대가수 : 김연자, 박서진, 장한별, 미스김, 이수연\n□ 예심안내\n일 시 : 2026. 10. 25.(일) 13:00\n장소 : 포항체육관(종합운동장 옆)\n모집규모 : 선착순 300팀 ※ 1,2차 예심 같은 날 진행 후 최종 15~16팀 선정 예정\n신청대상 : 포항시민, 포항시 소재 사업자, 직장인, 학생 등\n※ 기성가수(대한가수협회, 한국가수협회, 한국연예협회 가수 및 회원 등)\n음반 발매, 방송 출연, 뮤직비디오 출연 등 대중 활동 이력자\n(한국음악저작권협회, 한국음악실연자연합회, 한국음반산업협회 가입) 참가 불가\n신청기간 : 2026. 10. 15.(목) 09:00 ~ 10. 21.(수)18:00 ※ 방문접수 시 점심시간(12:00~13:00) 및 토요일, 공휴일 제외\n신청방법\n- 방문신청 : 관내 읍․면․동 행정복지센터\n- 온 라 인 : 붙임 신청서 작성 후 스캔본 이메일 제출 ( hyang810@korea.kr )\n신청서식 : 방문접수처에서 수령 또는 첨부파일 다운로드\n문의 : 포항시청 콜센터 (☎054-270-8282)",
+   "link": null,
+   "origin": "phtour",
+   "area": "buk",
+   "status": "예정",
+   "img": "ev/22314e22813f196e.jpg",
+   "lineup": {
+    "status": "confirmed",
+    "performers": [
+     {
+      "name": "김연자",
+      "role": "초대가수"
+     },
+     {
+      "name": "박서진",
+      "role": "초대가수"
+     },
+     {
+      "name": "장한별",
+      "role": "초대가수"
+     },
+     {
+      "name": "미스김",
+      "role": "초대가수"
+     },
+     {
+      "name": "이수연",
+      "role": "초대가수"
+     }
+    ],
+    "stage": "10.27(화) 14:00 영일대해수욕장 해상누각 앞 광장 (우천 시 포항체육관)",
+    "note": "포항시 발표(민선 9기 출범 기념). 예심 10.25(일) 13:00 포항체육관.",
+    "sources": [
+     {
+      "title": "‘KBS 전국노래자랑’ 포항시편 27일 개최…15일부터 예심 접수",
+      "publisher": "대경일보",
+      "url": "https://www.dkilbo.com/news/articleView.html?idxno=556919"
+     },
+     {
+      "title": "민선9기 출범 기념 'KBS 전국노래자랑' 포항편 열린다… 김연자·박서진·이수연 등 출연 (사진=포항시)",
+      "publisher": "폴리뉴스",
+      "url": "https://www.polinews.co.kr/news/articleView.html?idxno=745552"
+     }
+    ],
+    "checked": "2026-10-20"
+   }
+  },
+  {
    "id": "ph2054",
    "title": "2026 꿈의 오케스트라 포항 정기 연주회",
    "type": "공연",
@@ -333,6 +404,27 @@
    "area": "nam",
    "status": "예정",
    "img": "ev/00bf191c73c13c85.jpg"
+  },
+  {
+   "id": "ph2078",
+   "title": "제4회 포항시 농식품 산업대전 \"FARM TO LIFE:일상을 잇는 농업\" 개최",
+   "type": "행사",
+   "start": "2026-10-30",
+   "end": "2026-10-31",
+   "venue": "영일대 장미공원 앞 광장",
+   "fee": "무료",
+   "org": "포항시 농식품유통과",
+   "age": "전체관람가",
+   "tel": "농식품유통과 (054-270-2605",
+   "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2078/202610201316_XtN57I8.jpg",
+   "src": "포항시 문화관광(퐝퐝여행) 행사",
+   "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=29&org_code=0001&date_type=5&cm_idx=2078",
+   "desc": "1. 행 사 명 : 제 4 회 포항시 농식품 산업대전\n2. 기 간 : 2026. 10. 30.( 금 ) ~ 31.( 토 ) ※ 개막식 : 2026. 10. 30.(금) 19:00\n3. 장 소 : 영일대 장미공원 앞\n4. 주요 행사내용\n- 우수 농특산물 및 영일만친구 브랜드 홍보\n- 포항 농특산물 활용한 다양한 식음 및 체험활동",
+   "link": null,
+   "origin": "phtour",
+   "area": "buk",
+   "status": "예정",
+   "img": "ev/75dbcbcf3741d603.jpg"
   },
   {
    "id": "ph2067",
@@ -419,6 +511,27 @@
    "area": "nam",
    "status": "예정",
    "img": "ev/f5d850b603a9b746.jpg"
+  },
+  {
+   "id": "ph2056",
+   "title": "2026 대한민국 동화축제",
+   "type": "행사",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "venue": "포항시립 포은오천도서관(오천읍 정몽주로 566)",
+   "fee": "무료",
+   "org": "포항시,경상북도/경북일보",
+   "age": "전체관람가",
+   "tel": "경북일보(054-289-2215)",
+   "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2056/202610081544_2ILJaMb.jpg",
+   "src": "포항시 문화관광(퐝퐝여행) 행사",
+   "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=29&org_code=0001&date_type=5&cm_idx=2056",
+   "desc": "<p style=\"color-scheme: revert; forced-color-adjust: revert; math-depth: revert; position: revert; position-anchor: revert; text-size-adjust: revert; appearance: revert; color: revert; font-feature-settings: revert; font-kerning: revert; font-language-override: revert; font-optical-sizing: revert; font-palette: revert; font-size: revert; font-size-adjust: revert; font-stretch: revert; font-style: revert; font-synthesis: revert; font-variant: revert; font-variation-settings: revert; font-weight: revert; position-area: revert; text-orientation: revert; text-rendering: revert; text-spacing-trim: revert; -webkit-font-smoothing: revert; -webkit-locale: revert; -webkit-text-orientation: revert; -webkit-writing-mode: revert; writing-mode: revert; zoom: revert; accent-color: revert; place-content: revert; place-items: revert; place-self: revert; alignment-baseline: revert; anchor-name: revert; anchor-scope: revert; animation-composition: revert; animation: revert; animation-trigger: revert; app-region: revert; aspect-ratio: revert; backdrop-filter: revert; backface-visibility: revert; background-image: revert; background-position: revert; background-size: revert; background-repeat: revert; background-attachment: revert; background-origin: revert; background-clip: revert; background-blend-mode: revert; baseline-shift: revert; baseline-source: revert; block-size: revert; border-block: revert; border-color: revert; border-radius: revert; border-style: revert; border-collapse: revert; bo",
+   "link": null,
+   "origin": "phtour",
+   "area": "ocheon",
+   "status": "예정",
+   "img": "ev/ccd322eaa9dd0d6e.jpg"
   },
   {
    "id": "ph2071",
@@ -509,6 +622,27 @@
     ],
     "checked": "2026-10-20"
    }
+  },
+  {
+   "id": "ph2083",
+   "title": "『제12회 기계 농·특산물 홍보판매 축제』 개최 안내",
+   "type": "축제",
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "venue": "기계면새마을운동발상지 운동장",
+   "fee": "무료",
+   "org": "기계 농・특산물 홍보 판매 축제 추진위원회/기계면이장협의회",
+   "age": "전체관람가",
+   "tel": "기계면 (054-240-7663)",
+   "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2083/202610221508_l7btVhx.jpg",
+   "src": "포항시 문화관광(퐝퐝여행) 축제",
+   "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=75&org_code=0001&date_type=2&cm_idx=2083",
+   "desc": "정보 없음",
+   "link": null,
+   "origin": "phtour",
+   "area": "buk",
+   "status": "예정",
+   "img": "ev/dae8a4b24448e5dd.jpg"
   },
   {
    "id": "ph1997",
@@ -924,6 +1058,27 @@
    }
   },
   {
+   "id": "ph2079",
+   "title": "「MICE TO MEET YOU」 개최 안내 및 사전등록 홍보",
+   "type": "행사",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "venue": "포항문화예술회관 대공연장",
+   "fee": "무료",
+   "org": "포항시 마이스산업과",
+   "age": "전체관람가",
+   "tel": "운영사무국(070-8859-0440)",
+   "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2079/202610201322_Cd6lInB.jpg",
+   "src": "포항시 문화관광(퐝퐝여행) 행사",
+   "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=29&org_code=0001&date_type=5&cm_idx=2079",
+   "desc": "음악과 토크로 만나는 특별한 토요일! 음악으로 즐기고, 이야기로 만나는 포항!\n데이브레이크, 린, 크라잉넛의 라이브 공연과 포항의 미래, 세계와 연결되는 도시의 이야기를 함께 만나보세요.\n[행사 안내] 일시 : 2026. 11. 28.(토) 16:00~19:00 장소 : 포항문화예술회관 대공연장 참여규모 : 포항시민 약 900명 주요내용 : K-콘텐츠와 연계한 MICE 홍보행사(MICE 토크·강연 및 공연) [사전등록 안내] 등록일 : 2026. 11. 2.(월) 20:00~선착순 마감 시까지 등록방법 : 행사 홈페이지( https://micetomeetyou.co.kr )를 통한 사전신청(선착순, 무료) 행사문의 : 운영사무국(☎ 070-8859-0440)\n사전등록하고, 특별한 토요일을 만나보세요!",
+   "link": "https://micetomeetyou.co.kr/",
+   "origin": "phtour",
+   "area": "nam",
+   "status": "예정",
+   "img": "ev/8c229e0b49e74e63.jpg"
+  },
+  {
    "id": "ph1993",
    "title": "뮤지컬",
    "type": "공연",
@@ -971,6 +1126,12 @@
    "source": "신아일보"
   },
   {
+   "title": "포항, K-콘텐츠로 시민과 마이스 잇는다···‘MICE TO MEET YOU’ 개최 - 시사코리아저널",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oVzNnOWxrVDFVdmJHNUkxNW1MUWRtOGVtVXR4MWhsMnE0Wm8xdWhmR3Jha1hDdnB1dmNjSjJsdTRsM2RBWW15YTFnbmVhX08tTndKTzgxdFE4MkFzeVcwMHphY2gyczhi?oc=5",
+   "date": "Wed, 21 Oct 2026 13:15:56 GMT",
+   "source": "시사코리아저널"
+  },
+  {
    "title": "포항시, K-콘텐츠 결합한 마이스 문화 행사 ‘MICE TO MEET YOU’ 개최 - 이로운넷",
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9iNWdzRTNrU09PMU92S0NHN1VPWE1JNnd1ZnhlY1NxeU9RWnUyR1l5OGwyZUJ0VFJuVC1kcndqa2dxay0xSC01alY0ZWw1NU5fTkU3dnVaZjk5b0JudjNPMUZMSE0wdw?oc=5",
    "date": "Wed, 21 Oct 2026 08:51:18 GMT",
@@ -1011,12 +1172,6 @@
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1uUnd0Z3BxM3RBMlZraFhGYzViTW9BMHliVHRqLVdOcGZNT1RDd28tRGJrYTBIVUhYcjlVLXRtNy1RdEFfVWhKWTRmTUl4WW1KQ2x6Q1ZIOWbSAVhBVV95cUxNblJ3dGdwcTN0QTJWa2hYRmM1Yk1vQTB5YlR0ai1XTnBmTU9UQ3dvLURia2EwSFVIWHI5VS10bTctUXRBX1VoSlk0Zk1JeFltSkNsekNWSDlm?oc=5",
    "date": "Wed, 21 Oct 2026 20:00:00 GMT",
    "source": "아주경제"
-  },
-  {
-   "title": "포항운하 물들인 호러 분장…‘퐝퐝호러나이트’ 열려 - 경북일보",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5WbG1QclgtNkgzenA1NUUxUFZ3ZWxXMTIyakhyNXFwT1Jya05RclE5bDhBNG8xVEJBbzczbGFKQkVlUEFFN2E4N24wTTVBejJQNVhWN2NRZ2RkOHN2QlpweXJMTC1Td1l3UUxTT0JTUQ?oc=5",
-   "date": "Mon, 19 Oct 2026 07:27:39 GMT",
-   "source": "경북일보"
   }
  ]
 }
