@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-23 06:40 KST",
+ "updated": "2026-10-23 08:54 KST",
  "today": "2026-10-23",
  "status": {
   "phtour": {
    "ok": true,
-   "count": 36
+   "count": 33
   },
   "kfes": {
    "ok": true,
@@ -140,7 +140,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2072/202610191339_HojRfuU.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 전시",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=28&org_code=0001&date_type=4&cm_idx=2072",
-   "desc": "정보 없음",
+   "desc": "《 약해서 강한 마음에게 》\n허용호 작가 책 속의 그림전 안내\n마음이 약하다는 건 어쩌면 다른 사람의 마음을 더 잘 이해할 수 있다는 뜻일지도 모릅니다 .\n허용호 작가의 그림과 이야기를 만나보세요 !\n허용호 작가는 미술을 바탕으로 테라코타와 그림 작업을 이어왔으며 , 2018 년 조선일보 신춘문예 동화 부문에 당선되며 동화 작가로 활동을 넓혔습니다 .\n동화책 《 비밀이 사는 아파트 》 를 비롯해 글과 그림으로 일상과 세상의 이야기를 전해왔습니다 .\n이번 전시 《 약해서 강한 마음에게 》 는 약한 마음을 이해하고 , 상처받기 쉬운 마음을 다정하게 바라보는 이야기를 담고 있습니다 .\n누군가의 말 한마디에 쉽게 상처받기도 하고 , 괜찮은 척 하루를 보내기도 하는 우리 .\n작품을 따라가며 다른 사람의 마음을 헤아리고 , 나 자신의 마음도 가만히 들여다보는 시간을 가져보세요 .\n작가와 직접 이야기를 나눌 수 있는 작가와의 만남도 마련되어 있습니다 . 그림과 이야기가 건네는 위로를 청포도다방에서 만나보세요 .\n전시 기간 2026 년 10 월 20 일 ( 화 ) ~ 11 월 5 일 ( 목 )\n작가와의 만남 10 월 21 일 ( 수 ) 오후 5 시\n문화경작소 청포도다방 ( 경북 포항시 북구 중앙로 298 번길 14-6)\n약한 마음도 충분히 소중하고 , 다정하게 보듬어야 할 마음입니다 .\n올가을 , 청포도다방에서 그림과 함께 마음을 쉬어가는 시간을 만나보세요 .",
    "link": null,
    "origin": "phtour",
    "area": "buk",
@@ -167,27 +167,6 @@
    "area": "buk",
    "status": "진행중",
    "img": "ev/2014718ea210d3cf.jpg"
-  },
-  {
-   "id": "ph2074",
-   "title": "밴드죠와 함께하는 청포도 가을음악회",
-   "type": "공연",
-   "start": "2026-10-23",
-   "end": "2026-10-23",
-   "venue": "문화경작소 청포도다방 (경북 포항시 북구 중앙로298번길 14-6)",
-   "fee": "무료",
-   "org": "한국짚불공예협회 경북지회/ 꿈틀로사회적협동조합",
-   "age": "전체관람가",
-   "tel": "010-4532-1352",
-   "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2074/202610191353_dzfCUk0.jpg",
-   "src": "포항시 문화관광(퐝퐝여행) 공연",
-   "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0001&date_type=3&cm_idx=2074",
-   "desc": "밴드죠와 함께하는 청포도 가을음악회\n10 월 23 일 , 꿈틀로를 즐겁게 물들이러\n어쿠스틱 혼성 2 인조 밴드 ‘ 밴드죠 ’ 가 찾아옵니다 !\n1997 년 결성 이후 오랜 시간 전국 곳곳에서 관객들과 만나 온 밴드죠는 블루스와 포크를 중심으로 기타와 건반 , 두 사람의 목소리가 어우러지는 음악을 들려줍니다 .\n노래 속에는 우리네 일상과 삶의 이야기가 담겨 있습니다 . 때로는 유쾌한 웃음으로 , 때로는 날카로운 풍자와 따뜻한 시선으로 우리 주변의 이야기를 노래합니다 .\n음악으로 사람들과 만나고 , 우리 사회의 다양한 이야기에 귀 기울여 온 ' 밴드죠 '\n바쁜 일상 속 잠시 걸음을 멈추고 , 음악과 함께 웃고 공감하는 시간을 가져보세요 . 청포도다방에서 여러분을 기다립니다 !\n일시 2026 년 10 월 23 일 ( 금 ) 저녁 7 시\n문화경작소 청포도다방 ( 경북 포항시 북구 중앙로 298 번길 14-6)\n※ 공연은 ' 밴드죠 ' 의 재능기부로 이루어지며 공연 후 음원을 구매하실 수 있습니다\n“ 인생 그거 참 별것도 없는데 , 좀 즐거우면 안 될까 ”\n밴드죠와 함께하는 가을밤 , 우리 함께 즐겨요 !\n\" 밴드죠 \" 약력\n- 1997 년 결성 ( 이후 30 년간 전국을 돌며 연 100 회 이상 라이브공연 )\n- 1999 년 1 집 < 세상속엔 >\n- 2002 년 청년예술가상\n- 2006 년 디지털싱글 < 희망의 아리랑 >\n- 2013 년 2 집 < 파레이돌리아 >( 음악전문가가 선정한 2013 베스트앨범 )\n- 2014 년 디지털싱글 < 푸념 >\n- 2017 년 3 집 < 길 >\n- 2018 년 올해의 예술가상\n- 2019 년 실황라이브앨범 <Live On The Road>\n- 2019 년 촛불예술인상\n- 2021 년 4 집 < 칠대삼 >",
-   "link": null,
-   "origin": "phtour",
-   "area": "buk",
-   "status": "진행중",
-   "img": "ev/fa949f407efbae49.jpg"
   },
   {
    "id": "ph2045",
@@ -238,27 +217,6 @@
    "area": "all",
    "status": "예정",
    "img": "ev/6ba5775dbb85525f.jpg"
-  },
-  {
-   "id": "ph2053",
-   "title": "2026 꿈의 무용단 정기공연",
-   "type": "공연",
-   "start": "2026-10-24",
-   "end": "2026-10-24",
-   "venue": "포항시청 대잠홀",
-   "fee": "무료",
-   "org": "문화체육관광부/한국문화예술교육진흥원,포항문화재단",
-   "age": "전체관람가",
-   "tel": "054-289-7912",
-   "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2053/202610081303_SWieeLJ.jpg",
-   "src": "포항시 문화관광(퐝퐝여행) 공연",
-   "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0002&date_type=3&cm_idx=2053",
-   "desc": "티켓링크 예매 바로가기 (1인 4매)",
-   "link": "https://www.ticketlink.co.kr/product/66083",
-   "origin": "phtour",
-   "area": "nam",
-   "status": "예정",
-   "img": "ev/47d1a7de990ac69d.jpg"
   },
   {
    "id": "ph2061",
@@ -385,27 +343,6 @@
    }
   },
   {
-   "id": "ph2054",
-   "title": "2026 꿈의 오케스트라 포항 정기 연주회",
-   "type": "공연",
-   "start": "2026-10-28",
-   "end": "2026-10-28",
-   "venue": "포항문화예술회관 대공연장",
-   "fee": "무료",
-   "org": "문화체육관광부,한국문화예술교육진흥원,경상북도,포항시/포항문화재단",
-   "age": "전체관람가",
-   "tel": "054-289-7912",
-   "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2054/202610081309_1G7CXNZ.jpg",
-   "src": "포항시 문화관광(퐝퐝여행) 공연",
-   "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0002&date_type=3&cm_idx=2054",
-   "desc": "티켓링크 예매 바로가기 (1인 4매)",
-   "link": "https://www.ticketlink.co.kr/product/66091",
-   "origin": "phtour",
-   "area": "nam",
-   "status": "예정",
-   "img": "ev/00bf191c73c13c85.jpg"
-  },
-  {
    "id": "ph2078",
    "title": "제4회 포항시 농식품 산업대전 \"FARM TO LIFE:일상을 잇는 농업\" 개최",
    "type": "행사",
@@ -419,7 +356,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2078/202610201316_XtN57I8.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 행사",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=29&org_code=0001&date_type=5&cm_idx=2078",
-   "desc": "1. 행 사 명 : 제 4 회 포항시 농식품 산업대전\n2. 기 간 : 2026. 10. 30.( 금 ) ~ 31.( 토 ) ※ 개막식 : 2026. 10. 30.(금) 19:00\n3. 장 소 : 영일대 장미공원 앞\n4. 주요 행사내용\n- 우수 농특산물 및 영일만친구 브랜드 홍보\n- 포항 농특산물 활용한 다양한 식음 및 체험활동",
+   "desc": "정보 없음",
    "link": null,
    "origin": "phtour",
    "area": "buk",
@@ -526,7 +463,7 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2056/202610081544_2ILJaMb.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 행사",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=29&org_code=0001&date_type=5&cm_idx=2056",
-   "desc": "<p style=\"color-scheme: revert; forced-color-adjust: revert; math-depth: revert; position: revert; position-anchor: revert; text-size-adjust: revert; appearance: revert; color: revert; font-feature-settings: revert; font-kerning: revert; font-language-override: revert; font-optical-sizing: revert; font-palette: revert; font-size: revert; font-size-adjust: revert; font-stretch: revert; font-style: revert; font-synthesis: revert; font-variant: revert; font-variation-settings: revert; font-weight: revert; position-area: revert; text-orientation: revert; text-rendering: revert; text-spacing-trim: revert; -webkit-font-smoothing: revert; -webkit-locale: revert; -webkit-text-orientation: revert; -webkit-writing-mode: revert; writing-mode: revert; zoom: revert; accent-color: revert; place-content: revert; place-items: revert; place-self: revert; alignment-baseline: revert; anchor-name: revert; anchor-scope: revert; animation-composition: revert; animation: revert; animation-trigger: revert; app-region: revert; aspect-ratio: revert; backdrop-filter: revert; backface-visibility: revert; background-image: revert; background-position: revert; background-size: revert; background-repeat: revert; background-attachment: revert; background-origin: revert; background-clip: revert; background-blend-mode: revert; baseline-shift: revert; baseline-source: revert; block-size: revert; border-block: revert; border-color: revert; border-radius: revert; border-style: revert; border-collapse: revert; bo",
+   "desc": "행 사 명 : 2026 대한민국 동화축제\n기　　간 : 2026. 10. 31.(토) 11:00 ~ 17:00\n장　　소 : 포항시립 포은오천도서관(오천읍 정몽주로 566)\n주최/주관 : 포항시·경상북도 / 경북일보(주)\n내　　용 : 문화공연, 체험 활동 등\n마술공연, 몬스터 랜덤 플레이댄스, 할로윈 어린이 워킹 패션쇼\n유튜버 '슈뻘맨' 팬미팅\n할로윈 퍼레이드, 특수분장, 귀신의 집 체험\n어린이 꿈 사생대회, 에어바운스, 포토존 및 인생네컷 등\n6. 문　　의 : 경북일보 대외협력실 054-289-2215",
    "link": null,
    "origin": "phtour",
    "area": "ocheon",
@@ -547,8 +484,8 @@
    "img_src": "https://www.pohang.go.kr/phtour/data/calendar/image/2071/202610161353_y8J2Y08.jpg",
    "src": "포항시 문화관광(퐝퐝여행) 공연",
    "srcu": "https://www.pohang.go.kr/phtour/wmap/festival/view.do?menu_idx=27&org_code=0001&date_type=3&cm_idx=2071",
-   "desc": "‧행사명 : 포항CBS 창립26주년 통(通)해야 안전콘서트 ‧일 시 : 2026. 11. 3(화) 오후7시 ‧장 소 : 포스코 효자아트홀 ‧출 연 : 라포엠, 서영은\n‧특별출연 : 포스코 다락( 多樂) 밴드, 포항CBS 소년소녀합창단\n* 초대권 신청 안내( 10월 6일 화요일 오전 8:30 티켓 오픈 )\n초대권 신청 링크---> https://forms.gle/nyhgn5vQric9auhu8\n사전신청은 10월 6일(화) 오전8시 30분부터 10월 23일(금)오후 5시까지 사전신청을 받습니다.(8세이상 관람가능) 사전신청하신 분은 추첨 후 문자초대권(2명 입장)을 10월 27일(화) 오후5시까지 보내드린 후 공연당일 현장에서 지정좌석권으로 교환하여 드립니다.\n초청 및 협찬사 지정석이 별도로 있음을 양해바랍니다. 사전신청 일정은 예고없이 변경될 수 있습니다.\n[공연 안내]\n* 관람등급 : 초등학생이상 입장(초등학생 미만자는 보호자 동반시에도 관람불가)\n* 사진촬영 및 동영상 촬영을 금지합니다.\n* 지정주차장을 반드시 이용하여 주시기 바랍니다.",
-   "link": "https://forms.gle/nyhgn5vQric9auhu8",
+   "desc": "정보 없음",
+   "link": null,
    "origin": "phtour",
    "area": "nam",
    "status": "예정",
@@ -1126,12 +1063,6 @@
    "source": "신아일보"
   },
   {
-   "title": "포항, K-콘텐츠로 시민과 마이스 잇는다···‘MICE TO MEET YOU’ 개최 - 시사코리아저널",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oVzNnOWxrVDFVdmJHNUkxNW1MUWRtOGVtVXR4MWhsMnE0Wm8xdWhmR3Jha1hDdnB1dmNjSjJsdTRsM2RBWW15YTFnbmVhX08tTndKTzgxdFE4MkFzeVcwMHphY2gyczhi?oc=5",
-   "date": "Wed, 21 Oct 2026 13:15:56 GMT",
-   "source": "시사코리아저널"
-  },
-  {
    "title": "포항시, K-콘텐츠 결합한 마이스 문화 행사 ‘MICE TO MEET YOU’ 개최 - 이로운넷",
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9iNWdzRTNrU09PMU92S0NHN1VPWE1JNnd1ZnhlY1NxeU9RWnUyR1l5OGwyZUJ0VFJuVC1kcndqa2dxay0xSC01alY0ZWw1NU5fTkU3dnVaZjk5b0JudjNPMUZMSE0wdw?oc=5",
    "date": "Wed, 21 Oct 2026 08:51:18 GMT",
@@ -1172,6 +1103,12 @@
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1uUnd0Z3BxM3RBMlZraFhGYzViTW9BMHliVHRqLVdOcGZNT1RDd28tRGJrYTBIVUhYcjlVLXRtNy1RdEFfVWhKWTRmTUl4WW1KQ2x6Q1ZIOWbSAVhBVV95cUxNblJ3dGdwcTN0QTJWa2hYRmM1Yk1vQTB5YlR0ai1XTnBmTU9UQ3dvLURia2EwSFVIWHI5VS10bTctUXRBX1VoSlk0Zk1JeFltSkNsekNWSDlm?oc=5",
    "date": "Wed, 21 Oct 2026 20:00:00 GMT",
    "source": "아주경제"
+  },
+  {
+   "title": "세대와 이웃 아우르는 하모니…포항 ‘온마을 합창 페스타’ 24일 개최 - 미디어경북",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DSWF6SVJYUmp2Q3A4U05wUFo4MGtQYnFpMVRxVDJxemhmQzNXQnVEZ01UdUJYQmphMzFrMHYzUFdWdEF5bDFFYTMyN281blR3NXZCXy1GSDh2QQ?oc=5",
+   "date": "Fri, 16 Oct 2026 06:43:00 GMT",
+   "source": "미디어경북"
   }
  ]
 }
